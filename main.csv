@@ -1,0 +1,2001 @@
+Brand,Model,Price (USD),Selling Platform,Rating,Refresh Rate (Hz),Screen Size (inches),RAM (GB),Storage (GB),Processor,Camera Setup
+OnePlus,Narzo Edge 16,1286.64,Best Buy,3.5,165,7.2,16,128,Snapdragon 8+ Gen 1,12MP + 16MP + 5MP
+Sony,Pixel Max 24,728.52,eBay,4.6,90,6.1,4,64,Dimensity 920,48MP + 8MP + 5MP
+Samsung,Reno Plus 23,1086.68,Official Store,3.4,60,6.2,12,64,Exynos 2200,200MP + 12MP + 8MP
+Apple,Redmi Note Mini 16,1158.78,Official Store,3.5,120,7.1,6,128,A16 Bionic,50MP + 50MP + 2MP
+Vivo,P Series Edge 13,1656.05,Reliance Digital,4.9,165,6.1,8,512,Helio G99,64MP + 50MP + 8MP
+Vivo,P Series 5G 19,390.46,Best Buy,4.4,165,6.5,12,512,Dimensity 920,48MP + 50MP + 8MP
+Sony,Galaxy S Ultra 22,1172.46,Best Buy,3.2,120,6.5,8,256,Dimensity 920,12MP + 8MP + 2MP
+Apple,Reno Pro 20,1770.77,Amazon,3.3,165,5.5,8,1024,A16 Bionic,12MP + 12MP + 2MP
+Nokia,Xperia Ultra 19,492.29,Amazon,3.7,90,7.4,4,256,Helio G99,12MP + 12MP + 2MP
+Realme,P Series Mini 19,730.09,eBay,4.2,144,6.1,16,128,Dimensity 920,50MP + 12MP + 5MP
+Vivo,Redmi Note Max 16,268.58,Flipkart,4.3,144,7.2,8,512,Helio G99,108MP + 12MP + 5MP
+Nokia,V Series Lite 20,391.77,Walmart,4.1,165,5.5,6,256,Dimensity 920,48MP + 12MP + 2MP
+Xiaomi,Pixel Ultra 10,748.54,Flipkart,4.3,144,6.7,8,256,Dimensity 1080,64MP + 12MP + 8MP
+Google,Mate Pro 19,1640.5,AliExpress,4.7,120,7.0,12,1024,Tensor G1,48MP + 8MP + 5MP
+Apple,Redmi Note 5G 11,1913.91,Official Store,3.8,144,6.8,12,512,A15 Bionic,200MP + 12MP + 2MP
+Google,Pixel 5G 14,886.08,AliExpress,3.0,60,5.4,12,256,Tensor G1,64MP + 16MP + 2MP
+Motorola,Redmi Note Lite 14,581.44,Flipkart,3.8,60,5.8,4,256,Helio G99,50MP + 50MP + 5MP
+Sony,Pixel Plus 18,1414.63,Official Store,3.1,144,5.7,6,64,Dimensity 920,200MP + 16MP + 2MP
+Xiaomi,iPhone Pro 23,1101.51,Reliance Digital,4.9,60,5.1,12,64,Snapdragon 7 Gen 1,48MP + 50MP + 2MP
+Realme,Pixel Ultra 18,185.01,Reliance Digital,4.1,90,5.6,4,512,Dimensity 920,48MP + 16MP + 2MP
+Huawei,Mate 5G 11,797.35,Best Buy,4.4,120,5.2,16,64,Dimensity 920,108MP + 8MP + 2MP
+Samsung,Galaxy S Mini 11,558.68,eBay,3.2,144,6.7,6,512,Snapdragon 8 Gen 2,200MP + 12MP + 2MP
+Xiaomi,Moto G SE 12,778.17,Official Store,4.7,165,6.5,16,64,Snapdragon 7 Gen 1,200MP + 50MP + 5MP
+Nokia,Reno Ultra 16,1825.52,Best Buy,4.5,165,5.7,16,256,Dimensity 920,200MP + 50MP + 8MP
+OnePlus,V Series SE 16,1653.37,eBay,3.1,165,5.3,4,64,Dimensity 9000,48MP + 8MP + 5MP
+Vivo,Mate Plus 15,487.23,Flipkart,4.1,120,6.9,12,128,Dimensity 920,64MP + 16MP + 2MP
+Google,Narzo Edge 12,317.76,Walmart,3.7,165,5.9,12,64,Tensor G1,108MP + 50MP + 8MP
+Sony,Narzo SE 13,927.02,AliExpress,3.4,144,6.8,16,64,Helio G99,48MP + 16MP + 8MP
+Apple,Redmi Note SE 10,654.33,AliExpress,4.6,90,5.9,16,256,A15 Bionic,50MP + 8MP + 5MP
+Xiaomi,P Series Mini 21,1314.08,AliExpress,4.0,120,5.0,16,128,Dimensity 1080,108MP + 12MP + 2MP
+Sony,Reno Pro 25,1083.16,Best Buy,3.6,144,6.4,8,128,Helio G99,50MP + 12MP + 5MP
+Samsung,V Series Max 20,416.02,eBay,3.6,90,7.4,4,1024,Snapdragon 8 Gen 2,64MP + 12MP + 5MP
+Xiaomi,Pixel Mini 15,387.24,Flipkart,3.3,60,6.0,6,128,Snapdragon 7 Gen 1,200MP + 12MP + 5MP
+Vivo,Redmi Note Mini 21,1920.96,Amazon,3.6,120,5.3,6,1024,Helio G99,48MP + 50MP + 5MP
+Apple,Narzo Lite 11,478.34,Official Store,3.7,90,6.4,6,512,A15 Bionic,200MP + 50MP + 8MP
+Nokia,Nord Ultra 12,1635.89,Walmart,4.1,144,5.7,4,64,Helio G99,48MP + 12MP + 8MP
+Sony,Redmi Note Ultra 10,1228.51,Walmart,3.3,165,6.8,16,64,Helio G99,12MP + 50MP + 2MP
+Apple,Pixel Turbo 24,1133.07,Walmart,3.0,90,6.9,8,128,A16 Bionic,48MP + 50MP + 8MP
+Motorola,Mate SE 14,1044.34,AliExpress,3.3,90,5.6,4,128,Dimensity 920,200MP + 50MP + 2MP
+Sony,Moto G Mini 24,1082.71,Reliance Digital,4.2,90,7.2,16,1024,Dimensity 920,64MP + 16MP + 2MP
+Xiaomi,Pixel Max 23,1493.94,Best Buy,4.1,60,5.2,12,128,Dimensity 1080,12MP + 8MP + 8MP
+Oppo,Xperia Lite 18,374.88,eBay,3.6,60,7.0,16,256,Dimensity 920,200MP + 12MP + 5MP
+Huawei,V Series Pro 23,1167.08,eBay,3.2,60,6.2,8,256,Dimensity 920,108MP + 16MP + 8MP
+Vivo,iPhone Mini 25,1796.07,eBay,4.6,165,6.1,4,64,Dimensity 920,200MP + 12MP + 8MP
+Samsung,Xperia Edge 17,173.42,Walmart,3.3,144,7.2,6,64,Snapdragon 8 Gen 2,200MP + 12MP + 2MP
+Sony,Xperia Max 25,1202.67,eBay,4.8,120,6.0,12,256,Dimensity 920,50MP + 8MP + 5MP
+OnePlus,Pixel Lite 14,1313.92,AliExpress,4.8,120,6.3,6,1024,Dimensity 9000,12MP + 50MP + 8MP
+Xiaomi,Galaxy S Lite 21,1211.09,Walmart,4.7,120,7.1,4,128,Dimensity 1080,108MP + 50MP + 5MP
+Vivo,P Series Pro 23,1553.44,Official Store,4.8,60,7.4,8,64,Dimensity 920,108MP + 12MP + 8MP
+Huawei,iPhone Max 25,1855.7,Official Store,3.6,60,5.3,6,256,Helio G99,50MP + 16MP + 8MP
+Motorola,Pixel Plus 11,852.84,Amazon,4.1,120,6.4,16,256,Helio G99,200MP + 16MP + 2MP
+Oppo,Mate Ultra 25,1887.01,Reliance Digital,4.1,120,5.5,8,512,Helio G99,50MP + 50MP + 5MP
+Sony,Reno Pro 13,1873.9,Walmart,4.8,165,5.8,4,1024,Helio G99,12MP + 8MP + 2MP
+Samsung,Redmi Note 5G 20,1871.97,Walmart,4.2,60,5.7,16,512,Snapdragon 8 Gen 2,12MP + 12MP + 5MP
+Sony,Nord Ultra 24,1530.19,AliExpress,3.5,90,6.6,6,64,Helio G99,50MP + 16MP + 8MP
+Huawei,Narzo Edge 14,1665.95,Flipkart,4.4,90,6.9,4,256,Helio G99,200MP + 50MP + 8MP
+Google,Moto G Lite 18,916.99,Amazon,3.7,165,7.2,4,1024,Tensor G1,48MP + 8MP + 2MP
+Nokia,Moto G Lite 20,452.58,Flipkart,4.9,165,6.5,8,256,Dimensity 920,108MP + 50MP + 5MP
+Huawei,Mate Turbo 20,836.61,eBay,4.1,60,6.2,12,512,Dimensity 920,48MP + 8MP + 2MP
+Apple,Nord Edge 25,1031.37,Flipkart,4.6,60,6.7,6,256,A16 Bionic,50MP + 50MP + 2MP
+Xiaomi,Nord Lite 18,1519.29,eBay,3.6,60,7.5,16,256,Snapdragon 7 Gen 1,12MP + 16MP + 5MP
+OnePlus,Moto G 5G 25,598.71,Flipkart,3.7,60,7.3,4,512,Dimensity 9000,64MP + 8MP + 8MP
+Nokia,Reno SE 22,505.55,AliExpress,5.0,144,5.7,6,128,Dimensity 920,12MP + 16MP + 2MP
+Samsung,Reno Turbo 12,697.14,eBay,3.9,144,6.8,4,128,Exynos 2200,64MP + 12MP + 5MP
+Apple,Nord Plus 18,496.04,AliExpress,4.0,144,7.5,4,64,A16 Bionic,64MP + 8MP + 2MP
+Apple,Reno 5G 18,313.87,AliExpress,3.5,144,7.3,4,512,A15 Bionic,50MP + 50MP + 5MP
+Nokia,Xperia Lite 18,1226.04,Amazon,4.6,90,7.2,16,256,Dimensity 920,12MP + 16MP + 8MP
+Apple,Redmi Note Max 23,1378.52,Reliance Digital,3.5,144,6.5,6,512,A15 Bionic,50MP + 12MP + 8MP
+Realme,Mate Turbo 24,1319.81,Flipkart,4.7,165,6.4,4,256,Dimensity 920,48MP + 50MP + 5MP
+Apple,P Series Mini 25,1670.75,Walmart,4.7,120,5.0,4,1024,A16 Bionic,48MP + 12MP + 8MP
+Google,P Series Lite 23,1176.92,Amazon,3.9,165,5.2,8,512,Tensor G1,64MP + 16MP + 5MP
+Xiaomi,Galaxy S Plus 15,864.69,Flipkart,4.5,144,5.8,16,512,Snapdragon 7 Gen 1,108MP + 16MP + 8MP
+Motorola,Redmi Note SE 24,1511.65,Reliance Digital,4.6,120,5.7,4,512,Helio G99,50MP + 50MP + 8MP
+Oppo,Galaxy S SE 10,1070.43,eBay,3.9,165,5.2,8,128,Dimensity 920,48MP + 16MP + 8MP
+Xiaomi,Mate Mini 11,1580.76,Amazon,3.7,60,5.7,8,64,Dimensity 1080,200MP + 16MP + 5MP
+OnePlus,iPhone Mini 15,1873.06,Reliance Digital,4.3,165,7.3,4,64,Dimensity 9000,48MP + 50MP + 2MP
+Oppo,Nord Ultra 14,304.41,Reliance Digital,4.8,165,5.0,16,256,Dimensity 920,64MP + 16MP + 5MP
+Samsung,iPhone Pro 14,1279.05,eBay,4.5,165,6.6,16,128,Snapdragon 8 Gen 2,48MP + 50MP + 2MP
+Google,Mate Mini 19,160.34,Reliance Digital,4.4,144,5.7,4,128,Tensor G1,64MP + 8MP + 2MP
+Xiaomi,Reno SE 21,1361.32,AliExpress,4.8,120,6.6,6,64,Dimensity 1080,200MP + 50MP + 2MP
+Realme,Galaxy S Lite 25,1746.33,AliExpress,4.4,90,5.5,4,128,Dimensity 920,108MP + 50MP + 5MP
+Xiaomi,Mate Plus 17,1997.29,Flipkart,3.8,144,5.4,6,64,Snapdragon 7 Gen 1,50MP + 8MP + 8MP
+OnePlus,V Series SE 19,513.13,Official Store,3.3,144,6.0,16,256,Snapdragon 8+ Gen 1,108MP + 16MP + 8MP
+Xiaomi,Reno 5G 19,968.21,Flipkart,3.9,165,7.3,8,256,Snapdragon 7 Gen 1,108MP + 50MP + 8MP
+Realme,Reno Mini 25,370.53,eBay,4.1,144,5.5,6,512,Dimensity 920,200MP + 12MP + 8MP
+Apple,Pixel Plus 14,1439.69,Flipkart,4.5,165,6.3,6,512,A15 Bionic,64MP + 12MP + 5MP
+OnePlus,Xperia Lite 17,1618.54,Official Store,3.4,90,5.9,8,512,Dimensity 9000,50MP + 8MP + 5MP
+Apple,Redmi Note Mini 11,1583.7,Amazon,4.3,144,7.1,6,1024,A16 Bionic,64MP + 16MP + 8MP
+Apple,Reno Pro 25,1241.34,Best Buy,3.5,120,6.9,4,64,A15 Bionic,64MP + 16MP + 2MP
+Realme,Nord Mini 21,452.05,Official Store,3.6,60,5.7,8,128,Helio G99,200MP + 50MP + 2MP
+Nokia,Narzo 5G 13,675.37,AliExpress,4.2,60,5.7,6,256,Helio G99,50MP + 16MP + 5MP
+Motorola,Galaxy S Pro 13,905.84,Reliance Digital,3.3,165,6.5,6,64,Helio G99,50MP + 50MP + 5MP
+Samsung,Mate Plus 22,281.01,Amazon,4.4,90,6.3,6,64,Exynos 2200,50MP + 8MP + 8MP
+Apple,Mate Ultra 11,168.83,Flipkart,3.5,120,5.1,16,512,A15 Bionic,12MP + 8MP + 8MP
+Nokia,Xperia Mini 13,258.74,Reliance Digital,3.9,90,5.2,16,512,Helio G99,108MP + 8MP + 2MP
+Vivo,Nord Mini 14,817.78,Reliance Digital,4.1,60,7.2,4,1024,Dimensity 920,64MP + 50MP + 2MP
+Nokia,Redmi Note Lite 22,1833.86,Best Buy,3.9,60,5.7,8,512,Dimensity 920,108MP + 16MP + 2MP
+Realme,Galaxy S SE 20,1584.31,eBay,3.6,120,5.8,8,1024,Helio G99,50MP + 12MP + 8MP
+Huawei,Galaxy S Turbo 24,1797.36,Walmart,4.3,60,6.7,6,128,Helio G99,64MP + 50MP + 5MP
+Nokia,Xperia Max 15,943.42,Flipkart,4.7,120,6.3,4,1024,Helio G99,200MP + 16MP + 8MP
+Oppo,Pixel Plus 18,1016.64,Reliance Digital,3.5,60,7.4,8,256,Helio G99,50MP + 50MP + 8MP
+Sony,Redmi Note Edge 17,199.39,Walmart,4.5,60,5.9,4,64,Dimensity 920,12MP + 16MP + 2MP
+Nokia,Pixel Turbo 19,205.12,Amazon,4.1,120,5.2,4,256,Helio G99,12MP + 16MP + 8MP
+Realme,Nord Edge 11,1947.56,eBay,3.8,60,6.2,12,64,Helio G99,50MP + 16MP + 2MP
+Huawei,Pixel Turbo 12,703.84,Amazon,3.8,120,7.1,8,256,Dimensity 920,108MP + 16MP + 5MP
+Nokia,Moto G Plus 16,965.51,Amazon,4.7,144,5.5,12,128,Dimensity 920,48MP + 50MP + 2MP
+Xiaomi,Mate 5G 20,1341.02,Reliance Digital,3.8,90,7.2,6,1024,Snapdragon 7 Gen 1,108MP + 8MP + 2MP
+Google,Reno Mini 21,604.13,Walmart,3.4,60,6.4,16,64,Tensor G1,108MP + 12MP + 5MP
+Vivo,iPhone Pro 11,1629.14,Walmart,3.5,120,5.7,16,512,Helio G99,48MP + 8MP + 5MP
+Motorola,iPhone SE 14,177.3,AliExpress,3.1,165,6.3,8,64,Helio G99,50MP + 16MP + 2MP
+Nokia,Narzo SE 15,800.5,Official Store,3.9,120,6.0,4,512,Dimensity 920,48MP + 50MP + 8MP
+Xiaomi,Reno Edge 17,393.91,Amazon,4.0,120,5.3,16,128,Dimensity 1080,108MP + 16MP + 2MP
+Nokia,V Series Turbo 23,244.95,Walmart,3.7,144,6.6,12,128,Helio G99,108MP + 12MP + 2MP
+OnePlus,V Series Plus 17,208.38,Best Buy,4.8,120,7.5,16,128,Snapdragon 8+ Gen 1,48MP + 8MP + 8MP
+Motorola,Galaxy S Max 11,973.02,Amazon,4.0,60,7.4,12,256,Helio G99,50MP + 16MP + 5MP
+OnePlus,Mate Edge 12,757.37,Best Buy,3.3,60,6.5,6,256,Dimensity 9000,48MP + 12MP + 5MP
+Realme,Pixel Max 25,1366.6,AliExpress,3.8,144,7.0,4,256,Dimensity 920,48MP + 8MP + 2MP
+Nokia,Galaxy S Max 22,1669.78,Official Store,4.9,144,7.4,4,1024,Dimensity 920,64MP + 8MP + 8MP
+Realme,Pixel Plus 17,235.83,Reliance Digital,3.7,90,6.4,6,128,Dimensity 920,64MP + 12MP + 2MP
+Motorola,Narzo Plus 12,1241.63,Reliance Digital,3.1,120,5.5,8,512,Helio G99,12MP + 50MP + 5MP
+Vivo,Xperia Pro 18,1370.53,Best Buy,4.7,144,5.5,8,1024,Helio G99,64MP + 12MP + 2MP
+Realme,Reno Max 19,808.01,AliExpress,4.9,90,5.7,12,256,Dimensity 920,48MP + 50MP + 5MP
+Vivo,V Series Turbo 10,638.44,Best Buy,3.1,120,5.1,12,64,Helio G99,200MP + 16MP + 2MP
+Huawei,Moto G Ultra 25,1507.33,Official Store,3.8,144,7.2,16,128,Helio G99,50MP + 8MP + 5MP
+Huawei,Xperia Pro 25,310.32,Reliance Digital,3.4,90,5.3,12,512,Helio G99,48MP + 16MP + 2MP
+Samsung,P Series Turbo 17,1875.91,Reliance Digital,4.2,120,6.8,16,1024,Exynos 2200,108MP + 50MP + 5MP
+OnePlus,V Series SE 13,511.75,eBay,4.2,165,6.8,4,256,Snapdragon 8+ Gen 1,64MP + 50MP + 8MP
+OnePlus,Reno Max 14,1826.2,Walmart,3.5,144,5.6,12,256,Snapdragon 8+ Gen 1,200MP + 16MP + 2MP
+Samsung,Pixel 5G 14,1710.58,Flipkart,4.0,120,5.2,8,64,Exynos 2200,200MP + 50MP + 2MP
+Xiaomi,Narzo Max 15,1787.41,Official Store,4.5,120,7.2,6,256,Dimensity 1080,200MP + 12MP + 2MP
+Sony,Xperia Lite 12,717.74,Best Buy,4.7,144,5.5,4,128,Helio G99,64MP + 16MP + 8MP
+Nokia,Redmi Note Lite 24,1674.28,eBay,4.4,90,6.9,8,256,Dimensity 920,64MP + 16MP + 5MP
+Samsung,Pixel SE 17,426.5,AliExpress,3.5,120,6.8,16,128,Exynos 2200,200MP + 16MP + 2MP
+Apple,Mate Ultra 18,532.12,Reliance Digital,4.8,120,5.7,16,128,A15 Bionic,200MP + 50MP + 8MP
+Xiaomi,Nord 5G 16,1521.57,Walmart,3.3,120,6.2,4,64,Dimensity 1080,50MP + 16MP + 8MP
+Nokia,iPhone Max 15,345.48,Best Buy,3.7,120,6.5,8,512,Helio G99,50MP + 50MP + 2MP
+Huawei,V Series 5G 14,389.71,Official Store,3.9,90,6.4,6,64,Dimensity 920,50MP + 16MP + 8MP
+Samsung,Narzo Turbo 25,1209.77,Best Buy,3.7,60,6.1,8,64,Snapdragon 8 Gen 2,64MP + 16MP + 2MP
+Samsung,Pixel Lite 12,1983.75,Amazon,4.1,144,6.6,8,128,Exynos 2200,108MP + 8MP + 8MP
+Realme,Redmi Note Turbo 19,211.38,Reliance Digital,3.2,144,7.4,6,256,Helio G99,50MP + 8MP + 5MP
+Xiaomi,Reno Ultra 10,1667.89,Best Buy,3.9,90,7.5,6,1024,Snapdragon 7 Gen 1,200MP + 8MP + 2MP
+Huawei,Nord Pro 16,1463.59,Flipkart,3.3,144,5.8,16,64,Helio G99,64MP + 12MP + 5MP
+OnePlus,Redmi Note Turbo 23,585.12,Flipkart,4.4,165,5.4,16,1024,Dimensity 9000,48MP + 16MP + 5MP
+Motorola,V Series Max 11,1589.14,eBay,3.1,144,7.4,4,1024,Helio G99,108MP + 16MP + 2MP
+Realme,Reno Mini 13,639.01,Walmart,3.8,60,5.9,8,64,Dimensity 920,50MP + 16MP + 8MP
+Realme,iPhone Lite 22,1473.58,Best Buy,4.4,165,7.0,4,1024,Helio G99,64MP + 12MP + 2MP
+Xiaomi,Xperia Lite 16,1310.35,Walmart,3.8,165,7.0,12,1024,Snapdragon 7 Gen 1,12MP + 12MP + 5MP
+Realme,iPhone Turbo 21,1797.97,AliExpress,4.6,60,5.4,6,1024,Helio G99,64MP + 16MP + 5MP
+Oppo,iPhone SE 25,1985.54,Reliance Digital,4.4,60,7.0,12,256,Helio G99,64MP + 50MP + 2MP
+Huawei,Mate Max 20,1731.03,Walmart,3.5,120,7.4,6,1024,Helio G99,64MP + 8MP + 5MP
+Apple,Redmi Note Max 19,249.07,eBay,4.4,165,6.3,8,64,A15 Bionic,200MP + 8MP + 8MP
+Oppo,Nord Ultra 23,1476.59,Flipkart,3.7,60,5.0,8,1024,Helio G99,48MP + 8MP + 2MP
+Realme,Nord Pro 25,1337.34,Official Store,4.1,60,7.0,16,1024,Helio G99,48MP + 12MP + 2MP
+Google,Galaxy S Mini 19,518.6,Walmart,4.7,120,6.3,4,1024,Tensor G2,108MP + 8MP + 8MP
+Apple,Nord Max 19,1121.85,eBay,4.5,165,6.0,4,128,A16 Bionic,200MP + 50MP + 2MP
+Realme,Nord SE 24,1527.62,AliExpress,4.3,60,7.3,16,128,Helio G99,50MP + 12MP + 5MP
+Sony,Mate Edge 18,1834.74,Best Buy,3.2,120,7.4,8,512,Dimensity 920,200MP + 16MP + 2MP
+Huawei,iPhone Edge 24,1779.08,Official Store,4.4,120,5.6,12,1024,Helio G99,12MP + 8MP + 5MP
+Motorola,iPhone Ultra 22,262.12,Official Store,3.6,90,7.3,6,1024,Dimensity 920,64MP + 50MP + 5MP
+Xiaomi,P Series Ultra 15,1869.95,Walmart,3.2,165,6.1,6,256,Dimensity 1080,64MP + 50MP + 5MP
+Apple,V Series SE 16,906.87,AliExpress,3.6,60,5.5,16,256,A15 Bionic,200MP + 8MP + 5MP
+Vivo,Reno Max 21,471.71,Flipkart,4.9,165,7.2,16,128,Dimensity 920,64MP + 12MP + 2MP
+Oppo,Mate Ultra 25,964.0,AliExpress,3.7,165,7.2,16,512,Dimensity 920,64MP + 8MP + 5MP
+Apple,Galaxy S Ultra 11,710.19,Walmart,3.5,90,6.6,16,1024,A16 Bionic,64MP + 12MP + 5MP
+Nokia,Moto G 5G 17,582.86,Flipkart,4.5,120,5.8,8,128,Dimensity 920,48MP + 8MP + 5MP
+Oppo,Xperia Lite 15,1079.84,Flipkart,4.0,165,7.4,4,256,Dimensity 920,12MP + 50MP + 8MP
+Apple,V Series 5G 12,1751.29,Walmart,4.3,120,5.1,8,128,A15 Bionic,50MP + 12MP + 2MP
+Realme,Redmi Note SE 11,905.83,Flipkart,3.3,90,7.0,8,128,Dimensity 920,200MP + 16MP + 8MP
+OnePlus,Redmi Note Plus 21,1996.83,Walmart,3.9,165,5.8,6,128,Dimensity 9000,50MP + 16MP + 2MP
+Oppo,iPhone Turbo 13,1387.59,Best Buy,3.1,60,6.2,16,512,Helio G99,200MP + 8MP + 2MP
+Motorola,Moto G 5G 18,1779.24,eBay,3.6,165,7.2,8,128,Dimensity 920,48MP + 16MP + 5MP
+Sony,iPhone Edge 23,722.16,Walmart,3.7,60,6.4,8,256,Helio G99,64MP + 50MP + 8MP
+Realme,Galaxy S Turbo 15,1413.31,eBay,4.2,165,5.8,12,256,Dimensity 920,12MP + 8MP + 8MP
+Xiaomi,Redmi Note Mini 25,848.09,Official Store,3.3,60,7.4,12,256,Snapdragon 7 Gen 1,200MP + 50MP + 2MP
+Huawei,Xperia Pro 24,1628.15,Official Store,3.1,144,6.7,4,1024,Helio G99,48MP + 8MP + 5MP
+Google,P Series Turbo 13,1548.42,AliExpress,4.3,120,6.2,16,128,Tensor G2,50MP + 8MP + 2MP
+Google,Galaxy S SE 16,1615.1,Reliance Digital,5.0,90,7.3,16,64,Tensor G2,64MP + 50MP + 2MP
+OnePlus,iPhone Turbo 17,1841.88,Walmart,3.6,90,7.1,16,128,Snapdragon 8+ Gen 1,12MP + 8MP + 5MP
+Motorola,Xperia Pro 18,212.23,Flipkart,4.2,144,7.1,16,1024,Dimensity 920,64MP + 12MP + 8MP
+Xiaomi,Reno 5G 17,1791.43,Walmart,3.9,120,7.1,8,256,Snapdragon 7 Gen 1,108MP + 12MP + 2MP
+Apple,Narzo Mini 15,320.06,Official Store,4.9,60,5.5,12,512,A16 Bionic,50MP + 8MP + 5MP
+Samsung,Nord SE 15,1064.69,AliExpress,3.3,165,7.1,8,128,Exynos 2200,200MP + 8MP + 2MP
+Nokia,iPhone Mini 22,566.39,Official Store,4.1,165,6.3,4,128,Dimensity 920,50MP + 16MP + 2MP
+Realme,Nord Turbo 15,394.98,Reliance Digital,3.9,120,6.7,12,512,Dimensity 920,200MP + 16MP + 8MP
+Sony,Pixel Ultra 22,743.86,Reliance Digital,4.8,120,7.4,4,1024,Helio G99,48MP + 12MP + 5MP
+Huawei,Redmi Note Lite 21,478.4,Official Store,4.4,60,6.2,6,512,Helio G99,50MP + 50MP + 5MP
+Samsung,Reno Lite 10,1114.83,Flipkart,3.3,165,5.6,8,256,Exynos 2200,108MP + 50MP + 8MP
+Google,Nord Turbo 17,219.81,eBay,4.5,90,7.4,6,256,Tensor G2,50MP + 50MP + 2MP
+Apple,P Series SE 11,1556.26,Reliance Digital,4.4,120,5.0,6,1024,A15 Bionic,108MP + 50MP + 8MP
+Sony,Xperia Mini 17,859.12,Best Buy,4.0,144,5.1,6,64,Helio G99,200MP + 12MP + 8MP
+OnePlus,Galaxy S 5G 15,966.88,Official Store,4.8,165,6.0,12,64,Dimensity 9000,108MP + 12MP + 2MP
+Vivo,P Series Plus 10,1432.15,eBay,4.4,60,6.5,6,64,Helio G99,108MP + 12MP + 8MP
+OnePlus,Redmi Note Max 14,555.27,Best Buy,3.2,165,6.8,4,512,Dimensity 9000,108MP + 8MP + 2MP
+Apple,Mate Max 18,151.93,eBay,3.3,144,6.9,4,1024,A16 Bionic,12MP + 8MP + 8MP
+Vivo,Moto G Plus 11,843.73,Flipkart,3.3,60,7.2,4,256,Helio G99,50MP + 8MP + 8MP
+Realme,Mate 5G 10,946.6,AliExpress,4.0,120,6.0,4,128,Dimensity 920,108MP + 16MP + 5MP
+Xiaomi,iPhone Pro 14,1908.01,Best Buy,3.6,90,6.5,4,512,Snapdragon 7 Gen 1,64MP + 50MP + 2MP
+Motorola,Narzo Edge 16,455.93,Walmart,4.9,60,6.2,4,256,Dimensity 920,50MP + 16MP + 2MP
+Oppo,Mate Turbo 10,849.31,eBay,4.2,165,6.7,16,1024,Dimensity 920,50MP + 8MP + 8MP
+Motorola,Reno SE 23,1130.38,Official Store,4.2,60,6.0,8,256,Helio G99,108MP + 12MP + 2MP
+Vivo,Nord Plus 19,1590.65,Amazon,5.0,60,6.4,6,1024,Helio G99,48MP + 16MP + 2MP
+Nokia,Pixel Plus 23,688.72,eBay,4.3,60,6.2,16,64,Dimensity 920,50MP + 12MP + 5MP
+Nokia,Pixel Edge 22,1806.71,AliExpress,4.5,120,5.2,16,64,Helio G99,200MP + 12MP + 8MP
+Google,Mate Ultra 16,673.28,Walmart,5.0,60,7.2,4,256,Tensor G1,50MP + 50MP + 5MP
+Oppo,iPhone Ultra 21,1333.25,Official Store,4.4,60,6.3,12,64,Dimensity 920,108MP + 50MP + 5MP
+Samsung,Moto G Ultra 25,763.76,Amazon,3.6,90,5.7,8,1024,Exynos 2200,64MP + 50MP + 2MP
+Motorola,Pixel Turbo 11,298.99,Best Buy,4.4,144,6.4,6,1024,Dimensity 920,200MP + 8MP + 5MP
+Google,Xperia Pro 11,1785.19,Official Store,4.4,120,6.1,16,1024,Tensor G1,50MP + 16MP + 2MP
+Sony,Galaxy S Plus 17,1235.11,Amazon,4.0,165,5.8,4,1024,Dimensity 920,12MP + 12MP + 8MP
+Sony,Narzo Ultra 24,243.52,AliExpress,3.1,60,6.3,16,256,Dimensity 920,50MP + 16MP + 8MP
+Samsung,Reno Plus 22,1044.28,Flipkart,3.2,165,5.3,8,256,Snapdragon 8 Gen 2,64MP + 12MP + 8MP
+Sony,Xperia Pro 16,979.45,Reliance Digital,3.4,144,7.1,16,128,Helio G99,48MP + 8MP + 8MP
+Huawei,Nord Ultra 12,1380.71,Official Store,3.1,144,5.8,6,64,Helio G99,64MP + 16MP + 8MP
+Oppo,Redmi Note Edge 13,374.51,Walmart,3.8,120,5.8,4,512,Dimensity 920,12MP + 50MP + 8MP
+Oppo,P Series Pro 17,1494.81,Amazon,3.0,60,5.3,6,1024,Helio G99,12MP + 8MP + 2MP
+Nokia,V Series Lite 12,1884.59,Official Store,3.3,165,6.7,4,128,Dimensity 920,64MP + 8MP + 5MP
+Sony,Redmi Note Turbo 24,760.09,eBay,3.9,144,7.1,16,64,Dimensity 920,12MP + 50MP + 5MP
+Motorola,Galaxy S Plus 11,971.53,Walmart,3.8,120,6.0,4,64,Dimensity 920,12MP + 50MP + 2MP
+Sony,Reno Plus 11,1566.69,eBay,3.4,120,6.1,8,64,Helio G99,12MP + 12MP + 5MP
+Realme,Mate Pro 21,202.14,Official Store,3.6,90,6.1,16,256,Dimensity 920,50MP + 12MP + 2MP
+Sony,Pixel Edge 13,1000.59,Official Store,3.7,165,5.4,8,64,Dimensity 920,64MP + 12MP + 5MP
+Samsung,Xperia Max 23,433.94,Flipkart,3.1,144,5.1,6,512,Snapdragon 8 Gen 2,48MP + 12MP + 5MP
+Xiaomi,P Series Turbo 24,301.95,AliExpress,3.5,90,6.1,8,256,Dimensity 1080,64MP + 50MP + 5MP
+Realme,Nord Edge 20,1091.54,Official Store,3.0,165,7.1,6,64,Dimensity 920,48MP + 12MP + 5MP
+Sony,Nord Ultra 12,691.64,Walmart,4.2,120,6.8,16,128,Helio G99,50MP + 50MP + 8MP
+Oppo,Pixel Edge 11,502.28,Official Store,3.5,90,7.1,4,64,Helio G99,50MP + 50MP + 8MP
+Xiaomi,Pixel Mini 24,901.6,Walmart,4.4,120,6.3,16,1024,Dimensity 1080,108MP + 50MP + 2MP
+Oppo,Reno Lite 24,534.11,AliExpress,4.5,90,6.0,6,128,Dimensity 920,108MP + 8MP + 8MP
+Realme,Galaxy S Mini 25,1428.96,Amazon,3.4,120,5.9,8,64,Helio G99,64MP + 12MP + 2MP
+Samsung,iPhone Lite 23,951.01,Official Store,4.1,120,5.7,4,512,Snapdragon 8 Gen 2,48MP + 12MP + 8MP
+Apple,Pixel 5G 12,1746.24,eBay,4.8,144,6.7,6,64,A16 Bionic,200MP + 16MP + 2MP
+Samsung,Nord SE 20,537.59,eBay,4.7,90,6.3,12,512,Exynos 2200,12MP + 50MP + 5MP
+Sony,V Series Plus 25,1138.5,Best Buy,4.3,90,7.1,16,128,Helio G99,108MP + 12MP + 2MP
+OnePlus,Mate Edge 23,723.93,Official Store,4.8,144,5.3,6,1024,Dimensity 9000,64MP + 16MP + 2MP
+Huawei,iPhone Max 19,1399.63,Reliance Digital,4.6,165,7.2,8,1024,Helio G99,48MP + 12MP + 2MP
+Oppo,V Series Edge 20,506.62,eBay,3.1,120,5.6,6,512,Helio G99,48MP + 16MP + 5MP
+Apple,Pixel SE 20,1221.72,Amazon,4.3,144,5.8,6,128,A15 Bionic,48MP + 50MP + 2MP
+Sony,Reno Turbo 24,1932.23,AliExpress,3.7,60,5.1,12,256,Helio G99,12MP + 8MP + 2MP
+OnePlus,Redmi Note Lite 12,450.99,Walmart,4.4,90,5.5,12,64,Snapdragon 8+ Gen 1,108MP + 8MP + 2MP
+OnePlus,Redmi Note Turbo 23,1236.31,Best Buy,4.6,144,6.9,12,64,Dimensity 9000,50MP + 12MP + 5MP
+Nokia,Redmi Note Ultra 10,670.02,Official Store,3.7,144,6.8,12,64,Dimensity 920,64MP + 50MP + 2MP
+Realme,Nord Lite 14,1918.77,Amazon,4.1,165,6.6,8,1024,Dimensity 920,64MP + 50MP + 5MP
+Motorola,Narzo Edge 17,249.54,Amazon,4.0,60,6.8,12,128,Dimensity 920,12MP + 16MP + 2MP
+Samsung,iPhone Mini 11,1273.55,Official Store,4.2,120,5.1,4,1024,Snapdragon 8 Gen 2,108MP + 16MP + 8MP
+Samsung,iPhone Edge 24,1034.98,Walmart,4.0,60,7.4,12,1024,Snapdragon 8 Gen 2,64MP + 12MP + 5MP
+Google,P Series Plus 16,1555.0,eBay,3.6,165,7.1,6,512,Tensor G2,64MP + 12MP + 5MP
+Apple,Moto G Lite 14,1941.21,Walmart,3.0,144,6.8,6,256,A16 Bionic,48MP + 8MP + 5MP
+Vivo,Galaxy S Lite 19,1437.85,AliExpress,4.9,165,6.9,6,128,Dimensity 920,64MP + 16MP + 2MP
+OnePlus,Narzo 5G 23,1235.13,Official Store,3.6,90,7.0,12,256,Dimensity 9000,64MP + 12MP + 8MP
+Huawei,iPhone Mini 23,1335.3,Reliance Digital,4.3,120,6.2,16,128,Helio G99,50MP + 16MP + 8MP
+Sony,Xperia Plus 11,1229.16,Amazon,3.4,60,6.0,6,1024,Dimensity 920,50MP + 8MP + 2MP
+Nokia,Galaxy S Ultra 14,979.11,AliExpress,4.8,144,7.1,8,64,Dimensity 920,200MP + 16MP + 2MP
+Google,V Series Lite 21,226.01,Reliance Digital,4.4,144,5.8,8,512,Tensor G1,50MP + 16MP + 2MP
+Apple,Reno Max 19,1548.26,Reliance Digital,4.0,90,7.5,4,512,A16 Bionic,48MP + 8MP + 5MP
+Realme,Redmi Note SE 18,659.8,Official Store,4.6,165,7.4,12,256,Dimensity 920,48MP + 16MP + 2MP
+OnePlus,Mate Plus 14,1030.14,Best Buy,3.5,120,6.6,12,256,Snapdragon 8+ Gen 1,200MP + 50MP + 5MP
+Motorola,P Series Lite 23,1813.08,Official Store,3.8,60,5.6,16,512,Dimensity 920,12MP + 12MP + 2MP
+Realme,Nord 5G 11,680.8,Flipkart,3.3,120,5.4,6,256,Dimensity 920,48MP + 12MP + 8MP
+Huawei,Moto G Mini 12,788.87,Reliance Digital,4.2,90,6.1,16,256,Dimensity 920,50MP + 50MP + 2MP
+Apple,V Series SE 10,1897.83,Official Store,3.2,144,5.1,4,512,A16 Bionic,108MP + 16MP + 5MP
+Vivo,iPhone Edge 11,1340.93,Amazon,4.3,165,5.9,6,512,Dimensity 920,12MP + 12MP + 8MP
+Vivo,Moto G SE 15,1864.83,Best Buy,4.5,144,6.0,6,128,Helio G99,108MP + 16MP + 8MP
+Samsung,iPhone Turbo 12,1634.5,Walmart,4.5,144,7.2,12,128,Exynos 2200,200MP + 50MP + 2MP
+Samsung,Moto G 5G 17,1509.89,AliExpress,3.9,120,5.1,12,512,Snapdragon 8 Gen 2,12MP + 8MP + 5MP
+Motorola,V Series Pro 11,1263.64,eBay,4.8,60,6.9,4,512,Helio G99,50MP + 8MP + 5MP
+Motorola,Narzo Edge 21,628.32,eBay,3.2,165,6.1,8,512,Helio G99,50MP + 8MP + 2MP
+Huawei,Narzo Pro 22,1076.49,Amazon,4.6,144,7.1,16,1024,Helio G99,108MP + 16MP + 5MP
+Realme,Narzo Edge 10,569.35,Reliance Digital,4.7,165,6.1,8,128,Dimensity 920,50MP + 8MP + 8MP
+Google,Mate Ultra 11,1115.1,AliExpress,3.8,90,6.2,12,512,Tensor G1,108MP + 50MP + 5MP
+Vivo,Reno Lite 10,1415.18,Best Buy,3.5,90,5.6,16,64,Dimensity 920,200MP + 8MP + 2MP
+Apple,Pixel Lite 17,1009.62,Best Buy,3.8,120,7.0,8,256,A15 Bionic,108MP + 12MP + 2MP
+Motorola,Mate Lite 11,1649.94,Best Buy,4.1,90,6.7,16,64,Helio G99,200MP + 50MP + 5MP
+Oppo,Pixel Pro 19,1241.45,Best Buy,3.0,90,6.7,4,256,Dimensity 920,200MP + 16MP + 8MP
+Oppo,Pixel Plus 23,769.28,Walmart,4.4,144,7.0,16,256,Dimensity 920,64MP + 8MP + 8MP
+Oppo,Redmi Note Edge 17,975.68,Reliance Digital,3.6,90,6.9,6,1024,Dimensity 920,12MP + 12MP + 8MP
+Motorola,Pixel SE 15,342.94,Best Buy,4.5,144,6.0,8,512,Dimensity 920,12MP + 8MP + 8MP
+Samsung,Nord Max 12,918.96,Walmart,4.8,60,7.1,4,128,Snapdragon 8 Gen 2,64MP + 16MP + 8MP
+Vivo,Redmi Note Ultra 22,1394.84,Amazon,4.9,60,6.1,8,64,Dimensity 920,12MP + 12MP + 8MP
+Samsung,P Series Max 16,1811.13,Official Store,4.4,60,5.6,6,64,Exynos 2200,200MP + 8MP + 5MP
+Google,Mate Edge 11,1823.98,Flipkart,4.5,120,5.2,6,1024,Tensor G2,200MP + 50MP + 2MP
+Vivo,Galaxy S Edge 13,1747.67,Best Buy,3.9,165,5.2,16,64,Dimensity 920,12MP + 16MP + 2MP
+Oppo,Reno SE 15,1742.83,AliExpress,4.0,165,5.8,4,128,Helio G99,200MP + 8MP + 2MP
+Nokia,Nord SE 13,1413.7,eBay,4.3,165,7.3,16,1024,Dimensity 920,64MP + 16MP + 5MP
+Oppo,Reno 5G 18,1727.13,AliExpress,3.9,120,7.3,6,1024,Helio G99,200MP + 8MP + 2MP
+Apple,Mate 5G 14,1619.99,Reliance Digital,3.0,144,5.3,16,512,A15 Bionic,200MP + 16MP + 8MP
+Xiaomi,Galaxy S Plus 21,1078.4,Reliance Digital,4.9,60,5.8,4,64,Snapdragon 7 Gen 1,200MP + 12MP + 5MP
+Realme,P Series Pro 18,668.57,Amazon,3.7,165,5.2,4,64,Dimensity 920,12MP + 8MP + 8MP
+Samsung,P Series 5G 17,560.87,Amazon,4.2,144,5.7,16,512,Snapdragon 8 Gen 2,200MP + 16MP + 8MP
+Realme,Moto G Turbo 23,639.41,Reliance Digital,3.4,165,7.0,16,128,Dimensity 920,12MP + 16MP + 8MP
+Realme,Xperia Pro 17,1319.91,AliExpress,3.3,60,7.4,12,512,Helio G99,200MP + 16MP + 2MP
+Oppo,V Series Turbo 22,1593.93,Official Store,4.6,144,6.7,8,1024,Dimensity 920,48MP + 16MP + 2MP
+Huawei,Galaxy S Lite 19,510.87,Flipkart,3.2,120,5.2,6,256,Dimensity 920,200MP + 16MP + 2MP
+Motorola,Pixel SE 20,1169.34,Best Buy,4.9,60,6.9,16,256,Dimensity 920,50MP + 8MP + 5MP
+Samsung,Narzo Pro 23,1233.69,Reliance Digital,4.8,144,5.6,6,128,Exynos 2200,50MP + 12MP + 8MP
+Realme,Narzo SE 10,973.77,Reliance Digital,3.5,60,7.5,16,256,Helio G99,200MP + 12MP + 2MP
+Oppo,Pixel Lite 24,1779.82,Amazon,3.8,60,6.7,6,1024,Dimensity 920,64MP + 8MP + 8MP
+Google,Mate Plus 23,1585.23,Amazon,3.9,90,6.1,8,1024,Tensor G1,64MP + 50MP + 5MP
+Apple,iPhone Max 20,1681.54,eBay,3.4,90,7.4,8,256,A15 Bionic,108MP + 50MP + 5MP
+Samsung,iPhone Mini 25,852.32,Walmart,3.9,144,5.5,4,256,Exynos 2200,12MP + 16MP + 5MP
+Oppo,Reno Mini 11,1920.15,eBay,3.1,60,6.9,8,256,Dimensity 920,50MP + 50MP + 8MP
+Oppo,Redmi Note 5G 20,228.39,Best Buy,4.9,165,6.3,8,256,Dimensity 920,12MP + 8MP + 2MP
+Nokia,Redmi Note Edge 10,1162.26,Official Store,3.5,60,7.0,12,64,Dimensity 920,64MP + 12MP + 8MP
+Apple,Moto G Mini 15,654.86,Amazon,3.2,120,5.4,6,256,A15 Bionic,108MP + 12MP + 2MP
+Realme,Xperia Pro 23,445.81,Amazon,4.8,120,6.1,4,128,Helio G99,50MP + 8MP + 2MP
+OnePlus,Pixel Lite 19,1335.99,Amazon,3.2,144,7.1,12,64,Snapdragon 8+ Gen 1,50MP + 12MP + 2MP
+Apple,Mate Mini 13,414.7,Amazon,3.6,144,5.7,16,64,A15 Bionic,108MP + 12MP + 8MP
+Oppo,iPhone Edge 16,1266.92,Amazon,3.7,90,5.1,8,256,Helio G99,64MP + 16MP + 8MP
+Realme,Mate Plus 12,1895.0,Flipkart,3.2,120,5.6,12,1024,Helio G99,108MP + 8MP + 5MP
+Motorola,P Series Ultra 19,1343.11,eBay,3.9,60,6.7,6,64,Helio G99,12MP + 16MP + 2MP
+Oppo,Reno 5G 25,383.33,Best Buy,3.4,60,5.3,16,128,Helio G99,48MP + 16MP + 8MP
+Huawei,Pixel Ultra 24,1042.22,AliExpress,4.3,60,6.2,4,128,Helio G99,108MP + 50MP + 5MP
+Xiaomi,Redmi Note Lite 21,1353.12,Flipkart,4.8,165,7.4,6,128,Snapdragon 7 Gen 1,200MP + 50MP + 2MP
+Samsung,Nord SE 15,312.55,Walmart,3.8,165,5.1,6,64,Exynos 2200,48MP + 8MP + 5MP
+Nokia,Nord Lite 20,591.36,AliExpress,4.9,120,6.1,16,512,Dimensity 920,48MP + 16MP + 2MP
+Huawei,Moto G Plus 10,401.09,AliExpress,3.8,60,5.4,4,256,Dimensity 920,108MP + 12MP + 2MP
+Vivo,Redmi Note Turbo 21,374.7,Amazon,3.7,144,6.8,4,64,Dimensity 920,108MP + 12MP + 2MP
+Huawei,Pixel Plus 10,1249.3,Reliance Digital,4.5,144,7.1,12,512,Dimensity 920,108MP + 8MP + 8MP
+OnePlus,Pixel Max 24,1549.29,Official Store,3.9,144,5.0,6,64,Dimensity 9000,64MP + 16MP + 8MP
+Nokia,iPhone 5G 10,627.72,Amazon,3.6,165,7.2,12,1024,Helio G99,108MP + 12MP + 8MP
+Samsung,Nord Edge 20,395.89,Amazon,4.3,90,7.4,6,512,Snapdragon 8 Gen 2,12MP + 8MP + 8MP
+Realme,Moto G Edge 25,1309.44,Reliance Digital,3.2,60,6.9,4,1024,Helio G99,200MP + 16MP + 5MP
+Realme,Pixel Ultra 10,1409.02,AliExpress,3.6,120,6.6,16,256,Helio G99,200MP + 12MP + 2MP
+Motorola,V Series Plus 12,559.32,Amazon,4.5,90,7.0,8,512,Dimensity 920,50MP + 50MP + 2MP
+Realme,Pixel SE 23,1221.12,eBay,4.0,165,5.4,4,1024,Dimensity 920,200MP + 50MP + 2MP
+Xiaomi,Reno Plus 16,1476.01,Flipkart,3.5,165,5.1,6,512,Dimensity 1080,64MP + 8MP + 5MP
+Realme,iPhone Ultra 11,1350.47,Flipkart,4.7,144,5.3,4,64,Dimensity 920,50MP + 8MP + 2MP
+Samsung,P Series SE 11,867.39,Reliance Digital,3.5,60,5.4,6,128,Exynos 2200,200MP + 50MP + 8MP
+Motorola,Xperia Ultra 20,530.42,Amazon,4.6,90,6.7,8,128,Helio G99,48MP + 12MP + 8MP
+Sony,Redmi Note 5G 17,1992.72,Best Buy,3.9,165,6.7,12,512,Dimensity 920,12MP + 50MP + 5MP
+Google,iPhone Plus 21,1781.66,Flipkart,4.1,120,6.3,12,128,Tensor G1,200MP + 8MP + 8MP
+Xiaomi,Nord Max 20,406.51,Official Store,3.1,165,6.8,4,128,Dimensity 1080,108MP + 16MP + 8MP
+Nokia,P Series Mini 10,1843.01,Walmart,4.2,90,7.3,16,64,Dimensity 920,108MP + 16MP + 8MP
+Samsung,V Series Turbo 22,190.18,Reliance Digital,4.9,165,7.2,8,256,Exynos 2200,64MP + 50MP + 8MP
+OnePlus,Pixel Lite 20,1192.65,eBay,4.8,165,6.5,16,1024,Snapdragon 8+ Gen 1,108MP + 50MP + 5MP
+Huawei,Reno Mini 23,538.57,eBay,4.6,60,5.3,6,128,Helio G99,48MP + 12MP + 5MP
+Realme,Moto G SE 18,1081.13,Amazon,4.7,120,6.9,12,512,Dimensity 920,12MP + 8MP + 2MP
+Oppo,Reno Ultra 14,413.1,eBay,3.5,60,6.1,12,1024,Helio G99,50MP + 50MP + 2MP
+Apple,V Series Max 19,1008.07,Best Buy,3.9,144,5.6,6,128,A15 Bionic,200MP + 16MP + 5MP
+Realme,P Series Edge 15,1284.75,Reliance Digital,4.8,165,6.0,16,128,Helio G99,50MP + 8MP + 5MP
+Apple,Nord Plus 14,1455.18,Best Buy,4.1,120,6.4,4,64,A15 Bionic,48MP + 8MP + 5MP
+Oppo,iPhone Mini 15,1272.34,Amazon,4.0,165,6.9,12,1024,Helio G99,200MP + 8MP + 8MP
+Xiaomi,Redmi Note Pro 14,283.37,Amazon,3.1,165,5.1,16,512,Snapdragon 7 Gen 1,108MP + 8MP + 8MP
+Apple,P Series Mini 12,1409.47,Flipkart,3.9,165,6.9,12,256,A15 Bionic,200MP + 12MP + 8MP
+Huawei,Narzo Lite 17,1596.56,AliExpress,4.2,90,7.0,8,256,Dimensity 920,64MP + 50MP + 2MP
+Huawei,iPhone Turbo 10,1359.17,Official Store,3.6,60,5.0,6,64,Dimensity 920,50MP + 12MP + 2MP
+Sony,Moto G 5G 12,1803.74,eBay,3.7,120,5.9,4,1024,Helio G99,108MP + 16MP + 8MP
+Huawei,Xperia Pro 15,735.79,Walmart,4.1,120,5.0,16,1024,Dimensity 920,200MP + 12MP + 5MP
+Realme,Narzo SE 16,704.08,Walmart,4.7,120,5.0,16,128,Dimensity 920,108MP + 16MP + 2MP
+OnePlus,Narzo Edge 22,1830.26,eBay,5.0,165,6.7,6,256,Dimensity 9000,50MP + 50MP + 2MP
+Vivo,Xperia Turbo 21,752.72,Best Buy,4.5,144,5.5,4,256,Helio G99,50MP + 8MP + 5MP
+Nokia,Narzo Pro 17,567.06,Amazon,5.0,120,5.4,6,64,Helio G99,12MP + 16MP + 2MP
+Nokia,Narzo 5G 11,667.3,Official Store,3.9,90,6.8,12,256,Dimensity 920,64MP + 8MP + 8MP
+Google,Mate Turbo 23,1791.22,Reliance Digital,3.0,144,7.4,16,512,Tensor G2,64MP + 50MP + 2MP
+Motorola,Moto G Plus 12,1726.48,eBay,3.2,165,7.3,6,512,Dimensity 920,12MP + 8MP + 5MP
+Huawei,Reno Mini 25,1938.62,Best Buy,4.5,165,5.4,4,128,Dimensity 920,12MP + 8MP + 5MP
+Google,Xperia Max 15,1747.77,Amazon,3.8,120,5.2,6,512,Tensor G1,48MP + 16MP + 2MP
+Apple,Redmi Note Ultra 18,1242.47,Amazon,4.0,90,7.5,16,512,A16 Bionic,50MP + 12MP + 8MP
+OnePlus,Reno Turbo 17,640.68,Official Store,3.8,90,5.3,6,512,Dimensity 9000,12MP + 50MP + 2MP
+Vivo,Reno Lite 10,1479.52,Amazon,3.2,144,6.7,12,1024,Dimensity 920,64MP + 16MP + 5MP
+Huawei,iPhone Lite 14,1112.81,Reliance Digital,3.2,90,6.5,4,128,Helio G99,108MP + 12MP + 2MP
+Huawei,Pixel Turbo 23,1628.8,Walmart,4.3,144,5.4,6,256,Helio G99,108MP + 12MP + 8MP
+Xiaomi,Redmi Note Ultra 11,671.57,Best Buy,3.0,90,7.0,16,128,Dimensity 1080,200MP + 8MP + 8MP
+Vivo,Reno Pro 11,1198.51,Official Store,4.8,165,7.4,4,1024,Helio G99,12MP + 16MP + 5MP
+Motorola,Narzo Lite 20,1745.97,AliExpress,4.1,90,6.2,4,1024,Dimensity 920,50MP + 8MP + 2MP
+Vivo,Xperia Pro 22,1788.6,Reliance Digital,3.5,144,6.1,4,1024,Helio G99,108MP + 50MP + 8MP
+Samsung,Nord Pro 15,1947.18,Walmart,3.2,60,6.9,6,512,Snapdragon 8 Gen 2,108MP + 50MP + 8MP
+Sony,Galaxy S Ultra 13,1424.09,Reliance Digital,3.1,144,5.5,16,1024,Helio G99,108MP + 16MP + 8MP
+Samsung,Reno Mini 14,1885.34,Walmart,4.0,90,7.3,4,128,Snapdragon 8 Gen 2,64MP + 8MP + 8MP
+Oppo,iPhone 5G 12,1483.92,Flipkart,4.9,120,7.3,4,128,Dimensity 920,64MP + 16MP + 2MP
+Motorola,V Series Plus 11,1044.95,AliExpress,4.0,60,7.4,4,1024,Helio G99,108MP + 16MP + 5MP
+Oppo,Redmi Note 5G 20,1083.26,AliExpress,3.2,165,7.1,12,1024,Helio G99,12MP + 8MP + 2MP
+OnePlus,Xperia Plus 14,1351.85,Flipkart,3.4,144,6.4,12,512,Snapdragon 8+ Gen 1,48MP + 50MP + 5MP
+Oppo,Nord Turbo 24,258.55,Flipkart,3.1,90,7.4,8,512,Dimensity 920,200MP + 50MP + 5MP
+Oppo,Redmi Note Pro 13,440.49,Reliance Digital,3.7,120,6.8,16,64,Dimensity 920,48MP + 50MP + 5MP
+Samsung,Narzo Edge 23,1605.08,Walmart,4.6,120,5.4,16,256,Snapdragon 8 Gen 2,200MP + 16MP + 2MP
+Nokia,Reno Edge 25,1502.99,Best Buy,3.3,60,6.1,16,64,Dimensity 920,48MP + 16MP + 2MP
+Huawei,V Series Max 19,1297.75,Reliance Digital,4.9,90,7.3,8,512,Dimensity 920,200MP + 8MP + 5MP
+Xiaomi,Mate Pro 15,1902.71,Reliance Digital,5.0,165,5.1,8,64,Snapdragon 7 Gen 1,12MP + 16MP + 5MP
+Nokia,Redmi Note Mini 20,1950.48,Official Store,4.1,90,6.0,12,512,Helio G99,12MP + 12MP + 2MP
+Realme,iPhone Plus 12,404.48,eBay,4.1,120,6.6,8,512,Dimensity 920,108MP + 12MP + 2MP
+Huawei,iPhone Mini 12,1988.74,Walmart,3.5,165,6.8,16,64,Helio G99,108MP + 50MP + 2MP
+Vivo,Xperia Mini 18,1815.96,Walmart,3.5,120,6.5,4,64,Dimensity 920,200MP + 12MP + 5MP
+Xiaomi,Moto G SE 19,710.75,Official Store,3.2,90,6.8,12,128,Snapdragon 7 Gen 1,12MP + 16MP + 8MP
+Apple,Nord Mini 18,1468.25,Flipkart,3.1,90,6.7,6,256,A16 Bionic,64MP + 12MP + 5MP
+Motorola,Nord Plus 15,609.15,eBay,4.9,60,5.3,16,512,Helio G99,50MP + 16MP + 5MP
+Google,V Series Ultra 24,753.04,eBay,4.4,90,6.0,16,512,Tensor G2,12MP + 16MP + 8MP
+Realme,Xperia SE 18,353.18,Flipkart,3.5,165,5.8,6,128,Dimensity 920,12MP + 12MP + 8MP
+Motorola,Mate Pro 17,1023.53,Best Buy,4.4,165,5.1,6,256,Dimensity 920,50MP + 50MP + 5MP
+Motorola,Moto G Plus 20,1615.61,Best Buy,4.6,144,7.2,4,64,Dimensity 920,200MP + 8MP + 5MP
+Realme,Redmi Note Edge 13,1320.22,Walmart,3.5,165,6.7,8,1024,Helio G99,64MP + 12MP + 2MP
+Motorola,V Series Ultra 15,1911.76,Official Store,4.8,120,7.2,4,256,Dimensity 920,50MP + 12MP + 8MP
+OnePlus,Xperia Plus 11,1268.4,Flipkart,3.2,165,5.3,6,256,Snapdragon 8+ Gen 1,108MP + 12MP + 2MP
+Vivo,Mate 5G 23,1283.45,Amazon,3.1,120,6.0,12,1024,Dimensity 920,200MP + 16MP + 2MP
+Nokia,P Series Mini 18,803.49,Official Store,3.3,60,7.3,8,512,Helio G99,108MP + 50MP + 2MP
+Samsung,Redmi Note Pro 23,519.41,Official Store,3.5,90,6.9,12,64,Exynos 2200,200MP + 16MP + 2MP
+Xiaomi,Mate Max 21,1889.04,Reliance Digital,3.2,120,5.5,4,64,Snapdragon 7 Gen 1,64MP + 8MP + 5MP
+Huawei,Mate Plus 23,184.75,Amazon,3.7,90,5.8,16,64,Dimensity 920,48MP + 16MP + 8MP
+Samsung,Redmi Note Max 16,1272.76,Walmart,4.1,144,7.4,16,64,Snapdragon 8 Gen 2,108MP + 16MP + 8MP
+Samsung,Mate Edge 14,1296.86,eBay,3.3,165,7.1,4,1024,Snapdragon 8 Gen 2,64MP + 16MP + 8MP
+Xiaomi,Narzo Lite 22,937.0,AliExpress,3.9,144,5.8,6,256,Dimensity 1080,108MP + 50MP + 8MP
+Apple,P Series Edge 21,770.55,Flipkart,4.2,90,5.4,16,128,A16 Bionic,108MP + 8MP + 2MP
+OnePlus,Reno Mini 23,1011.31,Flipkart,3.7,144,5.3,12,512,Dimensity 9000,64MP + 8MP + 2MP
+Huawei,Pixel SE 19,378.65,Walmart,3.1,120,7.3,8,128,Dimensity 920,200MP + 8MP + 5MP
+Apple,Galaxy S 5G 14,1137.1,Amazon,3.5,60,6.0,6,1024,A15 Bionic,12MP + 8MP + 5MP
+Sony,iPhone SE 11,1399.13,Flipkart,4.7,90,5.5,4,256,Helio G99,48MP + 16MP + 2MP
+Samsung,Moto G Lite 10,1021.12,Walmart,3.6,90,6.0,16,256,Exynos 2200,12MP + 16MP + 8MP
+OnePlus,Pixel Mini 25,746.37,Best Buy,3.1,90,6.0,16,1024,Snapdragon 8+ Gen 1,50MP + 50MP + 8MP
+Vivo,Redmi Note Turbo 18,1589.47,Official Store,5.0,60,6.2,4,256,Dimensity 920,64MP + 16MP + 8MP
+Vivo,P Series Pro 16,1935.61,Best Buy,3.3,144,6.8,12,64,Helio G99,48MP + 50MP + 8MP
+Huawei,Nord Turbo 13,1198.3,eBay,3.0,165,7.5,8,64,Helio G99,200MP + 8MP + 5MP
+Nokia,V Series SE 19,402.64,Best Buy,3.7,60,5.9,8,64,Helio G99,48MP + 8MP + 8MP
+Huawei,Galaxy S Turbo 23,1941.39,Amazon,4.5,120,7.1,6,64,Dimensity 920,108MP + 12MP + 8MP
+Nokia,Moto G Plus 18,1431.02,Official Store,3.2,60,7.4,12,128,Helio G99,50MP + 12MP + 8MP
+Realme,iPhone Plus 21,810.49,Flipkart,3.4,120,5.9,16,128,Helio G99,64MP + 50MP + 2MP
+Realme,Redmi Note Lite 19,1140.69,Reliance Digital,4.0,60,6.4,8,1024,Helio G99,48MP + 50MP + 8MP
+OnePlus,Mate Mini 18,970.49,Walmart,4.8,144,5.5,8,512,Dimensity 9000,108MP + 50MP + 2MP
+Apple,Reno Turbo 10,857.38,Official Store,4.2,120,6.9,4,64,A16 Bionic,64MP + 50MP + 8MP
+Samsung,Pixel 5G 23,322.9,Reliance Digital,3.4,144,5.1,12,256,Snapdragon 8 Gen 2,12MP + 12MP + 5MP
+Motorola,Moto G SE 21,1725.1,Reliance Digital,3.9,165,6.1,8,128,Helio G99,64MP + 16MP + 2MP
+Xiaomi,Narzo Turbo 10,801.28,Best Buy,3.2,165,7.0,8,256,Snapdragon 7 Gen 1,108MP + 12MP + 8MP
+Samsung,Moto G 5G 13,1450.33,eBay,5.0,90,5.9,16,128,Snapdragon 8 Gen 2,50MP + 16MP + 2MP
+Vivo,Narzo SE 16,287.56,Best Buy,3.1,90,5.3,16,512,Dimensity 920,48MP + 50MP + 2MP
+Vivo,Moto G Ultra 12,181.13,Best Buy,3.1,165,6.9,6,128,Dimensity 920,108MP + 16MP + 2MP
+Xiaomi,Redmi Note 5G 10,176.78,Amazon,4.5,90,6.5,12,128,Dimensity 1080,108MP + 12MP + 2MP
+OnePlus,Nord Lite 25,543.56,Flipkart,3.6,144,6.4,6,128,Dimensity 9000,50MP + 8MP + 5MP
+Sony,V Series Ultra 24,577.71,Reliance Digital,4.7,120,5.3,4,256,Helio G99,64MP + 12MP + 8MP
+Sony,Nord Lite 21,517.33,Flipkart,3.6,144,5.1,6,512,Dimensity 920,64MP + 12MP + 2MP
+OnePlus,Pixel Lite 21,779.91,Flipkart,3.5,90,6.4,4,1024,Snapdragon 8+ Gen 1,48MP + 12MP + 8MP
+Oppo,Xperia Edge 11,331.8,Best Buy,4.8,60,5.4,4,64,Dimensity 920,50MP + 16MP + 5MP
+OnePlus,Pixel Turbo 23,1189.53,AliExpress,3.2,144,5.7,16,1024,Dimensity 9000,64MP + 50MP + 5MP
+Google,Pixel Lite 14,1917.96,Flipkart,3.6,120,6.6,8,128,Tensor G1,12MP + 8MP + 8MP
+Realme,Xperia SE 24,650.78,Amazon,4.2,165,6.9,4,512,Helio G99,50MP + 8MP + 2MP
+Vivo,Galaxy S SE 10,1931.39,Official Store,4.6,165,6.8,6,128,Dimensity 920,108MP + 16MP + 8MP
+Motorola,Moto G Ultra 18,702.06,eBay,3.6,144,7.0,8,64,Dimensity 920,12MP + 8MP + 8MP
+Vivo,Narzo Edge 13,788.15,Flipkart,4.5,165,5.5,12,1024,Helio G99,64MP + 12MP + 5MP
+Apple,Mate Turbo 11,356.29,eBay,4.6,90,7.4,16,1024,A15 Bionic,12MP + 12MP + 2MP
+Google,Xperia Turbo 23,165.46,Amazon,3.3,90,5.1,8,512,Tensor G2,108MP + 8MP + 5MP
+Vivo,Mate Ultra 23,632.89,Flipkart,3.0,144,5.6,16,512,Dimensity 920,50MP + 12MP + 2MP
+Xiaomi,Redmi Note Ultra 20,401.39,Official Store,4.4,165,5.9,8,1024,Snapdragon 7 Gen 1,12MP + 8MP + 8MP
+Vivo,Moto G Pro 24,577.49,Reliance Digital,3.1,120,5.2,12,256,Helio G99,200MP + 16MP + 8MP
+Realme,Reno Mini 19,1793.14,AliExpress,4.8,90,5.6,12,256,Dimensity 920,108MP + 50MP + 8MP
+Google,Pixel SE 20,1335.12,Amazon,3.3,144,6.1,12,256,Tensor G1,12MP + 50MP + 8MP
+Apple,V Series Ultra 14,845.83,AliExpress,4.8,90,6.6,4,512,A15 Bionic,12MP + 8MP + 2MP
+Oppo,Moto G Pro 12,1136.31,Flipkart,4.3,165,5.5,12,256,Helio G99,64MP + 12MP + 2MP
+Google,Reno Ultra 16,809.11,Walmart,3.7,90,6.5,4,256,Tensor G1,48MP + 16MP + 5MP
+Google,iPhone Lite 16,852.46,Walmart,3.6,144,5.1,6,1024,Tensor G2,48MP + 12MP + 8MP
+Realme,Narzo SE 14,456.03,AliExpress,3.9,90,6.7,16,64,Helio G99,48MP + 50MP + 2MP
+Oppo,Narzo Max 19,828.8,AliExpress,4.9,120,5.3,16,512,Helio G99,200MP + 50MP + 8MP
+Vivo,Xperia Plus 14,846.35,Official Store,4.4,90,7.0,4,64,Dimensity 920,48MP + 12MP + 5MP
+Oppo,Redmi Note Pro 11,1363.82,Amazon,4.3,90,5.9,8,512,Helio G99,200MP + 12MP + 5MP
+Realme,Mate Max 20,904.86,Walmart,3.5,144,7.2,16,128,Dimensity 920,200MP + 8MP + 8MP
+Huawei,Xperia Max 24,335.46,Best Buy,3.6,120,6.4,4,256,Helio G99,48MP + 16MP + 2MP
+Huawei,Galaxy S Pro 20,201.04,eBay,4.0,120,5.9,12,512,Dimensity 920,12MP + 16MP + 2MP
+Realme,iPhone Mini 21,710.95,Official Store,3.8,144,6.1,12,64,Dimensity 920,48MP + 12MP + 5MP
+Google,Narzo Plus 25,700.18,Walmart,4.4,60,7.2,8,1024,Tensor G2,108MP + 8MP + 8MP
+Apple,Galaxy S Edge 24,1483.68,AliExpress,3.7,165,6.3,8,512,A15 Bionic,108MP + 8MP + 8MP
+Sony,Galaxy S Mini 16,434.11,Flipkart,4.2,165,7.2,12,1024,Helio G99,48MP + 8MP + 5MP
+Samsung,Pixel Edge 20,401.91,AliExpress,3.9,90,6.9,16,512,Snapdragon 8 Gen 2,64MP + 8MP + 5MP
+Xiaomi,Xperia Lite 19,1458.13,Official Store,3.2,90,6.6,16,128,Snapdragon 7 Gen 1,64MP + 16MP + 8MP
+Vivo,Reno Lite 21,1036.08,eBay,4.5,120,6.9,6,128,Helio G99,48MP + 12MP + 2MP
+Google,Moto G Ultra 19,1514.24,Amazon,4.2,165,6.8,16,256,Tensor G2,200MP + 16MP + 2MP
+Apple,V Series Lite 11,977.0,AliExpress,3.4,120,7.4,12,1024,A16 Bionic,64MP + 16MP + 2MP
+Motorola,Moto G SE 11,286.12,Walmart,3.7,165,6.5,4,64,Dimensity 920,108MP + 50MP + 8MP
+Sony,Mate Pro 25,551.96,AliExpress,4.6,144,7.5,6,256,Helio G99,48MP + 8MP + 2MP
+Google,Moto G Mini 23,1002.6,Walmart,4.4,90,5.3,8,1024,Tensor G1,48MP + 50MP + 5MP
+Google,Xperia Turbo 19,792.07,eBay,4.7,90,6.4,6,1024,Tensor G2,200MP + 50MP + 5MP
+Nokia,Galaxy S Lite 14,1823.49,Flipkart,4.5,60,6.0,16,128,Dimensity 920,12MP + 16MP + 2MP
+Apple,Narzo 5G 19,1455.83,AliExpress,4.5,144,6.4,6,64,A15 Bionic,12MP + 8MP + 2MP
+Realme,Redmi Note 5G 21,1411.81,Flipkart,4.6,144,5.6,16,64,Dimensity 920,48MP + 12MP + 5MP
+Samsung,Moto G Pro 15,1737.2,Best Buy,3.4,144,7.1,6,64,Exynos 2200,12MP + 50MP + 5MP
+Google,Redmi Note Pro 23,1419.98,Flipkart,4.2,165,5.2,6,1024,Tensor G2,64MP + 16MP + 5MP
+Apple,Xperia 5G 22,1661.09,Best Buy,3.6,144,5.2,6,512,A15 Bionic,64MP + 50MP + 5MP
+Google,V Series Pro 10,1141.69,AliExpress,4.5,60,5.4,6,512,Tensor G2,108MP + 50MP + 8MP
+Realme,Moto G Lite 15,217.64,Best Buy,3.6,120,5.5,12,128,Dimensity 920,64MP + 16MP + 5MP
+Xiaomi,V Series SE 12,1238.29,Walmart,4.6,90,5.1,16,64,Dimensity 1080,50MP + 12MP + 5MP
+Google,Nord Lite 15,1099.54,Flipkart,3.9,165,5.9,16,64,Tensor G1,200MP + 8MP + 8MP
+Oppo,Narzo Ultra 11,1959.39,AliExpress,4.0,90,6.8,12,1024,Helio G99,12MP + 50MP + 2MP
+OnePlus,Xperia Ultra 14,701.99,Flipkart,3.3,165,7.0,16,1024,Dimensity 9000,12MP + 8MP + 2MP
+Sony,P Series Turbo 20,550.91,Flipkart,3.7,60,5.3,16,256,Helio G99,64MP + 8MP + 2MP
+Realme,P Series Plus 24,1795.41,Best Buy,3.0,60,6.5,8,1024,Dimensity 920,48MP + 8MP + 8MP
+Xiaomi,V Series Mini 20,1408.0,Best Buy,3.7,144,7.0,12,256,Snapdragon 7 Gen 1,48MP + 12MP + 2MP
+Google,iPhone 5G 23,1152.15,AliExpress,4.4,60,6.6,6,512,Tensor G1,64MP + 12MP + 5MP
+Apple,Redmi Note Mini 25,644.62,Amazon,4.6,144,7.1,6,1024,A16 Bionic,50MP + 12MP + 2MP
+Motorola,Narzo Pro 14,607.24,Best Buy,4.2,165,6.3,16,64,Helio G99,50MP + 50MP + 2MP
+Vivo,Narzo Mini 17,1646.37,Walmart,3.5,90,6.8,16,64,Dimensity 920,50MP + 50MP + 2MP
+Samsung,iPhone SE 22,1646.6,AliExpress,3.0,120,5.4,8,128,Exynos 2200,64MP + 16MP + 8MP
+Apple,Nord Plus 25,1614.63,Best Buy,3.4,144,6.4,6,512,A16 Bionic,108MP + 16MP + 8MP
+Oppo,Mate Ultra 16,679.77,Flipkart,3.6,144,6.0,16,1024,Dimensity 920,200MP + 50MP + 2MP
+OnePlus,Pixel SE 17,1028.43,Official Store,4.8,60,5.8,4,128,Snapdragon 8+ Gen 1,108MP + 16MP + 8MP
+Motorola,Nord Turbo 21,263.73,Official Store,4.6,120,5.5,4,64,Helio G99,64MP + 8MP + 8MP
+OnePlus,Narzo Ultra 18,1455.6,Walmart,4.9,120,5.2,16,64,Snapdragon 8+ Gen 1,50MP + 12MP + 8MP
+Samsung,iPhone Turbo 11,347.52,Flipkart,4.7,165,6.4,16,256,Exynos 2200,50MP + 16MP + 8MP
+Motorola,Redmi Note Turbo 19,1233.87,Flipkart,4.0,120,7.0,6,64,Dimensity 920,48MP + 8MP + 8MP
+Huawei,Reno Lite 11,1586.71,Walmart,4.6,60,5.6,6,64,Helio G99,48MP + 12MP + 5MP
+Motorola,Mate Plus 16,1614.06,Amazon,4.6,165,7.4,16,1024,Helio G99,108MP + 8MP + 5MP
+Realme,Pixel Max 20,1399.56,AliExpress,3.7,60,5.2,8,64,Helio G99,200MP + 12MP + 2MP
+Vivo,Pixel Pro 25,1709.87,eBay,3.9,120,5.6,8,128,Helio G99,108MP + 16MP + 2MP
+Xiaomi,Nord Pro 12,745.4,Flipkart,3.8,144,6.0,6,256,Snapdragon 7 Gen 1,108MP + 16MP + 2MP
+Apple,Redmi Note Edge 22,1757.81,AliExpress,4.5,60,5.4,8,256,A16 Bionic,50MP + 8MP + 2MP
+Realme,Galaxy S Turbo 15,1307.69,Amazon,4.6,90,7.1,16,64,Dimensity 920,64MP + 12MP + 2MP
+Samsung,Moto G Plus 14,1627.5,Flipkart,4.9,120,5.9,6,256,Snapdragon 8 Gen 2,108MP + 16MP + 8MP
+Huawei,Redmi Note SE 17,836.2,Reliance Digital,4.9,120,6.8,16,512,Dimensity 920,200MP + 8MP + 5MP
+Nokia,V Series Pro 20,1067.38,eBay,4.3,165,6.3,8,128,Helio G99,200MP + 12MP + 5MP
+Google,Nord Ultra 14,371.08,Official Store,4.3,165,6.5,8,512,Tensor G1,48MP + 16MP + 5MP
+Apple,iPhone SE 11,354.89,Amazon,3.5,144,5.1,16,128,A16 Bionic,48MP + 16MP + 2MP
+Xiaomi,Redmi Note Lite 21,1802.47,eBay,3.4,90,6.7,8,512,Dimensity 1080,50MP + 16MP + 8MP
+Samsung,P Series Edge 15,238.34,Flipkart,4.5,165,7.0,16,1024,Snapdragon 8 Gen 2,12MP + 8MP + 5MP
+Nokia,Galaxy S Lite 12,1109.04,Amazon,3.8,144,5.0,12,512,Dimensity 920,50MP + 12MP + 8MP
+Oppo,P Series 5G 13,151.96,Official Store,3.0,90,5.5,8,512,Helio G99,200MP + 50MP + 5MP
+Xiaomi,Galaxy S 5G 19,1229.73,Amazon,4.8,144,5.5,12,1024,Dimensity 1080,48MP + 16MP + 8MP
+Google,iPhone 5G 11,1000.88,Reliance Digital,3.5,144,6.1,4,512,Tensor G1,64MP + 16MP + 5MP
+Google,V Series Plus 23,629.24,Official Store,5.0,165,5.2,6,128,Tensor G1,64MP + 8MP + 2MP
+Oppo,Narzo SE 24,1169.31,Reliance Digital,4.9,165,5.9,8,128,Helio G99,108MP + 12MP + 2MP
+Realme,Pixel Ultra 18,1119.47,Official Store,4.3,90,6.8,6,512,Dimensity 920,200MP + 12MP + 5MP
+Apple,Redmi Note SE 19,1674.29,Best Buy,3.6,144,7.1,6,512,A16 Bionic,108MP + 12MP + 8MP
+Sony,Moto G Turbo 17,1087.2,eBay,3.7,120,5.5,16,512,Helio G99,200MP + 50MP + 2MP
+Nokia,Redmi Note Mini 25,1371.37,Best Buy,4.4,144,7.0,16,1024,Dimensity 920,48MP + 12MP + 8MP
+Nokia,P Series Pro 12,493.12,Reliance Digital,3.8,165,6.8,16,256,Helio G99,200MP + 8MP + 5MP
+Xiaomi,Narzo Pro 16,1357.0,AliExpress,5.0,144,7.1,16,128,Snapdragon 7 Gen 1,12MP + 16MP + 8MP
+Google,V Series Turbo 10,1909.94,Reliance Digital,5.0,165,6.1,16,512,Tensor G1,48MP + 50MP + 5MP
+Sony,Mate Edge 18,1257.18,Walmart,4.7,144,5.1,8,128,Dimensity 920,108MP + 8MP + 5MP
+OnePlus,Moto G Lite 17,804.06,Amazon,4.8,144,6.8,16,512,Dimensity 9000,48MP + 16MP + 8MP
+Vivo,P Series Turbo 18,1203.55,AliExpress,3.6,144,6.4,6,1024,Helio G99,200MP + 50MP + 5MP
+Sony,Nord Edge 21,1768.79,eBay,3.2,120,6.9,6,128,Dimensity 920,64MP + 50MP + 5MP
+Oppo,P Series Edge 20,635.0,Walmart,4.1,120,7.2,6,128,Dimensity 920,48MP + 8MP + 5MP
+Xiaomi,Galaxy S Turbo 11,1513.82,eBay,3.4,60,5.7,12,64,Snapdragon 7 Gen 1,200MP + 12MP + 8MP
+Sony,Moto G Pro 23,1849.02,Flipkart,4.0,90,5.9,16,64,Dimensity 920,64MP + 12MP + 8MP
+Sony,V Series SE 10,243.96,Best Buy,4.9,90,5.2,8,64,Dimensity 920,50MP + 50MP + 8MP
+Nokia,Galaxy S 5G 14,647.22,eBay,3.1,144,5.2,16,64,Dimensity 920,12MP + 8MP + 8MP
+Vivo,Redmi Note Pro 25,234.56,Best Buy,4.6,165,7.3,6,64,Dimensity 920,48MP + 50MP + 5MP
+Oppo,Mate Mini 14,464.29,AliExpress,3.9,120,5.9,16,128,Dimensity 920,48MP + 16MP + 5MP
+Realme,P Series Ultra 11,491.84,eBay,4.9,60,5.6,8,256,Helio G99,12MP + 8MP + 5MP
+Google,Nord Edge 22,481.72,Reliance Digital,3.5,90,6.9,8,512,Tensor G2,108MP + 8MP + 5MP
+Xiaomi,Moto G Lite 22,290.59,eBay,3.5,144,7.2,8,64,Snapdragon 7 Gen 1,200MP + 8MP + 2MP
+Huawei,Reno Edge 11,1733.22,Flipkart,3.8,60,6.4,8,256,Helio G99,64MP + 12MP + 8MP
+Vivo,Moto G Pro 13,1146.99,Best Buy,4.5,90,6.9,12,512,Helio G99,108MP + 50MP + 5MP
+Motorola,Redmi Note Mini 20,1580.31,Best Buy,4.7,165,6.1,6,64,Helio G99,48MP + 8MP + 2MP
+Oppo,Redmi Note Turbo 10,1131.23,eBay,3.1,60,5.3,16,1024,Helio G99,50MP + 50MP + 8MP
+OnePlus,iPhone Max 12,1072.89,Amazon,4.1,90,5.7,8,512,Snapdragon 8+ Gen 1,108MP + 8MP + 5MP
+Vivo,Reno SE 11,296.48,Reliance Digital,3.1,120,5.9,4,512,Helio G99,48MP + 50MP + 8MP
+Nokia,iPhone SE 20,1748.75,AliExpress,3.1,165,5.7,12,64,Dimensity 920,48MP + 8MP + 8MP
+Oppo,Nord SE 23,716.83,Walmart,3.8,120,6.6,8,1024,Helio G99,50MP + 16MP + 2MP
+Nokia,Nord Turbo 15,503.31,Best Buy,3.2,120,6.7,12,64,Dimensity 920,200MP + 50MP + 8MP
+Nokia,Redmi Note Edge 12,745.83,Best Buy,3.2,60,6.8,12,128,Dimensity 920,12MP + 50MP + 8MP
+Xiaomi,Redmi Note SE 18,1175.08,eBay,3.6,120,5.7,4,128,Snapdragon 7 Gen 1,48MP + 50MP + 8MP
+Oppo,iPhone Lite 25,365.43,Walmart,3.0,165,5.8,4,512,Dimensity 920,50MP + 16MP + 8MP
+Oppo,Reno Pro 21,892.17,Amazon,3.6,90,5.9,4,1024,Helio G99,108MP + 12MP + 5MP
+Google,Mate Max 18,232.99,Amazon,4.1,165,5.4,4,512,Tensor G1,48MP + 16MP + 5MP
+Xiaomi,Pixel 5G 12,1977.02,eBay,3.5,120,7.3,16,512,Snapdragon 7 Gen 1,48MP + 50MP + 2MP
+Samsung,Pixel Pro 16,1681.35,Best Buy,3.8,60,5.8,4,128,Snapdragon 8 Gen 2,200MP + 16MP + 8MP
+Vivo,P Series SE 19,559.13,Best Buy,3.1,144,7.4,6,1024,Helio G99,48MP + 16MP + 8MP
+OnePlus,Galaxy S Pro 10,1421.86,Reliance Digital,4.6,120,5.9,4,128,Snapdragon 8+ Gen 1,108MP + 12MP + 2MP
+Vivo,Galaxy S SE 23,1077.67,Best Buy,3.9,120,5.2,4,256,Dimensity 920,108MP + 8MP + 5MP
+Motorola,Redmi Note Edge 23,1555.13,AliExpress,3.3,60,6.5,4,64,Helio G99,12MP + 8MP + 5MP
+Motorola,Galaxy S Ultra 16,379.61,Reliance Digital,4.2,165,6.5,12,64,Helio G99,12MP + 12MP + 5MP
+Huawei,iPhone Turbo 21,1337.47,Flipkart,4.2,60,5.8,4,64,Helio G99,200MP + 50MP + 5MP
+Sony,Xperia Mini 22,1970.26,Flipkart,4.3,120,6.1,12,1024,Dimensity 920,48MP + 8MP + 5MP
+Google,Reno Turbo 17,920.67,Amazon,3.3,60,6.2,6,64,Tensor G1,48MP + 50MP + 5MP
+Xiaomi,Mate Edge 25,1797.42,Official Store,3.2,120,6.9,12,512,Snapdragon 7 Gen 1,200MP + 8MP + 8MP
+Xiaomi,Mate Lite 18,704.93,Flipkart,3.6,120,5.8,16,256,Snapdragon 7 Gen 1,64MP + 8MP + 5MP
+Motorola,Xperia Edge 15,381.5,Flipkart,3.7,60,5.8,8,64,Helio G99,200MP + 50MP + 5MP
+Samsung,Narzo Mini 16,1384.21,Flipkart,4.6,165,5.5,6,512,Snapdragon 8 Gen 2,64MP + 50MP + 5MP
+Apple,Reno Turbo 24,1508.64,Walmart,3.9,60,5.2,8,512,A16 Bionic,64MP + 16MP + 5MP
+Google,Narzo 5G 13,215.72,Official Store,3.6,144,5.0,12,64,Tensor G1,200MP + 16MP + 2MP
+Vivo,iPhone Max 13,1590.19,Reliance Digital,4.1,120,6.2,12,512,Helio G99,200MP + 16MP + 2MP
+Oppo,Redmi Note SE 22,1472.9,eBay,4.4,60,7.3,4,1024,Dimensity 920,64MP + 12MP + 2MP
+Nokia,Mate Plus 10,1057.01,Flipkart,3.7,90,5.0,12,64,Dimensity 920,12MP + 16MP + 5MP
+Realme,Nord SE 16,458.55,Official Store,3.6,144,6.4,8,512,Helio G99,48MP + 50MP + 5MP
+Xiaomi,Nord Ultra 19,405.08,Official Store,4.6,90,6.4,6,64,Dimensity 1080,64MP + 16MP + 8MP
+Apple,Redmi Note SE 17,267.05,Flipkart,4.3,90,5.2,12,512,A16 Bionic,48MP + 50MP + 5MP
+OnePlus,Xperia Turbo 10,1535.82,eBay,4.4,60,6.6,16,64,Snapdragon 8+ Gen 1,200MP + 50MP + 5MP
+Realme,Nord Max 20,960.77,AliExpress,4.9,90,7.1,16,64,Helio G99,12MP + 50MP + 2MP
+Sony,Galaxy S Edge 21,1817.73,Best Buy,5.0,120,5.6,8,1024,Dimensity 920,48MP + 16MP + 5MP
+Google,Xperia Edge 13,1108.39,Flipkart,3.2,60,7.1,4,1024,Tensor G1,64MP + 8MP + 8MP
+Samsung,P Series Lite 19,1300.07,Flipkart,3.0,144,5.5,4,256,Exynos 2200,48MP + 12MP + 2MP
+Samsung,Mate Mini 24,1709.1,Official Store,3.5,90,7.0,12,64,Snapdragon 8 Gen 2,50MP + 50MP + 5MP
+Vivo,iPhone Ultra 21,508.12,AliExpress,4.8,90,7.0,8,64,Helio G99,50MP + 8MP + 8MP
+Oppo,Xperia Max 12,1221.74,Best Buy,4.3,120,6.3,6,512,Dimensity 920,108MP + 8MP + 8MP
+Xiaomi,Mate Mini 24,298.48,Walmart,4.9,165,6.5,16,256,Dimensity 1080,64MP + 16MP + 8MP
+Google,Mate Pro 17,244.54,Reliance Digital,3.5,165,6.3,6,256,Tensor G2,64MP + 8MP + 8MP
+Apple,P Series Lite 18,901.42,Reliance Digital,4.4,144,6.6,16,1024,A15 Bionic,12MP + 12MP + 5MP
+Google,P Series Max 10,1236.64,Amazon,3.1,144,5.9,16,512,Tensor G2,48MP + 12MP + 8MP
+OnePlus,Pixel Max 18,1184.89,Walmart,4.6,144,6.1,4,128,Dimensity 9000,200MP + 8MP + 8MP
+Google,V Series Edge 16,388.91,Reliance Digital,4.1,90,6.2,8,128,Tensor G2,50MP + 12MP + 8MP
+Xiaomi,Mate Lite 12,402.46,eBay,3.3,144,6.1,16,128,Snapdragon 7 Gen 1,108MP + 50MP + 8MP
+Xiaomi,Reno 5G 12,730.72,Walmart,3.0,60,6.3,6,512,Snapdragon 7 Gen 1,64MP + 16MP + 2MP
+Samsung,Narzo 5G 24,1619.29,Reliance Digital,3.5,165,7.0,12,64,Exynos 2200,64MP + 50MP + 2MP
+Vivo,Xperia 5G 24,1833.07,eBay,3.4,90,7.4,6,1024,Dimensity 920,108MP + 16MP + 5MP
+Realme,Redmi Note Turbo 17,285.72,Amazon,3.4,120,5.8,8,64,Dimensity 920,108MP + 12MP + 2MP
+Sony,iPhone 5G 25,1323.57,eBay,4.1,60,6.0,8,64,Dimensity 920,50MP + 50MP + 5MP
+Nokia,Pixel Edge 17,819.39,Flipkart,5.0,144,5.2,4,64,Dimensity 920,108MP + 12MP + 2MP
+Motorola,Reno 5G 19,1173.94,Amazon,4.8,60,6.9,16,64,Helio G99,64MP + 16MP + 8MP
+Sony,Pixel Mini 11,1309.95,Official Store,3.3,144,7.1,16,64,Dimensity 920,50MP + 12MP + 2MP
+Samsung,P Series SE 21,953.18,Walmart,5.0,144,6.6,16,512,Exynos 2200,108MP + 50MP + 2MP
+Xiaomi,Narzo Max 22,440.11,Flipkart,3.8,90,7.2,12,64,Dimensity 1080,50MP + 8MP + 2MP
+Xiaomi,Moto G Turbo 25,1682.7,Walmart,5.0,165,6.3,6,512,Snapdragon 7 Gen 1,200MP + 50MP + 5MP
+Apple,Nord Ultra 24,1046.15,Walmart,4.5,60,7.1,4,512,A15 Bionic,12MP + 12MP + 8MP
+Google,Mate Edge 18,392.67,Walmart,4.3,120,5.8,4,64,Tensor G2,48MP + 12MP + 2MP
+Xiaomi,P Series 5G 12,664.9,Walmart,3.7,60,5.4,4,256,Snapdragon 7 Gen 1,50MP + 16MP + 2MP
+Apple,Narzo Max 19,1965.74,Walmart,4.4,60,6.8,8,128,A16 Bionic,108MP + 8MP + 5MP
+Samsung,Mate Edge 20,496.51,eBay,4.4,120,5.1,4,256,Exynos 2200,108MP + 8MP + 8MP
+Samsung,P Series 5G 12,1874.75,Walmart,4.5,144,5.4,6,512,Exynos 2200,64MP + 16MP + 8MP
+Samsung,Mate Edge 25,389.26,Official Store,3.2,60,5.4,12,128,Exynos 2200,48MP + 16MP + 8MP
+Sony,Galaxy S Plus 19,1961.13,Reliance Digital,3.5,120,6.7,6,256,Dimensity 920,12MP + 12MP + 2MP
+Motorola,Galaxy S Turbo 12,1721.88,eBay,4.3,144,5.1,8,256,Helio G99,200MP + 16MP + 2MP
+OnePlus,Moto G Pro 22,656.91,Amazon,3.2,60,7.2,6,512,Dimensity 9000,108MP + 16MP + 8MP
+Oppo,Mate Turbo 24,1513.9,Amazon,4.7,90,5.8,6,256,Helio G99,200MP + 12MP + 2MP
+Huawei,Redmi Note Lite 10,1127.82,Reliance Digital,4.8,60,6.9,16,512,Dimensity 920,50MP + 50MP + 2MP
+Google,Galaxy S Turbo 17,849.58,Official Store,4.8,165,5.3,12,512,Tensor G1,64MP + 8MP + 8MP
+Samsung,Narzo Ultra 24,900.68,Reliance Digital,5.0,60,6.6,6,128,Snapdragon 8 Gen 2,48MP + 50MP + 8MP
+Vivo,Reno SE 10,1072.0,Reliance Digital,5.0,165,7.5,8,256,Dimensity 920,108MP + 16MP + 8MP
+Vivo,P Series Turbo 23,1302.97,eBay,3.2,120,6.2,4,512,Dimensity 920,64MP + 8MP + 5MP
+Vivo,Nord Turbo 24,1064.33,AliExpress,3.6,165,5.4,8,1024,Dimensity 920,12MP + 8MP + 5MP
+Realme,Moto G Turbo 11,1034.38,Walmart,4.8,120,5.9,16,64,Dimensity 920,48MP + 12MP + 2MP
+Oppo,Moto G Edge 10,1018.64,AliExpress,3.2,144,5.3,6,512,Helio G99,50MP + 12MP + 5MP
+Motorola,iPhone Pro 16,1161.03,AliExpress,3.1,120,5.6,8,256,Dimensity 920,12MP + 12MP + 2MP
+Motorola,Xperia 5G 16,312.82,Official Store,4.9,144,5.4,16,64,Dimensity 920,108MP + 8MP + 5MP
+Vivo,iPhone Pro 25,1655.2,Best Buy,4.8,144,5.7,6,64,Helio G99,108MP + 8MP + 5MP
+Nokia,Reno Mini 24,1597.34,Official Store,3.9,90,6.7,8,256,Dimensity 920,12MP + 8MP + 8MP
+Huawei,Redmi Note Mini 19,265.64,Reliance Digital,3.5,144,7.3,16,1024,Helio G99,50MP + 8MP + 5MP
+Oppo,Reno Mini 20,841.27,Official Store,4.1,144,7.4,16,128,Helio G99,12MP + 50MP + 8MP
+OnePlus,Reno 5G 15,1912.58,Official Store,4.9,60,5.2,6,256,Dimensity 9000,50MP + 8MP + 2MP
+Vivo,Reno 5G 17,1731.46,Best Buy,4.5,120,6.0,8,256,Dimensity 920,50MP + 8MP + 8MP
+Sony,Nord 5G 21,1405.64,AliExpress,4.1,60,6.7,4,256,Helio G99,108MP + 8MP + 8MP
+Vivo,V Series Ultra 12,475.78,Walmart,3.8,90,6.9,6,128,Dimensity 920,200MP + 16MP + 8MP
+Apple,V Series Mini 14,1595.13,Flipkart,4.2,144,7.3,8,1024,A15 Bionic,108MP + 12MP + 8MP
+Google,Xperia Lite 12,1011.01,Official Store,3.6,144,5.2,8,64,Tensor G1,48MP + 8MP + 8MP
+Nokia,Moto G Plus 17,1674.24,eBay,3.4,165,7.3,12,128,Dimensity 920,108MP + 8MP + 2MP
+Vivo,Galaxy S Turbo 13,1048.72,Reliance Digital,4.4,144,7.3,16,64,Dimensity 920,50MP + 12MP + 5MP
+Apple,Pixel Pro 25,485.67,AliExpress,4.7,165,6.9,8,1024,A16 Bionic,12MP + 50MP + 8MP
+Apple,Nord Ultra 24,1400.23,eBay,3.7,120,6.2,12,1024,A15 Bionic,64MP + 50MP + 8MP
+Nokia,Nord Pro 19,1010.31,Amazon,3.5,60,5.3,16,128,Helio G99,200MP + 16MP + 8MP
+Vivo,V Series Mini 14,584.04,Best Buy,3.8,165,6.4,8,1024,Dimensity 920,48MP + 8MP + 5MP
+OnePlus,Reno Ultra 11,1364.71,AliExpress,4.1,120,7.3,12,128,Dimensity 9000,64MP + 12MP + 2MP
+Nokia,Galaxy S Plus 13,1325.69,Reliance Digital,4.5,120,7.2,8,1024,Helio G99,200MP + 50MP + 2MP
+Google,Reno Edge 14,1293.78,Official Store,4.0,90,6.0,8,64,Tensor G2,64MP + 12MP + 8MP
+Motorola,Redmi Note Ultra 24,1165.19,Official Store,3.3,60,5.5,16,64,Dimensity 920,12MP + 12MP + 8MP
+Google,Galaxy S Ultra 14,1968.58,Reliance Digital,4.9,120,6.9,4,512,Tensor G2,200MP + 8MP + 2MP
+Samsung,Narzo Plus 22,447.03,AliExpress,3.4,60,6.3,6,64,Exynos 2200,108MP + 50MP + 8MP
+OnePlus,Xperia Max 11,1601.43,Official Store,4.8,120,5.9,4,512,Dimensity 9000,108MP + 12MP + 8MP
+Nokia,Pixel Edge 16,815.38,AliExpress,4.0,165,6.8,6,64,Helio G99,50MP + 16MP + 5MP
+Realme,Mate Ultra 10,1603.62,Best Buy,5.0,60,5.3,6,256,Dimensity 920,50MP + 50MP + 8MP
+Vivo,Narzo Lite 21,388.3,eBay,4.1,120,6.5,8,64,Dimensity 920,64MP + 12MP + 5MP
+Oppo,Moto G Mini 11,1062.5,Amazon,3.0,60,5.9,4,256,Helio G99,48MP + 50MP + 2MP
+Apple,V Series Max 25,844.82,Amazon,3.2,90,6.6,12,128,A15 Bionic,48MP + 16MP + 5MP
+Huawei,Mate Edge 24,1779.05,Best Buy,4.7,90,6.0,6,256,Helio G99,50MP + 16MP + 2MP
+Motorola,Xperia SE 14,739.52,eBay,4.3,165,7.4,16,64,Dimensity 920,200MP + 12MP + 8MP
+Oppo,Mate Pro 25,1845.14,Amazon,3.3,90,5.1,6,1024,Helio G99,50MP + 50MP + 8MP
+Samsung,Nord Ultra 11,618.37,AliExpress,4.4,90,5.3,16,256,Exynos 2200,48MP + 16MP + 2MP
+Google,Pixel SE 16,1443.26,Flipkart,4.0,144,6.2,12,128,Tensor G1,108MP + 12MP + 5MP
+OnePlus,Pixel Max 13,1403.34,Reliance Digital,3.5,60,6.9,8,64,Dimensity 9000,50MP + 16MP + 5MP
+OnePlus,Reno Lite 12,1256.17,AliExpress,5.0,120,6.4,16,256,Dimensity 9000,108MP + 8MP + 5MP
+Xiaomi,Nord Edge 22,1866.75,Flipkart,4.5,90,5.5,12,128,Dimensity 1080,64MP + 50MP + 5MP
+Apple,Moto G Edge 10,875.75,Walmart,4.8,120,5.3,8,128,A16 Bionic,50MP + 8MP + 2MP
+Realme,Reno Pro 21,929.26,Walmart,4.4,60,6.6,16,1024,Dimensity 920,200MP + 16MP + 8MP
+Motorola,Mate Turbo 17,415.47,Amazon,3.0,120,5.6,6,256,Helio G99,108MP + 12MP + 5MP
+Vivo,Galaxy S Turbo 15,1496.29,AliExpress,4.8,165,5.6,4,1024,Dimensity 920,50MP + 50MP + 2MP
+Realme,Reno Lite 14,1933.26,AliExpress,3.8,144,5.3,6,128,Dimensity 920,64MP + 16MP + 8MP
+Realme,Pixel Max 12,1927.77,eBay,4.2,165,5.8,8,64,Dimensity 920,12MP + 12MP + 2MP
+Samsung,Reno Ultra 11,494.79,Walmart,4.9,90,7.4,4,1024,Exynos 2200,48MP + 16MP + 2MP
+Samsung,iPhone Mini 14,714.99,Amazon,4.3,144,6.3,12,1024,Snapdragon 8 Gen 2,48MP + 12MP + 8MP
+Motorola,Xperia Lite 13,424.18,Walmart,4.7,165,5.6,8,256,Dimensity 920,48MP + 16MP + 5MP
+OnePlus,Mate Edge 19,1867.75,eBay,4.5,144,5.4,12,64,Snapdragon 8+ Gen 1,12MP + 50MP + 2MP
+Samsung,V Series Max 21,914.78,Flipkart,4.2,120,7.3,8,512,Exynos 2200,50MP + 8MP + 5MP
+Oppo,Redmi Note Lite 22,877.32,Best Buy,3.6,120,6.1,4,1024,Helio G99,64MP + 8MP + 5MP
+Nokia,Mate Max 19,1323.01,eBay,4.3,144,6.1,16,256,Dimensity 920,50MP + 12MP + 2MP
+Xiaomi,Moto G Mini 11,1422.89,Walmart,4.8,90,5.3,12,64,Snapdragon 7 Gen 1,50MP + 16MP + 5MP
+Xiaomi,Moto G Turbo 23,995.04,Reliance Digital,4.7,165,5.6,8,64,Snapdragon 7 Gen 1,50MP + 12MP + 8MP
+OnePlus,Galaxy S Ultra 16,1785.28,eBay,4.4,60,7.1,6,512,Snapdragon 8+ Gen 1,200MP + 8MP + 8MP
+Huawei,Nord 5G 14,1913.92,Amazon,4.0,144,6.4,16,64,Helio G99,108MP + 16MP + 8MP
+Huawei,Narzo Lite 18,1526.54,Reliance Digital,3.2,90,6.9,4,512,Dimensity 920,108MP + 12MP + 2MP
+Samsung,Redmi Note 5G 10,459.1,Official Store,3.3,165,7.5,4,512,Exynos 2200,200MP + 50MP + 8MP
+Motorola,P Series Ultra 11,1110.61,Amazon,3.5,165,5.1,16,512,Dimensity 920,48MP + 50MP + 8MP
+Motorola,Moto G Turbo 22,1303.22,Official Store,4.0,60,6.5,6,1024,Dimensity 920,108MP + 50MP + 2MP
+Apple,Redmi Note Edge 18,1237.78,Walmart,4.2,165,5.7,16,64,A16 Bionic,64MP + 8MP + 8MP
+Samsung,V Series Max 10,1206.64,Flipkart,4.0,144,5.1,12,1024,Exynos 2200,108MP + 8MP + 5MP
+Sony,iPhone SE 10,1451.89,Reliance Digital,4.1,60,6.6,12,128,Dimensity 920,108MP + 50MP + 5MP
+Nokia,Nord Plus 19,578.41,Walmart,3.4,90,6.5,6,256,Dimensity 920,64MP + 8MP + 2MP
+Realme,Galaxy S Turbo 19,1297.1,Official Store,3.8,60,7.3,6,128,Helio G99,12MP + 8MP + 2MP
+Oppo,Redmi Note Turbo 13,1065.46,AliExpress,5.0,60,6.6,6,128,Helio G99,108MP + 50MP + 2MP
+Realme,Nord Turbo 23,1605.29,Official Store,4.5,90,6.7,8,128,Dimensity 920,64MP + 16MP + 5MP
+Apple,Moto G Plus 22,1350.41,Flipkart,4.3,60,5.6,6,64,A16 Bionic,64MP + 50MP + 8MP
+Motorola,Reno Mini 12,1277.26,Best Buy,4.6,90,6.9,12,256,Helio G99,12MP + 50MP + 5MP
+Apple,Reno Mini 22,1514.37,Flipkart,3.6,144,5.1,4,128,A16 Bionic,108MP + 16MP + 2MP
+Samsung,Narzo Max 24,402.77,eBay,4.0,90,6.8,6,128,Snapdragon 8 Gen 2,200MP + 50MP + 8MP
+OnePlus,Moto G Pro 12,1263.14,Walmart,3.3,144,5.9,4,128,Dimensity 9000,108MP + 12MP + 2MP
+Google,iPhone Plus 19,1774.12,eBay,4.9,90,5.9,6,128,Tensor G2,48MP + 50MP + 2MP
+Google,Reno Plus 11,1689.52,Amazon,4.2,90,7.5,12,64,Tensor G1,48MP + 16MP + 8MP
+OnePlus,Galaxy S Plus 25,325.96,Reliance Digital,4.5,90,5.8,4,1024,Snapdragon 8+ Gen 1,48MP + 16MP + 8MP
+OnePlus,Reno Turbo 21,433.4,Amazon,3.4,120,7.2,4,1024,Dimensity 9000,48MP + 50MP + 2MP
+OnePlus,V Series Turbo 16,1849.93,Reliance Digital,5.0,165,7.1,4,256,Dimensity 9000,50MP + 8MP + 8MP
+Apple,Reno Ultra 17,893.26,Official Store,3.7,144,5.3,6,64,A16 Bionic,108MP + 12MP + 5MP
+Apple,iPhone SE 23,1406.19,Best Buy,3.1,120,6.9,4,512,A15 Bionic,12MP + 8MP + 8MP
+Samsung,Mate Lite 15,953.49,Flipkart,4.8,60,7.2,4,512,Snapdragon 8 Gen 2,12MP + 50MP + 8MP
+Apple,Mate Pro 12,1770.39,eBay,4.2,120,5.5,4,256,A15 Bionic,64MP + 8MP + 5MP
+Nokia,Redmi Note 5G 10,174.57,Amazon,4.3,144,5.0,16,256,Dimensity 920,64MP + 12MP + 2MP
+Vivo,Xperia SE 16,1036.18,AliExpress,4.2,165,6.8,8,256,Helio G99,108MP + 50MP + 8MP
+Oppo,Xperia Turbo 13,1390.15,Reliance Digital,4.3,165,6.2,12,128,Dimensity 920,50MP + 12MP + 8MP
+Huawei,Xperia Ultra 21,1732.43,Reliance Digital,3.4,120,6.0,12,1024,Helio G99,50MP + 12MP + 5MP
+Oppo,P Series Plus 21,344.33,Best Buy,3.9,165,7.1,16,128,Dimensity 920,64MP + 12MP + 2MP
+Vivo,P Series Mini 14,1936.79,AliExpress,3.8,120,5.6,8,64,Dimensity 920,12MP + 12MP + 2MP
+Realme,P Series Pro 18,1060.91,Walmart,4.0,144,6.0,12,128,Helio G99,64MP + 8MP + 2MP
+Nokia,Nord Plus 25,953.06,Best Buy,4.4,60,6.3,8,64,Dimensity 920,200MP + 16MP + 5MP
+Apple,Reno Pro 15,545.11,AliExpress,4.2,165,7.4,6,64,A15 Bionic,12MP + 50MP + 8MP
+Apple,Galaxy S Plus 22,1039.9,AliExpress,4.8,120,5.0,4,512,A16 Bionic,12MP + 50MP + 2MP
+Samsung,Reno 5G 23,597.18,Reliance Digital,4.5,90,6.5,6,256,Snapdragon 8 Gen 2,50MP + 12MP + 8MP
+Realme,Narzo Lite 22,1190.16,Reliance Digital,3.7,90,6.9,8,512,Helio G99,12MP + 16MP + 5MP
+Motorola,Pixel Turbo 18,708.73,Flipkart,5.0,90,5.6,16,128,Dimensity 920,64MP + 16MP + 5MP
+Oppo,Moto G Ultra 17,1738.2,Amazon,4.4,60,6.6,6,512,Helio G99,50MP + 16MP + 8MP
+Google,P Series 5G 19,1622.98,Best Buy,4.3,144,6.2,4,128,Tensor G1,108MP + 16MP + 2MP
+Apple,Moto G 5G 20,829.54,Reliance Digital,3.7,144,5.7,16,64,A15 Bionic,12MP + 16MP + 5MP
+Realme,Nord SE 10,1436.38,Flipkart,3.0,90,6.0,16,256,Dimensity 920,108MP + 8MP + 5MP
+Sony,P Series Ultra 11,1763.02,Amazon,3.5,120,6.6,12,128,Helio G99,48MP + 50MP + 5MP
+Huawei,Mate 5G 20,1725.87,Flipkart,4.4,60,5.4,8,512,Dimensity 920,50MP + 50MP + 2MP
+Sony,Redmi Note Mini 12,589.62,Reliance Digital,3.9,90,6.3,12,512,Helio G99,12MP + 8MP + 2MP
+Motorola,V Series Edge 15,1901.51,eBay,3.6,144,6.8,8,128,Helio G99,200MP + 8MP + 5MP
+Sony,Mate SE 10,1316.52,Flipkart,3.1,60,6.3,16,256,Helio G99,200MP + 12MP + 8MP
+OnePlus,iPhone Turbo 25,504.23,Official Store,3.3,144,6.1,4,1024,Dimensity 9000,108MP + 12MP + 2MP
+Oppo,iPhone Max 12,1636.62,eBay,3.7,165,7.2,6,512,Helio G99,64MP + 8MP + 2MP
+Google,Narzo Turbo 17,1957.53,Amazon,4.7,90,5.9,6,256,Tensor G2,50MP + 16MP + 2MP
+Google,Redmi Note Ultra 12,952.37,eBay,3.3,60,6.7,4,512,Tensor G1,64MP + 12MP + 8MP
+Apple,Xperia 5G 18,1810.26,eBay,4.9,120,7.1,8,64,A16 Bionic,200MP + 12MP + 2MP
+Xiaomi,P Series SE 11,1872.41,Reliance Digital,3.5,144,6.9,12,64,Snapdragon 7 Gen 1,200MP + 12MP + 8MP
+Sony,Redmi Note Mini 16,734.27,AliExpress,4.2,60,6.1,4,64,Helio G99,48MP + 12MP + 8MP
+Apple,Mate 5G 10,188.03,Best Buy,4.1,165,7.4,12,1024,A15 Bionic,50MP + 12MP + 5MP
+Nokia,Narzo Lite 25,1982.39,Walmart,3.0,90,6.3,8,64,Helio G99,64MP + 50MP + 2MP
+Realme,V Series Pro 12,920.8,eBay,3.8,165,5.1,16,1024,Dimensity 920,50MP + 50MP + 2MP
+Nokia,P Series Mini 14,1503.66,Best Buy,3.8,90,5.4,6,1024,Helio G99,108MP + 50MP + 8MP
+Apple,iPhone Lite 22,762.57,Walmart,3.6,120,5.1,12,1024,A15 Bionic,200MP + 12MP + 8MP
+Realme,Galaxy S Lite 15,1732.97,AliExpress,4.4,165,6.7,4,64,Helio G99,64MP + 50MP + 2MP
+Samsung,Xperia Pro 22,336.37,Official Store,4.9,144,5.6,4,512,Exynos 2200,12MP + 12MP + 5MP
+Sony,P Series Mini 18,809.81,Walmart,3.1,165,7.0,4,1024,Dimensity 920,64MP + 50MP + 8MP
+Xiaomi,Xperia Turbo 16,926.6,eBay,3.5,120,6.4,8,64,Dimensity 1080,50MP + 12MP + 5MP
+Vivo,Redmi Note Edge 24,766.31,Reliance Digital,4.7,60,5.1,4,1024,Helio G99,48MP + 50MP + 2MP
+Google,P Series Turbo 20,1713.94,Flipkart,4.0,90,5.2,12,512,Tensor G2,200MP + 12MP + 8MP
+Xiaomi,iPhone Pro 10,1192.5,Flipkart,4.6,120,5.3,12,512,Snapdragon 7 Gen 1,12MP + 16MP + 2MP
+Samsung,P Series Mini 20,1534.03,Official Store,4.5,60,5.3,4,512,Snapdragon 8 Gen 2,12MP + 50MP + 2MP
+Xiaomi,V Series Pro 13,1939.85,Reliance Digital,4.5,165,5.2,16,512,Dimensity 1080,64MP + 8MP + 8MP
+Motorola,Narzo Pro 22,871.19,Best Buy,3.3,90,5.8,4,64,Helio G99,48MP + 12MP + 2MP
+Samsung,Reno Mini 24,1391.89,Reliance Digital,4.6,120,7.0,16,1024,Snapdragon 8 Gen 2,200MP + 12MP + 2MP
+Sony,Narzo Ultra 13,1258.39,Reliance Digital,4.7,90,6.0,8,512,Dimensity 920,12MP + 50MP + 8MP
+Huawei,Galaxy S SE 16,1695.56,Flipkart,3.4,144,7.3,12,512,Helio G99,12MP + 50MP + 8MP
+Apple,Mate Plus 19,1507.87,Official Store,4.0,120,5.2,12,128,A15 Bionic,64MP + 8MP + 2MP
+Oppo,Nord Lite 21,1103.67,Reliance Digital,4.1,165,5.5,6,64,Helio G99,50MP + 8MP + 2MP
+Realme,Mate Turbo 24,628.52,Official Store,3.8,120,7.4,16,128,Dimensity 920,64MP + 50MP + 2MP
+Apple,Pixel Lite 18,1165.97,Reliance Digital,3.4,144,6.0,4,512,A15 Bionic,50MP + 8MP + 8MP
+Oppo,V Series SE 21,1231.12,Walmart,3.3,60,7.1,4,128,Helio G99,64MP + 16MP + 5MP
+OnePlus,Narzo Lite 25,830.44,AliExpress,3.9,165,5.3,12,128,Snapdragon 8+ Gen 1,50MP + 16MP + 2MP
+Samsung,P Series Plus 16,1788.78,Amazon,4.6,120,7.3,4,512,Snapdragon 8 Gen 2,48MP + 16MP + 5MP
+OnePlus,Mate Lite 12,1577.18,eBay,4.7,90,5.3,12,512,Dimensity 9000,200MP + 16MP + 8MP
+Oppo,Redmi Note Pro 11,1621.09,Amazon,4.7,90,6.5,12,512,Helio G99,108MP + 8MP + 5MP
+Oppo,V Series Edge 16,1549.49,eBay,3.2,90,5.2,8,1024,Helio G99,200MP + 8MP + 2MP
+Sony,Galaxy S Plus 22,349.65,eBay,4.0,60,5.8,8,64,Dimensity 920,50MP + 8MP + 5MP
+Nokia,Nord 5G 24,495.36,Reliance Digital,4.2,120,6.2,16,128,Helio G99,64MP + 12MP + 5MP
+Huawei,Reno 5G 25,1439.93,eBay,4.0,60,6.4,16,128,Helio G99,48MP + 8MP + 2MP
+Apple,Xperia Max 10,241.14,Reliance Digital,3.5,90,7.1,4,64,A16 Bionic,50MP + 50MP + 8MP
+Apple,Xperia Max 13,584.32,Walmart,3.6,144,7.1,6,64,A16 Bionic,12MP + 12MP + 2MP
+Nokia,Nord Max 11,793.75,Amazon,4.3,90,5.8,8,1024,Helio G99,108MP + 50MP + 8MP
+Google,P Series 5G 17,772.97,Best Buy,3.8,90,6.9,16,128,Tensor G1,64MP + 8MP + 2MP
+Samsung,P Series Ultra 10,481.83,Amazon,4.3,165,6.1,12,512,Exynos 2200,48MP + 12MP + 2MP
+Vivo,Nord Ultra 25,1624.29,Walmart,4.1,120,5.0,6,1024,Helio G99,50MP + 16MP + 5MP
+Nokia,Xperia Edge 17,695.28,AliExpress,4.3,60,5.1,12,1024,Dimensity 920,108MP + 12MP + 2MP
+Google,Pixel 5G 12,688.55,Walmart,3.2,120,6.2,6,64,Tensor G2,64MP + 8MP + 8MP
+Samsung,Moto G Max 17,1373.73,Reliance Digital,4.2,120,6.0,16,512,Snapdragon 8 Gen 2,64MP + 16MP + 8MP
+OnePlus,Mate Ultra 10,1365.95,AliExpress,4.5,60,6.7,12,128,Snapdragon 8+ Gen 1,64MP + 16MP + 5MP
+Samsung,Galaxy S SE 24,419.55,Amazon,3.3,144,6.0,6,1024,Snapdragon 8 Gen 2,64MP + 16MP + 5MP
+Sony,Galaxy S SE 23,1971.9,AliExpress,3.7,120,5.6,12,256,Dimensity 920,200MP + 50MP + 2MP
+Sony,Redmi Note Pro 10,997.71,Reliance Digital,3.9,144,5.3,8,512,Helio G99,108MP + 12MP + 2MP
+Xiaomi,Mate Ultra 12,1880.83,eBay,4.4,144,7.5,12,64,Snapdragon 7 Gen 1,12MP + 50MP + 8MP
+Huawei,V Series Edge 12,802.71,Best Buy,4.4,165,5.2,16,256,Helio G99,48MP + 8MP + 2MP
+Oppo,P Series 5G 21,944.65,Walmart,4.3,120,5.6,6,128,Helio G99,64MP + 12MP + 8MP
+Oppo,Reno Lite 16,1946.69,Reliance Digital,4.1,165,6.1,4,128,Dimensity 920,48MP + 50MP + 8MP
+Huawei,Galaxy S Plus 15,349.86,Reliance Digital,4.7,60,7.3,4,128,Dimensity 920,108MP + 12MP + 8MP
+Vivo,Mate Turbo 20,1532.89,eBay,3.2,165,6.5,16,64,Dimensity 920,48MP + 12MP + 2MP
+Huawei,Mate Pro 12,1598.76,Flipkart,3.6,165,5.4,12,64,Dimensity 920,50MP + 16MP + 8MP
+Samsung,Redmi Note Edge 17,260.04,Official Store,4.1,165,6.4,16,256,Snapdragon 8 Gen 2,108MP + 12MP + 2MP
+Samsung,Galaxy S Turbo 13,1078.11,AliExpress,3.4,90,6.1,12,512,Exynos 2200,64MP + 50MP + 5MP
+Samsung,V Series 5G 24,1991.84,eBay,3.1,144,6.7,16,256,Snapdragon 8 Gen 2,108MP + 50MP + 5MP
+Vivo,Redmi Note 5G 12,846.0,Best Buy,3.4,165,5.4,8,1024,Dimensity 920,200MP + 50MP + 2MP
+Oppo,Mate Pro 18,187.48,Flipkart,3.9,60,6.3,6,64,Dimensity 920,50MP + 16MP + 2MP
+Oppo,iPhone Edge 12,1043.43,eBay,4.4,144,5.9,4,512,Dimensity 920,64MP + 16MP + 2MP
+Nokia,Moto G 5G 18,765.36,AliExpress,4.2,120,6.9,8,64,Dimensity 920,200MP + 50MP + 8MP
+Samsung,P Series 5G 25,1669.36,Official Store,3.3,165,6.3,8,64,Snapdragon 8 Gen 2,108MP + 50MP + 8MP
+Apple,Galaxy S Mini 16,1409.14,eBay,4.2,90,5.6,4,512,A16 Bionic,108MP + 16MP + 8MP
+Sony,P Series Edge 21,1641.19,Amazon,3.3,60,6.6,12,1024,Helio G99,12MP + 16MP + 5MP
+Xiaomi,Reno Ultra 23,1761.08,Best Buy,4.5,60,7.4,16,64,Dimensity 1080,200MP + 8MP + 2MP
+Oppo,Mate Lite 25,1324.09,Flipkart,4.5,144,6.1,8,512,Helio G99,12MP + 12MP + 5MP
+Sony,Moto G Max 10,200.39,eBay,4.5,144,6.2,4,1024,Helio G99,200MP + 12MP + 8MP
+Xiaomi,Moto G Plus 21,1289.31,Walmart,4.7,120,7.2,6,128,Snapdragon 7 Gen 1,108MP + 12MP + 2MP
+Motorola,Xperia Max 16,278.27,Amazon,3.0,144,7.0,4,512,Helio G99,108MP + 8MP + 2MP
+Google,Reno Plus 20,1001.59,Reliance Digital,3.5,90,5.2,6,256,Tensor G1,64MP + 50MP + 2MP
+Sony,Mate 5G 23,1558.52,Walmart,4.9,60,5.8,4,128,Helio G99,108MP + 12MP + 8MP
+Huawei,Redmi Note Lite 10,863.05,Reliance Digital,3.9,165,5.7,4,512,Dimensity 920,50MP + 12MP + 5MP
+Motorola,Mate SE 19,486.42,Flipkart,4.1,165,5.4,16,128,Dimensity 920,12MP + 50MP + 2MP
+Huawei,Galaxy S Max 10,591.59,Walmart,4.6,120,5.3,8,128,Helio G99,12MP + 16MP + 5MP
+OnePlus,P Series Turbo 15,1757.05,Flipkart,3.1,144,7.5,12,1024,Snapdragon 8+ Gen 1,12MP + 16MP + 8MP
+Realme,Narzo Mini 21,1341.66,AliExpress,3.5,165,5.0,4,256,Helio G99,48MP + 12MP + 5MP
+Google,Nord Plus 14,1610.01,Reliance Digital,3.3,90,5.6,4,128,Tensor G2,64MP + 16MP + 2MP
+Realme,Galaxy S SE 21,174.22,Amazon,3.5,60,7.1,12,512,Dimensity 920,50MP + 50MP + 8MP
+Sony,Moto G Max 25,1266.08,Flipkart,3.7,120,5.8,8,1024,Helio G99,108MP + 12MP + 2MP
+Sony,Xperia Edge 11,518.46,AliExpress,3.9,60,5.1,8,256,Dimensity 920,50MP + 8MP + 2MP
+Apple,Mate Turbo 13,544.23,Amazon,3.2,60,7.1,8,256,A16 Bionic,108MP + 12MP + 2MP
+Realme,Moto G Plus 24,1509.0,AliExpress,3.5,90,7.4,16,1024,Dimensity 920,108MP + 16MP + 2MP
+OnePlus,Redmi Note Turbo 11,580.26,AliExpress,3.4,165,7.3,12,256,Dimensity 9000,200MP + 50MP + 2MP
+Huawei,V Series Edge 22,415.81,AliExpress,3.7,90,6.8,16,256,Helio G99,200MP + 12MP + 5MP
+Sony,Moto G 5G 11,469.52,Official Store,3.0,60,7.2,8,128,Dimensity 920,50MP + 50MP + 8MP
+Xiaomi,V Series Plus 16,1901.12,eBay,4.2,60,7.1,16,1024,Snapdragon 7 Gen 1,50MP + 8MP + 8MP
+Apple,Narzo Edge 12,1814.6,Walmart,4.0,144,7.2,4,128,A15 Bionic,48MP + 12MP + 8MP
+Apple,V Series 5G 11,1153.02,Flipkart,4.8,60,5.7,4,128,A15 Bionic,64MP + 12MP + 2MP
+Nokia,Reno Pro 23,844.02,Amazon,3.9,90,7.3,8,512,Helio G99,108MP + 8MP + 8MP
+Nokia,Pixel Ultra 10,501.47,Official Store,3.5,120,6.6,16,512,Dimensity 920,200MP + 12MP + 8MP
+Apple,Moto G Ultra 21,854.79,Reliance Digital,3.5,90,5.5,6,512,A15 Bionic,12MP + 12MP + 5MP
+Samsung,Mate Edge 25,1908.87,AliExpress,4.6,144,6.8,6,512,Exynos 2200,12MP + 8MP + 2MP
+Vivo,Redmi Note Max 14,1561.51,Reliance Digital,3.7,144,6.3,6,512,Dimensity 920,50MP + 12MP + 8MP
+Realme,iPhone Edge 24,173.32,Walmart,4.1,90,7.1,6,128,Helio G99,50MP + 8MP + 2MP
+Apple,Galaxy S Ultra 22,960.75,Flipkart,3.6,144,5.4,12,64,A16 Bionic,50MP + 50MP + 5MP
+Realme,iPhone 5G 13,1719.42,AliExpress,3.5,90,7.0,12,512,Dimensity 920,64MP + 12MP + 8MP
+Huawei,Galaxy S Pro 24,1426.12,Best Buy,4.3,144,5.4,16,512,Dimensity 920,64MP + 12MP + 8MP
+Huawei,Pixel Plus 23,415.95,AliExpress,4.0,144,7.3,4,512,Dimensity 920,50MP + 8MP + 2MP
+Google,Nord Max 23,993.47,Best Buy,3.3,60,5.8,6,128,Tensor G2,108MP + 12MP + 5MP
+Oppo,Moto G Edge 17,374.92,Flipkart,3.7,60,6.9,6,64,Helio G99,48MP + 50MP + 5MP
+Huawei,Xperia Max 17,1301.75,Flipkart,3.3,120,6.7,6,128,Dimensity 920,108MP + 12MP + 5MP
+Motorola,Reno Max 14,1421.54,Official Store,3.5,144,5.9,6,64,Helio G99,108MP + 50MP + 8MP
+Xiaomi,Mate Edge 25,987.2,eBay,3.1,165,6.0,4,64,Snapdragon 7 Gen 1,200MP + 50MP + 2MP
+Oppo,Galaxy S Plus 13,834.11,Amazon,4.0,90,6.6,16,256,Helio G99,200MP + 16MP + 8MP
+Motorola,Pixel Pro 12,760.82,Best Buy,3.0,165,5.6,12,64,Helio G99,108MP + 8MP + 2MP
+Oppo,Nord Max 22,1450.92,Amazon,3.9,165,5.1,16,1024,Helio G99,12MP + 50MP + 2MP
+Oppo,Galaxy S Mini 13,1089.99,eBay,4.2,90,5.4,8,256,Helio G99,108MP + 12MP + 2MP
+Sony,Mate Mini 15,1975.73,eBay,4.8,165,5.0,12,256,Helio G99,12MP + 8MP + 5MP
+Motorola,P Series Max 14,1230.66,AliExpress,3.3,120,7.4,4,512,Dimensity 920,200MP + 8MP + 5MP
+Vivo,iPhone Mini 13,652.79,Best Buy,4.7,90,6.4,8,128,Dimensity 920,64MP + 8MP + 8MP
+Vivo,iPhone Lite 21,1915.29,Best Buy,4.7,165,6.9,12,512,Helio G99,64MP + 8MP + 5MP
+Vivo,P Series Pro 22,1643.09,eBay,4.4,90,5.1,12,128,Dimensity 920,50MP + 8MP + 5MP
+Xiaomi,Redmi Note Pro 17,1597.81,Amazon,3.6,60,6.9,8,512,Snapdragon 7 Gen 1,64MP + 12MP + 2MP
+Motorola,Galaxy S Mini 19,755.18,Amazon,3.3,165,7.2,4,256,Dimensity 920,108MP + 16MP + 8MP
+Realme,Redmi Note Max 14,959.4,Flipkart,3.6,90,6.1,16,64,Dimensity 920,48MP + 8MP + 5MP
+Realme,iPhone Ultra 16,837.37,Reliance Digital,4.1,90,7.1,6,128,Helio G99,12MP + 8MP + 5MP
+Apple,Nord 5G 23,671.04,Flipkart,4.1,120,6.9,16,64,A15 Bionic,108MP + 16MP + 5MP
+Motorola,P Series Plus 18,1438.46,eBay,3.2,90,5.3,8,256,Dimensity 920,50MP + 16MP + 5MP
+Realme,Mate Lite 10,178.2,Best Buy,4.9,90,6.3,4,64,Helio G99,50MP + 16MP + 2MP
+Huawei,Narzo Mini 11,1025.6,eBay,4.9,120,6.7,16,128,Helio G99,50MP + 12MP + 2MP
+Sony,Nord Pro 12,709.92,Amazon,4.6,165,6.9,6,512,Dimensity 920,50MP + 50MP + 5MP
+Oppo,iPhone Max 19,1743.45,Flipkart,4.1,120,7.1,16,256,Dimensity 920,48MP + 12MP + 8MP
+Google,Narzo Max 13,1767.76,Amazon,4.8,165,6.4,8,256,Tensor G2,200MP + 50MP + 5MP
+Motorola,Moto G Lite 25,985.32,AliExpress,4.5,90,5.5,8,64,Dimensity 920,48MP + 8MP + 2MP
+Huawei,Reno Plus 21,1225.83,Official Store,3.8,90,6.4,8,256,Helio G99,64MP + 12MP + 5MP
+Sony,V Series SE 10,468.21,Official Store,4.5,120,7.0,16,1024,Dimensity 920,200MP + 12MP + 5MP
+Xiaomi,V Series Mini 22,1043.86,Official Store,3.6,90,7.2,4,1024,Dimensity 1080,12MP + 50MP + 5MP
+Xiaomi,P Series Edge 25,1956.64,Best Buy,4.7,120,7.5,6,64,Snapdragon 7 Gen 1,48MP + 8MP + 2MP
+OnePlus,V Series SE 18,1321.01,Flipkart,4.9,90,7.5,8,1024,Dimensity 9000,50MP + 50MP + 2MP
+Huawei,Pixel Lite 19,459.06,Best Buy,3.4,144,6.3,6,64,Helio G99,64MP + 12MP + 5MP
+Apple,Galaxy S Pro 22,263.32,Walmart,4.6,165,7.0,4,256,A16 Bionic,108MP + 16MP + 5MP
+Sony,Moto G SE 10,1220.93,Walmart,4.8,144,6.5,16,512,Helio G99,48MP + 8MP + 2MP
+Motorola,Redmi Note Pro 10,1609.37,Flipkart,3.1,90,5.7,4,64,Dimensity 920,48MP + 16MP + 2MP
+Oppo,Mate Edge 21,239.08,Flipkart,3.8,90,6.0,12,256,Helio G99,64MP + 50MP + 2MP
+Samsung,Reno Pro 10,1318.04,Flipkart,4.2,60,6.1,4,512,Snapdragon 8 Gen 2,48MP + 16MP + 5MP
+OnePlus,V Series Pro 10,379.67,eBay,3.3,165,5.9,16,128,Dimensity 9000,48MP + 16MP + 8MP
+Samsung,Moto G Max 14,1235.93,AliExpress,4.6,90,5.5,16,1024,Snapdragon 8 Gen 2,50MP + 12MP + 2MP
+Sony,Pixel Lite 17,1614.47,Amazon,4.7,90,5.6,6,1024,Helio G99,64MP + 12MP + 5MP
+Motorola,Moto G Pro 15,773.87,eBay,5.0,60,7.5,4,256,Helio G99,108MP + 16MP + 5MP
+Vivo,Moto G Lite 24,814.75,Reliance Digital,4.0,144,7.4,16,128,Helio G99,108MP + 8MP + 2MP
+Realme,Moto G Mini 21,1869.14,Walmart,4.2,120,6.9,12,64,Dimensity 920,200MP + 16MP + 5MP
+Google,Narzo SE 14,1770.22,AliExpress,4.5,165,7.1,8,128,Tensor G1,64MP + 16MP + 2MP
+Google,Nord Ultra 20,1399.22,Walmart,3.3,144,6.8,6,256,Tensor G1,108MP + 16MP + 5MP
+Oppo,Mate SE 18,409.16,eBay,3.5,120,5.6,12,512,Dimensity 920,50MP + 50MP + 5MP
+Nokia,Mate SE 16,1833.93,Reliance Digital,4.6,120,7.2,4,64,Dimensity 920,200MP + 12MP + 8MP
+Apple,Reno SE 24,1297.14,Walmart,4.8,120,5.4,6,64,A15 Bionic,12MP + 12MP + 8MP
+Realme,Mate Mini 14,1493.66,Walmart,3.3,120,5.3,4,256,Dimensity 920,12MP + 12MP + 8MP
+Vivo,Mate SE 19,1051.84,Amazon,3.2,120,5.3,12,128,Helio G99,12MP + 50MP + 5MP
+Samsung,Nord Lite 18,283.74,Walmart,4.5,144,6.5,12,64,Exynos 2200,200MP + 50MP + 5MP
+Huawei,Galaxy S Ultra 21,1006.35,Amazon,4.8,60,6.6,16,64,Helio G99,48MP + 12MP + 5MP
+Realme,Pixel Edge 15,1347.92,Flipkart,3.6,120,5.8,6,256,Dimensity 920,50MP + 50MP + 8MP
+Google,Narzo Plus 11,877.56,Official Store,3.5,90,7.1,16,512,Tensor G2,108MP + 8MP + 8MP
+Huawei,Moto G Ultra 19,1659.54,eBay,4.8,60,5.9,16,64,Helio G99,50MP + 8MP + 8MP
+Oppo,Pixel Max 20,1845.81,Amazon,3.1,60,5.2,8,128,Dimensity 920,64MP + 50MP + 2MP
+Xiaomi,V Series Turbo 16,436.76,Amazon,4.9,60,5.4,12,256,Snapdragon 7 Gen 1,50MP + 8MP + 5MP
+Vivo,Moto G Plus 17,487.33,eBay,4.1,120,5.1,6,512,Helio G99,108MP + 16MP + 8MP
+Vivo,Mate Lite 16,485.93,Best Buy,4.4,120,7.2,16,128,Dimensity 920,12MP + 12MP + 5MP
+Realme,Narzo Plus 18,1805.65,Official Store,4.2,90,5.4,4,128,Helio G99,50MP + 8MP + 8MP
+Vivo,Reno Ultra 19,1414.82,Official Store,4.2,90,5.2,16,64,Helio G99,108MP + 8MP + 2MP
+OnePlus,Nord Edge 24,1740.97,Flipkart,3.2,144,5.2,6,1024,Snapdragon 8+ Gen 1,48MP + 12MP + 8MP
+Huawei,Narzo Max 23,1921.07,Walmart,4.7,90,6.4,4,256,Dimensity 920,48MP + 12MP + 2MP
+Huawei,Narzo Lite 11,503.31,AliExpress,3.4,144,6.8,12,1024,Helio G99,64MP + 16MP + 2MP
+Huawei,Mate Pro 12,523.97,Walmart,4.5,90,5.7,6,128,Dimensity 920,12MP + 16MP + 2MP
+Google,P Series Pro 16,965.53,Amazon,4.1,120,6.1,16,128,Tensor G1,64MP + 16MP + 5MP
+Realme,Nord Plus 12,908.73,AliExpress,4.4,60,6.5,4,64,Helio G99,64MP + 8MP + 8MP
+Apple,Redmi Note Max 19,1957.35,Best Buy,4.1,120,6.7,8,256,A16 Bionic,108MP + 12MP + 5MP
+Vivo,Mate Turbo 25,630.99,AliExpress,3.7,90,5.9,4,1024,Dimensity 920,64MP + 8MP + 5MP
+Oppo,Xperia Edge 20,1619.45,eBay,3.8,165,6.4,8,256,Helio G99,108MP + 50MP + 5MP
+Samsung,Galaxy S 5G 23,1029.63,Walmart,4.4,120,7.2,8,128,Exynos 2200,12MP + 8MP + 2MP
+Apple,Pixel Ultra 19,1404.49,Official Store,3.6,60,5.3,4,64,A16 Bionic,12MP + 16MP + 5MP
+Xiaomi,Galaxy S Pro 12,988.41,Best Buy,3.1,165,6.2,6,1024,Snapdragon 7 Gen 1,108MP + 16MP + 2MP
+Apple,Pixel Edge 19,1807.78,eBay,4.7,120,5.4,8,1024,A16 Bionic,200MP + 12MP + 5MP
+Oppo,Moto G Max 18,737.91,Reliance Digital,4.3,60,5.3,12,64,Helio G99,64MP + 50MP + 2MP
+Huawei,iPhone Turbo 13,1481.94,Walmart,3.7,60,6.8,12,64,Helio G99,108MP + 16MP + 5MP
+Huawei,Moto G Ultra 20,683.62,Reliance Digital,4.5,90,5.4,12,256,Helio G99,108MP + 12MP + 5MP
+Google,Xperia Pro 12,1238.16,Walmart,4.8,90,7.5,6,1024,Tensor G2,64MP + 16MP + 8MP
+Samsung,Narzo Edge 17,1912.89,Walmart,4.6,90,5.1,6,64,Exynos 2200,200MP + 16MP + 8MP
+Motorola,Reno SE 20,519.86,AliExpress,4.6,144,6.6,6,64,Dimensity 920,64MP + 12MP + 8MP
+Motorola,Moto G Pro 13,1115.84,Walmart,4.4,120,6.5,4,64,Dimensity 920,108MP + 16MP + 8MP
+Apple,Narzo Max 22,1715.36,eBay,4.2,60,6.3,6,512,A15 Bionic,12MP + 8MP + 2MP
+Sony,Narzo Plus 16,1875.09,Walmart,3.9,90,7.3,16,512,Dimensity 920,48MP + 50MP + 2MP
+Huawei,P Series SE 14,1991.27,Best Buy,3.1,120,5.2,16,1024,Dimensity 920,48MP + 12MP + 2MP
+Google,Moto G 5G 18,1608.35,Reliance Digital,3.3,165,5.6,16,64,Tensor G2,64MP + 8MP + 8MP
+Nokia,P Series SE 16,949.5,Walmart,3.6,90,5.1,4,64,Dimensity 920,108MP + 8MP + 8MP
+Oppo,Moto G Pro 19,1658.08,AliExpress,3.1,165,5.2,4,128,Helio G99,12MP + 12MP + 2MP
+Google,Moto G SE 18,1960.21,Reliance Digital,3.8,90,7.2,6,1024,Tensor G1,108MP + 12MP + 2MP
+Oppo,Pixel 5G 18,315.42,AliExpress,3.5,90,6.2,4,1024,Dimensity 920,64MP + 16MP + 8MP
+Nokia,Nord Edge 14,250.67,AliExpress,4.2,90,6.1,6,256,Dimensity 920,48MP + 50MP + 8MP
+Apple,V Series Mini 19,1521.12,eBay,4.9,90,6.5,8,1024,A16 Bionic,108MP + 50MP + 8MP
+Xiaomi,Reno 5G 17,1088.18,AliExpress,3.8,90,6.1,6,256,Snapdragon 7 Gen 1,48MP + 12MP + 5MP
+Xiaomi,Moto G Plus 24,576.43,Reliance Digital,4.0,90,6.4,16,256,Dimensity 1080,64MP + 8MP + 2MP
+Sony,Narzo Max 25,480.99,Reliance Digital,3.5,165,7.4,6,128,Dimensity 920,12MP + 12MP + 8MP
+Oppo,Redmi Note SE 25,890.94,Walmart,4.6,165,7.3,12,128,Helio G99,12MP + 16MP + 5MP
+Motorola,Galaxy S Plus 13,1113.25,Walmart,4.3,120,6.6,4,1024,Dimensity 920,12MP + 8MP + 2MP
+Oppo,iPhone Edge 14,1231.17,Walmart,4.8,144,7.3,8,1024,Helio G99,48MP + 16MP + 8MP
+Xiaomi,iPhone Ultra 12,1385.19,Reliance Digital,4.6,165,5.9,6,128,Dimensity 1080,64MP + 16MP + 8MP
+OnePlus,Mate Turbo 17,1998.26,AliExpress,4.4,60,6.4,8,128,Snapdragon 8+ Gen 1,12MP + 12MP + 8MP
+Motorola,P Series Mini 17,1546.35,Reliance Digital,3.4,165,6.4,16,1024,Dimensity 920,108MP + 12MP + 8MP
+OnePlus,Nord Turbo 22,1990.01,Amazon,3.2,120,7.2,4,512,Snapdragon 8+ Gen 1,108MP + 50MP + 2MP
+Google,Pixel 5G 23,1419.02,Amazon,4.4,144,6.8,4,128,Tensor G1,200MP + 50MP + 8MP
+Huawei,Pixel Mini 22,480.49,Walmart,3.9,90,7.4,8,128,Helio G99,108MP + 12MP + 5MP
+Realme,Nord Edge 24,259.29,Reliance Digital,5.0,144,6.2,4,512,Helio G99,48MP + 12MP + 8MP
+Motorola,Pixel Plus 25,1906.67,Amazon,4.0,144,6.1,12,64,Dimensity 920,50MP + 12MP + 5MP
+OnePlus,Redmi Note Plus 21,921.28,Official Store,3.2,120,7.2,16,64,Dimensity 9000,108MP + 8MP + 8MP
+Motorola,Galaxy S Max 17,815.94,Best Buy,3.9,144,5.1,6,1024,Helio G99,48MP + 12MP + 8MP
+Samsung,Moto G Turbo 16,732.92,AliExpress,4.6,120,7.0,16,512,Snapdragon 8 Gen 2,50MP + 8MP + 8MP
+OnePlus,P Series Pro 13,980.79,Amazon,3.5,90,5.7,12,1024,Snapdragon 8+ Gen 1,48MP + 12MP + 8MP
+OnePlus,Galaxy S 5G 24,350.04,Walmart,4.8,165,6.8,4,1024,Dimensity 9000,64MP + 12MP + 5MP
+Realme,Nord Lite 15,915.77,AliExpress,4.8,90,5.7,4,1024,Dimensity 920,200MP + 12MP + 8MP
+Nokia,Nord Pro 11,1234.19,AliExpress,3.1,144,6.4,16,1024,Dimensity 920,108MP + 8MP + 8MP
+Samsung,Pixel Edge 15,1788.33,Flipkart,3.9,120,5.6,12,64,Exynos 2200,50MP + 50MP + 2MP
+OnePlus,P Series Lite 19,1646.23,AliExpress,4.3,144,5.2,4,128,Dimensity 9000,200MP + 16MP + 5MP
+Realme,Galaxy S Turbo 20,1381.14,Reliance Digital,4.5,120,6.6,12,1024,Dimensity 920,12MP + 8MP + 2MP
+Vivo,P Series Max 23,521.69,eBay,5.0,165,6.5,12,512,Helio G99,64MP + 12MP + 5MP
+Oppo,Mate Lite 10,1001.55,eBay,3.7,165,7.3,16,256,Dimensity 920,64MP + 8MP + 5MP
+OnePlus,Nord Ultra 14,1940.83,Official Store,3.7,120,5.3,12,64,Snapdragon 8+ Gen 1,200MP + 12MP + 5MP
+Realme,Redmi Note Lite 16,686.23,Best Buy,4.4,165,6.4,16,256,Dimensity 920,48MP + 8MP + 2MP
+Motorola,Xperia Turbo 18,1937.18,Reliance Digital,4.3,60,5.1,4,512,Dimensity 920,48MP + 50MP + 5MP
+Xiaomi,V Series Lite 21,1603.44,Amazon,3.0,60,6.6,4,64,Snapdragon 7 Gen 1,108MP + 8MP + 8MP
+Samsung,P Series SE 24,921.99,Amazon,4.2,144,5.9,4,512,Snapdragon 8 Gen 2,108MP + 8MP + 2MP
+Sony,Galaxy S Lite 14,426.81,Official Store,4.3,60,5.4,4,512,Helio G99,50MP + 16MP + 8MP
+Samsung,Narzo Turbo 21,595.77,Official Store,4.8,60,7.1,16,1024,Exynos 2200,48MP + 50MP + 2MP
+Google,Redmi Note SE 17,426.96,eBay,4.8,90,7.3,4,128,Tensor G2,12MP + 50MP + 5MP
+Motorola,Mate 5G 15,1728.55,Amazon,4.1,60,7.5,16,1024,Helio G99,50MP + 8MP + 2MP
+Oppo,V Series Mini 22,1943.23,Flipkart,4.5,60,6.4,8,1024,Helio G99,64MP + 8MP + 2MP
+Nokia,Xperia Plus 18,1970.42,Reliance Digital,4.8,90,6.1,4,64,Helio G99,108MP + 16MP + 5MP
+Vivo,Narzo Plus 14,1277.78,Best Buy,4.4,165,5.8,12,256,Dimensity 920,12MP + 8MP + 2MP
+Samsung,Reno SE 18,1316.86,Amazon,4.7,90,6.0,6,128,Exynos 2200,48MP + 50MP + 8MP
+Nokia,P Series Pro 14,597.92,Flipkart,3.7,120,5.7,6,1024,Helio G99,64MP + 16MP + 2MP
+Oppo,Moto G Ultra 17,1721.92,eBay,4.2,144,6.6,4,64,Dimensity 920,50MP + 16MP + 8MP
+OnePlus,Xperia Mini 11,1969.24,Best Buy,4.5,165,5.9,6,64,Snapdragon 8+ Gen 1,50MP + 16MP + 5MP
+Oppo,Nord Edge 21,340.29,Amazon,3.1,144,6.6,6,128,Dimensity 920,12MP + 50MP + 8MP
+Xiaomi,P Series Lite 13,739.59,Reliance Digital,3.8,120,6.1,12,256,Snapdragon 7 Gen 1,64MP + 16MP + 5MP
+Google,Narzo Edge 14,442.15,Walmart,4.4,90,7.4,16,256,Tensor G1,50MP + 50MP + 2MP
+OnePlus,Narzo Ultra 22,420.0,Flipkart,4.3,144,5.2,6,512,Snapdragon 8+ Gen 1,50MP + 16MP + 8MP
+Samsung,Narzo Mini 17,1535.67,Walmart,3.8,90,5.4,6,512,Snapdragon 8 Gen 2,200MP + 16MP + 5MP
+Xiaomi,Mate Mini 15,776.96,Best Buy,4.5,90,6.0,8,64,Snapdragon 7 Gen 1,48MP + 16MP + 2MP
+OnePlus,Xperia Max 22,217.7,Best Buy,3.0,90,6.0,16,256,Snapdragon 8+ Gen 1,64MP + 8MP + 8MP
+OnePlus,Xperia Plus 12,1173.15,eBay,4.2,120,6.3,12,512,Snapdragon 8+ Gen 1,12MP + 8MP + 2MP
+Vivo,iPhone Pro 20,1093.89,Amazon,3.0,60,5.1,12,512,Helio G99,108MP + 12MP + 5MP
+OnePlus,Galaxy S Edge 23,1181.28,Flipkart,3.8,60,6.9,16,1024,Dimensity 9000,50MP + 50MP + 8MP
+Samsung,Nord Ultra 15,378.17,eBay,4.1,165,7.1,12,128,Snapdragon 8 Gen 2,64MP + 8MP + 5MP
+Apple,Nord Pro 16,561.23,eBay,4.0,90,5.1,8,512,A15 Bionic,64MP + 50MP + 8MP
+Vivo,V Series Edge 25,1239.98,eBay,3.5,90,7.1,16,64,Dimensity 920,50MP + 12MP + 8MP
+Samsung,Redmi Note 5G 23,1140.73,AliExpress,3.8,144,6.8,6,512,Exynos 2200,12MP + 12MP + 2MP
+Apple,Galaxy S SE 14,1218.1,AliExpress,3.2,90,6.5,4,512,A15 Bionic,200MP + 8MP + 8MP
+Nokia,Narzo Pro 12,1660.96,eBay,4.5,120,6.0,4,512,Helio G99,64MP + 50MP + 2MP
+Xiaomi,Pixel Plus 22,826.31,Walmart,4.0,90,6.2,16,64,Dimensity 1080,48MP + 16MP + 8MP
+Samsung,Galaxy S Turbo 23,997.41,Reliance Digital,3.2,60,5.0,6,1024,Snapdragon 8 Gen 2,12MP + 8MP + 5MP
+Apple,Narzo Plus 23,567.19,Flipkart,4.4,144,7.3,12,512,A15 Bionic,48MP + 16MP + 8MP
+Xiaomi,Galaxy S Edge 15,523.95,AliExpress,4.8,144,6.8,6,512,Dimensity 1080,200MP + 8MP + 8MP
+OnePlus,Moto G Plus 11,1480.96,Flipkart,4.1,120,7.2,4,128,Snapdragon 8+ Gen 1,200MP + 16MP + 8MP
+Realme,Mate Mini 20,1923.53,Amazon,3.9,144,6.5,4,512,Helio G99,48MP + 16MP + 2MP
+OnePlus,Nord Ultra 22,179.03,Walmart,3.1,165,7.2,8,64,Snapdragon 8+ Gen 1,64MP + 50MP + 8MP
+Xiaomi,Pixel Mini 20,1100.78,Walmart,3.7,120,5.2,12,512,Snapdragon 7 Gen 1,64MP + 50MP + 8MP
+Realme,Mate Mini 10,276.08,Flipkart,4.9,60,6.5,12,512,Dimensity 920,108MP + 8MP + 8MP
+Google,Galaxy S Lite 20,306.84,AliExpress,3.1,144,5.2,4,1024,Tensor G1,64MP + 50MP + 5MP
+Samsung,P Series Lite 10,1989.34,Official Store,4.7,144,7.0,6,64,Exynos 2200,50MP + 12MP + 2MP
+Sony,Xperia Mini 11,582.95,Best Buy,4.5,144,6.1,8,256,Dimensity 920,200MP + 16MP + 8MP
+Huawei,Xperia 5G 19,1360.36,Reliance Digital,3.2,120,5.0,16,128,Helio G99,200MP + 8MP + 8MP
+Vivo,Xperia Mini 10,1487.68,Walmart,3.4,165,6.4,4,64,Dimensity 920,50MP + 50MP + 2MP
+OnePlus,V Series Mini 25,694.52,eBay,3.8,165,6.7,16,256,Dimensity 9000,48MP + 16MP + 5MP
+Oppo,Nord SE 23,778.93,Flipkart,4.3,60,5.4,6,256,Helio G99,108MP + 12MP + 8MP
+Samsung,Reno Max 15,397.05,Best Buy,4.1,60,6.7,8,256,Exynos 2200,108MP + 8MP + 2MP
+Huawei,Nord Ultra 20,1796.38,Flipkart,4.8,165,6.0,8,512,Dimensity 920,48MP + 12MP + 8MP
+Sony,Nord Pro 17,1385.51,AliExpress,4.1,165,5.5,12,128,Helio G99,12MP + 50MP + 5MP
+Apple,Mate Pro 10,1882.34,eBay,3.6,144,6.7,6,512,A15 Bionic,50MP + 50MP + 2MP
+Xiaomi,Galaxy S Pro 24,807.89,Amazon,3.7,90,5.8,6,64,Snapdragon 7 Gen 1,50MP + 16MP + 8MP
+Realme,Reno Ultra 12,1951.15,AliExpress,3.3,144,6.6,6,1024,Helio G99,64MP + 16MP + 8MP
+Samsung,Xperia Mini 24,1428.59,Walmart,4.6,144,5.4,8,256,Snapdragon 8 Gen 2,48MP + 16MP + 8MP
+Samsung,Nord Edge 11,717.35,AliExpress,4.8,165,6.8,4,256,Snapdragon 8 Gen 2,64MP + 8MP + 5MP
+Xiaomi,iPhone Pro 22,697.18,Official Store,3.2,144,7.5,16,64,Dimensity 1080,64MP + 12MP + 5MP
+Google,Moto G Edge 19,1444.03,Walmart,3.4,120,7.2,6,256,Tensor G2,12MP + 8MP + 8MP
+Samsung,Pixel Plus 17,223.82,eBay,4.8,90,7.1,16,256,Snapdragon 8 Gen 2,64MP + 50MP + 2MP
+Sony,V Series Turbo 25,1507.51,Flipkart,3.4,144,7.5,16,1024,Dimensity 920,48MP + 12MP + 2MP
+Xiaomi,Xperia 5G 10,1940.02,Best Buy,3.7,144,6.9,8,512,Dimensity 1080,48MP + 16MP + 5MP
+Motorola,Moto G Ultra 16,892.08,Official Store,3.3,165,5.7,8,64,Helio G99,12MP + 12MP + 2MP
+OnePlus,P Series Ultra 11,702.91,AliExpress,4.4,144,6.0,4,512,Dimensity 9000,108MP + 12MP + 8MP
+Motorola,Redmi Note 5G 25,701.4,Amazon,4.8,60,5.4,12,256,Helio G99,12MP + 8MP + 5MP
+Apple,Pixel Lite 11,1863.14,AliExpress,4.7,120,5.2,4,1024,A15 Bionic,200MP + 12MP + 2MP
+Apple,Nord 5G 22,1840.59,Amazon,4.5,165,7.5,12,256,A15 Bionic,64MP + 16MP + 8MP
+Apple,Moto G 5G 16,379.51,Amazon,4.6,165,6.9,12,1024,A16 Bionic,48MP + 8MP + 2MP
+Huawei,Reno Mini 10,189.34,AliExpress,4.2,90,5.3,6,64,Dimensity 920,48MP + 12MP + 8MP
+Samsung,Xperia 5G 12,1744.98,eBay,5.0,60,5.1,4,64,Exynos 2200,48MP + 12MP + 2MP
+Huawei,Mate Mini 16,614.02,AliExpress,3.2,90,7.1,4,256,Dimensity 920,48MP + 12MP + 8MP
+Realme,P Series SE 16,1263.39,Reliance Digital,4.5,60,6.1,12,64,Helio G99,108MP + 16MP + 8MP
+Google,Nord Max 13,785.08,Flipkart,3.9,90,6.4,16,512,Tensor G2,200MP + 16MP + 8MP
+Oppo,Galaxy S Turbo 13,1303.5,Reliance Digital,3.3,165,6.6,8,64,Dimensity 920,48MP + 12MP + 5MP
+Realme,Mate SE 17,1539.96,Official Store,4.0,90,6.6,12,64,Dimensity 920,200MP + 16MP + 2MP
+Samsung,Nord Plus 14,1961.56,Walmart,3.9,60,6.9,4,512,Snapdragon 8 Gen 2,12MP + 8MP + 5MP
+OnePlus,V Series SE 25,614.62,Amazon,3.0,90,6.8,16,128,Snapdragon 8+ Gen 1,50MP + 12MP + 5MP
+Huawei,Xperia Plus 11,1196.09,eBay,3.7,60,6.5,6,256,Dimensity 920,12MP + 50MP + 5MP
+Samsung,Reno Pro 12,493.98,Official Store,4.0,144,5.2,16,256,Snapdragon 8 Gen 2,64MP + 8MP + 2MP
+Oppo,Galaxy S 5G 13,1059.04,eBay,3.8,120,5.5,12,256,Dimensity 920,48MP + 8MP + 2MP
+Vivo,Galaxy S Edge 10,601.6,Walmart,4.7,165,6.4,16,64,Helio G99,12MP + 12MP + 8MP
+Nokia,Galaxy S SE 11,1724.35,Flipkart,4.8,144,7.2,12,512,Dimensity 920,50MP + 12MP + 5MP
+Samsung,Galaxy S Edge 22,1567.4,Official Store,3.3,144,6.1,8,256,Exynos 2200,48MP + 8MP + 2MP
+Xiaomi,Pixel Turbo 15,1286.93,AliExpress,3.7,60,6.7,12,1024,Snapdragon 7 Gen 1,108MP + 50MP + 8MP
+Motorola,Narzo Pro 16,1148.53,Official Store,3.6,165,6.9,4,512,Helio G99,48MP + 8MP + 5MP
+Samsung,Reno Pro 25,1304.02,Official Store,4.1,165,5.5,6,256,Exynos 2200,64MP + 8MP + 8MP
+Apple,Nord Turbo 21,1407.87,Official Store,5.0,120,6.2,12,256,A15 Bionic,108MP + 12MP + 5MP
+Motorola,Redmi Note Mini 12,1705.27,Official Store,4.3,60,6.8,6,1024,Helio G99,12MP + 16MP + 5MP
+Nokia,Galaxy S SE 13,1397.31,Official Store,4.9,90,5.4,8,64,Dimensity 920,12MP + 16MP + 8MP
+Vivo,iPhone Ultra 11,988.86,Amazon,3.7,60,6.8,6,512,Helio G99,200MP + 50MP + 2MP
+Vivo,Mate Mini 19,190.14,Best Buy,3.6,60,5.6,12,1024,Helio G99,50MP + 50MP + 5MP
+Sony,Xperia Mini 23,570.6,Official Store,4.2,90,6.4,16,1024,Helio G99,12MP + 16MP + 2MP
+Huawei,Mate Mini 22,1762.18,Official Store,3.3,165,6.6,8,1024,Helio G99,64MP + 12MP + 8MP
+Sony,Xperia Plus 23,511.09,AliExpress,4.4,60,7.3,8,256,Dimensity 920,108MP + 12MP + 8MP
+Nokia,Nord Plus 10,215.92,Best Buy,4.5,90,7.5,12,256,Dimensity 920,64MP + 16MP + 5MP
+Vivo,Reno SE 25,1162.71,Reliance Digital,3.2,90,6.1,16,64,Helio G99,12MP + 16MP + 5MP
+Xiaomi,P Series Mini 18,1617.21,Reliance Digital,3.0,144,7.3,4,128,Snapdragon 7 Gen 1,64MP + 16MP + 5MP
+Xiaomi,Xperia Ultra 24,1099.22,Reliance Digital,4.0,144,5.1,4,512,Snapdragon 7 Gen 1,50MP + 16MP + 2MP
+Oppo,Moto G Max 15,1121.88,Reliance Digital,4.6,165,5.2,4,1024,Dimensity 920,64MP + 12MP + 8MP
+Nokia,Xperia Plus 15,1076.4,Flipkart,3.9,144,6.6,16,1024,Helio G99,108MP + 16MP + 2MP
+Samsung,Xperia Turbo 18,489.83,eBay,3.4,165,5.2,8,64,Exynos 2200,12MP + 50MP + 2MP
+Sony,Moto G SE 23,819.65,Reliance Digital,3.4,60,6.6,16,64,Dimensity 920,108MP + 8MP + 8MP
+Nokia,Redmi Note Pro 19,789.58,Reliance Digital,4.8,120,6.1,16,1024,Dimensity 920,64MP + 16MP + 8MP
+Apple,iPhone Pro 25,914.91,Official Store,4.3,144,5.2,8,64,A16 Bionic,12MP + 16MP + 2MP
+Xiaomi,Xperia 5G 22,965.39,Flipkart,4.0,120,5.1,6,512,Snapdragon 7 Gen 1,12MP + 12MP + 5MP
+Realme,P Series Mini 22,1997.73,eBay,3.8,144,6.4,6,128,Helio G99,12MP + 16MP + 2MP
+Nokia,Nord Lite 11,1628.2,Reliance Digital,4.2,120,6.8,4,128,Helio G99,48MP + 8MP + 8MP
+Realme,Reno SE 24,724.88,Walmart,4.6,144,5.9,4,512,Helio G99,200MP + 16MP + 2MP
+Samsung,Galaxy S Lite 23,1096.54,Official Store,3.0,60,7.4,12,512,Exynos 2200,12MP + 12MP + 5MP
+Samsung,Reno Ultra 16,334.21,Official Store,3.1,165,5.9,8,256,Snapdragon 8 Gen 2,108MP + 8MP + 2MP
+Realme,Nord Turbo 20,1583.22,Reliance Digital,4.3,90,7.3,8,256,Helio G99,200MP + 50MP + 2MP
+Oppo,Redmi Note SE 13,1058.56,Flipkart,4.8,60,6.9,4,64,Dimensity 920,64MP + 12MP + 5MP
+Motorola,Nord Max 22,1541.05,Best Buy,3.3,120,6.1,6,512,Helio G99,108MP + 16MP + 5MP
+Samsung,Xperia 5G 22,1890.92,Walmart,4.2,144,6.6,6,1024,Snapdragon 8 Gen 2,50MP + 8MP + 2MP
+Google,Moto G Plus 12,1983.49,eBay,4.6,120,5.3,16,512,Tensor G1,12MP + 8MP + 2MP
+Apple,Pixel Mini 11,1744.94,Walmart,4.7,165,5.6,6,64,A16 Bionic,200MP + 8MP + 2MP
+Google,P Series SE 12,1494.31,Official Store,4.0,120,6.6,6,512,Tensor G1,200MP + 12MP + 5MP
+Huawei,Galaxy S Edge 23,384.77,eBay,3.6,165,6.1,16,128,Dimensity 920,108MP + 16MP + 8MP
+Oppo,V Series Max 16,1555.63,Official Store,3.5,120,6.0,6,128,Dimensity 920,50MP + 16MP + 5MP
+Motorola,Xperia SE 21,511.17,Best Buy,3.7,90,5.3,4,1024,Dimensity 920,50MP + 12MP + 8MP
+OnePlus,Nord Max 19,1980.56,eBay,3.4,165,5.6,4,64,Snapdragon 8+ Gen 1,48MP + 12MP + 8MP
+Motorola,Nord 5G 12,1399.23,Flipkart,4.7,144,7.0,6,64,Helio G99,64MP + 16MP + 8MP
+Nokia,iPhone Turbo 13,722.84,Amazon,4.8,60,6.4,6,256,Dimensity 920,12MP + 16MP + 8MP
+Google,Redmi Note Plus 13,1670.83,Flipkart,3.7,144,6.2,8,64,Tensor G2,108MP + 50MP + 2MP
+Sony,Nord SE 20,1082.56,Best Buy,4.8,60,6.1,6,1024,Helio G99,12MP + 12MP + 5MP
+Sony,iPhone Lite 12,790.44,AliExpress,3.3,165,6.4,8,256,Helio G99,108MP + 50MP + 8MP
+Huawei,Galaxy S Turbo 23,1979.61,Reliance Digital,4.7,60,5.4,16,256,Helio G99,12MP + 50MP + 2MP
+Xiaomi,Reno Lite 16,910.46,Official Store,3.0,90,7.0,6,128,Snapdragon 7 Gen 1,50MP + 16MP + 5MP
+OnePlus,iPhone Max 13,1795.92,Flipkart,4.5,165,6.1,4,1024,Dimensity 9000,50MP + 8MP + 5MP
+Samsung,Narzo Plus 24,1885.96,Official Store,3.6,120,6.8,6,1024,Snapdragon 8 Gen 2,200MP + 8MP + 2MP
+Apple,Galaxy S Mini 16,712.4,Flipkart,4.0,144,5.5,4,64,A16 Bionic,200MP + 12MP + 5MP
+Xiaomi,iPhone Max 22,882.98,Best Buy,3.6,90,7.5,12,512,Snapdragon 7 Gen 1,108MP + 16MP + 2MP
+Xiaomi,Narzo Turbo 24,1788.03,Reliance Digital,4.7,165,6.6,4,1024,Dimensity 1080,12MP + 12MP + 5MP
+Oppo,P Series Lite 22,1237.03,Best Buy,3.8,165,5.3,6,64,Dimensity 920,108MP + 16MP + 2MP
+OnePlus,Moto G Turbo 22,1908.06,Official Store,3.3,120,6.8,16,512,Snapdragon 8+ Gen 1,200MP + 8MP + 8MP
+Google,iPhone Max 20,721.48,Flipkart,4.6,90,5.6,4,512,Tensor G1,64MP + 16MP + 2MP
+Google,iPhone Plus 12,1662.68,Best Buy,3.5,165,6.3,4,64,Tensor G1,64MP + 50MP + 8MP
+Xiaomi,Redmi Note Plus 11,1299.05,AliExpress,4.0,144,7.2,12,256,Snapdragon 7 Gen 1,108MP + 16MP + 2MP
+Sony,Reno Max 19,864.46,Walmart,3.3,120,7.0,8,64,Dimensity 920,48MP + 12MP + 8MP
+Nokia,V Series Max 21,1782.31,Flipkart,3.8,90,5.5,16,512,Helio G99,64MP + 12MP + 8MP
+Apple,Xperia SE 22,390.35,eBay,3.7,165,7.2,8,64,A15 Bionic,64MP + 50MP + 2MP
+OnePlus,Galaxy S 5G 16,1028.33,Walmart,3.7,120,5.3,4,128,Snapdragon 8+ Gen 1,108MP + 12MP + 8MP
+Motorola,Xperia Edge 22,174.49,AliExpress,4.5,120,5.3,16,512,Helio G99,50MP + 12MP + 5MP
+Realme,Xperia SE 18,945.7,Official Store,3.8,90,5.5,4,256,Helio G99,108MP + 12MP + 2MP
+Oppo,Nord Lite 12,819.45,AliExpress,3.9,144,6.5,16,128,Dimensity 920,12MP + 16MP + 2MP
+Realme,Reno SE 14,1773.92,AliExpress,4.6,120,6.5,12,256,Dimensity 920,12MP + 50MP + 5MP
+Apple,V Series SE 12,1844.84,Reliance Digital,4.4,90,6.5,6,256,A15 Bionic,48MP + 12MP + 5MP
+Sony,Moto G SE 16,285.92,Reliance Digital,3.3,165,5.6,12,64,Helio G99,48MP + 8MP + 8MP
+Nokia,Xperia Pro 22,1309.93,Reliance Digital,4.7,60,6.1,16,512,Dimensity 920,48MP + 12MP + 5MP
+Xiaomi,Galaxy S Pro 10,1455.29,Official Store,4.9,165,6.2,12,128,Dimensity 1080,50MP + 8MP + 8MP
+Sony,V Series Mini 11,1972.35,Reliance Digital,4.3,60,7.0,16,64,Helio G99,50MP + 12MP + 2MP
+Google,Narzo Max 11,490.97,Amazon,3.8,90,6.6,4,256,Tensor G2,200MP + 50MP + 2MP
+Motorola,Reno Edge 20,1923.19,eBay,4.1,144,6.6,12,512,Helio G99,48MP + 8MP + 2MP
+Vivo,P Series Ultra 15,1691.26,eBay,3.2,60,7.1,16,128,Dimensity 920,48MP + 8MP + 2MP
+Huawei,Nord Max 10,537.89,Best Buy,3.3,120,6.1,16,256,Helio G99,12MP + 50MP + 8MP
+Apple,Narzo Lite 19,1638.65,Walmart,5.0,165,7.4,8,128,A16 Bionic,12MP + 16MP + 2MP
+Sony,P Series Pro 22,1782.63,Amazon,3.2,120,6.7,12,128,Helio G99,12MP + 16MP + 2MP
+Samsung,V Series Edge 18,1790.27,Amazon,3.2,90,7.2,12,512,Snapdragon 8 Gen 2,48MP + 16MP + 5MP
+Apple,Moto G SE 24,680.36,Best Buy,3.7,120,5.6,8,128,A15 Bionic,48MP + 50MP + 8MP
+Oppo,Moto G Ultra 10,769.91,AliExpress,4.8,120,6.4,4,128,Dimensity 920,108MP + 16MP + 8MP
+Huawei,Moto G Pro 13,1058.21,Official Store,4.5,120,5.4,12,128,Dimensity 920,200MP + 12MP + 8MP
+OnePlus,Pixel SE 10,1478.03,Official Store,3.5,60,7.0,8,512,Snapdragon 8+ Gen 1,108MP + 16MP + 8MP
+Realme,Narzo SE 19,488.35,Reliance Digital,3.5,144,7.0,6,512,Dimensity 920,64MP + 16MP + 2MP
+Sony,Moto G Lite 18,469.31,Walmart,4.2,144,6.4,6,1024,Dimensity 920,50MP + 12MP + 5MP
+Samsung,Xperia Edge 20,155.62,eBay,3.2,165,7.3,4,128,Snapdragon 8 Gen 2,50MP + 50MP + 5MP
+Sony,Moto G SE 21,1200.56,Flipkart,4.5,120,5.7,4,512,Dimensity 920,12MP + 12MP + 5MP
+Realme,Mate Lite 20,976.66,Flipkart,4.5,165,5.6,4,512,Dimensity 920,64MP + 8MP + 5MP
+Apple,Nord 5G 10,922.35,Reliance Digital,4.3,90,6.9,12,64,A15 Bionic,50MP + 50MP + 5MP
+Sony,Galaxy S SE 11,479.75,Official Store,3.4,120,7.2,12,512,Dimensity 920,200MP + 50MP + 2MP
+Sony,Pixel Mini 13,1282.77,Walmart,3.3,165,5.4,4,1024,Dimensity 920,12MP + 16MP + 8MP
+Sony,Galaxy S Plus 16,694.68,Best Buy,3.5,60,5.4,4,64,Dimensity 920,48MP + 16MP + 5MP
+Vivo,Reno Turbo 15,1308.64,Walmart,4.9,90,6.5,4,128,Helio G99,50MP + 16MP + 2MP
+Oppo,Reno Lite 14,529.25,eBay,4.6,120,6.9,6,1024,Dimensity 920,12MP + 50MP + 2MP
+Motorola,Redmi Note Plus 24,1552.02,Best Buy,4.4,120,6.1,8,128,Helio G99,64MP + 12MP + 2MP
+Google,Narzo SE 18,1132.6,Walmart,3.1,60,6.1,12,256,Tensor G2,108MP + 16MP + 2MP
+Huawei,P Series Plus 23,1287.12,Walmart,4.2,144,7.0,12,64,Dimensity 920,200MP + 8MP + 8MP
+Samsung,Reno Ultra 10,1205.12,eBay,3.5,120,5.7,6,256,Exynos 2200,50MP + 16MP + 2MP
+Nokia,Reno SE 18,310.37,Walmart,4.1,120,5.3,6,512,Dimensity 920,64MP + 50MP + 8MP
+Samsung,Narzo Edge 23,1905.87,AliExpress,4.5,90,6.9,12,64,Snapdragon 8 Gen 2,200MP + 16MP + 2MP
+Nokia,Galaxy S Lite 20,1858.46,Reliance Digital,3.3,90,5.8,16,1024,Helio G99,108MP + 12MP + 2MP
+Google,P Series Mini 14,1265.25,Flipkart,5.0,90,6.1,6,64,Tensor G1,48MP + 12MP + 8MP
+Apple,Xperia SE 18,1252.75,Amazon,4.3,144,7.4,8,128,A15 Bionic,48MP + 8MP + 8MP
+Google,Mate 5G 25,759.01,Walmart,3.9,120,5.5,8,512,Tensor G1,64MP + 12MP + 8MP
+Nokia,Pixel Turbo 25,1306.62,Flipkart,3.2,90,5.1,6,64,Helio G99,108MP + 8MP + 2MP
+Apple,Nord Max 20,1933.68,Reliance Digital,4.2,60,6.9,8,256,A15 Bionic,108MP + 16MP + 8MP
+OnePlus,Mate Lite 14,1547.88,Reliance Digital,3.9,144,5.5,8,1024,Snapdragon 8+ Gen 1,12MP + 8MP + 5MP
+Oppo,Nord SE 22,1705.07,AliExpress,3.9,120,5.2,12,256,Helio G99,200MP + 50MP + 2MP
+Google,P Series Turbo 22,1836.7,Reliance Digital,4.9,120,5.1,4,1024,Tensor G1,200MP + 50MP + 2MP
+Motorola,Mate SE 14,720.35,AliExpress,5.0,90,6.4,8,1024,Dimensity 920,200MP + 8MP + 8MP
+Nokia,Redmi Note Pro 16,279.38,Reliance Digital,3.8,90,6.2,6,64,Dimensity 920,200MP + 50MP + 5MP
+Xiaomi,Xperia Lite 21,818.55,AliExpress,4.8,165,6.3,4,512,Snapdragon 7 Gen 1,12MP + 50MP + 8MP
+Sony,P Series Mini 15,707.32,Reliance Digital,4.7,144,6.1,12,64,Helio G99,200MP + 50MP + 2MP
+Google,Mate Max 12,746.45,Amazon,4.0,90,7.4,6,64,Tensor G2,64MP + 16MP + 5MP
+Samsung,Xperia SE 23,1811.51,eBay,3.8,144,6.7,16,1024,Exynos 2200,200MP + 50MP + 2MP
+Google,V Series Ultra 19,1328.37,eBay,3.5,165,7.1,12,128,Tensor G1,64MP + 16MP + 8MP
+Nokia,iPhone Lite 21,874.9,eBay,3.9,90,6.8,6,64,Dimensity 920,64MP + 12MP + 2MP
+Nokia,Redmi Note 5G 23,987.59,Amazon,3.0,60,7.1,6,64,Helio G99,48MP + 50MP + 5MP
+Sony,Redmi Note Edge 19,773.33,Flipkart,4.7,60,5.4,8,256,Helio G99,200MP + 50MP + 2MP
+Realme,P Series Max 13,682.51,Flipkart,3.9,165,5.1,16,256,Dimensity 920,48MP + 50MP + 5MP
+Sony,Galaxy S Lite 17,188.01,Flipkart,4.1,144,5.4,8,512,Dimensity 920,200MP + 50MP + 8MP
+Google,Narzo 5G 16,1824.62,Reliance Digital,3.2,60,5.3,8,64,Tensor G1,200MP + 50MP + 5MP
+Samsung,Mate Lite 21,1016.36,Reliance Digital,4.4,120,5.1,6,128,Exynos 2200,12MP + 16MP + 8MP
+Sony,Xperia Plus 20,1982.27,Flipkart,3.7,90,5.3,12,512,Helio G99,64MP + 16MP + 5MP
+Oppo,P Series Mini 19,484.1,Best Buy,3.9,144,7.3,6,1024,Helio G99,50MP + 16MP + 5MP
+Motorola,Narzo Turbo 12,880.73,eBay,3.9,144,5.5,6,512,Helio G99,48MP + 12MP + 2MP
+Xiaomi,Mate 5G 24,539.91,Flipkart,4.2,144,7.0,12,256,Dimensity 1080,200MP + 16MP + 2MP
+Huawei,Moto G Plus 14,453.46,Flipkart,4.5,120,7.2,4,256,Helio G99,200MP + 8MP + 8MP
+Sony,Redmi Note Ultra 13,1213.06,Official Store,3.9,90,6.9,16,128,Helio G99,50MP + 50MP + 5MP
+Sony,V Series Turbo 11,926.79,Official Store,3.5,144,5.5,4,64,Helio G99,50MP + 8MP + 5MP
+Apple,Mate Turbo 17,1433.24,Best Buy,4.2,90,6.7,6,1024,A16 Bionic,48MP + 16MP + 5MP
+Vivo,Mate 5G 11,323.43,AliExpress,3.7,165,7.0,12,128,Helio G99,50MP + 16MP + 2MP
+Xiaomi,Redmi Note Plus 11,159.24,Walmart,3.3,165,6.8,4,512,Snapdragon 7 Gen 1,108MP + 50MP + 2MP
+Motorola,Xperia Max 25,1521.31,Amazon,4.9,90,5.7,6,1024,Dimensity 920,200MP + 16MP + 8MP
+Motorola,Galaxy S Lite 18,744.59,Official Store,3.7,144,5.7,8,512,Helio G99,12MP + 50MP + 5MP
+OnePlus,Xperia 5G 18,284.64,AliExpress,3.8,120,5.4,4,512,Snapdragon 8+ Gen 1,50MP + 50MP + 8MP
+Samsung,Redmi Note Ultra 24,172.14,Flipkart,3.1,120,5.8,8,128,Exynos 2200,50MP + 50MP + 5MP
+Apple,iPhone 5G 22,1070.86,Best Buy,3.2,60,5.8,16,64,A15 Bionic,200MP + 12MP + 8MP
+Oppo,Xperia Pro 21,1825.18,AliExpress,3.7,120,7.3,6,1024,Helio G99,48MP + 8MP + 8MP
+Vivo,Galaxy S Max 12,1658.2,Official Store,3.2,144,6.2,8,128,Dimensity 920,12MP + 8MP + 2MP
+Nokia,Galaxy S Edge 23,693.01,Flipkart,3.6,144,5.8,6,1024,Dimensity 920,64MP + 16MP + 8MP
+Nokia,Narzo Turbo 17,1417.82,eBay,3.4,60,5.1,4,256,Helio G99,12MP + 8MP + 8MP
+Samsung,V Series Ultra 22,174.79,Official Store,4.5,60,6.2,16,128,Exynos 2200,108MP + 12MP + 2MP
+Google,iPhone Mini 10,1960.56,Best Buy,4.0,60,5.1,8,128,Tensor G1,108MP + 8MP + 5MP
+Vivo,iPhone SE 22,646.16,eBay,4.6,144,6.9,8,256,Helio G99,64MP + 16MP + 8MP
+Realme,Mate Pro 13,634.0,Flipkart,4.3,60,6.5,4,64,Dimensity 920,12MP + 50MP + 8MP
+OnePlus,Reno SE 21,1207.19,Best Buy,3.8,144,5.3,8,512,Snapdragon 8+ Gen 1,200MP + 8MP + 2MP
+Samsung,P Series 5G 14,187.32,eBay,4.3,60,7.1,12,128,Exynos 2200,108MP + 8MP + 2MP
+OnePlus,Galaxy S Max 24,214.98,Walmart,4.5,120,6.5,4,256,Snapdragon 8+ Gen 1,64MP + 12MP + 5MP
+Huawei,Galaxy S Lite 14,860.38,Reliance Digital,3.3,60,5.1,8,64,Helio G99,108MP + 50MP + 5MP
+Vivo,P Series Ultra 24,1510.67,Reliance Digital,4.8,120,5.2,8,64,Dimensity 920,12MP + 8MP + 8MP
+Samsung,Narzo 5G 11,1330.22,Amazon,3.4,90,5.5,12,256,Snapdragon 8 Gen 2,48MP + 8MP + 5MP
+Nokia,Xperia SE 20,844.12,Amazon,3.1,144,5.7,12,256,Dimensity 920,108MP + 8MP + 5MP
+Samsung,V Series Edge 17,1409.34,Reliance Digital,3.9,165,6.9,16,64,Exynos 2200,50MP + 16MP + 2MP
+Oppo,Narzo SE 21,650.64,Best Buy,4.7,120,5.5,16,64,Dimensity 920,108MP + 16MP + 5MP
+Google,Galaxy S Edge 25,661.92,AliExpress,3.2,165,5.4,8,256,Tensor G2,50MP + 16MP + 5MP
+Oppo,iPhone Edge 12,642.89,Amazon,4.2,60,7.3,8,128,Dimensity 920,12MP + 16MP + 8MP
+Vivo,Nord Turbo 17,1320.46,Official Store,4.6,165,5.1,6,1024,Dimensity 920,64MP + 16MP + 5MP
+Vivo,Galaxy S Lite 13,1127.28,Flipkart,3.4,165,6.0,8,512,Dimensity 920,200MP + 8MP + 5MP
+OnePlus,V Series Pro 16,917.08,Flipkart,3.2,144,5.3,6,256,Snapdragon 8+ Gen 1,64MP + 16MP + 5MP
+Apple,Galaxy S Max 18,1834.46,AliExpress,3.0,60,7.4,8,128,A15 Bionic,12MP + 50MP + 2MP
+Nokia,Redmi Note Turbo 24,1091.85,Reliance Digital,4.4,90,6.8,16,1024,Helio G99,200MP + 16MP + 2MP
+Motorola,Galaxy S 5G 12,1171.14,Best Buy,4.5,60,7.1,16,64,Helio G99,64MP + 8MP + 2MP
+Vivo,Nord Lite 17,1185.15,Walmart,3.8,120,6.2,12,64,Helio G99,108MP + 12MP + 2MP
+Xiaomi,Pixel Turbo 16,897.91,Flipkart,4.9,60,6.2,12,512,Dimensity 1080,50MP + 12MP + 8MP
+Nokia,Xperia 5G 14,1279.01,Official Store,3.6,120,6.0,4,256,Helio G99,200MP + 12MP + 5MP
+Apple,Xperia Max 15,840.04,Reliance Digital,4.6,60,5.1,12,1024,A15 Bionic,48MP + 12MP + 2MP
+Vivo,Pixel Max 15,296.64,Best Buy,4.6,120,5.4,12,256,Helio G99,12MP + 8MP + 8MP
+Vivo,Mate Lite 24,515.7,Official Store,4.6,60,6.7,6,128,Helio G99,12MP + 16MP + 8MP
+OnePlus,Pixel Mini 14,535.19,Walmart,4.6,120,6.4,4,512,Snapdragon 8+ Gen 1,108MP + 12MP + 5MP
+Nokia,Narzo Pro 12,421.7,Official Store,4.0,144,5.7,8,128,Dimensity 920,48MP + 50MP + 8MP
+Vivo,Nord Edge 15,1252.64,Amazon,4.2,90,7.0,8,512,Dimensity 920,108MP + 16MP + 8MP
+OnePlus,V Series Plus 16,1231.5,eBay,4.0,90,6.8,4,512,Dimensity 9000,50MP + 50MP + 2MP
+Sony,Moto G Edge 20,1860.71,AliExpress,4.1,165,7.2,8,1024,Dimensity 920,12MP + 16MP + 2MP
+Motorola,Mate Edge 21,462.34,Official Store,4.7,144,7.0,12,1024,Helio G99,50MP + 16MP + 8MP
+Xiaomi,Moto G Pro 16,1415.86,Amazon,4.1,60,6.8,4,128,Dimensity 1080,12MP + 50MP + 5MP
+Huawei,Xperia Ultra 11,780.05,AliExpress,4.8,165,5.2,12,512,Dimensity 920,48MP + 50MP + 8MP
+Samsung,Mate Max 23,244.76,Official Store,5.0,90,6.6,8,512,Snapdragon 8 Gen 2,108MP + 16MP + 5MP
+Apple,Galaxy S Pro 16,248.8,Walmart,4.7,144,7.2,4,128,A15 Bionic,50MP + 12MP + 8MP
+Apple,Reno Pro 13,1753.43,Flipkart,4.8,90,5.1,8,512,A15 Bionic,12MP + 16MP + 5MP
+Sony,Redmi Note Lite 21,1359.58,Walmart,3.5,165,6.6,4,512,Helio G99,48MP + 12MP + 8MP
+Sony,Narzo Mini 24,1837.07,AliExpress,3.6,165,6.2,4,512,Helio G99,200MP + 16MP + 8MP
+Vivo,Redmi Note Turbo 12,519.86,Flipkart,4.8,165,5.8,8,64,Dimensity 920,12MP + 16MP + 8MP
+Oppo,Reno Max 21,916.38,Flipkart,3.8,144,6.5,16,1024,Helio G99,200MP + 8MP + 2MP
+Motorola,P Series Mini 21,611.84,Official Store,3.9,90,6.2,8,64,Dimensity 920,48MP + 50MP + 8MP
+Google,Moto G Max 19,399.94,Amazon,3.5,90,5.3,16,64,Tensor G2,108MP + 16MP + 8MP
+Samsung,Galaxy S Ultra 17,1006.07,Official Store,3.9,120,7.3,4,64,Exynos 2200,12MP + 8MP + 5MP
+Vivo,Mate SE 18,1394.26,Walmart,3.6,60,6.5,16,512,Dimensity 920,200MP + 16MP + 2MP
+Apple,Narzo Turbo 19,500.15,Best Buy,4.1,60,7.1,6,512,A15 Bionic,12MP + 12MP + 2MP
+Motorola,Pixel Plus 12,1998.5,Walmart,4.0,120,7.2,16,1024,Helio G99,64MP + 50MP + 5MP
+Huawei,Galaxy S Pro 19,270.25,Walmart,4.8,90,5.6,12,1024,Helio G99,64MP + 16MP + 2MP
+Google,Nord SE 18,1272.88,Walmart,4.3,165,7.4,8,512,Tensor G2,200MP + 16MP + 5MP
+Motorola,Narzo Max 17,1549.19,Walmart,4.4,165,7.4,4,1024,Helio G99,108MP + 12MP + 8MP
+Sony,Reno Pro 22,763.31,Best Buy,3.4,144,7.0,8,128,Helio G99,200MP + 50MP + 8MP
+Vivo,Pixel Mini 15,990.76,Official Store,4.5,144,6.2,8,512,Dimensity 920,64MP + 50MP + 8MP
+Huawei,Xperia Turbo 18,968.5,Flipkart,3.6,165,7.1,4,128,Helio G99,12MP + 50MP + 8MP
+Samsung,Mate Pro 17,655.69,Official Store,4.3,90,5.6,8,1024,Snapdragon 8 Gen 2,50MP + 50MP + 2MP
+Oppo,Narzo Ultra 19,1896.52,Amazon,3.7,90,5.4,4,128,Helio G99,64MP + 12MP + 2MP
+Nokia,Reno Max 25,889.96,Reliance Digital,3.7,144,5.2,16,64,Dimensity 920,200MP + 8MP + 2MP
+Huawei,Moto G Plus 23,630.17,Best Buy,4.1,120,7.4,6,512,Helio G99,108MP + 16MP + 2MP
+Realme,Mate SE 11,1237.55,Official Store,5.0,120,5.3,8,128,Dimensity 920,64MP + 50MP + 2MP
+Samsung,Pixel Turbo 12,1339.28,Best Buy,4.3,90,7.3,4,512,Exynos 2200,64MP + 12MP + 8MP
+Samsung,Reno Lite 16,1410.43,AliExpress,3.7,165,6.7,8,256,Exynos 2200,48MP + 8MP + 5MP
+Sony,Galaxy S SE 20,822.19,eBay,3.4,144,7.1,4,256,Helio G99,64MP + 12MP + 8MP
+Vivo,iPhone Mini 11,818.11,Best Buy,4.0,60,6.8,16,256,Helio G99,48MP + 16MP + 5MP
+Sony,V Series Pro 18,1139.29,eBay,4.6,144,6.1,8,512,Helio G99,200MP + 8MP + 2MP
+Huawei,Xperia Mini 25,1709.8,eBay,3.5,90,6.4,16,512,Dimensity 920,48MP + 16MP + 8MP
+Vivo,Xperia Edge 14,728.94,Official Store,4.5,90,6.7,16,1024,Helio G99,108MP + 8MP + 2MP
+Nokia,Moto G Edge 10,1607.45,eBay,3.4,144,6.8,12,128,Helio G99,48MP + 16MP + 5MP
+Motorola,Xperia SE 10,1116.87,Flipkart,4.9,90,6.1,4,64,Helio G99,12MP + 16MP + 5MP
+OnePlus,Reno Pro 24,277.34,Walmart,3.2,90,5.1,12,256,Snapdragon 8+ Gen 1,12MP + 8MP + 2MP
+Huawei,Nord Turbo 25,1076.36,Amazon,4.6,60,6.6,4,512,Dimensity 920,64MP + 12MP + 5MP
+Apple,V Series Turbo 21,1063.85,Amazon,3.2,120,6.1,12,1024,A15 Bionic,108MP + 50MP + 8MP
+Apple,Pixel Mini 14,427.54,Amazon,4.5,90,7.0,6,512,A15 Bionic,48MP + 50MP + 5MP
+Nokia,Xperia Plus 17,1670.61,eBay,4.1,90,6.1,16,1024,Helio G99,200MP + 8MP + 8MP
+Google,iPhone Ultra 19,877.59,Amazon,3.0,144,5.0,4,128,Tensor G2,48MP + 8MP + 5MP
+Realme,Narzo SE 10,1320.84,Walmart,3.7,144,6.1,16,1024,Dimensity 920,12MP + 8MP + 5MP
+Google,P Series 5G 23,592.0,Official Store,4.3,120,7.1,16,256,Tensor G1,50MP + 50MP + 8MP
+Samsung,Nord Turbo 23,1552.71,Flipkart,4.8,60,6.7,16,1024,Snapdragon 8 Gen 2,200MP + 12MP + 5MP
+Nokia,Mate Edge 19,1640.23,eBay,3.4,120,5.4,16,512,Helio G99,200MP + 8MP + 5MP
+Motorola,Narzo Ultra 15,199.48,AliExpress,4.4,90,6.9,8,128,Helio G99,48MP + 50MP + 2MP
+Xiaomi,iPhone Pro 25,1428.25,AliExpress,4.5,165,5.8,4,64,Dimensity 1080,12MP + 8MP + 8MP
+Sony,Mate Turbo 12,1019.52,AliExpress,3.5,144,6.3,12,64,Helio G99,108MP + 16MP + 2MP
+Oppo,Reno Pro 17,1284.81,Walmart,4.6,144,7.1,8,64,Dimensity 920,48MP + 12MP + 2MP
+OnePlus,Xperia Lite 22,1630.85,Walmart,3.1,60,5.6,16,256,Dimensity 9000,50MP + 50MP + 2MP
+Realme,Galaxy S Mini 24,198.38,Walmart,3.6,165,6.8,8,128,Dimensity 920,12MP + 16MP + 2MP
+Samsung,iPhone Turbo 10,321.82,Best Buy,4.3,144,7.5,6,128,Snapdragon 8 Gen 2,12MP + 8MP + 2MP
+Vivo,Pixel Mini 12,557.69,Flipkart,3.3,165,7.2,6,64,Dimensity 920,48MP + 50MP + 2MP
+Samsung,iPhone Mini 21,419.36,Official Store,4.8,120,6.4,6,128,Snapdragon 8 Gen 2,200MP + 8MP + 2MP
+Xiaomi,Narzo Mini 12,1305.47,Amazon,4.6,120,6.1,6,128,Dimensity 1080,200MP + 50MP + 2MP
+Google,Narzo Lite 17,1483.68,Walmart,4.1,144,7.0,16,1024,Tensor G2,12MP + 12MP + 8MP
+Xiaomi,Reno Pro 20,506.52,eBay,3.6,144,7.2,6,512,Snapdragon 7 Gen 1,108MP + 12MP + 8MP
+Huawei,iPhone Mini 16,871.94,Amazon,5.0,120,7.1,4,64,Helio G99,64MP + 16MP + 8MP
+Huawei,Narzo Lite 10,749.93,Flipkart,4.1,90,7.3,16,1024,Dimensity 920,12MP + 16MP + 5MP
+Google,Pixel Lite 20,1675.38,AliExpress,3.4,90,5.0,6,64,Tensor G1,50MP + 50MP + 8MP
+Vivo,Moto G Max 21,1738.2,eBay,3.1,60,7.3,16,256,Dimensity 920,108MP + 8MP + 5MP
+Motorola,Pixel Pro 12,409.56,Walmart,3.6,165,7.5,4,1024,Helio G99,108MP + 50MP + 5MP
+Nokia,V Series Max 12,1486.78,Official Store,4.3,144,5.1,12,256,Helio G99,48MP + 8MP + 8MP
+Apple,Nord Mini 24,1456.95,Walmart,4.3,144,7.2,8,256,A15 Bionic,48MP + 8MP + 2MP
+Nokia,Pixel Mini 14,1772.77,Amazon,3.3,120,5.5,4,64,Dimensity 920,12MP + 8MP + 8MP
+Vivo,V Series Plus 14,360.57,Walmart,4.0,60,6.0,4,64,Helio G99,48MP + 8MP + 5MP
+Vivo,Pixel Edge 24,411.83,Flipkart,3.8,120,6.8,4,64,Dimensity 920,108MP + 50MP + 2MP
+Xiaomi,Narzo SE 24,1194.17,Amazon,3.6,90,6.3,4,256,Snapdragon 7 Gen 1,200MP + 50MP + 2MP
+Xiaomi,Narzo 5G 15,175.01,AliExpress,4.9,60,5.8,4,128,Snapdragon 7 Gen 1,50MP + 50MP + 8MP
+Sony,iPhone Max 17,198.17,Best Buy,4.2,120,5.1,16,512,Helio G99,200MP + 8MP + 2MP
+Xiaomi,V Series Max 21,1430.94,AliExpress,4.8,60,5.3,16,128,Snapdragon 7 Gen 1,12MP + 50MP + 5MP
+Vivo,Redmi Note Ultra 21,1294.43,AliExpress,4.7,60,5.5,8,1024,Dimensity 920,108MP + 8MP + 2MP
+Nokia,V Series 5G 25,1597.12,Best Buy,3.7,60,5.2,4,1024,Dimensity 920,200MP + 8MP + 2MP
+OnePlus,Mate Mini 22,1300.69,Flipkart,4.5,144,7.2,6,512,Snapdragon 8+ Gen 1,48MP + 50MP + 2MP
+Vivo,Galaxy S Max 12,1179.83,AliExpress,4.1,165,7.3,12,128,Helio G99,48MP + 50MP + 5MP
+Motorola,P Series 5G 24,518.65,Flipkart,5.0,60,5.4,16,256,Dimensity 920,108MP + 50MP + 8MP
+Nokia,Redmi Note 5G 17,691.61,Walmart,3.7,90,5.5,12,256,Helio G99,64MP + 12MP + 2MP
+Apple,Nord Pro 21,1116.35,Official Store,3.1,90,6.1,12,256,A16 Bionic,200MP + 16MP + 8MP
+Apple,Galaxy S Ultra 15,203.37,Flipkart,4.9,90,6.4,16,1024,A15 Bionic,12MP + 12MP + 8MP
+Google,Narzo Ultra 13,732.39,AliExpress,4.2,120,6.2,8,256,Tensor G2,48MP + 12MP + 5MP
+Vivo,Galaxy S SE 23,671.04,Official Store,3.3,60,5.9,4,128,Dimensity 920,64MP + 50MP + 2MP
+Oppo,Narzo 5G 10,367.23,AliExpress,4.5,60,7.3,16,128,Helio G99,48MP + 8MP + 2MP
+Vivo,P Series Pro 16,332.33,Flipkart,4.8,90,7.4,16,64,Helio G99,108MP + 12MP + 5MP
+Huawei,Mate Plus 24,691.86,Flipkart,3.3,60,6.6,6,128,Dimensity 920,200MP + 16MP + 8MP
+Apple,iPhone Edge 24,672.06,Flipkart,4.9,165,7.1,6,256,A15 Bionic,50MP + 12MP + 8MP
+Nokia,Narzo Edge 14,1640.62,Official Store,4.1,120,7.5,6,1024,Helio G99,48MP + 8MP + 2MP
+Xiaomi,P Series Pro 12,1067.76,Reliance Digital,3.2,90,5.3,6,64,Dimensity 1080,200MP + 16MP + 2MP
+OnePlus,Reno Lite 20,1578.75,eBay,4.1,165,5.3,8,1024,Dimensity 9000,200MP + 16MP + 2MP
+Google,Narzo SE 23,1911.73,AliExpress,4.0,90,5.0,6,256,Tensor G2,48MP + 12MP + 5MP
+Google,Nord 5G 14,1725.6,AliExpress,3.6,120,5.8,16,256,Tensor G1,64MP + 8MP + 2MP
+Vivo,Xperia Edge 13,550.14,AliExpress,4.3,60,6.5,8,256,Helio G99,50MP + 16MP + 8MP
+Xiaomi,Xperia Lite 13,997.29,Amazon,4.9,120,5.0,6,128,Dimensity 1080,48MP + 50MP + 5MP
+Huawei,Nord Max 12,1788.29,Walmart,3.8,90,7.0,12,64,Helio G99,48MP + 16MP + 8MP
+Motorola,V Series Ultra 10,290.71,Walmart,4.9,60,6.9,12,64,Dimensity 920,12MP + 50MP + 2MP
+Google,Nord Max 23,162.46,Flipkart,4.7,90,6.4,4,128,Tensor G2,50MP + 8MP + 8MP
+Google,Xperia Edge 24,1428.83,Official Store,4.5,90,7.4,12,256,Tensor G1,200MP + 50MP + 5MP
+Nokia,Narzo Pro 23,1897.27,Flipkart,4.5,120,5.4,12,1024,Helio G99,200MP + 12MP + 2MP
+Huawei,Galaxy S Lite 12,1500.04,AliExpress,3.3,144,7.1,4,512,Helio G99,108MP + 16MP + 8MP
+Huawei,iPhone Plus 12,1600.49,eBay,4.0,60,7.2,6,512,Dimensity 920,200MP + 16MP + 5MP
+Motorola,Moto G Edge 20,523.55,Amazon,3.1,60,7.4,4,128,Helio G99,12MP + 8MP + 2MP
+Samsung,Moto G Mini 10,982.25,Walmart,3.6,120,5.5,4,512,Exynos 2200,200MP + 8MP + 5MP
+Samsung,Reno Turbo 21,850.18,eBay,4.0,120,5.6,16,64,Snapdragon 8 Gen 2,50MP + 12MP + 2MP
+Motorola,Narzo Mini 16,1109.65,AliExpress,3.7,165,6.5,4,128,Helio G99,12MP + 16MP + 2MP
+Samsung,Mate Ultra 18,513.75,Walmart,3.1,165,5.5,6,256,Exynos 2200,50MP + 50MP + 5MP
+Sony,P Series Turbo 22,1942.43,Official Store,3.8,144,5.3,6,64,Dimensity 920,200MP + 8MP + 5MP
+Nokia,Mate Lite 25,1563.65,Amazon,3.6,144,6.0,6,256,Helio G99,200MP + 50MP + 2MP
+Apple,Nord 5G 10,786.17,Best Buy,3.0,144,7.1,4,1024,A16 Bionic,12MP + 8MP + 8MP
+Oppo,Reno Pro 25,822.67,Walmart,3.9,120,7.4,6,256,Dimensity 920,12MP + 50MP + 2MP
+OnePlus,Mate Plus 12,1731.64,Amazon,4.0,144,7.0,4,256,Snapdragon 8+ Gen 1,108MP + 12MP + 8MP
+Motorola,Reno Mini 23,1022.75,Flipkart,3.4,60,5.1,6,512,Helio G99,12MP + 50MP + 2MP
+Motorola,Nord Mini 20,765.34,Flipkart,3.3,120,6.0,12,64,Helio G99,108MP + 8MP + 5MP
+Apple,iPhone 5G 17,1035.23,Reliance Digital,3.9,144,6.9,12,1024,A15 Bionic,12MP + 16MP + 5MP
+OnePlus,Reno Pro 14,738.82,Amazon,3.7,60,5.6,4,1024,Dimensity 9000,12MP + 8MP + 5MP
+Oppo,Moto G Plus 14,1990.2,Amazon,3.2,144,6.1,8,128,Dimensity 920,64MP + 50MP + 2MP
+Realme,Moto G Lite 13,1859.14,Walmart,5.0,165,7.2,16,256,Helio G99,200MP + 8MP + 2MP
+OnePlus,iPhone Max 12,1738.78,Flipkart,4.2,120,5.9,4,128,Snapdragon 8+ Gen 1,12MP + 8MP + 5MP
+Samsung,Xperia Lite 21,1505.02,AliExpress,3.2,60,6.8,6,128,Snapdragon 8 Gen 2,48MP + 8MP + 2MP
+Nokia,Xperia Max 18,735.89,Official Store,3.8,60,7.5,8,128,Dimensity 920,50MP + 12MP + 5MP
+Realme,Moto G Turbo 14,1178.31,AliExpress,4.3,60,7.2,12,1024,Dimensity 920,12MP + 50MP + 8MP
+Huawei,Reno Edge 11,1751.25,Official Store,4.6,144,5.2,6,256,Helio G99,64MP + 8MP + 8MP
+Xiaomi,Nord Pro 11,1155.57,Flipkart,3.3,90,5.2,6,256,Dimensity 1080,64MP + 16MP + 2MP
+Apple,Galaxy S Edge 19,1787.25,eBay,4.7,144,5.1,12,1024,A16 Bionic,64MP + 50MP + 5MP
+Nokia,Reno 5G 13,1861.9,AliExpress,3.9,144,6.3,6,64,Helio G99,48MP + 16MP + 5MP
+Vivo,V Series Turbo 12,884.1,Reliance Digital,4.7,90,5.4,8,1024,Dimensity 920,64MP + 50MP + 8MP
+Oppo,Mate Turbo 12,963.85,Amazon,3.1,144,7.0,16,64,Helio G99,108MP + 50MP + 5MP
+Google,Xperia 5G 15,706.25,AliExpress,4.4,60,7.4,8,512,Tensor G1,12MP + 50MP + 8MP
+Vivo,iPhone Lite 12,567.78,Reliance Digital,4.1,144,6.5,6,1024,Helio G99,108MP + 16MP + 5MP
+Motorola,Galaxy S Lite 13,1428.99,AliExpress,3.8,144,7.0,4,512,Dimensity 920,48MP + 16MP + 8MP
+Nokia,Nord Plus 14,1037.76,Amazon,4.6,120,5.3,4,256,Dimensity 920,200MP + 12MP + 8MP
+Vivo,Mate Edge 23,1040.77,eBay,3.9,144,6.7,12,512,Dimensity 920,48MP + 8MP + 5MP
+Sony,Xperia Edge 13,495.97,Walmart,4.7,165,6.5,16,1024,Dimensity 920,200MP + 50MP + 2MP
+Nokia,V Series Edge 20,1244.23,AliExpress,3.6,144,6.5,4,512,Helio G99,200MP + 16MP + 5MP
+Realme,Xperia Pro 11,1039.84,Amazon,3.5,144,6.6,12,64,Helio G99,108MP + 50MP + 2MP
+Nokia,Reno Pro 23,607.02,eBay,4.1,90,5.5,16,64,Dimensity 920,64MP + 12MP + 8MP
+OnePlus,P Series Ultra 19,1287.8,Official Store,3.8,60,7.3,8,512,Snapdragon 8+ Gen 1,50MP + 8MP + 5MP
+Motorola,Reno SE 18,734.5,AliExpress,4.8,60,7.4,16,512,Helio G99,50MP + 50MP + 8MP
+Motorola,Nord SE 15,335.5,Walmart,4.2,60,6.4,8,256,Helio G99,12MP + 50MP + 2MP
+Oppo,Redmi Note Plus 23,1383.64,Amazon,3.1,120,5.7,16,512,Dimensity 920,48MP + 16MP + 8MP
+OnePlus,Pixel Turbo 14,1918.26,Flipkart,3.7,165,6.7,4,1024,Snapdragon 8+ Gen 1,12MP + 12MP + 2MP
+Motorola,Mate 5G 21,248.68,AliExpress,3.2,60,5.0,8,256,Helio G99,48MP + 8MP + 8MP
+Oppo,Mate 5G 19,1554.29,Amazon,4.1,165,7.1,4,128,Helio G99,48MP + 16MP + 8MP
+Realme,Redmi Note Lite 17,370.26,Walmart,3.1,60,5.3,6,128,Helio G99,64MP + 12MP + 5MP
+Realme,Pixel Pro 19,918.46,Flipkart,3.8,165,5.6,12,256,Helio G99,108MP + 16MP + 8MP
+Motorola,iPhone Max 16,1170.08,Best Buy,4.3,165,5.4,6,512,Helio G99,50MP + 50MP + 2MP
+Realme,iPhone Plus 22,813.49,Reliance Digital,4.8,90,5.7,4,256,Helio G99,108MP + 16MP + 8MP
+Google,V Series SE 20,262.2,eBay,3.2,90,7.3,12,256,Tensor G2,108MP + 16MP + 5MP
+Google,Redmi Note Lite 10,1957.42,Best Buy,4.6,60,7.3,6,256,Tensor G1,50MP + 8MP + 5MP
+Motorola,Reno Pro 10,156.52,eBay,3.1,144,6.6,4,64,Dimensity 920,12MP + 12MP + 5MP
+Sony,Narzo SE 24,1946.93,Reliance Digital,4.9,165,5.2,12,64,Helio G99,50MP + 12MP + 8MP
+Nokia,Mate Plus 19,1109.12,Best Buy,3.1,120,6.8,6,128,Dimensity 920,200MP + 8MP + 5MP
+Oppo,V Series Mini 24,1600.12,Best Buy,4.0,165,6.0,4,512,Helio G99,108MP + 8MP + 5MP
+Huawei,Mate Mini 11,1196.86,Amazon,3.0,60,6.7,12,1024,Dimensity 920,108MP + 12MP + 8MP
+OnePlus,Mate Mini 16,991.54,eBay,4.5,144,7.1,4,256,Dimensity 9000,12MP + 50MP + 8MP
+Huawei,Moto G Edge 21,1295.77,Walmart,4.9,90,6.3,12,128,Helio G99,108MP + 50MP + 2MP
+Oppo,Reno Ultra 23,1521.98,Official Store,3.9,60,7.0,12,1024,Helio G99,12MP + 16MP + 5MP
+Nokia,V Series Max 22,685.38,eBay,4.3,144,6.3,16,64,Dimensity 920,50MP + 8MP + 8MP
+Realme,Redmi Note 5G 20,845.45,Amazon,4.8,120,5.5,8,1024,Helio G99,48MP + 16MP + 5MP
+Xiaomi,P Series Mini 16,502.9,eBay,4.3,165,5.9,6,128,Dimensity 1080,12MP + 8MP + 8MP
+Motorola,Mate Edge 22,1824.84,eBay,4.0,120,7.4,8,1024,Helio G99,108MP + 16MP + 5MP
+Samsung,Narzo Mini 19,416.74,AliExpress,4.7,120,5.8,4,256,Snapdragon 8 Gen 2,64MP + 16MP + 2MP
+Oppo,Galaxy S Lite 20,1893.96,Official Store,3.7,165,5.0,6,1024,Dimensity 920,200MP + 16MP + 8MP
+Sony,P Series Lite 21,444.35,AliExpress,3.8,144,6.1,4,128,Helio G99,64MP + 50MP + 2MP
+Samsung,Narzo Mini 14,846.91,Reliance Digital,3.2,90,7.2,16,128,Snapdragon 8 Gen 2,48MP + 50MP + 2MP
+Xiaomi,Nord Pro 11,1434.79,eBay,3.9,90,6.5,16,64,Dimensity 1080,12MP + 8MP + 8MP
+OnePlus,Pixel Edge 17,1848.17,Walmart,4.4,60,5.7,12,512,Snapdragon 8+ Gen 1,12MP + 50MP + 2MP
+Vivo,Galaxy S Turbo 20,1361.73,Amazon,5.0,144,7.4,12,256,Helio G99,12MP + 50MP + 5MP
+Sony,Mate Lite 20,1979.45,Flipkart,3.3,144,6.2,4,512,Helio G99,12MP + 50MP + 2MP
+Huawei,Nord Pro 11,564.91,AliExpress,4.9,144,6.5,6,128,Helio G99,48MP + 8MP + 5MP
+OnePlus,Xperia Turbo 17,1937.84,Reliance Digital,3.1,90,7.4,12,128,Dimensity 9000,200MP + 8MP + 5MP
+Samsung,Reno Plus 10,711.69,Reliance Digital,4.7,60,7.3,12,64,Snapdragon 8 Gen 2,12MP + 50MP + 2MP
+Motorola,Pixel Mini 14,1315.33,Flipkart,4.8,165,7.3,4,64,Helio G99,12MP + 16MP + 2MP
+Google,iPhone Plus 24,454.52,AliExpress,3.2,60,5.1,12,256,Tensor G1,200MP + 12MP + 2MP
+Oppo,Nord Plus 20,1562.53,Official Store,3.6,165,5.6,12,1024,Helio G99,48MP + 50MP + 5MP
+Xiaomi,Reno SE 19,723.37,Best Buy,3.8,90,5.1,4,128,Snapdragon 7 Gen 1,12MP + 12MP + 2MP
+Motorola,V Series Plus 12,1950.85,eBay,3.3,90,6.7,12,128,Helio G99,64MP + 8MP + 2MP
+Vivo,Mate Ultra 11,992.06,Amazon,4.1,90,5.8,16,128,Dimensity 920,12MP + 50MP + 2MP
+Google,Moto G Max 18,1798.42,Official Store,4.2,165,6.2,12,256,Tensor G1,200MP + 16MP + 2MP
+Motorola,Xperia Max 17,632.62,eBay,4.2,120,5.4,8,512,Helio G99,50MP + 12MP + 5MP
+Nokia,Galaxy S Edge 25,634.8,Walmart,4.7,165,6.3,12,128,Helio G99,48MP + 8MP + 2MP
+Sony,iPhone Mini 10,807.42,Best Buy,3.8,144,5.9,6,256,Dimensity 920,64MP + 8MP + 5MP
+Nokia,Reno Ultra 15,1786.89,Reliance Digital,3.6,144,5.0,8,256,Helio G99,48MP + 50MP + 2MP
+Realme,iPhone Turbo 23,1429.6,Official Store,3.1,144,6.2,8,1024,Helio G99,64MP + 16MP + 8MP
+Nokia,Galaxy S Turbo 19,510.43,AliExpress,4.0,144,6.7,16,256,Helio G99,48MP + 16MP + 2MP
+Huawei,P Series Lite 17,1205.54,Walmart,3.1,90,5.7,8,512,Helio G99,200MP + 12MP + 8MP
+Vivo,Galaxy S Max 10,330.69,Flipkart,4.6,90,6.8,8,64,Helio G99,12MP + 50MP + 8MP
+Nokia,P Series Turbo 10,1239.98,Reliance Digital,3.6,120,5.7,12,1024,Dimensity 920,12MP + 16MP + 8MP
+Oppo,Moto G Mini 10,884.27,Amazon,3.5,60,7.1,16,256,Dimensity 920,50MP + 8MP + 2MP
+Vivo,iPhone Turbo 15,1988.1,Official Store,3.5,60,7.4,4,128,Helio G99,12MP + 16MP + 5MP
+Xiaomi,Pixel Edge 18,1200.03,Walmart,3.2,144,6.3,16,256,Snapdragon 7 Gen 1,64MP + 50MP + 5MP
+OnePlus,Xperia Edge 17,230.78,Walmart,3.8,60,5.3,8,1024,Dimensity 9000,108MP + 16MP + 8MP
+Huawei,Galaxy S Ultra 22,1537.71,Walmart,3.1,90,6.8,16,256,Helio G99,108MP + 16MP + 2MP
+Oppo,Redmi Note Lite 14,648.0,Flipkart,3.4,165,7.1,12,512,Helio G99,48MP + 50MP + 5MP
+OnePlus,Pixel SE 25,1360.71,Best Buy,5.0,144,6.8,4,1024,Snapdragon 8+ Gen 1,200MP + 50MP + 8MP
+Xiaomi,P Series Plus 21,676.45,AliExpress,4.5,144,7.0,6,1024,Dimensity 1080,108MP + 12MP + 5MP
+Nokia,Redmi Note Ultra 12,477.43,Official Store,4.9,144,6.4,16,512,Helio G99,50MP + 12MP + 2MP
+OnePlus,Moto G Turbo 22,1425.97,Flipkart,4.6,60,7.4,16,64,Dimensity 9000,48MP + 12MP + 2MP
+Oppo,Redmi Note Plus 12,1545.62,Walmart,4.4,90,5.2,12,512,Helio G99,48MP + 16MP + 2MP
+Sony,Reno Turbo 23,1697.75,Best Buy,3.7,90,5.6,4,128,Helio G99,108MP + 12MP + 2MP
+Nokia,iPhone Mini 23,1403.25,Official Store,4.9,120,5.1,12,128,Dimensity 920,48MP + 50MP + 2MP
+Vivo,Nord Edge 22,1610.05,Flipkart,3.0,165,7.4,6,64,Dimensity 920,12MP + 8MP + 2MP
+Oppo,V Series Edge 11,1910.71,Reliance Digital,3.1,144,6.1,6,128,Helio G99,200MP + 12MP + 5MP
+Realme,Moto G SE 11,1736.2,Walmart,4.5,165,6.3,6,64,Helio G99,48MP + 12MP + 8MP
+Google,Narzo Turbo 11,539.32,Amazon,3.3,144,7.3,8,128,Tensor G1,200MP + 16MP + 8MP
+Xiaomi,Reno Edge 12,735.49,Official Store,4.9,165,6.1,8,128,Dimensity 1080,12MP + 12MP + 8MP
+Google,Narzo Edge 18,1279.0,Official Store,4.4,165,6.2,6,512,Tensor G2,50MP + 50MP + 5MP
+Oppo,Reno Plus 20,1244.14,Best Buy,3.4,165,6.0,6,512,Helio G99,200MP + 16MP + 5MP
+Oppo,Pixel Plus 15,699.06,Amazon,3.2,144,5.3,8,128,Helio G99,48MP + 8MP + 8MP
+Huawei,Nord Lite 10,496.97,Reliance Digital,3.3,120,6.7,12,512,Helio G99,64MP + 12MP + 2MP
+Google,Pixel Pro 15,1310.73,eBay,3.3,144,7.0,4,1024,Tensor G1,12MP + 8MP + 5MP
+Vivo,iPhone Lite 25,231.2,Walmart,3.3,60,6.9,12,128,Dimensity 920,50MP + 8MP + 8MP
+Sony,Moto G 5G 24,449.32,Official Store,3.2,60,5.0,6,1024,Helio G99,50MP + 50MP + 5MP
+Huawei,iPhone Mini 25,685.18,Amazon,4.9,90,5.5,4,512,Helio G99,12MP + 50MP + 8MP
+Samsung,Moto G 5G 23,1465.78,Flipkart,4.4,144,6.4,4,512,Snapdragon 8 Gen 2,200MP + 8MP + 8MP
+Xiaomi,Pixel Lite 24,1657.42,AliExpress,3.7,60,5.6,16,1024,Snapdragon 7 Gen 1,64MP + 16MP + 8MP
+Huawei,Xperia SE 21,933.81,Best Buy,3.4,144,7.0,6,256,Helio G99,12MP + 8MP + 2MP
+Motorola,Reno Plus 14,1701.41,Official Store,3.7,165,5.7,4,256,Helio G99,50MP + 50MP + 8MP
+Realme,P Series Max 17,742.43,Walmart,3.3,165,6.5,12,1024,Dimensity 920,200MP + 50MP + 2MP
+Huawei,iPhone Ultra 14,1472.82,Walmart,4.0,90,6.3,16,128,Dimensity 920,108MP + 8MP + 2MP
+Oppo,Redmi Note Ultra 18,1259.5,Amazon,3.4,60,6.4,12,1024,Dimensity 920,50MP + 50MP + 2MP
+Apple,Mate Lite 21,895.34,Walmart,5.0,60,6.5,16,256,A15 Bionic,48MP + 12MP + 8MP
+Xiaomi,V Series Mini 20,651.98,eBay,4.9,165,6.6,4,128,Snapdragon 7 Gen 1,64MP + 16MP + 2MP
+Samsung,Nord Ultra 23,808.15,Flipkart,3.4,60,6.5,16,128,Exynos 2200,64MP + 16MP + 8MP
+Motorola,Mate Max 24,1952.5,eBay,4.6,90,7.2,4,1024,Dimensity 920,200MP + 8MP + 5MP
+Huawei,Redmi Note Turbo 25,682.78,Amazon,4.4,120,6.0,6,128,Helio G99,12MP + 8MP + 2MP
+Huawei,Moto G Max 15,1526.64,Reliance Digital,3.9,120,5.0,8,256,Dimensity 920,50MP + 16MP + 2MP
+Xiaomi,Nord SE 15,1382.2,Walmart,3.6,90,6.8,8,128,Snapdragon 7 Gen 1,12MP + 12MP + 2MP
+Realme,Reno Edge 15,1706.61,Best Buy,4.5,144,7.4,8,512,Dimensity 920,64MP + 50MP + 2MP
+Nokia,Xperia SE 20,805.19,Best Buy,3.8,120,7.2,8,256,Helio G99,200MP + 50MP + 5MP
+OnePlus,Xperia Plus 22,850.93,eBay,4.9,120,6.5,6,128,Dimensity 9000,50MP + 50MP + 2MP
+Oppo,Galaxy S Ultra 21,1398.73,Reliance Digital,3.4,90,5.1,16,64,Dimensity 920,108MP + 50MP + 8MP
+Samsung,Nord 5G 16,1441.6,Reliance Digital,3.4,144,6.1,12,512,Exynos 2200,48MP + 50MP + 5MP
+Sony,V Series Edge 18,481.35,Best Buy,4.2,120,6.9,4,64,Helio G99,64MP + 12MP + 2MP
+Google,Reno Lite 21,682.81,Walmart,4.1,165,5.0,4,1024,Tensor G1,108MP + 12MP + 2MP
+Nokia,Pixel Edge 17,1630.59,Flipkart,4.1,165,6.7,16,1024,Dimensity 920,12MP + 16MP + 5MP
+Xiaomi,Moto G Pro 13,940.0,AliExpress,3.3,120,6.5,16,256,Dimensity 1080,48MP + 50MP + 2MP
+Xiaomi,Mate Edge 22,1166.5,eBay,4.7,120,5.3,12,256,Dimensity 1080,108MP + 12MP + 2MP
+Oppo,Pixel 5G 16,1284.4,Official Store,3.6,144,6.1,8,128,Dimensity 920,48MP + 16MP + 5MP
+Samsung,iPhone Mini 23,487.68,Best Buy,4.8,165,5.4,12,256,Snapdragon 8 Gen 2,64MP + 12MP + 8MP
+Vivo,Reno Edge 12,924.31,Reliance Digital,4.9,60,6.3,8,512,Dimensity 920,108MP + 16MP + 2MP
+Sony,Narzo Pro 11,1876.82,Best Buy,4.4,60,5.5,12,1024,Helio G99,108MP + 8MP + 8MP
+Nokia,V Series Edge 21,433.77,Best Buy,4.4,60,5.3,8,64,Helio G99,108MP + 16MP + 8MP
+Oppo,Reno Ultra 12,1033.69,Walmart,4.4,120,5.6,12,128,Dimensity 920,64MP + 16MP + 2MP
+Oppo,iPhone Ultra 20,802.81,Amazon,4.9,144,5.3,4,128,Helio G99,64MP + 8MP + 2MP
+Huawei,Mate Plus 17,1910.34,Official Store,4.1,144,7.1,6,512,Dimensity 920,50MP + 50MP + 5MP
+Google,P Series Plus 15,1470.9,Reliance Digital,3.8,144,7.5,12,512,Tensor G1,64MP + 50MP + 8MP
+Motorola,Nord SE 16,1120.32,Flipkart,4.8,120,5.1,4,1024,Helio G99,108MP + 8MP + 2MP
+Nokia,Mate SE 24,1472.14,Best Buy,3.2,165,5.9,4,512,Dimensity 920,200MP + 50MP + 2MP
+Motorola,iPhone Turbo 24,1980.77,Amazon,3.2,144,7.3,16,128,Helio G99,48MP + 50MP + 2MP
+Apple,Nord SE 19,1761.93,Official Store,4.4,165,5.2,12,1024,A15 Bionic,50MP + 12MP + 5MP
+Realme,Galaxy S Plus 24,493.48,Walmart,3.3,120,6.7,12,1024,Dimensity 920,48MP + 8MP + 8MP
+Xiaomi,Pixel Mini 20,647.23,Best Buy,3.9,165,6.1,6,512,Snapdragon 7 Gen 1,64MP + 8MP + 8MP
+Vivo,Reno SE 15,1598.05,Best Buy,3.1,60,6.2,4,512,Helio G99,50MP + 50MP + 2MP
+Samsung,Pixel Mini 19,714.42,AliExpress,4.9,60,6.5,8,64,Exynos 2200,108MP + 50MP + 5MP
+Huawei,Xperia Max 19,1957.56,eBay,3.2,90,6.9,16,256,Dimensity 920,200MP + 12MP + 5MP
+Google,Pixel SE 21,615.35,Walmart,3.1,144,5.2,16,128,Tensor G1,108MP + 8MP + 5MP
+Oppo,Narzo 5G 21,400.18,Amazon,3.6,90,5.7,8,512,Helio G99,64MP + 16MP + 8MP
+Samsung,Nord Ultra 21,531.4,AliExpress,4.2,90,6.6,16,256,Snapdragon 8 Gen 2,200MP + 50MP + 2MP
+Realme,Mate 5G 11,207.23,Walmart,4.5,120,6.8,4,128,Dimensity 920,48MP + 8MP + 8MP
+Apple,Reno Lite 23,1067.88,Amazon,3.6,120,5.1,12,1024,A16 Bionic,12MP + 50MP + 8MP
+Samsung,Galaxy S Edge 17,413.61,Best Buy,4.7,144,7.1,8,512,Snapdragon 8 Gen 2,50MP + 8MP + 5MP
+Vivo,Galaxy S Turbo 23,1954.4,Flipkart,3.1,60,5.1,12,1024,Dimensity 920,48MP + 50MP + 2MP
+Oppo,Pixel Pro 10,791.5,eBay,3.1,90,5.8,16,128,Helio G99,200MP + 8MP + 2MP
+Realme,Nord SE 24,458.97,AliExpress,4.0,165,6.6,12,128,Helio G99,12MP + 8MP + 5MP
+OnePlus,Nord Max 13,216.71,Official Store,3.9,120,7.0,6,256,Snapdragon 8+ Gen 1,50MP + 16MP + 5MP
+OnePlus,Xperia 5G 20,480.26,AliExpress,3.5,90,7.3,8,512,Dimensity 9000,50MP + 16MP + 5MP
+Nokia,Galaxy S Lite 18,1390.7,Official Store,3.8,165,5.4,12,64,Helio G99,108MP + 12MP + 8MP
+Huawei,iPhone Turbo 21,1175.19,Official Store,4.6,90,5.1,6,128,Dimensity 920,64MP + 8MP + 2MP
+Huawei,Nord 5G 17,777.09,AliExpress,3.1,60,6.8,16,256,Helio G99,12MP + 16MP + 5MP
+Apple,Nord Plus 14,337.19,Official Store,4.1,60,7.3,8,256,A16 Bionic,64MP + 50MP + 8MP
+Oppo,iPhone Turbo 19,995.55,Official Store,4.3,90,6.7,6,1024,Dimensity 920,64MP + 50MP + 5MP
+Google,Narzo Edge 22,449.46,Flipkart,4.2,144,6.0,12,128,Tensor G1,48MP + 12MP + 8MP
+Realme,Redmi Note Lite 19,803.4,Official Store,4.9,60,5.7,16,256,Dimensity 920,200MP + 8MP + 2MP
+Realme,Xperia Edge 21,339.76,Reliance Digital,3.6,165,7.4,12,64,Dimensity 920,64MP + 12MP + 8MP
+Samsung,Galaxy S Pro 25,1157.82,Reliance Digital,4.2,90,6.7,16,1024,Snapdragon 8 Gen 2,200MP + 8MP + 8MP
+Sony,Redmi Note Pro 20,1801.72,Best Buy,4.9,144,7.0,6,256,Helio G99,48MP + 12MP + 5MP
+Realme,Galaxy S Pro 20,1729.19,Reliance Digital,4.6,165,6.9,16,64,Dimensity 920,200MP + 50MP + 2MP
+Motorola,Mate Pro 21,1898.25,eBay,3.3,120,5.7,6,256,Helio G99,48MP + 12MP + 2MP
+Samsung,Narzo Turbo 12,1900.3,AliExpress,3.8,120,7.3,6,64,Snapdragon 8 Gen 2,12MP + 50MP + 5MP
+Motorola,Moto G Lite 25,1127.35,eBay,4.8,165,7.0,6,512,Helio G99,64MP + 50MP + 8MP
+Samsung,Narzo Ultra 11,1633.31,Official Store,4.6,60,6.3,16,256,Exynos 2200,108MP + 8MP + 8MP
+Huawei,Mate Max 15,1705.1,Amazon,4.6,120,5.7,8,128,Helio G99,108MP + 16MP + 2MP
+Huawei,Pixel Lite 16,216.18,Official Store,3.9,60,5.1,12,64,Helio G99,50MP + 12MP + 5MP
+Apple,Redmi Note 5G 21,652.06,Best Buy,3.6,60,5.9,16,1024,A15 Bionic,64MP + 12MP + 2MP
+Huawei,iPhone Lite 22,1501.36,Walmart,3.9,165,6.6,12,512,Helio G99,48MP + 16MP + 5MP
+Xiaomi,iPhone Lite 17,1425.54,AliExpress,4.4,90,6.3,16,64,Dimensity 1080,48MP + 12MP + 5MP
+Xiaomi,Xperia Plus 10,1669.71,Amazon,3.8,90,7.2,8,64,Dimensity 1080,64MP + 16MP + 5MP
+Apple,Reno Lite 14,425.07,Amazon,3.0,144,5.7,6,128,A16 Bionic,200MP + 12MP + 2MP
+Sony,Narzo Ultra 10,986.74,eBay,4.0,165,5.4,8,64,Helio G99,12MP + 12MP + 5MP
+Apple,Pixel Pro 19,1026.71,Flipkart,3.8,165,5.3,4,128,A15 Bionic,64MP + 50MP + 2MP
+Motorola,V Series 5G 24,629.79,AliExpress,3.7,90,6.0,16,512,Dimensity 920,48MP + 50MP + 2MP
+Samsung,Narzo Edge 17,1356.99,Official Store,3.7,120,6.9,16,256,Snapdragon 8 Gen 2,108MP + 8MP + 2MP
+OnePlus,Pixel Edge 11,1671.49,Official Store,3.3,120,5.7,16,128,Dimensity 9000,12MP + 8MP + 2MP
+Huawei,Pixel SE 10,374.65,AliExpress,4.7,60,5.9,16,1024,Helio G99,48MP + 12MP + 2MP
+Oppo,Redmi Note Plus 11,1598.37,Walmart,4.6,120,6.8,4,128,Helio G99,108MP + 50MP + 5MP
+Apple,V Series Edge 23,1611.69,Flipkart,5.0,144,5.5,12,128,A15 Bionic,108MP + 8MP + 2MP
+Google,Mate Max 10,647.82,eBay,3.8,90,5.2,16,64,Tensor G1,12MP + 8MP + 8MP
+OnePlus,iPhone Ultra 11,1096.38,Flipkart,3.6,90,6.1,6,256,Dimensity 9000,64MP + 12MP + 2MP
+Samsung,P Series Mini 23,845.88,Best Buy,3.9,60,5.3,8,64,Snapdragon 8 Gen 2,64MP + 50MP + 2MP
+Google,Moto G Turbo 24,1234.18,Walmart,3.9,120,6.9,12,256,Tensor G2,108MP + 50MP + 2MP
+Nokia,Moto G Pro 13,1245.38,Flipkart,4.2,165,6.6,16,256,Dimensity 920,200MP + 50MP + 2MP
+Realme,Moto G Ultra 12,883.41,eBay,3.4,90,5.5,12,1024,Helio G99,200MP + 50MP + 8MP
+Apple,V Series Ultra 16,1018.99,AliExpress,4.8,90,5.2,8,1024,A15 Bionic,50MP + 16MP + 5MP
+Xiaomi,iPhone Plus 21,1290.91,Flipkart,4.4,60,7.0,6,64,Dimensity 1080,108MP + 8MP + 5MP
+Sony,Pixel Max 25,443.75,Walmart,4.3,60,6.4,16,256,Dimensity 920,64MP + 8MP + 2MP
+Realme,Redmi Note Turbo 13,1010.72,Reliance Digital,3.8,120,6.5,16,512,Helio G99,50MP + 12MP + 5MP
+Motorola,Reno Mini 22,1890.17,Reliance Digital,4.2,60,7.2,16,64,Dimensity 920,48MP + 12MP + 8MP
+Nokia,Redmi Note Plus 13,315.36,AliExpress,3.7,60,6.2,6,512,Helio G99,50MP + 12MP + 8MP
+Samsung,Reno Pro 24,1365.06,Amazon,5.0,120,5.4,8,512,Snapdragon 8 Gen 2,50MP + 16MP + 5MP
+Apple,Reno Mini 16,766.32,Walmart,4.9,144,6.6,8,512,A15 Bionic,108MP + 12MP + 8MP
+Huawei,Reno Turbo 23,1320.37,AliExpress,3.3,165,7.5,12,1024,Dimensity 920,108MP + 50MP + 2MP
+Vivo,Xperia SE 11,1017.81,Reliance Digital,4.9,120,6.9,6,64,Helio G99,108MP + 8MP + 2MP
+Motorola,Xperia SE 14,1904.88,Flipkart,4.9,165,5.8,12,256,Helio G99,108MP + 16MP + 8MP
+Motorola,Reno Edge 10,1381.88,Reliance Digital,3.7,165,6.3,6,128,Dimensity 920,50MP + 8MP + 5MP
+Sony,P Series Plus 14,898.48,AliExpress,4.3,144,7.2,16,1024,Dimensity 920,12MP + 50MP + 2MP
+Samsung,Redmi Note Plus 21,1245.82,Walmart,3.5,120,6.3,8,1024,Snapdragon 8 Gen 2,200MP + 12MP + 8MP
+Vivo,Xperia Max 25,1127.19,Amazon,4.1,120,5.5,12,256,Helio G99,48MP + 12MP + 8MP
+Nokia,Xperia SE 23,222.98,Flipkart,4.7,60,7.5,4,128,Dimensity 920,48MP + 12MP + 8MP
+Google,iPhone Edge 18,1321.03,Reliance Digital,3.6,165,6.8,12,512,Tensor G2,200MP + 8MP + 8MP
+Google,Pixel Edge 10,1003.8,AliExpress,3.9,60,5.6,12,1024,Tensor G1,12MP + 8MP + 2MP
+Huawei,Galaxy S Lite 17,600.9,eBay,3.7,120,5.7,12,128,Dimensity 920,64MP + 8MP + 2MP
+Samsung,V Series Mini 18,893.93,AliExpress,3.2,90,6.8,8,512,Snapdragon 8 Gen 2,48MP + 16MP + 5MP
+OnePlus,Galaxy S Pro 11,350.84,Walmart,3.8,60,5.4,16,64,Dimensity 9000,50MP + 50MP + 2MP
+Google,V Series Pro 25,628.86,Best Buy,3.5,120,6.3,6,64,Tensor G2,12MP + 50MP + 5MP
+Google,Moto G Plus 19,847.25,Official Store,4.6,90,5.7,6,1024,Tensor G1,12MP + 50MP + 2MP
+Vivo,V Series Turbo 18,648.85,Reliance Digital,4.6,144,6.9,8,256,Helio G99,200MP + 50MP + 2MP
+Apple,Mate Lite 17,590.19,AliExpress,3.7,90,6.2,16,512,A16 Bionic,108MP + 16MP + 5MP
+Oppo,Xperia Edge 13,782.4,Walmart,3.4,120,5.1,16,128,Helio G99,48MP + 50MP + 8MP
+OnePlus,Redmi Note Ultra 19,1952.73,eBay,4.0,120,6.0,16,512,Dimensity 9000,12MP + 50MP + 2MP
+Sony,Reno Max 17,798.79,eBay,3.7,165,5.9,4,64,Dimensity 920,12MP + 16MP + 2MP
+Xiaomi,Galaxy S Mini 10,1436.57,eBay,4.0,90,5.6,6,256,Snapdragon 7 Gen 1,64MP + 50MP + 8MP
+OnePlus,Galaxy S Edge 16,1947.6,Reliance Digital,4.6,144,6.8,4,64,Snapdragon 8+ Gen 1,64MP + 8MP + 8MP
+Xiaomi,Redmi Note Mini 13,524.3,Flipkart,3.1,144,7.1,8,1024,Snapdragon 7 Gen 1,64MP + 8MP + 8MP
+Oppo,iPhone Lite 14,966.27,Amazon,4.5,165,5.4,6,128,Dimensity 920,64MP + 16MP + 2MP
+Samsung,Galaxy S Max 13,190.01,AliExpress,4.5,120,6.8,4,512,Snapdragon 8 Gen 2,50MP + 16MP + 2MP
+Sony,Mate Turbo 12,1315.62,Amazon,4.6,165,6.2,4,128,Dimensity 920,200MP + 8MP + 2MP
+Xiaomi,P Series 5G 23,329.47,AliExpress,4.3,120,5.9,16,512,Snapdragon 7 Gen 1,50MP + 8MP + 5MP
+Google,Redmi Note Pro 22,950.57,eBay,4.6,165,6.6,16,256,Tensor G1,50MP + 50MP + 2MP
+OnePlus,Reno Turbo 20,312.18,Amazon,4.1,144,5.6,4,256,Snapdragon 8+ Gen 1,200MP + 8MP + 2MP
+Realme,Redmi Note Max 15,1181.08,Official Store,3.7,144,7.1,6,512,Helio G99,108MP + 50MP + 8MP
+Nokia,V Series Mini 18,572.9,Official Store,3.6,144,5.6,16,256,Helio G99,48MP + 8MP + 2MP
+Oppo,Redmi Note Ultra 17,1948.44,Amazon,3.9,120,6.2,12,512,Dimensity 920,200MP + 8MP + 8MP
+OnePlus,Galaxy S Edge 23,762.64,Reliance Digital,3.8,60,6.8,4,256,Snapdragon 8+ Gen 1,50MP + 12MP + 8MP
+OnePlus,Narzo Pro 25,847.75,eBay,3.3,144,7.2,4,64,Dimensity 9000,108MP + 16MP + 5MP
+Oppo,Pixel Turbo 16,498.44,Flipkart,4.1,90,6.1,8,512,Dimensity 920,200MP + 12MP + 5MP
+OnePlus,Mate Max 22,1979.91,Amazon,4.4,60,6.5,8,256,Snapdragon 8+ Gen 1,48MP + 12MP + 2MP
+Google,Nord Ultra 11,1207.49,AliExpress,3.5,60,5.4,4,256,Tensor G2,64MP + 50MP + 8MP
+Huawei,P Series Pro 10,334.71,eBay,4.5,90,5.7,6,512,Helio G99,108MP + 12MP + 2MP
+Google,Galaxy S Pro 15,1615.19,Flipkart,4.5,165,6.8,16,128,Tensor G2,108MP + 12MP + 8MP
+Apple,Redmi Note SE 14,1999.26,eBay,4.5,144,6.7,4,512,A15 Bionic,50MP + 16MP + 8MP
+Samsung,Galaxy S Plus 10,1260.11,Flipkart,4.6,90,5.8,16,512,Snapdragon 8 Gen 2,50MP + 50MP + 8MP
+Huawei,Nord Lite 20,1690.3,Amazon,4.4,144,5.2,16,1024,Dimensity 920,48MP + 12MP + 5MP
+Nokia,Mate SE 11,1969.97,Walmart,5.0,120,5.3,8,64,Helio G99,48MP + 8MP + 5MP
+Motorola,iPhone 5G 14,912.01,Official Store,3.2,90,7.5,16,128,Dimensity 920,48MP + 50MP + 2MP
+Motorola,iPhone Ultra 22,1834.21,Best Buy,3.4,60,6.7,6,64,Dimensity 920,64MP + 12MP + 5MP
+Oppo,iPhone 5G 11,435.8,Amazon,4.8,144,5.8,8,128,Dimensity 920,108MP + 16MP + 5MP
+Oppo,Mate SE 23,670.17,Reliance Digital,4.6,120,6.9,12,1024,Helio G99,200MP + 16MP + 8MP
+Realme,Reno Edge 15,762.83,Walmart,3.8,120,6.0,4,512,Dimensity 920,48MP + 50MP + 2MP
+Nokia,Narzo SE 10,778.02,eBay,4.2,144,6.6,4,64,Helio G99,108MP + 8MP + 8MP
+Google,Galaxy S Ultra 24,1823.62,eBay,4.1,90,5.8,4,256,Tensor G2,64MP + 16MP + 8MP
+Xiaomi,V Series 5G 23,1092.78,AliExpress,4.9,165,6.6,8,64,Snapdragon 7 Gen 1,50MP + 12MP + 2MP
+Nokia,Nord Mini 23,1330.76,eBay,3.4,165,7.2,8,1024,Helio G99,12MP + 12MP + 5MP
+Vivo,Xperia SE 24,494.12,AliExpress,4.3,60,7.1,16,128,Dimensity 920,12MP + 12MP + 2MP
+Apple,Xperia SE 15,1269.85,Reliance Digital,3.3,144,5.5,6,64,A15 Bionic,108MP + 50MP + 5MP
+Apple,Moto G Max 10,530.12,Best Buy,4.1,120,6.1,6,256,A16 Bionic,12MP + 50MP + 8MP
+Google,Redmi Note Mini 12,1216.4,Best Buy,4.4,144,7.4,12,1024,Tensor G2,64MP + 8MP + 5MP
+Apple,Pixel Max 12,714.73,Amazon,4.4,60,7.3,12,128,A15 Bionic,64MP + 12MP + 2MP
+Apple,Pixel Turbo 10,1106.11,AliExpress,3.6,90,6.4,6,64,A16 Bionic,12MP + 50MP + 2MP
+Nokia,Redmi Note Lite 13,945.0,Flipkart,4.4,165,6.1,4,512,Dimensity 920,108MP + 12MP + 8MP
+Apple,Mate Plus 11,320.89,Amazon,3.5,120,7.3,12,256,A15 Bionic,200MP + 50MP + 5MP
+Nokia,P Series Max 16,1793.86,Reliance Digital,3.3,90,7.2,4,256,Helio G99,64MP + 8MP + 5MP
+Realme,Pixel Max 12,1184.8,Official Store,4.3,144,7.0,6,256,Dimensity 920,12MP + 16MP + 5MP
+Vivo,Xperia Max 13,1017.97,AliExpress,3.1,60,6.7,16,1024,Helio G99,12MP + 50MP + 2MP
+Sony,Narzo Pro 20,344.77,Best Buy,3.2,165,6.2,8,256,Dimensity 920,108MP + 16MP + 8MP
+Samsung,P Series 5G 19,644.8,AliExpress,3.3,60,5.1,4,128,Exynos 2200,12MP + 50MP + 8MP
+Samsung,Mate Max 16,707.07,Walmart,4.0,120,7.3,16,128,Snapdragon 8 Gen 2,12MP + 12MP + 8MP
+Samsung,V Series Plus 25,1426.25,Flipkart,4.3,60,5.2,16,64,Exynos 2200,64MP + 16MP + 2MP
+Google,P Series Max 15,1404.03,Best Buy,4.2,120,6.6,8,512,Tensor G2,48MP + 50MP + 2MP
+Nokia,Galaxy S Max 21,1048.04,Flipkart,3.7,165,7.1,6,256,Helio G99,200MP + 50MP + 5MP
+Huawei,Mate Max 11,977.45,Best Buy,4.6,120,7.4,16,128,Helio G99,108MP + 50MP + 5MP
+Realme,Reno 5G 15,450.66,Official Store,5.0,120,6.5,16,128,Dimensity 920,64MP + 8MP + 2MP
+Motorola,Narzo SE 14,948.21,eBay,3.4,120,6.9,16,64,Helio G99,12MP + 50MP + 5MP
+Huawei,Xperia Turbo 13,1703.99,Amazon,3.6,90,6.6,8,128,Dimensity 920,108MP + 8MP + 2MP
+Vivo,V Series Lite 23,1002.42,Official Store,3.1,60,5.3,4,1024,Helio G99,64MP + 50MP + 8MP
+Nokia,iPhone Mini 12,1768.75,Official Store,3.3,165,5.8,6,64,Helio G99,12MP + 50MP + 5MP
+Google,Reno Pro 11,1260.73,Walmart,3.8,165,6.5,16,512,Tensor G1,50MP + 16MP + 8MP
+Huawei,V Series Lite 24,1171.02,Walmart,3.9,120,6.9,6,256,Dimensity 920,64MP + 50MP + 8MP
+Xiaomi,Pixel Lite 21,1894.84,Reliance Digital,3.3,90,6.6,8,128,Dimensity 1080,108MP + 16MP + 8MP
+Vivo,Mate Max 24,1281.14,Official Store,4.9,144,6.1,4,512,Dimensity 920,12MP + 16MP + 5MP
+Motorola,Pixel 5G 16,719.31,Flipkart,4.6,120,6.8,16,512,Dimensity 920,48MP + 8MP + 8MP
+Xiaomi,Narzo Lite 17,1753.22,Flipkart,3.2,120,5.2,4,128,Dimensity 1080,50MP + 50MP + 2MP
+Motorola,Redmi Note Plus 14,1445.75,Amazon,4.2,60,6.6,16,1024,Helio G99,48MP + 12MP + 2MP
+Motorola,Moto G Ultra 19,1155.91,Walmart,3.2,90,6.6,8,256,Helio G99,200MP + 16MP + 5MP
+Vivo,Reno Lite 14,889.88,Reliance Digital,4.7,120,6.2,4,512,Dimensity 920,108MP + 50MP + 5MP
+Oppo,V Series Turbo 12,1730.96,Best Buy,4.7,60,5.6,8,64,Dimensity 920,64MP + 16MP + 5MP
+Realme,Redmi Note 5G 25,946.96,Best Buy,4.8,165,6.6,4,512,Helio G99,48MP + 50MP + 8MP
+Samsung,V Series Pro 25,1752.81,eBay,3.9,144,6.3,4,64,Exynos 2200,64MP + 12MP + 8MP
+Samsung,Pixel Pro 23,473.28,Best Buy,3.8,90,6.9,12,128,Snapdragon 8 Gen 2,50MP + 50MP + 2MP
+Xiaomi,Pixel Mini 13,1318.55,Official Store,3.6,60,5.3,12,512,Dimensity 1080,12MP + 8MP + 2MP
+Vivo,Reno 5G 20,1177.15,AliExpress,4.4,120,6.0,4,128,Dimensity 920,50MP + 16MP + 8MP
+Nokia,Mate Ultra 19,1238.25,eBay,3.5,120,6.8,6,128,Dimensity 920,50MP + 8MP + 5MP
+Xiaomi,Reno Mini 20,1146.18,Best Buy,4.3,90,5.9,12,512,Snapdragon 7 Gen 1,48MP + 50MP + 5MP
+Xiaomi,Mate Ultra 15,1071.27,Walmart,3.7,144,7.2,8,64,Snapdragon 7 Gen 1,200MP + 8MP + 2MP
+Apple,Nord 5G 18,1142.4,Reliance Digital,3.8,144,6.0,8,512,A16 Bionic,108MP + 12MP + 5MP
+Apple,V Series Turbo 16,1560.76,eBay,3.4,144,6.0,4,64,A15 Bionic,200MP + 12MP + 5MP
+Google,Pixel Ultra 15,431.62,Walmart,4.3,90,6.7,16,256,Tensor G2,50MP + 12MP + 8MP
+Vivo,Redmi Note Pro 22,1702.34,Flipkart,4.2,60,7.2,12,64,Dimensity 920,12MP + 8MP + 8MP
+Vivo,Moto G SE 23,1379.68,Official Store,5.0,90,6.2,16,64,Helio G99,48MP + 50MP + 2MP
+Samsung,Narzo Plus 15,1636.44,Best Buy,3.5,60,7.2,6,256,Snapdragon 8 Gen 2,12MP + 12MP + 5MP
+Motorola,Reno SE 21,1408.92,Best Buy,4.2,60,7.1,16,64,Dimensity 920,200MP + 16MP + 5MP
+Vivo,iPhone Mini 12,514.2,Flipkart,4.1,60,7.5,12,256,Dimensity 920,108MP + 16MP + 5MP
+Realme,Moto G Mini 17,1857.18,Amazon,3.8,165,5.7,12,128,Dimensity 920,48MP + 16MP + 2MP
+Huawei,Galaxy S Max 17,1374.45,eBay,3.5,144,5.1,4,1024,Helio G99,48MP + 8MP + 5MP
+Apple,Moto G Ultra 11,831.37,Reliance Digital,4.9,60,5.5,8,128,A16 Bionic,64MP + 16MP + 8MP
+Google,Xperia 5G 14,1553.89,Official Store,3.5,165,6.1,8,64,Tensor G2,64MP + 50MP + 8MP
+OnePlus,V Series SE 15,1603.04,Official Store,3.6,60,5.8,8,1024,Snapdragon 8+ Gen 1,200MP + 16MP + 2MP
+Xiaomi,Redmi Note Turbo 15,1240.07,AliExpress,3.3,90,6.4,16,512,Snapdragon 7 Gen 1,50MP + 16MP + 8MP
+Google,Nord Mini 23,1627.32,AliExpress,4.7,60,6.5,12,128,Tensor G1,50MP + 50MP + 8MP
+Realme,Moto G Turbo 18,697.24,AliExpress,3.2,120,5.4,4,512,Dimensity 920,48MP + 16MP + 8MP
+Realme,V Series Plus 10,1558.37,Walmart,4.9,165,6.7,8,64,Dimensity 920,108MP + 16MP + 2MP
+Apple,Redmi Note Turbo 21,1168.67,Flipkart,3.1,60,6.6,6,64,A16 Bionic,48MP + 16MP + 8MP
+Oppo,Mate Max 13,1648.15,Reliance Digital,3.8,165,7.0,4,512,Helio G99,12MP + 16MP + 2MP
+OnePlus,Pixel Max 25,1075.78,Best Buy,3.8,144,6.4,8,64,Dimensity 9000,50MP + 16MP + 8MP
+Samsung,Narzo Ultra 11,987.95,AliExpress,3.6,165,7.1,8,64,Exynos 2200,48MP + 16MP + 8MP
+Google,Pixel SE 17,1463.81,eBay,4.9,90,7.0,8,512,Tensor G2,200MP + 12MP + 2MP
+Samsung,P Series SE 20,1502.75,AliExpress,4.4,90,5.8,6,64,Exynos 2200,12MP + 8MP + 5MP
+Apple,V Series Lite 23,1955.77,Official Store,3.8,120,5.9,16,64,A16 Bionic,64MP + 16MP + 5MP
+Huawei,Xperia Pro 10,696.1,Best Buy,3.8,90,5.7,6,128,Dimensity 920,50MP + 8MP + 8MP
+Huawei,Redmi Note 5G 16,1640.56,Amazon,3.6,90,7.3,6,256,Helio G99,50MP + 8MP + 5MP
+Oppo,Xperia Max 18,1105.44,Official Store,4.6,165,6.9,6,64,Helio G99,108MP + 50MP + 2MP
+Samsung,Pixel Edge 24,921.49,Best Buy,4.2,165,5.4,16,64,Snapdragon 8 Gen 2,200MP + 12MP + 2MP
+Realme,Xperia Edge 11,1048.35,Best Buy,3.4,120,5.1,6,1024,Dimensity 920,200MP + 8MP + 2MP
+Samsung,Reno Mini 21,289.83,Amazon,3.6,90,7.0,4,1024,Snapdragon 8 Gen 2,12MP + 50MP + 2MP
+Huawei,Moto G Ultra 16,1386.63,Official Store,3.5,144,6.7,8,1024,Helio G99,48MP + 12MP + 2MP
+OnePlus,V Series Mini 10,1556.88,AliExpress,4.3,60,6.0,16,256,Dimensity 9000,200MP + 8MP + 8MP
+Realme,Moto G SE 11,1885.83,Official Store,4.3,165,5.1,6,512,Dimensity 920,64MP + 50MP + 5MP
+Motorola,Moto G Edge 23,1010.29,AliExpress,3.4,144,5.3,12,64,Helio G99,48MP + 8MP + 8MP
+Oppo,iPhone Pro 18,516.48,Walmart,3.8,120,7.3,4,64,Helio G99,200MP + 12MP + 2MP
+Realme,Reno Lite 19,1593.76,eBay,3.7,165,6.3,6,1024,Dimensity 920,50MP + 12MP + 8MP
+Xiaomi,Reno Max 17,1876.47,Best Buy,5.0,120,5.7,8,256,Snapdragon 7 Gen 1,12MP + 16MP + 5MP
+Huawei,Mate Pro 15,994.61,eBay,4.6,165,5.1,8,256,Helio G99,64MP + 12MP + 2MP
+Xiaomi,P Series Edge 16,1095.8,Best Buy,4.6,120,6.2,6,128,Dimensity 1080,200MP + 8MP + 8MP
+Samsung,V Series Pro 21,541.35,Flipkart,3.8,60,6.5,12,64,Exynos 2200,12MP + 8MP + 5MP
+Apple,V Series Turbo 19,1409.99,eBay,4.3,144,6.0,8,512,A15 Bionic,12MP + 16MP + 8MP
+Oppo,Redmi Note Max 14,830.5,AliExpress,4.1,90,6.2,8,64,Dimensity 920,48MP + 16MP + 8MP
+Google,Redmi Note Turbo 17,1211.06,Walmart,4.6,90,5.4,4,1024,Tensor G1,50MP + 16MP + 2MP
+Xiaomi,Nord SE 22,1142.41,Flipkart,4.3,90,5.2,12,1024,Dimensity 1080,48MP + 16MP + 2MP
+Motorola,Galaxy S Ultra 21,1005.31,Amazon,4.2,60,5.2,4,1024,Dimensity 920,48MP + 8MP + 5MP
+Google,Narzo Turbo 25,795.71,Walmart,5.0,144,6.5,6,64,Tensor G1,50MP + 16MP + 5MP
+Huawei,Moto G Edge 24,920.46,AliExpress,4.4,144,5.7,6,1024,Helio G99,50MP + 12MP + 2MP
+Huawei,Mate Max 12,1772.48,Flipkart,3.9,90,7.2,6,512,Helio G99,12MP + 50MP + 8MP
+Samsung,P Series Max 11,379.09,Amazon,4.5,90,6.8,4,128,Exynos 2200,64MP + 8MP + 5MP
+Sony,Mate Lite 19,1592.54,eBay,4.9,165,6.2,8,256,Helio G99,48MP + 16MP + 5MP
+Nokia,V Series Mini 14,1249.1,Official Store,4.0,120,5.3,12,128,Dimensity 920,64MP + 8MP + 2MP
+Google,Pixel Plus 16,1913.71,Reliance Digital,4.4,144,5.9,4,256,Tensor G1,48MP + 16MP + 8MP
+Apple,iPhone Max 20,831.18,Reliance Digital,3.9,60,6.1,6,1024,A15 Bionic,64MP + 8MP + 5MP
+Oppo,Xperia Mini 19,1691.57,Reliance Digital,4.5,60,5.8,12,128,Helio G99,108MP + 12MP + 5MP
+Oppo,Pixel Ultra 24,1785.92,eBay,4.3,144,7.1,6,1024,Dimensity 920,12MP + 50MP + 5MP
+Google,Pixel Mini 25,1602.41,Best Buy,3.5,60,5.9,16,256,Tensor G1,50MP + 50MP + 5MP
+Vivo,Xperia Ultra 20,881.97,Flipkart,3.3,144,5.6,8,1024,Helio G99,12MP + 50MP + 5MP
+Oppo,Xperia 5G 19,1369.07,Official Store,4.1,165,5.2,8,1024,Helio G99,48MP + 12MP + 5MP
+OnePlus,Galaxy S Max 24,185.46,Walmart,4.7,144,5.3,16,1024,Dimensity 9000,64MP + 12MP + 5MP
+Xiaomi,Mate Turbo 11,410.16,AliExpress,4.5,90,6.0,16,1024,Dimensity 1080,108MP + 8MP + 8MP
+Motorola,Xperia Pro 17,1485.46,Walmart,3.1,144,6.3,6,64,Helio G99,12MP + 12MP + 5MP
+Google,Narzo 5G 14,234.52,Best Buy,4.8,165,5.3,4,128,Tensor G1,50MP + 8MP + 2MP
+Huawei,Galaxy S Mini 21,824.31,AliExpress,3.3,90,6.5,4,1024,Helio G99,64MP + 12MP + 8MP
+Oppo,Xperia Plus 12,994.52,eBay,4.3,144,5.5,6,256,Helio G99,200MP + 16MP + 8MP
+Vivo,Redmi Note Lite 19,1743.76,Amazon,4.9,144,6.1,4,64,Dimensity 920,48MP + 16MP + 8MP
+Xiaomi,P Series Edge 14,1217.29,Reliance Digital,4.6,60,6.7,4,512,Snapdragon 7 Gen 1,108MP + 16MP + 5MP
+Realme,iPhone Pro 24,1428.0,Best Buy,4.0,165,7.2,6,64,Dimensity 920,48MP + 50MP + 8MP
+OnePlus,Reno Max 13,687.01,Best Buy,4.6,120,6.7,12,64,Snapdragon 8+ Gen 1,108MP + 8MP + 2MP
+Realme,Pixel Lite 16,275.08,eBay,4.1,90,5.8,4,128,Helio G99,12MP + 16MP + 8MP
+Huawei,Pixel Pro 17,1634.84,Amazon,4.8,60,5.3,12,128,Dimensity 920,200MP + 16MP + 5MP
+Xiaomi,P Series Ultra 16,1548.29,Reliance Digital,3.4,144,7.0,6,256,Dimensity 1080,108MP + 12MP + 5MP
+Apple,Galaxy S 5G 25,1021.26,Walmart,3.9,60,6.5,4,256,A15 Bionic,48MP + 8MP + 2MP
+Sony,Mate 5G 16,1239.11,eBay,4.8,165,5.5,4,64,Dimensity 920,108MP + 12MP + 8MP
+Motorola,Pixel Ultra 21,1843.78,Amazon,4.5,144,5.8,4,256,Dimensity 920,200MP + 50MP + 8MP
+OnePlus,Redmi Note Pro 15,191.13,Amazon,3.3,60,7.1,16,256,Snapdragon 8+ Gen 1,108MP + 8MP + 8MP
+Huawei,Moto G 5G 23,1780.42,Reliance Digital,4.1,165,7.3,4,64,Dimensity 920,48MP + 50MP + 8MP
+Samsung,Pixel Edge 21,1861.78,Walmart,4.8,120,5.6,12,256,Snapdragon 8 Gen 2,64MP + 50MP + 5MP
+Motorola,Galaxy S 5G 15,1993.58,Reliance Digital,4.3,165,6.8,16,128,Dimensity 920,48MP + 8MP + 5MP
+Xiaomi,Nord Pro 22,337.06,AliExpress,4.1,120,5.5,6,64,Snapdragon 7 Gen 1,64MP + 50MP + 5MP
+Motorola,Xperia Edge 24,555.73,Best Buy,3.5,90,6.9,16,1024,Helio G99,50MP + 50MP + 2MP
+Samsung,Nord Plus 23,381.7,eBay,3.6,144,6.0,8,1024,Snapdragon 8 Gen 2,200MP + 50MP + 2MP
+Huawei,Nord Plus 22,1310.6,AliExpress,3.1,60,7.1,4,512,Helio G99,108MP + 12MP + 5MP
+Nokia,P Series SE 24,950.58,Flipkart,4.2,144,5.7,6,512,Helio G99,50MP + 12MP + 8MP
+Huawei,Mate 5G 20,722.28,Flipkart,4.0,120,5.3,16,128,Helio G99,108MP + 8MP + 8MP
+OnePlus,Reno Lite 22,1235.52,Best Buy,4.8,144,6.6,12,1024,Snapdragon 8+ Gen 1,200MP + 8MP + 5MP
+Samsung,iPhone 5G 11,480.88,Reliance Digital,4.6,60,5.7,12,1024,Snapdragon 8 Gen 2,108MP + 8MP + 8MP
+Google,Moto G Plus 19,1281.98,Official Store,3.4,90,7.2,6,256,Tensor G1,12MP + 8MP + 2MP
+Huawei,Galaxy S Pro 12,540.42,eBay,3.0,120,6.5,16,128,Helio G99,12MP + 16MP + 5MP
+Apple,Reno Lite 15,1357.02,Best Buy,3.0,60,6.2,6,64,A16 Bionic,64MP + 16MP + 8MP
+Sony,Nord Ultra 18,295.03,Official Store,4.5,165,5.2,6,1024,Helio G99,48MP + 12MP + 2MP
+Huawei,Mate 5G 18,524.33,Best Buy,3.7,60,5.2,16,512,Dimensity 920,200MP + 8MP + 5MP
+Oppo,P Series Max 24,1599.7,Best Buy,3.6,90,5.6,12,256,Dimensity 920,200MP + 16MP + 5MP
+Samsung,Narzo 5G 22,1772.58,Flipkart,4.5,60,7.2,6,128,Snapdragon 8 Gen 2,64MP + 12MP + 5MP
+Apple,Narzo Ultra 24,1291.52,Reliance Digital,4.8,90,5.2,12,256,A16 Bionic,48MP + 16MP + 2MP
+Apple,Nord Edge 10,1081.78,Reliance Digital,3.4,165,5.3,6,64,A15 Bionic,50MP + 12MP + 2MP
+OnePlus,Xperia Ultra 20,599.67,Walmart,4.0,165,7.5,6,512,Dimensity 9000,108MP + 50MP + 2MP
+Motorola,Pixel Max 11,1848.82,Official Store,3.7,120,7.0,8,512,Helio G99,200MP + 50MP + 5MP
+Google,Mate Turbo 20,1752.21,Amazon,4.6,165,6.1,16,128,Tensor G1,12MP + 16MP + 2MP
+OnePlus,Narzo Mini 25,1215.47,Walmart,3.4,90,6.1,8,256,Dimensity 9000,64MP + 12MP + 8MP
+Realme,Moto G Lite 20,207.68,Official Store,3.3,144,7.4,12,128,Dimensity 920,64MP + 12MP + 5MP
+Realme,Pixel 5G 23,1964.16,Amazon,3.2,120,5.6,6,128,Dimensity 920,200MP + 12MP + 5MP
+Sony,Galaxy S Turbo 25,854.94,Walmart,3.1,165,5.7,4,1024,Helio G99,48MP + 8MP + 5MP
+Nokia,Galaxy S Mini 20,386.44,Best Buy,4.1,120,7.1,6,1024,Dimensity 920,64MP + 8MP + 5MP
+Google,P Series Ultra 20,1265.78,Reliance Digital,3.8,90,7.1,16,256,Tensor G1,12MP + 50MP + 5MP
+Apple,Nord Ultra 25,797.94,Best Buy,3.1,60,6.8,4,512,A16 Bionic,50MP + 50MP + 2MP
+Vivo,P Series Turbo 18,1823.55,eBay,4.3,60,5.3,4,128,Dimensity 920,108MP + 16MP + 5MP
+Apple,Xperia Pro 25,476.19,eBay,5.0,165,7.0,4,64,A15 Bionic,12MP + 50MP + 5MP
+Google,P Series Ultra 10,722.8,Reliance Digital,4.8,120,7.4,12,512,Tensor G1,64MP + 50MP + 2MP
+Sony,Reno Mini 14,807.61,Flipkart,3.3,90,5.6,8,1024,Dimensity 920,64MP + 50MP + 8MP
+Huawei,Pixel Plus 20,1345.08,Flipkart,3.4,165,6.0,8,64,Dimensity 920,48MP + 16MP + 5MP
+Motorola,Moto G Edge 17,1064.59,Reliance Digital,3.1,165,5.8,4,512,Dimensity 920,200MP + 8MP + 8MP
+OnePlus,Pixel Max 22,1371.6,Amazon,4.0,120,6.2,4,64,Dimensity 9000,12MP + 50MP + 2MP
+Xiaomi,Galaxy S Mini 25,1143.32,AliExpress,3.2,144,6.8,12,64,Snapdragon 7 Gen 1,108MP + 50MP + 5MP
+Realme,Reno Mini 15,549.21,Best Buy,3.1,60,6.9,16,64,Helio G99,12MP + 8MP + 5MP
+Realme,Nord Ultra 16,843.08,Walmart,4.7,120,6.3,4,512,Dimensity 920,108MP + 12MP + 2MP
+Oppo,Reno Mini 25,237.36,AliExpress,3.6,120,5.4,8,512,Helio G99,200MP + 16MP + 8MP
+Apple,Galaxy S Turbo 12,1237.61,Best Buy,4.3,60,5.7,16,64,A15 Bionic,48MP + 16MP + 5MP
+Vivo,Galaxy S Edge 19,883.92,Walmart,4.4,144,5.4,4,1024,Dimensity 920,64MP + 50MP + 2MP
+Nokia,Reno Lite 17,691.37,AliExpress,3.4,144,7.5,6,64,Dimensity 920,12MP + 8MP + 5MP
+Nokia,P Series 5G 24,1665.71,Flipkart,3.7,120,6.4,4,64,Dimensity 920,12MP + 8MP + 8MP
+Huawei,Mate Pro 13,657.36,Best Buy,4.0,90,5.1,16,512,Helio G99,200MP + 50MP + 5MP
+Xiaomi,Redmi Note Ultra 12,973.9,Official Store,4.5,90,6.6,16,128,Snapdragon 7 Gen 1,108MP + 8MP + 8MP
+Oppo,V Series SE 11,1078.82,Flipkart,3.2,144,7.5,6,256,Dimensity 920,48MP + 50MP + 5MP
+Oppo,Moto G Mini 25,1821.21,Walmart,4.9,144,7.3,12,256,Dimensity 920,200MP + 50MP + 2MP
+Samsung,Narzo Plus 17,1681.0,Amazon,4.0,165,5.9,6,256,Exynos 2200,48MP + 16MP + 5MP
+Huawei,iPhone Edge 20,454.09,AliExpress,3.0,144,7.3,12,256,Dimensity 920,108MP + 12MP + 2MP
+Sony,Narzo Lite 12,338.76,Flipkart,3.9,144,6.9,8,128,Dimensity 920,50MP + 12MP + 8MP
+Nokia,Moto G Max 18,1414.34,Best Buy,4.6,90,5.6,6,64,Helio G99,50MP + 50MP + 5MP
+Realme,Galaxy S Edge 18,1670.36,Flipkart,4.3,120,5.3,12,256,Helio G99,50MP + 8MP + 2MP
+Samsung,Redmi Note Edge 14,710.09,Walmart,4.9,90,5.8,8,64,Snapdragon 8 Gen 2,50MP + 16MP + 8MP
+Vivo,Moto G 5G 20,559.43,Best Buy,3.9,90,6.1,8,1024,Dimensity 920,48MP + 16MP + 5MP
+OnePlus,P Series Mini 16,1358.05,AliExpress,4.1,165,5.4,6,64,Dimensity 9000,50MP + 8MP + 8MP
+OnePlus,V Series Turbo 25,1252.95,Walmart,4.6,60,6.2,16,1024,Snapdragon 8+ Gen 1,48MP + 16MP + 5MP
+Realme,V Series SE 25,687.83,Official Store,4.1,165,6.4,12,64,Helio G99,50MP + 8MP + 5MP
+Sony,Nord Ultra 18,772.08,AliExpress,3.7,60,5.5,12,64,Dimensity 920,12MP + 12MP + 2MP
+Vivo,Galaxy S Pro 18,1281.75,Amazon,4.4,144,7.4,16,512,Dimensity 920,200MP + 16MP + 2MP
+Realme,Redmi Note Edge 21,559.27,eBay,3.7,120,6.0,8,512,Dimensity 920,200MP + 50MP + 5MP
+Realme,Nord SE 16,616.32,Reliance Digital,3.5,120,7.5,16,512,Dimensity 920,12MP + 8MP + 8MP
+Vivo,Moto G Lite 11,1421.41,eBay,3.6,120,6.2,16,64,Helio G99,64MP + 12MP + 8MP
+Vivo,Moto G Lite 24,985.09,Flipkart,4.3,90,6.6,6,1024,Helio G99,48MP + 16MP + 5MP
+Realme,iPhone Edge 21,519.63,Flipkart,5.0,60,7.4,16,256,Helio G99,108MP + 8MP + 2MP
+Sony,Moto G Turbo 18,1632.22,AliExpress,4.0,165,5.3,4,1024,Helio G99,200MP + 8MP + 8MP
+Oppo,iPhone Mini 21,1916.38,Amazon,4.5,165,5.8,4,64,Helio G99,108MP + 8MP + 5MP
+Motorola,Reno Ultra 25,185.32,Reliance Digital,4.9,120,5.1,16,64,Helio G99,50MP + 8MP + 5MP
+Apple,Redmi Note SE 12,484.84,AliExpress,3.3,120,6.8,16,512,A16 Bionic,50MP + 12MP + 5MP
+Sony,Redmi Note Turbo 22,1535.18,Amazon,4.6,165,5.4,16,256,Helio G99,48MP + 8MP + 5MP
+Samsung,Moto G Lite 12,780.3,eBay,4.0,90,5.4,4,64,Snapdragon 8 Gen 2,48MP + 12MP + 5MP
+OnePlus,Moto G Plus 14,1407.54,Amazon,3.8,60,5.7,4,512,Dimensity 9000,12MP + 50MP + 2MP
+Vivo,Xperia 5G 20,1838.62,Amazon,3.4,90,6.1,12,64,Dimensity 920,12MP + 12MP + 8MP
+Motorola,Nord Lite 25,780.4,Reliance Digital,3.8,165,6.4,12,256,Dimensity 920,108MP + 16MP + 8MP
+OnePlus,Pixel Edge 17,172.14,eBay,3.6,120,5.9,16,512,Snapdragon 8+ Gen 1,12MP + 16MP + 8MP
+Google,Narzo Lite 13,871.65,Flipkart,3.7,90,5.3,6,64,Tensor G2,12MP + 16MP + 2MP
+Vivo,Narzo Max 25,1597.07,Amazon,3.7,165,7.0,8,64,Helio G99,48MP + 8MP + 2MP
+Huawei,V Series SE 15,1055.36,AliExpress,4.6,120,7.5,6,256,Helio G99,200MP + 12MP + 5MP
+Apple,iPhone Turbo 25,1523.75,Best Buy,4.0,165,5.8,4,128,A15 Bionic,12MP + 50MP + 5MP
+Motorola,Pixel 5G 10,1113.43,Flipkart,4.5,120,5.2,6,64,Helio G99,64MP + 50MP + 8MP
+Oppo,V Series Turbo 10,824.65,AliExpress,4.2,60,6.2,16,128,Helio G99,108MP + 8MP + 8MP
+Nokia,Xperia 5G 10,1403.8,Official Store,3.4,60,5.7,4,64,Helio G99,108MP + 16MP + 5MP
+Xiaomi,Galaxy S SE 14,313.89,Official Store,3.5,144,7.3,6,64,Dimensity 1080,12MP + 16MP + 5MP
+Huawei,V Series Mini 18,1296.4,Flipkart,4.2,60,7.4,6,512,Helio G99,12MP + 12MP + 8MP
+OnePlus,Moto G Turbo 14,1649.58,Best Buy,3.9,165,7.0,8,512,Dimensity 9000,64MP + 12MP + 8MP
+Vivo,Reno SE 16,1793.21,Walmart,4.8,165,6.2,6,64,Helio G99,50MP + 8MP + 5MP
+Vivo,iPhone Max 22,918.94,eBay,4.6,144,5.5,8,64,Dimensity 920,48MP + 16MP + 5MP
+Xiaomi,Pixel Max 15,435.83,Walmart,3.6,90,5.5,16,64,Dimensity 1080,48MP + 50MP + 2MP
+Oppo,Narzo 5G 24,203.86,Amazon,3.5,60,7.1,16,64,Helio G99,12MP + 50MP + 5MP
+Motorola,Pixel 5G 11,1757.24,Walmart,3.5,165,5.8,16,128,Helio G99,50MP + 16MP + 8MP
+Xiaomi,iPhone Ultra 12,812.08,Reliance Digital,4.0,165,6.3,16,256,Dimensity 1080,64MP + 50MP + 5MP
+Realme,iPhone Edge 23,312.95,Walmart,3.5,165,7.2,16,128,Dimensity 920,64MP + 8MP + 5MP
+Realme,Xperia 5G 15,610.15,Best Buy,3.3,144,6.7,16,64,Helio G99,200MP + 12MP + 8MP
+Vivo,Moto G Ultra 13,1120.56,AliExpress,3.0,90,7.2,8,64,Dimensity 920,200MP + 8MP + 2MP
+OnePlus,V Series Ultra 18,364.93,Best Buy,3.2,120,5.2,16,512,Snapdragon 8+ Gen 1,108MP + 8MP + 2MP
+Google,P Series Ultra 12,1603.66,Official Store,4.5,165,7.2,6,512,Tensor G2,64MP + 8MP + 8MP
+Apple,P Series Edge 21,1338.88,eBay,4.4,120,6.6,12,128,A15 Bionic,50MP + 12MP + 8MP
+Samsung,Reno SE 12,209.49,Official Store,4.1,60,7.3,4,128,Exynos 2200,108MP + 12MP + 8MP
+Huawei,Galaxy S Pro 25,535.41,Best Buy,3.4,120,6.6,12,256,Dimensity 920,48MP + 8MP + 8MP
+Google,Galaxy S Ultra 10,1848.69,Walmart,4.0,144,6.0,12,1024,Tensor G1,48MP + 8MP + 5MP
+Nokia,P Series Turbo 17,750.84,Best Buy,4.3,165,7.0,8,128,Dimensity 920,108MP + 16MP + 8MP
+Motorola,V Series 5G 11,223.32,Flipkart,4.3,144,5.4,16,64,Dimensity 920,108MP + 16MP + 5MP
+Samsung,Redmi Note Edge 12,738.68,Best Buy,3.1,90,5.6,6,64,Exynos 2200,12MP + 12MP + 2MP
+Vivo,Galaxy S Plus 12,1086.56,eBay,3.5,120,5.8,8,256,Helio G99,200MP + 16MP + 2MP
+Nokia,Narzo Max 20,1516.84,Flipkart,4.4,90,7.2,8,64,Helio G99,64MP + 8MP + 2MP
+Oppo,Narzo Turbo 20,1926.24,AliExpress,3.4,165,6.3,8,128,Helio G99,12MP + 12MP + 2MP
+Vivo,Moto G Mini 24,451.89,Amazon,4.8,60,7.2,12,1024,Dimensity 920,108MP + 8MP + 2MP
+Oppo,Mate Lite 15,1289.6,Amazon,3.3,60,6.7,6,64,Helio G99,48MP + 8MP + 5MP
+Motorola,Pixel Edge 19,1061.32,Best Buy,4.1,144,6.6,4,1024,Dimensity 920,200MP + 8MP + 5MP
+Motorola,Pixel Plus 10,811.65,Reliance Digital,3.2,90,6.1,4,1024,Helio G99,50MP + 50MP + 5MP
+Xiaomi,Moto G Lite 24,1607.4,eBay,3.4,144,6.5,16,1024,Snapdragon 7 Gen 1,48MP + 16MP + 8MP
+Motorola,Pixel Max 21,1244.6,Amazon,3.9,60,6.6,12,512,Helio G99,200MP + 8MP + 2MP
+Oppo,Mate Mini 17,1015.53,Flipkart,3.7,144,5.9,6,64,Helio G99,200MP + 16MP + 2MP
+Nokia,iPhone 5G 20,1664.84,Amazon,4.4,144,6.0,16,256,Dimensity 920,108MP + 50MP + 8MP
+Xiaomi,Moto G Turbo 20,1407.39,Amazon,3.1,165,7.1,16,128,Snapdragon 7 Gen 1,12MP + 12MP + 2MP
+Samsung,Galaxy S Mini 11,267.48,Walmart,4.6,165,5.6,16,512,Exynos 2200,50MP + 50MP + 2MP
+Sony,Redmi Note Ultra 20,1958.44,Official Store,4.5,165,6.0,6,512,Helio G99,50MP + 8MP + 2MP
+Sony,Redmi Note Plus 17,452.86,Reliance Digital,3.3,144,7.2,4,512,Helio G99,48MP + 8MP + 2MP
+Vivo,Nord Max 15,1347.75,eBay,3.8,90,6.9,6,512,Dimensity 920,200MP + 50MP + 5MP
+Sony,Moto G Lite 13,1386.81,Official Store,3.9,120,7.2,4,1024,Dimensity 920,12MP + 50MP + 8MP
+Realme,Galaxy S Turbo 17,1670.88,Best Buy,3.0,60,5.0,12,512,Dimensity 920,64MP + 16MP + 8MP
+Samsung,iPhone Edge 12,1011.79,Amazon,4.0,144,5.1,4,512,Snapdragon 8 Gen 2,48MP + 8MP + 2MP
+Samsung,Xperia Turbo 21,511.86,AliExpress,3.2,120,7.1,6,256,Snapdragon 8 Gen 2,200MP + 8MP + 2MP
+Sony,Narzo 5G 24,1266.66,Best Buy,4.4,144,5.2,8,1024,Dimensity 920,108MP + 50MP + 2MP
+Xiaomi,Mate Max 25,319.28,Flipkart,4.3,90,6.4,12,128,Snapdragon 7 Gen 1,200MP + 16MP + 5MP
+Motorola,V Series SE 17,1728.28,AliExpress,3.5,144,7.4,4,256,Helio G99,12MP + 8MP + 5MP
+Realme,Narzo Plus 20,1951.0,Amazon,4.1,144,5.8,16,64,Dimensity 920,200MP + 12MP + 8MP
+Samsung,Narzo Lite 23,1215.51,Flipkart,3.5,90,5.7,6,64,Exynos 2200,200MP + 16MP + 5MP
+Samsung,Nord Edge 12,474.18,eBay,4.1,165,5.3,6,1024,Exynos 2200,64MP + 12MP + 2MP
+Huawei,P Series Pro 17,591.48,Amazon,4.5,144,5.7,8,128,Dimensity 920,108MP + 50MP + 5MP
+Google,Moto G Edge 23,1956.75,Best Buy,3.1,90,7.2,6,64,Tensor G2,48MP + 12MP + 8MP
+Realme,V Series Ultra 11,374.38,Reliance Digital,4.3,165,5.8,12,256,Helio G99,108MP + 50MP + 2MP
+Xiaomi,Redmi Note Edge 15,1720.56,Walmart,3.6,165,6.9,12,1024,Dimensity 1080,200MP + 8MP + 2MP
+Huawei,Mate Lite 11,572.09,Flipkart,4.2,165,7.1,16,256,Helio G99,108MP + 16MP + 2MP
+Vivo,Nord Mini 21,756.8,Flipkart,3.8,144,5.5,4,256,Dimensity 920,50MP + 16MP + 2MP
+Vivo,V Series Mini 13,488.79,Walmart,4.8,144,5.8,4,128,Helio G99,48MP + 12MP + 8MP
+Google,V Series Edge 19,530.49,Reliance Digital,4.4,90,7.0,4,512,Tensor G1,48MP + 8MP + 8MP
+Apple,Galaxy S Mini 22,285.99,Best Buy,4.2,120,5.1,12,256,A15 Bionic,48MP + 50MP + 8MP
+Realme,Nord Ultra 24,1254.15,Reliance Digital,3.0,90,6.6,6,512,Dimensity 920,48MP + 12MP + 8MP
+Xiaomi,V Series Pro 16,709.78,AliExpress,3.5,60,7.5,12,128,Snapdragon 7 Gen 1,12MP + 50MP + 2MP
+Google,Pixel Edge 13,1009.79,Walmart,3.1,120,5.2,16,128,Tensor G1,48MP + 16MP + 5MP
+Google,Nord Ultra 15,1584.5,Best Buy,4.0,90,7.1,6,128,Tensor G2,50MP + 50MP + 8MP
+Sony,Moto G Pro 24,286.17,eBay,4.8,144,6.4,6,512,Helio G99,108MP + 50MP + 8MP
+OnePlus,Redmi Note Max 23,1709.51,Reliance Digital,3.5,90,7.2,6,128,Dimensity 9000,200MP + 8MP + 5MP
+Oppo,Nord Pro 15,734.02,Reliance Digital,4.2,120,6.3,16,128,Dimensity 920,12MP + 12MP + 2MP
+Motorola,P Series Pro 15,1627.65,Amazon,3.2,60,6.9,6,64,Helio G99,50MP + 16MP + 8MP
+Oppo,Nord Ultra 13,948.99,Official Store,3.8,165,7.4,8,512,Dimensity 920,64MP + 8MP + 2MP
+Nokia,iPhone Pro 21,588.08,Reliance Digital,4.1,165,5.7,6,1024,Helio G99,48MP + 8MP + 5MP
+Samsung,Nord Edge 25,1441.67,AliExpress,3.1,90,5.6,8,256,Snapdragon 8 Gen 2,48MP + 16MP + 8MP
+Xiaomi,Nord Lite 10,1047.95,Flipkart,4.3,144,6.8,8,256,Dimensity 1080,64MP + 16MP + 2MP
+Apple,P Series Ultra 10,839.23,Walmart,4.7,165,5.3,6,128,A16 Bionic,48MP + 8MP + 5MP
+Xiaomi,Xperia 5G 24,1959.08,eBay,3.8,144,5.1,8,1024,Snapdragon 7 Gen 1,64MP + 12MP + 8MP
+Huawei,V Series Lite 24,789.42,Official Store,3.5,165,6.3,4,128,Helio G99,200MP + 12MP + 5MP
+Google,iPhone Plus 17,1684.2,Official Store,3.0,165,6.0,6,256,Tensor G2,50MP + 8MP + 8MP
+Samsung,Xperia Plus 15,669.84,Official Store,3.9,165,6.2,6,512,Snapdragon 8 Gen 2,64MP + 50MP + 5MP
+Nokia,Moto G Max 18,767.18,Amazon,3.9,90,6.3,16,64,Dimensity 920,64MP + 50MP + 2MP
+Oppo,Pixel Max 19,598.11,Walmart,3.8,120,7.1,4,1024,Helio G99,64MP + 16MP + 5MP
+Sony,P Series Edge 10,1807.08,Official Store,3.4,165,7.1,16,256,Dimensity 920,108MP + 8MP + 8MP
+Google,Nord Max 11,948.22,Amazon,4.5,144,6.9,4,64,Tensor G2,50MP + 50MP + 2MP
+Motorola,Xperia SE 12,370.35,Reliance Digital,4.3,60,6.1,12,64,Helio G99,64MP + 8MP + 8MP
+Oppo,iPhone Ultra 21,751.64,eBay,3.5,60,5.0,4,1024,Dimensity 920,108MP + 50MP + 8MP
+Realme,Reno Turbo 24,784.42,Official Store,4.2,90,5.8,16,1024,Helio G99,48MP + 12MP + 8MP
+Apple,P Series SE 16,1455.92,Walmart,4.5,90,6.3,8,256,A15 Bionic,12MP + 16MP + 5MP
+Oppo,V Series Mini 11,247.01,Reliance Digital,3.3,144,5.8,12,1024,Dimensity 920,50MP + 8MP + 2MP
+Samsung,Mate Lite 25,1865.79,Official Store,3.7,90,6.4,16,256,Snapdragon 8 Gen 2,200MP + 8MP + 5MP
+Realme,Xperia Lite 12,1301.35,Official Store,3.4,90,5.2,8,64,Helio G99,12MP + 12MP + 5MP
+Google,Xperia Max 19,1324.61,Best Buy,3.7,60,7.4,12,256,Tensor G2,12MP + 16MP + 8MP
+Nokia,Reno Lite 25,1684.72,eBay,3.1,144,5.9,4,128,Helio G99,50MP + 12MP + 8MP
+Motorola,Reno Turbo 11,1752.67,Reliance Digital,4.1,90,5.3,12,64,Helio G99,12MP + 16MP + 5MP
+Xiaomi,Galaxy S SE 15,854.51,eBay,3.7,144,6.8,4,256,Snapdragon 7 Gen 1,12MP + 12MP + 8MP
+Vivo,Nord Lite 17,674.91,AliExpress,3.1,90,5.9,6,256,Dimensity 920,64MP + 16MP + 8MP
+Huawei,Galaxy S Plus 18,1105.93,Flipkart,4.8,165,6.0,8,512,Dimensity 920,108MP + 16MP + 5MP
+OnePlus,Mate Pro 20,557.66,Walmart,4.1,144,6.0,12,1024,Snapdragon 8+ Gen 1,48MP + 50MP + 2MP
+Apple,Galaxy S Mini 16,477.15,Amazon,5.0,60,7.2,12,256,A15 Bionic,108MP + 12MP + 2MP
+Samsung,Reno Ultra 11,1399.35,eBay,3.1,144,6.7,12,512,Exynos 2200,12MP + 12MP + 8MP
+Apple,Moto G Plus 13,305.64,Reliance Digital,4.6,120,5.4,8,256,A16 Bionic,64MP + 8MP + 2MP
+Motorola,Narzo Lite 21,1151.29,Amazon,4.3,144,6.1,4,128,Dimensity 920,64MP + 12MP + 8MP
+Oppo,Galaxy S Plus 15,1396.44,Best Buy,4.4,90,5.8,6,512,Dimensity 920,48MP + 12MP + 2MP
+Realme,Mate Plus 19,1298.54,Best Buy,4.9,120,7.0,4,512,Helio G99,48MP + 16MP + 8MP
+Realme,Mate Ultra 15,1479.25,AliExpress,4.0,60,6.5,12,64,Dimensity 920,108MP + 8MP + 2MP
+Vivo,Redmi Note Turbo 13,690.7,Best Buy,3.1,60,6.5,4,512,Helio G99,64MP + 12MP + 5MP
+Vivo,iPhone Ultra 13,1661.97,Flipkart,3.2,120,6.5,4,128,Helio G99,12MP + 50MP + 2MP
+Google,V Series Pro 18,869.7,Official Store,4.5,165,6.0,8,512,Tensor G2,108MP + 16MP + 2MP
+Huawei,Mate Edge 25,316.24,Walmart,3.9,90,5.9,12,128,Dimensity 920,12MP + 50MP + 5MP
+Huawei,iPhone Pro 12,741.21,Reliance Digital,4.5,120,7.3,4,256,Helio G99,48MP + 50MP + 8MP
+Google,Galaxy S Edge 15,1921.87,eBay,3.8,120,5.6,16,128,Tensor G2,50MP + 12MP + 5MP
+Sony,Moto G Turbo 15,248.82,Best Buy,3.7,144,7.2,6,512,Helio G99,64MP + 16MP + 5MP
+Huawei,Moto G Lite 21,1025.38,AliExpress,3.4,90,7.0,16,128,Dimensity 920,200MP + 8MP + 5MP
+OnePlus,iPhone 5G 25,196.74,Reliance Digital,3.0,60,6.0,8,128,Snapdragon 8+ Gen 1,200MP + 16MP + 5MP
+Sony,Xperia Max 23,822.98,Reliance Digital,5.0,120,6.7,16,512,Dimensity 920,200MP + 50MP + 2MP
+Huawei,Mate Pro 20,316.8,Amazon,4.3,90,5.7,4,256,Dimensity 920,50MP + 16MP + 2MP
+Motorola,Reno Turbo 16,1178.61,Official Store,4.3,60,7.4,8,256,Helio G99,48MP + 12MP + 8MP
+Motorola,Pixel Pro 11,1671.33,Flipkart,4.2,120,6.8,4,512,Dimensity 920,200MP + 8MP + 5MP
+Samsung,Xperia Turbo 23,1471.81,Best Buy,3.0,120,6.0,4,128,Snapdragon 8 Gen 2,64MP + 12MP + 2MP
+Oppo,Reno Lite 24,480.41,Official Store,4.7,90,5.6,4,512,Dimensity 920,48MP + 12MP + 2MP
+Vivo,V Series Lite 20,1663.91,Flipkart,3.5,90,7.4,12,1024,Dimensity 920,50MP + 50MP + 8MP
+Sony,V Series Max 21,572.13,Official Store,4.9,144,5.0,12,64,Dimensity 920,12MP + 50MP + 8MP
+OnePlus,Pixel Max 24,590.81,Walmart,4.7,120,5.1,8,256,Dimensity 9000,48MP + 8MP + 2MP
+OnePlus,Moto G Pro 24,878.36,Reliance Digital,3.3,165,7.1,6,64,Dimensity 9000,64MP + 16MP + 8MP
+Huawei,Nord Plus 20,994.96,eBay,3.8,90,5.2,6,128,Dimensity 920,108MP + 8MP + 2MP
+Oppo,Narzo Max 24,979.54,Best Buy,3.1,60,6.9,12,256,Helio G99,64MP + 50MP + 8MP
+Realme,Pixel Pro 24,1142.3,Amazon,4.7,90,5.3,16,128,Helio G99,200MP + 50MP + 2MP
+Motorola,P Series Max 11,1448.74,Official Store,4.2,60,7.0,8,1024,Helio G99,50MP + 8MP + 2MP
+Samsung,Nord 5G 13,394.07,Official Store,3.0,165,5.5,6,512,Snapdragon 8 Gen 2,108MP + 12MP + 2MP
+Apple,Mate Turbo 16,951.6,Amazon,3.7,90,5.3,8,256,A16 Bionic,64MP + 50MP + 2MP
+Samsung,iPhone Mini 16,200.46,Official Store,3.6,60,5.2,4,1024,Snapdragon 8 Gen 2,64MP + 8MP + 5MP
+Realme,Reno Ultra 15,799.81,Flipkart,3.3,144,5.9,4,512,Helio G99,50MP + 16MP + 8MP
+Motorola,Narzo Edge 21,639.93,Reliance Digital,4.4,165,5.8,12,256,Dimensity 920,50MP + 50MP + 5MP
+Realme,Mate Lite 15,253.1,AliExpress,4.0,144,5.7,12,1024,Dimensity 920,48MP + 16MP + 8MP
+OnePlus,P Series Turbo 21,255.55,Official Store,3.9,165,7.1,8,1024,Snapdragon 8+ Gen 1,200MP + 8MP + 5MP
+Vivo,V Series Ultra 21,248.76,eBay,3.1,165,5.0,4,256,Helio G99,200MP + 16MP + 2MP
+Samsung,Galaxy S Ultra 13,355.09,Official Store,4.3,165,7.3,6,64,Exynos 2200,48MP + 50MP + 2MP
+Samsung,Xperia SE 25,703.49,Reliance Digital,3.5,144,7.2,6,64,Exynos 2200,48MP + 16MP + 5MP
+Oppo,V Series Max 20,949.71,Amazon,4.0,90,5.1,6,128,Helio G99,108MP + 8MP + 8MP
+Motorola,Redmi Note 5G 17,747.64,Official Store,3.3,60,6.7,6,512,Dimensity 920,48MP + 8MP + 8MP
+Realme,Narzo Mini 17,363.31,AliExpress,3.6,165,6.1,16,1024,Dimensity 920,50MP + 12MP + 5MP
+Xiaomi,Galaxy S Ultra 13,1771.53,Amazon,4.7,60,5.4,16,256,Snapdragon 7 Gen 1,12MP + 8MP + 8MP
+Huawei,Galaxy S Turbo 19,761.05,AliExpress,3.4,60,6.7,6,512,Helio G99,64MP + 50MP + 2MP
+Samsung,P Series Ultra 17,241.69,AliExpress,4.8,144,5.6,8,128,Exynos 2200,108MP + 8MP + 2MP
+Apple,Nord Lite 18,1198.61,Flipkart,5.0,60,6.8,8,64,A15 Bionic,48MP + 12MP + 2MP
+Vivo,Xperia Edge 10,1431.06,Official Store,3.8,144,5.9,8,64,Dimensity 920,64MP + 16MP + 8MP
+Oppo,Reno Pro 15,1581.05,AliExpress,4.2,120,7.5,16,64,Helio G99,48MP + 8MP + 2MP
+Apple,P Series Lite 18,489.38,Reliance Digital,4.7,120,7.4,12,512,A16 Bionic,200MP + 12MP + 2MP
+Apple,Galaxy S SE 14,1142.83,eBay,3.8,60,5.7,8,1024,A15 Bionic,64MP + 12MP + 2MP
+Apple,Pixel 5G 13,541.65,Walmart,3.7,90,7.0,6,256,A15 Bionic,48MP + 12MP + 8MP
+OnePlus,Nord Plus 21,630.89,Flipkart,3.9,144,6.3,12,1024,Dimensity 9000,12MP + 50MP + 8MP
+Vivo,Pixel Turbo 23,1703.12,Official Store,3.8,144,6.2,6,1024,Helio G99,64MP + 16MP + 2MP
+Huawei,Nord Turbo 24,1693.74,Amazon,4.0,60,6.6,16,256,Dimensity 920,200MP + 16MP + 8MP
+Google,Narzo Turbo 14,932.02,Reliance Digital,3.5,120,5.5,16,256,Tensor G1,64MP + 16MP + 5MP
+Nokia,P Series 5G 22,185.89,Official Store,4.8,165,5.9,4,512,Dimensity 920,12MP + 50MP + 2MP
+Realme,Galaxy S Max 23,1946.04,Reliance Digital,3.4,144,7.2,4,64,Helio G99,12MP + 12MP + 8MP
+Huawei,Redmi Note Plus 12,884.19,Amazon,4.8,120,6.6,12,64,Dimensity 920,108MP + 50MP + 5MP
+Google,Moto G Ultra 16,1523.88,Amazon,4.3,60,5.4,12,256,Tensor G2,64MP + 16MP + 2MP
+Nokia,V Series Pro 12,179.07,Best Buy,5.0,165,5.3,8,256,Dimensity 920,50MP + 8MP + 8MP
+Oppo,Nord Ultra 24,668.92,Official Store,5.0,144,5.5,12,128,Dimensity 920,64MP + 8MP + 8MP
+Xiaomi,Mate Pro 24,1220.3,Flipkart,3.8,120,6.6,16,512,Dimensity 1080,200MP + 8MP + 8MP
+Vivo,Nord Max 13,1828.51,Best Buy,4.3,144,5.4,16,64,Helio G99,48MP + 16MP + 8MP
+Sony,Galaxy S Plus 17,1991.0,AliExpress,3.1,120,6.1,12,1024,Dimensity 920,12MP + 8MP + 5MP
+Nokia,P Series Ultra 24,1634.98,Flipkart,4.3,90,6.9,8,128,Dimensity 920,12MP + 8MP + 2MP
+Apple,iPhone 5G 25,1257.22,Reliance Digital,3.5,120,6.8,4,1024,A16 Bionic,48MP + 16MP + 8MP
+Motorola,V Series 5G 19,1642.94,Best Buy,4.9,90,6.7,6,256,Helio G99,200MP + 16MP + 5MP
+Oppo,Nord SE 19,317.49,eBay,3.7,120,7.4,6,256,Dimensity 920,50MP + 50MP + 5MP
+Samsung,Galaxy S SE 10,1573.27,Walmart,4.7,90,5.3,4,256,Snapdragon 8 Gen 2,50MP + 8MP + 8MP
+Xiaomi,Mate Ultra 24,785.85,Amazon,4.4,144,6.6,12,256,Snapdragon 7 Gen 1,64MP + 8MP + 2MP
+Oppo,Reno Turbo 13,1368.95,Reliance Digital,4.8,144,7.5,6,1024,Dimensity 920,48MP + 50MP + 2MP
+Samsung,Galaxy S 5G 14,1833.26,Amazon,4.9,165,6.9,12,128,Exynos 2200,50MP + 50MP + 2MP
+Samsung,Moto G SE 18,1625.63,Best Buy,3.1,90,6.0,16,128,Snapdragon 8 Gen 2,50MP + 50MP + 5MP
+OnePlus,Galaxy S Edge 19,815.43,AliExpress,3.8,90,5.2,6,1024,Dimensity 9000,108MP + 12MP + 2MP
+Google,Mate Mini 24,1882.76,Flipkart,3.4,90,6.5,12,1024,Tensor G2,48MP + 16MP + 5MP
+Huawei,Redmi Note Ultra 20,1695.29,Flipkart,4.2,60,5.9,16,512,Dimensity 920,108MP + 12MP + 8MP
+Vivo,Moto G Max 12,174.71,AliExpress,3.6,165,5.7,12,1024,Dimensity 920,12MP + 50MP + 5MP
+Huawei,P Series Ultra 15,1342.75,Official Store,3.7,144,7.3,12,512,Dimensity 920,64MP + 50MP + 5MP
+Huawei,Moto G Turbo 16,188.47,Flipkart,4.4,165,5.6,8,128,Dimensity 920,50MP + 16MP + 2MP
+Samsung,V Series 5G 11,1250.08,AliExpress,4.0,165,7.5,4,256,Exynos 2200,108MP + 12MP + 5MP
+Apple,Pixel Max 21,1250.01,Amazon,3.0,144,5.6,12,64,A16 Bionic,200MP + 12MP + 8MP
+Xiaomi,Reno Lite 17,942.47,Reliance Digital,3.0,120,5.7,8,1024,Dimensity 1080,12MP + 8MP + 5MP
+Apple,Pixel Lite 24,1923.2,Amazon,3.1,120,6.8,8,512,A15 Bionic,108MP + 12MP + 5MP
+Huawei,Mate Ultra 14,925.39,Amazon,3.5,120,5.6,8,1024,Dimensity 920,108MP + 50MP + 5MP
+Xiaomi,Redmi Note Max 24,872.03,Amazon,4.1,60,7.3,6,256,Snapdragon 7 Gen 1,108MP + 50MP + 2MP
+Samsung,Pixel Edge 17,463.09,Best Buy,4.0,60,5.7,4,512,Snapdragon 8 Gen 2,48MP + 50MP + 5MP
+Huawei,Nord 5G 11,425.79,Amazon,3.8,165,7.2,12,64,Helio G99,200MP + 8MP + 2MP
+Realme,V Series Turbo 24,1365.59,Reliance Digital,3.6,165,7.0,12,512,Helio G99,48MP + 8MP + 5MP
+Google,Nord Turbo 10,454.57,Reliance Digital,3.6,60,6.6,16,256,Tensor G1,200MP + 8MP + 5MP
+Nokia,Reno Plus 18,413.74,Official Store,3.4,144,5.5,16,512,Dimensity 920,108MP + 50MP + 2MP
+Sony,Xperia Plus 19,586.17,Amazon,3.8,120,7.2,6,64,Helio G99,108MP + 8MP + 2MP
+Nokia,Nord Ultra 19,619.42,Amazon,4.3,90,6.9,4,256,Dimensity 920,108MP + 16MP + 8MP
+Apple,Galaxy S Turbo 21,1722.59,Best Buy,5.0,120,5.1,8,512,A15 Bionic,200MP + 16MP + 5MP
+Oppo,Reno SE 18,1212.1,Walmart,3.5,60,6.8,4,256,Dimensity 920,12MP + 16MP + 2MP
+Huawei,Pixel Turbo 10,1602.46,AliExpress,4.8,165,6.1,8,256,Helio G99,48MP + 16MP + 8MP
+Vivo,Narzo Ultra 15,746.36,Best Buy,3.8,60,7.4,4,512,Helio G99,200MP + 16MP + 8MP
+Samsung,Reno Plus 18,1547.08,Best Buy,4.6,120,5.4,4,512,Snapdragon 8 Gen 2,50MP + 50MP + 2MP
+Motorola,P Series Max 20,777.07,Reliance Digital,3.2,144,6.5,16,256,Dimensity 920,50MP + 8MP + 8MP
+Samsung,Narzo Ultra 19,1086.71,eBay,3.6,120,6.3,12,128,Exynos 2200,108MP + 16MP + 5MP
+Motorola,P Series SE 15,1080.15,Walmart,3.1,144,5.4,4,64,Dimensity 920,48MP + 16MP + 5MP
+Realme,Moto G Turbo 11,1552.61,eBay,4.8,60,5.0,4,1024,Helio G99,64MP + 8MP + 8MP
+Oppo,V Series Max 12,1639.07,Amazon,3.9,165,6.6,16,128,Dimensity 920,12MP + 50MP + 5MP
+Google,Moto G 5G 13,312.0,Official Store,3.7,144,5.8,4,64,Tensor G2,64MP + 50MP + 2MP
+Apple,P Series Lite 23,1070.56,AliExpress,3.1,90,7.2,6,128,A15 Bionic,50MP + 16MP + 2MP
+Xiaomi,P Series Max 21,670.91,Walmart,4.0,144,6.1,16,256,Snapdragon 7 Gen 1,50MP + 16MP + 2MP
+OnePlus,Galaxy S Mini 22,1261.64,Walmart,3.3,144,5.6,8,64,Snapdragon 8+ Gen 1,12MP + 12MP + 2MP
+Apple,Mate 5G 18,540.66,Official Store,5.0,120,6.5,16,128,A15 Bionic,108MP + 12MP + 2MP
+Realme,Narzo SE 17,640.06,AliExpress,4.7,120,6.1,16,256,Dimensity 920,64MP + 12MP + 5MP
+Oppo,Mate Plus 14,1134.1,AliExpress,4.4,165,6.3,4,64,Dimensity 920,48MP + 50MP + 5MP
+Google,Moto G Ultra 18,1742.51,eBay,4.3,165,5.9,8,64,Tensor G1,12MP + 12MP + 2MP
+Google,V Series Plus 11,1708.73,Walmart,4.9,165,5.4,8,64,Tensor G1,108MP + 50MP + 8MP
+Sony,Xperia Lite 24,693.03,Amazon,4.9,90,7.4,12,64,Dimensity 920,50MP + 16MP + 2MP
+Vivo,Mate Plus 16,1381.44,Amazon,4.4,60,6.4,6,128,Dimensity 920,64MP + 50MP + 2MP
+Vivo,Galaxy S Lite 20,718.67,Flipkart,3.3,60,6.1,8,256,Helio G99,50MP + 50MP + 5MP
+Motorola,Narzo Edge 17,1661.57,Reliance Digital,3.7,165,6.4,12,512,Helio G99,64MP + 8MP + 8MP
+OnePlus,P Series Plus 19,1860.71,AliExpress,3.9,165,7.0,8,256,Snapdragon 8+ Gen 1,108MP + 8MP + 5MP
+Apple,Pixel Ultra 14,533.72,Reliance Digital,3.7,120,6.5,16,512,A15 Bionic,50MP + 8MP + 5MP
+Sony,Moto G Mini 12,1463.61,AliExpress,3.2,60,5.9,8,64,Dimensity 920,200MP + 8MP + 2MP
+Vivo,Moto G Lite 22,370.18,AliExpress,3.9,120,7.2,16,64,Helio G99,200MP + 16MP + 5MP
+OnePlus,P Series Mini 25,1870.94,Official Store,4.2,120,6.4,16,128,Snapdragon 8+ Gen 1,50MP + 16MP + 8MP
+Google,Mate Lite 22,1718.82,Reliance Digital,4.4,144,6.9,8,512,Tensor G2,64MP + 50MP + 2MP
+Huawei,Nord Plus 23,370.69,AliExpress,4.6,60,6.1,4,1024,Helio G99,12MP + 8MP + 5MP
+Motorola,Narzo 5G 22,1806.19,Official Store,4.2,144,7.1,6,256,Helio G99,48MP + 16MP + 8MP
+OnePlus,Pixel Max 15,1543.25,Flipkart,3.3,165,6.4,12,64,Snapdragon 8+ Gen 1,50MP + 50MP + 2MP
+Huawei,iPhone Edge 15,1530.23,Official Store,3.9,120,7.1,16,64,Dimensity 920,64MP + 8MP + 8MP
+Xiaomi,Pixel Pro 11,1673.6,Flipkart,3.2,165,5.1,4,256,Dimensity 1080,64MP + 8MP + 2MP
+Realme,Mate Plus 19,407.18,Reliance Digital,4.4,90,7.1,16,256,Helio G99,12MP + 50MP + 5MP
+Vivo,Narzo Edge 16,1686.48,Walmart,4.3,60,5.6,8,512,Dimensity 920,50MP + 8MP + 8MP
+Apple,iPhone Ultra 18,398.35,AliExpress,4.0,144,7.3,16,64,A15 Bionic,200MP + 16MP + 8MP
+Nokia,Xperia Pro 11,336.5,Amazon,3.5,144,6.2,16,512,Helio G99,50MP + 50MP + 2MP
+Sony,Reno Ultra 11,1834.01,Walmart,3.1,165,5.4,12,64,Helio G99,200MP + 8MP + 8MP
+Apple,Mate Lite 10,1567.77,eBay,4.5,165,5.6,16,128,A15 Bionic,48MP + 50MP + 5MP
+Oppo,P Series Pro 15,680.6,Amazon,3.1,144,5.3,12,1024,Helio G99,48MP + 16MP + 5MP
+Samsung,Xperia Edge 21,1304.96,Walmart,3.3,60,5.0,8,64,Exynos 2200,64MP + 8MP + 5MP
+Vivo,Mate Ultra 11,241.92,Best Buy,3.4,60,5.5,6,64,Dimensity 920,108MP + 50MP + 2MP
+Xiaomi,Nord Lite 19,1677.71,Flipkart,3.2,90,5.4,16,512,Snapdragon 7 Gen 1,108MP + 50MP + 2MP
+Huawei,Galaxy S Pro 11,684.95,Walmart,4.9,90,5.8,8,256,Dimensity 920,12MP + 8MP + 2MP
+OnePlus,Galaxy S 5G 21,288.85,Official Store,3.9,144,6.9,8,64,Snapdragon 8+ Gen 1,108MP + 8MP + 5MP
+Nokia,Pixel Ultra 18,1965.61,Best Buy,4.4,144,5.7,6,64,Helio G99,48MP + 16MP + 5MP
+Huawei,Redmi Note Pro 16,1437.02,Flipkart,3.1,120,5.6,12,64,Dimensity 920,108MP + 12MP + 8MP
+Google,Moto G Lite 18,1900.34,Official Store,4.5,144,6.9,8,512,Tensor G2,48MP + 8MP + 5MP
+Sony,V Series Plus 24,1068.95,Amazon,4.8,165,5.1,4,256,Dimensity 920,50MP + 12MP + 2MP
+OnePlus,Reno Plus 18,1648.86,Best Buy,3.1,60,6.4,16,256,Dimensity 9000,200MP + 16MP + 8MP
+Google,Reno Max 19,1992.68,Official Store,3.4,165,7.3,12,128,Tensor G1,108MP + 50MP + 8MP
+Xiaomi,Xperia Ultra 21,247.22,AliExpress,4.6,60,6.0,16,128,Dimensity 1080,50MP + 16MP + 2MP
+Vivo,Narzo Edge 18,975.64,Amazon,3.3,60,6.0,8,256,Dimensity 920,200MP + 16MP + 8MP
+OnePlus,Mate Lite 20,1733.99,Walmart,3.5,60,6.5,12,512,Dimensity 9000,108MP + 12MP + 8MP
+Apple,Moto G Mini 15,1505.51,Flipkart,3.8,90,6.2,4,64,A16 Bionic,12MP + 8MP + 8MP
+Samsung,Narzo SE 22,305.55,Walmart,3.4,60,5.6,6,64,Exynos 2200,48MP + 8MP + 5MP
+Huawei,Pixel Edge 17,916.61,Official Store,4.8,60,7.3,6,128,Helio G99,200MP + 12MP + 2MP
+Samsung,V Series Turbo 10,208.98,Best Buy,3.0,90,6.3,6,256,Exynos 2200,64MP + 12MP + 2MP
+Xiaomi,Mate SE 17,1255.84,Best Buy,4.4,165,7.4,6,256,Snapdragon 7 Gen 1,200MP + 12MP + 8MP
+Realme,Mate Lite 14,874.73,Walmart,4.4,120,6.2,4,256,Dimensity 920,48MP + 16MP + 5MP
+Oppo,Pixel Turbo 24,733.56,Official Store,4.4,120,6.7,8,128,Dimensity 920,200MP + 50MP + 8MP
+Sony,Reno Max 23,210.87,eBay,4.7,144,5.3,8,128,Helio G99,48MP + 50MP + 5MP
+Xiaomi,iPhone Mini 21,1638.88,Best Buy,3.3,144,6.9,8,1024,Snapdragon 7 Gen 1,200MP + 12MP + 2MP
+Nokia,Nord Plus 24,1425.14,eBay,3.8,120,6.2,16,128,Helio G99,48MP + 16MP + 2MP
+OnePlus,Narzo Ultra 25,223.23,Amazon,3.6,60,7.2,12,512,Dimensity 9000,12MP + 50MP + 2MP
+Google,Redmi Note Turbo 22,1656.45,Walmart,4.4,60,5.7,16,1024,Tensor G1,64MP + 12MP + 2MP
