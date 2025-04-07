@@ -1,5 +1,5 @@
 import pandas as pd
-from flask import Flask, request, send_file
+from flask import Flask, request, jsonify, send_file
 import matplotlib
 matplotlib.use('Agg') # Non-gui for use with flask
 import matplotlib.pyplot as plt
@@ -13,7 +13,17 @@ df = pd.read_csv("main.csv")
 def home():
     with open("index.html") as f:
         html = f.read()
-    return html
+
+    # Capture df.info() output
+    buffer = io.StringIO()
+    df.info(buf=buffer)
+    info_output = buffer.getvalue()
+    buffer.close()
+
+    # df.describe() output to html
+    descr_output = df.describe().to_html()
+
+    return html.format(dataframe_info=info_output, dataframe_describe=descr_output)
 
 # Browse CSV as an html table
 @app.route('/browse.html')
@@ -28,6 +38,7 @@ def browse():
     browse_html = f"""
     <html>
     <h1>Browse</h1>
+    <a href="https://www.kaggle.com/datasets/amansingh0000000/smartphones/data">Source (kaggle.com)</a>
     {table_html}
     </html>
     """
@@ -35,5 +46,15 @@ def browse():
     # Return result
     return browse_html
 
+@app.route('/browse.json')
+def browse_json():
+    
+    # Convert DataFrame to list of dictionaries
+    data = df.to_dict(orient='records')
+    
+    # JSONify
+    return jsonify(data)
+
+# Run App
 if __name__ == '__main__':
     app.run()
