@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+<body>
+    <h1>Welcome</h1>
+    <a href="/browse.html">Browse Data</a><br>
+    <a href="/browse.json">Download Data (JSON)</a><br>
+
+    <section>
+        <details>
+          <summary>df.info()</summary>
+          <pre>{{ dataframe_info }}</pre>
+        </details>
+
+        <details>
+            <summary>df.describe()</summary>
+            <div>{{ dataframe_describe|safe }}</div>
+        </details>
+
+        <details>
+          <summary>Brand Distribution</summary>
+          <img src="{{ url_for('static', filename='images/brand_pie.svg') }}">
+        </details>
+
+        <details>
+          <summary>Price vs Rating</summary>
+          <img src="{{ url_for('static', filename='images/price_rating.svg') }}">
+        </details>
+    </section>
+    
+</body>
+</html>
