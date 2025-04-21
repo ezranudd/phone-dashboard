@@ -52,7 +52,7 @@ def price_rating():
     
     # Scatter Plot: Price vs Rating (colored by Brand)
     brands = df['Brand'].unique()
-    colors = plt.cm.tab10(np.linspace(0, 1, len(brands)))
+    colors = plt.cm.tab20(np.linspace(0, 1, len(brands)))
     
     for i, brand in enumerate(brands):
         brand_data = df[df['Brand'] == brand]
@@ -114,18 +114,65 @@ def brand_pie():
         shadow=False,       # No shadow
         explode=[0.05] * len(brand_counts),  # Slightly explode all slices
         textprops={'fontsize': 12},  # Font size for labels
-        colors=plt.cm.tab20.colors[:len(brand_counts)]  # Use colormap for colors
+        colors=plt.cm.tab20(np.linspace(0, 1, len(brand_counts)))  # Using tab20 colormap
     )
-    
     # Equal aspect ratio ensures the pie chart is circular
     plt.axis('equal')
     
     # Add title
     plt.title('Smartphone Distribution by Brand', fontsize=16)
     
-    # Add legend with counts
+    # Add legend with counts - Moved to the right side outside the pie chart
     legend_labels = [f"{brand} ({count})" for brand, count in zip(brand_counts.index, brand_counts)]
-    plt.legend(legend_labels, loc='best', bbox_to_anchor=(0.85, 0.5), fontsize=10)
+    plt.legend(legend_labels, loc='center right', bbox_to_anchor=(1.25, 0.5), fontsize=10)
+    
+    # Save plot to bytes buffer
+    buffer = io.BytesIO()
+    plt.savefig(buffer, format='svg', bbox_inches='tight')
+    buffer.seek(0)
+    plt.close()
+    
+    # Return SVG
+    return send_file(buffer, mimetype='image/svg+xml')
+
+@app.route('/brand_bar.svg')
+def brand_bar():
+    # Count phones by brand
+    brand_counts = df['Brand'].value_counts()
+    
+    # Create figure and axis with adjusted figsize for bar chart
+    plt.figure(figsize=(10, 8))
+    
+    # Create horizontal bar chart
+    bars = plt.barh(
+        brand_counts.index,
+        brand_counts,
+        color=plt.cm.tab20(np.linspace(0, 1, len(brand_counts))),
+        alpha=0.8
+    )
+    
+    # Add count labels to the end of each bar
+    for bar in bars:
+        width = bar.get_width()
+        plt.text(
+            width + 2,                 # x position (slightly offset from end of bar)
+            bar.get_y() + bar.get_height()/2,  # y position (middle of bar)
+            f'{int(width)}',           # label text (count as integer)
+            ha='left',                 # horizontal alignment
+            va='center',               # vertical alignment
+            fontsize=10                # font size
+        )
+    
+    # Add labels and title
+    plt.xlabel('Number of Phones', fontsize=12)
+    plt.ylabel('Brand', fontsize=12)
+    plt.title('Smartphone Counts by Brand', fontsize=16)
+    
+    # Add grid lines for better readability
+    plt.grid(axis='x', linestyle='--', alpha=0.7)
+    
+    # Adjust layout to ensure all elements fit properly
+    plt.tight_layout()
     
     # Save plot to bytes buffer
     buffer = io.BytesIO()
@@ -147,6 +194,11 @@ if __name__ == '__main__':
         # Generate and save brand_pie.svg
         response = app.test_client().get('/brand_pie.svg')
         with open('static/images/brand_pie.svg', 'wb') as f:
+            f.write(response.data)
+
+        # Generate and save brand_pie.svg
+        response = app.test_client().get('/brand_bar.svg')
+        with open('static/images/brand_bar.svg', 'wb') as f:
             f.write(response.data)
             
     app.run()
