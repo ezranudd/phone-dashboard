@@ -183,6 +183,103 @@ def brand_bar():
     # Return SVG
     return send_file(buffer, mimetype='image/svg+xml')
 
+@app.route('/price_histogram.svg')
+def price_histogram():
+    plt.figure(figsize=(12, 8))
+    
+    # Create histogram of phone prices
+    plt.hist(
+        df['Price (USD)'], 
+        bins=25,           # Number of bins
+        color='teal',
+        alpha=0.7,
+        edgecolor='black'
+    )
+    
+    # Configure Plot
+    plt.title('Smartphone Price Distribution', fontsize=16)
+    plt.xlabel('Price (USD)', fontsize=12)
+    plt.ylabel('Number of Phones', fontsize=12)
+    plt.grid(True, alpha=0.3)
+    plt.legend(loc='upper right')
+    
+    # Save plot to bytes buffer
+    buffer = io.BytesIO()
+    plt.savefig(buffer, format='svg', bbox_inches='tight')
+    buffer.seek(0)
+    plt.close()
+    
+    # Return SVG
+    return send_file(buffer, mimetype='image/svg+xml')
+
+@app.route('/rating_histogram.svg')
+def rating_histogram():
+    plt.figure(figsize=(12, 8))
+    
+    # Create histogram of phone ratings
+    plt.hist(
+        df['Rating'], 
+        bins=20,           # Number of bins
+        color='teal',
+        alpha=0.7,
+        edgecolor='black',
+        range=(3.0, 5.0)   # Range to match ylim in price_rating chart
+    )
+    
+    # Configure Plot
+    plt.title('Smartphone Rating Distribution', fontsize=16)
+    plt.xlabel('Rating (out of 5)', fontsize=12)
+    plt.ylabel('Number of Phones', fontsize=12)
+    plt.grid(True, alpha=0.3)
+    plt.legend(loc='upper left')
+    
+    # Save plot to bytes buffer
+    buffer = io.BytesIO()
+    plt.savefig(buffer, format='svg', bbox_inches='tight')
+    buffer.seek(0)
+    plt.close()
+    
+    # Return SVG
+    return send_file(buffer, mimetype='image/svg+xml')
+
+@app.route('/platform_pie.svg')
+def platform_pie():
+    # Count phones by selling platform
+    platform_counts = df['Selling Platform'].value_counts()
+    
+    # Create figure and axis
+    plt.figure(figsize=(10, 8))
+    
+    # Create pie chart
+    plt.pie(
+        platform_counts, 
+        labels=platform_counts.index,
+        autopct='%1.1f%%',  # Show percentages
+        startangle=90,      # Start angle
+        shadow=False,       # No shadow
+        explode=[0.05] * len(platform_counts),  # Slightly explode all slices
+        textprops={'fontsize': 12},  # Font size for labels
+        colors=plt.cm.tab20(np.linspace(0, 1, len(platform_counts)))  # Using tab20 colormap
+    )
+    # Equal aspect ratio ensures the pie chart is circular
+    plt.axis('equal')
+    
+    # Add title
+    plt.title('Smartphone Distribution by Selling Platform', fontsize=16)
+    
+    # Add legend with counts - Moved to the right side outside the pie chart
+    legend_labels = [f"{platform} ({count})" for platform, count in zip(platform_counts.index, platform_counts)]
+    plt.legend(legend_labels, loc='center right', bbox_to_anchor=(1.25, 0.5), fontsize=10)
+    
+    # Save plot to bytes buffer
+    buffer = io.BytesIO()
+    plt.savefig(buffer, format='svg', bbox_inches='tight')
+    buffer.seek(0)
+    plt.close()
+    
+    # Return SVG
+    return send_file(buffer, mimetype='image/svg+xml')
+
 # Run App
 if __name__ == '__main__':
     with app.app_context():
@@ -199,6 +296,21 @@ if __name__ == '__main__':
         # Generate and save brand_pie.svg
         response = app.test_client().get('/brand_bar.svg')
         with open('static/images/brand_bar.svg', 'wb') as f:
+            f.write(response.data)
+
+        # Generate and save price_histogram.svg
+        response = app.test_client().get('/price_histogram.svg')
+        with open('static/images/price_histogram.svg', 'wb') as f:
+            f.write(response.data)
+
+        # Generate and save rating_histogram.svg
+        response = app.test_client().get('/rating_histogram.svg')
+        with open('static/images/rating_histogram.svg', 'wb') as f:
+            f.write(response.data)
+
+        # Generate and save platform_pie.svg
+        response = app.test_client().get('/platform_pie.svg')
+        with open('static/images/platform_pie.svg', 'wb') as f:
             f.write(response.data)
             
     app.run()
