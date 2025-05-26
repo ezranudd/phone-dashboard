@@ -280,6 +280,10 @@ def platform_pie():
     # Return SVG
     return send_file(buffer, mimetype='image/svg+xml')
 
+# TODO
+# Add graphs for more thorough analysis of dataset
+# Update graphs for uniform appearance
+
 # Run App
 if __name__ == '__main__':
     with app.app_context():
@@ -293,7 +297,7 @@ if __name__ == '__main__':
         with open('static/images/brand_pie.svg', 'wb') as f:
             f.write(response.data)
 
-        # Generate and save brand_pie.svg
+        # Generate and save brand_bar.svg
         response = app.test_client().get('/brand_bar.svg')
         with open('static/images/brand_bar.svg', 'wb') as f:
             f.write(response.data)
