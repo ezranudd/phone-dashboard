@@ -18,32 +18,6 @@
         <summary>Summary Statistics</summary>
         <div>{{ dataframe_describe|safe }}</div>
       </details>
-
-      <details>
-        <summary>Brand Distribution</summary>
-        <img src="{{ url_for('static', filename='images/brand_pie.svg') }}">
-        <img src="{{ url_for('static', filename='images/brand_bar.svg') }}">
-      </details>
-
-      <details>
-        <summary>Price Distribution</summary>
-        <img src="{{ url_for('static', filename='images/price_histogram.svg') }}">
-      </details>
-
-      <details>
-        <summary>Rating Distribution</summary>
-        <img src="{{ url_for('static', filename='images/rating_histogram.svg') }}">
-      </details>
-
-      <details>
-        <summary>Selling Platform</summary>
-        <img src="{{ url_for('static', filename='images/platform_pie.svg') }}">
-      </details>
-
-      <details>
-        <summary>Price vs Rating</summary>
-        <img src="{{ url_for('static', filename='images/price_rating.svg') }}">
-      </details>
     </section>
     
 </body>
