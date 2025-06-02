@@ -46,6 +46,43 @@ def browse_json():
     # JSONify
     return jsonify(data)
 
+@app.route('/brand_chart.svg')
+def brand_pie_chart():
+    brand_counts = df['brand'].value_counts()
+    
+    fig, ax = plt.subplots(figsize=(10, 8))
+    
+    wedges, texts, autotexts = ax.pie(brand_counts.values, 
+        labels=brand_counts.index,
+        autopct='%1.1f%%',
+        startangle=90)
+    
+    ax.set_title('Phone Distribution by Brand', fontsize=16, fontweight='bold', pad=20)
+    
+    for autotext in autotexts:
+        autotext.set_color('white')
+        autotext.set_fontweight('bold')
+        autotext.set_fontsize(10)
+    
+    for text in texts:
+        text.set_fontsize(12)
+
+    ax.axis('equal')
+    
+    img_buffer = io.BytesIO()
+    plt.savefig(img_buffer, format='svg', bbox_inches='tight')
+    img_buffer.seek(0)
+    plt.close(fig)
+    
+    return send_file(img_buffer, mimetype='image/svg+xml')
+
 # Run App
 if __name__ == '__main__':
+    with app.app_context():
+
+        # Generate and save price_rating.svg
+        response = app.test_client().get('/brand_chart.svg')
+        with open('static/images/brand_chart.svg', 'wb') as f:
+            f.write(response.data)
+
     app.run()

@@ -18,6 +18,12 @@
         <summary>Summary Statistics</summary>
         <div>{{ dataframe_describe|safe }}</div>
       </details>
+
+      <details>
+        <summary>Brand Distribution</summary>
+        <img src="{{ url_for('static', filename='images/brand_chart.svg') }}">
+      </details>
+
     </section>
     
 </body>
