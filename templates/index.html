@@ -6,7 +6,7 @@
 <body>
     <h1>Welcome</h1>
     <a href="/browse.html">Browse Data</a><br>
-    <a href="/browse.json">Download Data (JSON)</a><br>
+    <a href="/browse.json">Download Data (JSON)</a><br><br>
 
     <section>
       <details>
@@ -20,10 +20,14 @@
       </details>
 
       <details>
-        <summary>Brand Distribution</summary>
-        <img src="{{ url_for('static', filename='images/brand_chart.svg') }}">
+        <summary>Brand Pie Chart</summary>
+        <img src="{{ url_for('static', filename='images/brand_pie.svg') }}">
       </details>
 
+      <details>
+        <summary>OS Pie Chart</summary>
+        <img src="{{ url_for('static', filename='images/os_pie.svg') }}">
+      </details>
     </section>
     
 </body>

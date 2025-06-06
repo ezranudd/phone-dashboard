@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <title>Browse Data (Full)</title>
+</head>
+<body>
+    <h1>Browse</h1>
+    <a href="https://www.kaggle.com/datasets/berkayeserr/phone-prices">Source (kaggle.com)</a><br>
+    <a href="/browse.html">Browse Partial Data</a><br>
+    <div>{{ table_html|safe }}</div>
+</body>
+</html>
