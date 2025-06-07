@@ -9,20 +9,71 @@ import io
 app = Flask(__name__)
 df = pd.read_csv("main.csv")
 
+# TODO
+# 1 - Data Preprocessing
+# 2 - Analysis/Plots
+# 3 - Conclusion/Presentation
+
 # Home Page (using template)
 @app.route("/")
 def home():
-    # Capture df.info() output
+
+    # Capture initial df.info()
     buffer = io.StringIO()
     df.info(buf=buffer)
-    info_output = buffer.getvalue()
+    info_output_1 = buffer.getvalue()
+    buffer.close()
+
+    # DATA PREPROCESSING
+
+    # Split resolution column into seperate Width and Height columns
+
+    # Width column
+    df['width'] = df['resolution'].apply(lambda x: x.split('x')[0]).astype('int64')
+
+    # Height column
+    df['height'] = df['resolution'].apply(lambda x: x.split('x')[1]).astype('int64')
+
+    # Extract announcement_year from announcement_date column 
+    df['announcement_year'] = df['announcement_date'].apply(lambda x: x.split('-')[0]).astype('int32')
+
+    # Drop announcement_date and resolution columns
+    df.drop(columns = ['announcement_date', 'resolution'], inplace = True)
+
+    # Capture df.info() after columns changed
+    buffer = io.StringIO()
+    df.info(buf=buffer)
+    info_output_2 = buffer.getvalue()
+    buffer.close()
+
+    # Table for outliers
+    outlier_check = df.describe().to_html()
+
+    # Remove Outliers
+    Outliers_W= df[df['weight(g)']> 450]
+    df.drop(Outliers_W.index, inplace = True, axis = 0)
+    df.reset_index(drop = True, inplace= True)
+
+    # Correct Storage
+    df.iloc[1507,8] = 1024
+
+    Outliers_P = df[df['price(USD)']> 1500]
+    df.drop(Outliers_P.index, inplace = True, axis = 0)
+    df.reset_index(drop = True, inplace= True)
+
+    # Capture final df.info() output
+    buffer = io.StringIO()
+    df.info(buf=buffer)
+    info_output_3 = buffer.getvalue()
     buffer.close()
 
     # df.describe() output to html
     descr_output = df.describe().to_html()
 
     return render_template('index.html', 
-        dataframe_info=info_output, 
+        dataframe_info_1=info_output_1,
+        dataframe_info_2=info_output_2,
+        dataframe_info_3=info_output_3,
         dataframe_describe=descr_output)
 
 # Browse CSV as an html table

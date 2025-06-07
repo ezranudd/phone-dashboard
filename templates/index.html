@@ -10,12 +10,11 @@
 
     <section>
       <details>
-        <summary>Basic Info</summary>
-        <pre>{{ dataframe_info }}</pre>
-      </details>
-
-      <details>
-        <summary>Summary Statistics</summary>
+        <summary>Data Preprocessing</summary>
+        <p>Running df.info() for the initial data set gives us:</p>
+        <pre>{{ dataframe_info_1 }}</pre>
+        <p>After preprocessing:</p>
+        <pre>{{ dataframe_info_3 }}</pre>
         <div>{{ dataframe_describe|safe }}</div>
       </details>
 
