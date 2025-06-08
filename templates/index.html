@@ -27,6 +27,64 @@
         <summary>OS Pie Chart</summary>
         <img src="{{ url_for('static', filename='images/os_pie.svg') }}">
       </details>
+
+      <details>
+        <summary>Data Distribution Histograms</summary>
+        <p>The following histograms show the distribution of key smartphone specifications across the dataset:</p>
+        <img src="{{ url_for('static', filename='images/histograms.svg') }}" style="width: 100%; max-width: 1200px;">
+        
+        <details style="margin-top: 20px;">
+          <summary>Individual Histograms</summary>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 20px; margin-top: 15px;">
+            
+            <div>
+              <h4>Screen Size Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_inches.svg') }}" style="width: 100%;">
+            </div>
+            
+            <div>
+              <h4>Battery Capacity Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_battery.svg') }}" style="width: 100%;">
+            </div>
+            
+            <div>
+              <h4>RAM Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_ram.svg') }}" style="width: 100%;">
+            </div>
+            
+            <div>
+              <h4>Weight Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_weight.svg') }}" style="width: 100%;">
+            </div>
+            
+            <div>
+              <h4>Storage Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_storage.svg') }}" style="width: 100%;">
+            </div>
+            
+            <div>
+              <h4>Price Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_price.svg') }}" style="width: 100%;">
+            </div>
+            
+            <div>
+              <h4>Screen Width Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_width.svg') }}" style="width: 100%;">
+            </div>
+            
+            <div>
+              <h4>Screen Height Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_height.svg') }}" style="width: 100%;">
+            </div>
+            
+            <div>
+              <h4>Announcement Year Distribution</h4>
+              <img src="{{ url_for('static', filename='images/histogram_announcement_year.svg') }}" style="width: 100%;">
+            </div>
+            
+          </div>
+        </details>
+      </details>
     </section>
     
 </body>
