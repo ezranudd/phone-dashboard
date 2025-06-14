@@ -11,10 +11,20 @@
     <section>
       <details>
         <summary>Data Preprocessing</summary>
-        <p>Running df.info() for the initial data set gives us:</p>
-        <pre>{{ dataframe_info_1 }}</pre>
-        <p>After preprocessing:</p>
-        <pre>{{ dataframe_info_3 }}</pre>
+        <p>Before analysis, the following preprocessing is performed on the original data:</p>
+        <p>1. The resolution column is split into seperate width and height columns</p>
+        <p>2. A new announcement_year column is extracted from announcement_date</p>
+        <p>3. Both resolution and announcement_date columns are removed from the dataframe</p>
+        <p>4. Outliers in the weight, storage, and price columns are removed</p>
+      </details>
+
+      <details>
+        <summary>df.info() Output</summary>
+        <pre>{{ dataframe_info }}</pre>
+      </details>
+
+      <details>
+        <summary>df.describe() Output</summary>
         <div>{{ dataframe_describe|safe }}</div>
       </details>
 
@@ -29,61 +39,39 @@
       </details>
 
       <details>
+        <summary>Battery Type Distribution</summary>
+        <p>Distribution of Li-Po vs Li-Ion battery types across all smartphones in the dataset:</p>
+        <img src="{{ url_for('static', filename='images/battery_type_pie.svg') }}">
+      </details>
+
+      <details>
+        <summary>Video Format Support</summary>
+        <p>Count of smartphones supporting each video format (resolution and frame rate):</p>
+        <img src="{{ url_for('static', filename='images/video_formats.svg') }}" style="width: 100%; max-width: 1400px;">
+      </details>
+
+      <details>
+        <summary>Average Price by Brand</summary>
+        <p>Comparison of average smartphone prices across different brands:</p>
+        <img src="{{ url_for('static', filename='images/avg_price_by_brand.svg') }}" style="width: 100%; max-width: 1200px;">
+      </details>
+
+      <details>
+        <summary>Battery Efficiency by Brand</summary>
+        <p>Battery efficiency measured as mAh per USD, showing value for money in terms of battery capacity:</p>
+        <img src="{{ url_for('static', filename='images/battery_efficiency_by_brand.svg') }}" style="width: 100%; max-width: 1200px;">
+      </details>
+
+      <details>
+        <summary>Specifications by Brand</summary>
+        <p>Average specifications (height, RAM, storage, weight) comparison across brands:</p>
+        <img src="{{ url_for('static', filename='images/specs_by_brand.svg') }}" style="width: 100%; max-width: 1200px;">
+      </details>
+
+      <details>
         <summary>Data Distribution Histograms</summary>
         <p>The following histograms show the distribution of key smartphone specifications across the dataset:</p>
         <img src="{{ url_for('static', filename='images/histograms.svg') }}" style="width: 100%; max-width: 1200px;">
-        
-        <details style="margin-top: 20px;">
-          <summary>Individual Histograms</summary>
-          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(500px, 1fr)); gap: 20px; margin-top: 15px;">
-            
-            <div>
-              <h4>Screen Size Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_inches.svg') }}" style="width: 100%;">
-            </div>
-            
-            <div>
-              <h4>Battery Capacity Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_battery.svg') }}" style="width: 100%;">
-            </div>
-            
-            <div>
-              <h4>RAM Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_ram.svg') }}" style="width: 100%;">
-            </div>
-            
-            <div>
-              <h4>Weight Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_weight.svg') }}" style="width: 100%;">
-            </div>
-            
-            <div>
-              <h4>Storage Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_storage.svg') }}" style="width: 100%;">
-            </div>
-            
-            <div>
-              <h4>Price Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_price.svg') }}" style="width: 100%;">
-            </div>
-            
-            <div>
-              <h4>Screen Width Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_width.svg') }}" style="width: 100%;">
-            </div>
-            
-            <div>
-              <h4>Screen Height Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_height.svg') }}" style="width: 100%;">
-            </div>
-            
-            <div>
-              <h4>Announcement Year Distribution</h4>
-              <img src="{{ url_for('static', filename='images/histogram_announcement_year.svg') }}" style="width: 100%;">
-            </div>
-            
-          </div>
-        </details>
       </details>
     </section>
     

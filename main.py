@@ -19,21 +19,25 @@ def preprocess_data():
     df['width'] = df['resolution'].apply(lambda x: x.split('x')[0]).astype('int64')
     df['height'] = df['resolution'].apply(lambda x: x.split('x')[1]).astype('int64')
     
-    # Extract announcement_year from announcement_date column 
+    # Extract announcement_year from announcement_date column
     df['announcement_year'] = df['announcement_date'].apply(lambda x: x.split('-')[0]).astype('int32')
     
     # Drop announcement_date and resolution columns
     df.drop(columns=['announcement_date', 'resolution'], inplace=True)
     
     # Remove Outliers
+
+    # Remove weight > 450
     Outliers_W = df[df['weight(g)'] > 450]
     df.drop(Outliers_W.index, inplace=True, axis=0)
     df.reset_index(drop=True, inplace=True)
     
     # Correct Storage
+    # Realme GT5 240W listed as 1GB storage but actually 1024GB
     if len(df) > 1507:  # Safety check
         df.iloc[1507, 8] = 1024
     
+    # Remove price > 1500
     Outliers_P = df[df['price(USD)'] > 1500]
     df.drop(Outliers_P.index, inplace=True, axis=0)
     df.reset_index(drop=True, inplace=True)
@@ -44,29 +48,18 @@ preprocess_data()
 # Home Page (using template)
 @app.route("/")
 def home():
-    # Capture initial df.info() - we'll simulate this since we already preprocessed
-    buffer = io.StringIO()
-    df.info(buf=buffer)
-    info_output_1 = "Initial data info (preprocessed at startup)"
     
-    # Since preprocessing is already done, just capture current state
+    # Capture df.info()
     buffer = io.StringIO()
     df.info(buf=buffer)
-    info_output_2 = buffer.getvalue()
-    buffer.close()
-    
-    buffer = io.StringIO()
-    df.info(buf=buffer)
-    info_output_3 = buffer.getvalue()
+    info_output = buffer.getvalue()
     buffer.close()
     
     # df.describe() output to html
     descr_output = df.describe().to_html()
     
     return render_template('index.html', 
-        dataframe_info_1=info_output_1,
-        dataframe_info_2=info_output_2,
-        dataframe_info_3=info_output_3,
+        dataframe_info=info_output,
         dataframe_describe=descr_output)
 
 # Browse CSV as an html table
@@ -253,14 +246,40 @@ def os_pie():
     # Return SVG
     return send_file(buffer, mimetype='image/svg+xml')
 
-@app.route('/histogram_inches.svg')
-def histogram_inches():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['inches'].dropna(), bins=30, color='skyblue', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of Screen Size (inches)', fontsize=16)
-    plt.xlabel('Screen Size (inches)', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
+# Battery Type Pie Chart
+@app.route('/battery_type_pie.svg')
+def battery_type_pie():
+    # Count phones by battery type
+    battery_counts = df['battery_type'].value_counts()
+    
+    # Create figure and axis
+    plt.figure(figsize=(8, 8))
+    
+    # Create pie chart
+    wedges, texts, autotexts = plt.pie(
+        battery_counts, 
+        labels=battery_counts.index,
+        autopct='%1.1f%%',  # Show percentages
+        startangle=90,      # Start angle
+        shadow=False,       # No shadow
+        explode=[0.05] * len(battery_counts),  # Slightly explode all slices
+        textprops={'fontsize': 12},  # Font size for labels
+        colors=['lightblue', 'lightcoral']  # Custom colors
+    )
+    
+    # Set percentage text color to white
+    for autotext in autotexts:
+        autotext.set_color('white')
+    
+    # Equal aspect ratio ensures the pie chart is circular
+    plt.axis('equal')
+    
+    # Add title
+    plt.title('Battery Type Distribution', fontsize=16)
+    
+    # Add legend with counts
+    legend_labels = [f"{btype} ({count})" for btype, count in zip(battery_counts.index, battery_counts)]
+    plt.legend(legend_labels, loc='center right', bbox_to_anchor=(1.3, 0.5), fontsize=12)
     
     # Save plot to bytes buffer
     buffer = io.BytesIO()
@@ -270,14 +289,45 @@ def histogram_inches():
     
     return send_file(buffer, mimetype='image/svg+xml')
 
-@app.route('/histogram_battery.svg')
-def histogram_battery():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['battery'].dropna(), bins=30, color='lightgreen', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of Battery Capacity (mAh)', fontsize=16)
-    plt.xlabel('Battery Capacity (mAh)', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
+# Video Format Count Plots
+@app.route('/video_formats.svg')
+def video_formats():
+    # Video format columns
+    video_cols = ['video_720p', 'video_1080p', 'video_4K', 'video_8K', 
+                  'video_30fps', 'video_60fps', 'video_120fps', 'video_240fps', 
+                  'video_480fps', 'video_960fps']
+    
+    # Create a 2x5 subplot grid
+    fig, axes = plt.subplots(2, 5, figsize=(20, 8))
+    fig.suptitle('Video Format Support Distribution', fontsize=20, y=0.98)
+    
+    # Flatten axes for easier iteration
+    axes = axes.flatten()
+    
+    colors = ['lightgreen', 'lightcoral']
+    
+    for i, col in enumerate(video_cols):
+        # Count True/False values
+        counts = df[col].value_counts()
+        
+        # Create bar plot
+        bars = axes[i].bar(counts.index.astype(str), counts.values, color=colors)
+        
+        # Add value labels on bars
+        for bar in bars:
+            height = bar.get_height()
+            axes[i].text(bar.get_x() + bar.get_width()/2., height + 5,
+                        f'{int(height)}', ha='center', va='bottom', fontsize=10)
+        
+        # Customize subplot
+        axes[i].set_title(col.replace('_', ' ').title(), fontsize=12)
+        axes[i].set_ylabel('Count', fontsize=10)
+        axes[i].set_ylim(0, max(counts.values) * 1.1)
+        axes[i].grid(True, alpha=0.3)
+    
+    # Adjust layout
+    plt.tight_layout()
+    plt.subplots_adjust(top=0.92)
     
     # Save plot to bytes buffer
     buffer = io.BytesIO()
@@ -287,14 +337,34 @@ def histogram_battery():
     
     return send_file(buffer, mimetype='image/svg+xml')
 
-@app.route('/histogram_ram.svg')
-def histogram_ram():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['ram(GB)'].dropna(), bins=20, color='lightcoral', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of RAM (GB)', fontsize=16)
-    plt.xlabel('RAM (GB)', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
+# Average Price by Brand
+@app.route('/avg_price_by_brand.svg')
+def avg_price_by_brand():
+    # Calculate average price by brand
+    avg_price = df.groupby('brand')['price(USD)'].mean().sort_values(ascending=False)
+    
+    # Create figure
+    plt.figure(figsize=(14, 8))
+    
+    # Create bar plot
+    bars = plt.bar(range(len(avg_price)), avg_price.values, 
+                   color=plt.cm.viridis(np.linspace(0, 1, len(avg_price))))
+    
+    # Customize the plot
+    plt.title('Average Price by Brand', fontsize=16)
+    plt.xlabel('Brand', fontsize=12)
+    plt.ylabel('Average Price (USD)', fontsize=12)
+    plt.xticks(range(len(avg_price)), avg_price.index, rotation=45, ha='right')
+    plt.grid(True, alpha=0.3, axis='y')
+    
+    # Add value labels on bars
+    for i, bar in enumerate(bars):
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width()/2., height + 5,
+                f'${height:.0f}', ha='center', va='bottom', fontsize=9)
+    
+    # Adjust layout
+    plt.tight_layout()
     
     # Save plot to bytes buffer
     buffer = io.BytesIO()
@@ -304,14 +374,35 @@ def histogram_ram():
     
     return send_file(buffer, mimetype='image/svg+xml')
 
-@app.route('/histogram_weight.svg')
-def histogram_weight():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['weight(g)'].dropna(), bins=25, color='gold', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of Weight (g)', fontsize=16)
-    plt.xlabel('Weight (g)', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
+# Battery Efficiency by Brand (Battery capacity per dollar)
+@app.route('/battery_efficiency_by_brand.svg')
+def battery_efficiency_by_brand():
+    # Calculate battery efficiency (mAh per dollar)
+    df['battery_efficiency'] = df['battery'] / df['price(USD)']
+    avg_efficiency = df.groupby('brand')['battery_efficiency'].mean().sort_values(ascending=False)
+    
+    # Create figure
+    plt.figure(figsize=(14, 8))
+    
+    # Create bar plot
+    bars = plt.bar(range(len(avg_efficiency)), avg_efficiency.values,
+                   color=plt.cm.plasma(np.linspace(0, 1, len(avg_efficiency))))
+    
+    # Customize the plot
+    plt.title('Battery Efficiency by Brand (mAh per USD)', fontsize=16)
+    plt.xlabel('Brand', fontsize=12)
+    plt.ylabel('Battery Efficiency (mAh/USD)', fontsize=12)
+    plt.xticks(range(len(avg_efficiency)), avg_efficiency.index, rotation=45, ha='right')
+    plt.grid(True, alpha=0.3, axis='y')
+    
+    # Add value labels on bars
+    for i, bar in enumerate(bars):
+        height = bar.get_height()
+        plt.text(bar.get_x() + bar.get_width()/2., height + 0.1,
+                f'{height:.1f}', ha='center', va='bottom', fontsize=9)
+    
+    # Adjust layout
+    plt.tight_layout()
     
     # Save plot to bytes buffer
     buffer = io.BytesIO()
@@ -321,82 +412,46 @@ def histogram_weight():
     
     return send_file(buffer, mimetype='image/svg+xml')
 
-@app.route('/histogram_storage.svg')
-def histogram_storage():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['storage(GB)'].dropna(), bins=25, color='mediumpurple', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of Storage (GB)', fontsize=16)
-    plt.xlabel('Storage (GB)', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
+# Specifications by Brand (Height, RAM, Storage, Weight)
+@app.route('/specs_by_brand.svg')
+def specs_by_brand():
+    # Specifications to analyze
+    specs = ['height', 'ram(GB)', 'storage(GB)', 'weight(g)']
+    spec_titles = ['Height (pixels)', 'RAM (GB)', 'Storage (GB)', 'Weight (g)']
     
-    # Save plot to bytes buffer
-    buffer = io.BytesIO()
-    plt.savefig(buffer, format='svg', bbox_inches='tight')
-    buffer.seek(0)
-    plt.close()
+    # Create a 2x2 subplot grid
+    fig, axes = plt.subplots(2, 2, figsize=(16, 12))
+    fig.suptitle('Average Specifications by Brand', fontsize=18, y=0.95)
     
-    return send_file(buffer, mimetype='image/svg+xml')
-
-@app.route('/histogram_price.svg')
-def histogram_price():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['price(USD)'].dropna(), bins=30, color='orange', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of Price (USD)', fontsize=16)
-    plt.xlabel('Price (USD)', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
+    # Flatten axes for easier iteration
+    axes = axes.flatten()
     
-    # Save plot to bytes buffer
-    buffer = io.BytesIO()
-    plt.savefig(buffer, format='svg', bbox_inches='tight')
-    buffer.seek(0)
-    plt.close()
+    colors = ['lightblue', 'lightgreen', 'lightcoral', 'gold']
     
-    return send_file(buffer, mimetype='image/svg+xml')
-
-@app.route('/histogram_width.svg')
-def histogram_width():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['width'].dropna(), bins=25, color='lightblue', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of Screen Width (pixels)', fontsize=16)
-    plt.xlabel('Width (pixels)', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
+    for i, (spec, title, color) in enumerate(zip(specs, spec_titles, colors)):
+        # Calculate average by brand
+        avg_spec = df.groupby('brand')[spec].mean().sort_values(ascending=False)
+        
+        # Create bar plot
+        bars = axes[i].bar(range(len(avg_spec)), avg_spec.values, color=color, alpha=0.7)
+        
+        # Customize subplot
+        axes[i].set_title(f'Average {title}', fontsize=14)
+        axes[i].set_xlabel('Brand', fontsize=10)
+        axes[i].set_ylabel(f'Average {title}', fontsize=10)
+        axes[i].set_xticks(range(len(avg_spec)))
+        axes[i].set_xticklabels(avg_spec.index, rotation=45, ha='right', fontsize=8)
+        axes[i].grid(True, alpha=0.3, axis='y')
+        
+        # Add value labels on bars (only for top 5 to avoid clutter)
+        for j, bar in enumerate(bars[:5]):
+            height = bar.get_height()
+            axes[i].text(bar.get_x() + bar.get_width()/2., height + height*0.01,
+                        f'{height:.0f}', ha='center', va='bottom', fontsize=8)
     
-    # Save plot to bytes buffer
-    buffer = io.BytesIO()
-    plt.savefig(buffer, format='svg', bbox_inches='tight')
-    buffer.seek(0)
-    plt.close()
-    
-    return send_file(buffer, mimetype='image/svg+xml')
-
-@app.route('/histogram_height.svg')
-def histogram_height():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['height'].dropna(), bins=25, color='lightpink', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of Screen Height (pixels)', fontsize=16)
-    plt.xlabel('Height (pixels)', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
-    
-    # Save plot to bytes buffer
-    buffer = io.BytesIO()
-    plt.savefig(buffer, format='svg', bbox_inches='tight')
-    buffer.seek(0)
-    plt.close()
-    
-    return send_file(buffer, mimetype='image/svg+xml')
-
-@app.route('/histogram_announcement_year.svg')
-def histogram_announcement_year():
-    plt.figure(figsize=(10, 6))
-    plt.hist(df['announcement_year'].dropna(), bins=20, color='lightseagreen', alpha=0.7, edgecolor='black')
-    plt.title('Distribution of Announcement Year', fontsize=16)
-    plt.xlabel('Announcement Year', fontsize=12)
-    plt.ylabel('Frequency', fontsize=12)
-    plt.grid(True, alpha=0.3)
+    # Adjust layout
+    plt.tight_layout()
+    plt.subplots_adjust(top=0.92)
     
     # Save plot to bytes buffer
     buffer = io.BytesIO()
@@ -454,30 +509,38 @@ def all_histograms():
     
     return send_file(buffer, mimetype='image/svg+xml')
 
-# Update the __main__ section to generate histogram SVGs
 if __name__ == '__main__':
     with app.app_context():
-        # Generate and save brand_pie.svg
         response = app.test_client().get('/brand_pie.svg')
         with open('static/images/brand_pie.svg', 'wb') as f:
             f.write(response.data)
 
-        # Generate and save os_pie.svg
         response = app.test_client().get('/os_pie.svg')
         with open('static/images/os_pie.svg', 'wb') as f:
             f.write(response.data)
+
+        response = app.test_client().get('/histograms.svg')
+        with open('static/images/histograms.svg', 'wb') as f:
+            f.write(response.data)
             
-        # Generate and save all histogram SVGs
-        histogram_routes = [
-            'histogram_inches', 'histogram_battery', 'histogram_ram',
-            'histogram_weight', 'histogram_storage', 'histogram_price',
-            'histogram_width', 'histogram_height', 'histogram_announcement_year',
-            'histograms'
-        ]
-        
-        for route in histogram_routes:
-            response = app.test_client().get(f'/{route}.svg')
-            with open(f'static/images/{route}.svg', 'wb') as f:
-                f.write(response.data)
+        response = app.test_client().get('/battery_type_pie.svg')
+        with open('static/images/battery_type_pie.svg', 'wb') as f:
+            f.write(response.data)
+            
+        response = app.test_client().get('/video_formats.svg')
+        with open('static/images/video_formats.svg', 'wb') as f:
+            f.write(response.data)
+            
+        response = app.test_client().get('/avg_price_by_brand.svg')
+        with open('static/images/avg_price_by_brand.svg', 'wb') as f:
+            f.write(response.data)
+            
+        response = app.test_client().get('/battery_efficiency_by_brand.svg')
+        with open('static/images/battery_efficiency_by_brand.svg', 'wb') as f:
+            f.write(response.data)
+            
+        response = app.test_client().get('/specs_by_brand.svg')
+        with open('static/images/specs_by_brand.svg', 'wb') as f:
+            f.write(response.data)
 
     app.run()
