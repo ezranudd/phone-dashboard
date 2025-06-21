@@ -2,6 +2,27 @@
 <html>
 <head>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <style>
+    .pie-chart {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+    
+    .chart-container {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      width: 100%;
+    }
+    
+    @media (max-width: 768px) {
+      .pie-chart {
+        max-width: 100%;
+        min-width: 300px;
+      }
+    }
+  </style>
 </head>
 <body>
     <h1>Welcome</h1>
@@ -30,18 +51,24 @@
 
       <details>
         <summary>Brand Pie Chart</summary>
-        <img src="{{ url_for('static', filename='images/brand_pie.svg') }}">
+        <div class="chart-container">
+          <img src="{{ url_for('static', filename='images/brand_pie.svg') }}" class="pie-chart" alt="Brand Distribution Pie Chart">
+        </div>
       </details>
 
       <details>
         <summary>OS Pie Chart</summary>
-        <img src="{{ url_for('static', filename='images/os_pie.svg') }}">
+        <div class="chart-container">
+          <img src="{{ url_for('static', filename='images/os_pie.svg') }}" class="pie-chart" alt="Operating System Distribution Pie Chart">
+        </div>
       </details>
 
       <details>
         <summary>Battery Type Distribution</summary>
         <p>Distribution of Li-Po vs Li-Ion battery types across all smartphones in the dataset:</p>
-        <img src="{{ url_for('static', filename='images/battery_type_pie.svg') }}">
+        <div class="chart-container">
+          <img src="{{ url_for('static', filename='images/battery_type_pie.svg') }}" class="pie-chart" alt="Battery Type Distribution Pie Chart">
+        </div>
       </details>
 
       <details>
