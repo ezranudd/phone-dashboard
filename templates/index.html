@@ -2,105 +2,149 @@
 <html>
 <head>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-  <style>
-    .pie-chart {
-      width: 100%;
-      max-width: 600px;
-      height: auto;
-    }
-    
-    .chart-container {
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      width: 100%;
-    }
-    
-    @media (max-width: 768px) {
-      .pie-chart {
-        max-width: 100%;
-        min-width: 300px;
-      }
-    }
-  </style>
 </head>
 <body>
-    <h1>Welcome</h1>
-    <a href="/browse.html">Browse Data</a><br>
-    <a href="/browse.json">Download Data (JSON)</a><br><br>
+  <h1>Phone Dashboard</h1>
+  <section class="project-intro">
+    <p>
+      This site hosts a Flask-based data exploration app for a smartphone pricing dataset from Kaggle.
+      It combines preprocessing, descriptive statistics, and visual analysis to compare brands,
+      operating systems, release trends, and value-for-money signals across the market based on the dataset.
+    </p>
+    <p>
+      The app loads a single CSV into pandas, applies cleaning and feature engineering, then serves charts generated
+      with matplotlib. Most visuals are pre-rendered as SVG files for fast page loads and consistent rendering.
+    </p>
+    <ul>
+      <li>Dataset coverage: device brand, OS, screen size, battery, RAM, storage, weight, video capabilities, and price.</li>
+      <li>Preprocessing: resolution split into width/height, announcement year extraction, outlier handling, and known data corrections.</li>
+      <li>Analysis modes: distribution views, brand-level comparisons, yearly trends, and feature-correlation exploration.</li>
+    </ul>
+  </section>
+  <div class="top-links">
+    <a href="/browse.html">Browse Data</a>
+    <a href="/browse.json">Download Data (JSON)</a>
+  </div>
 
-    <section>
-      <details>
-        <summary>Data Preprocessing</summary>
-        <p>Before analysis, the following preprocessing is performed on the original data:</p>
-        <p>1. The resolution column is split into seperate width and height columns</p>
-        <p>2. A new announcement_year column is extracted from announcement_date</p>
-        <p>3. Both resolution and announcement_date columns are removed from the dataframe</p>
-        <p>4. Outliers in the weight, storage, and price columns are removed</p>
-      </details>
+  <nav class="tabs" aria-label="Analysis sections">
+    <button class="tab-button active" data-tab="overview">Overview</button>
+    <button class="tab-button" data-tab="distribution">Distributions</button>
+    <button class="tab-button" data-tab="brand-value">Brand & Value</button>
+    <button class="tab-button" data-tab="advanced">Advanced Analysis</button>
+  </nav>
 
-      <details>
-        <summary>df.info() Output</summary>
-        <pre>{{ dataframe_info }}</pre>
-      </details>
+  <section id="overview" class="tab-panel active">
+    <details open>
+      <summary>Data Preprocessing</summary>
+      <p>Before analysis, the following preprocessing is performed on the original data:</p>
+      <p>1. The resolution column is split into separate width and height columns.</p>
+      <p>2. A new announcement_year column is extracted from announcement_date.</p>
+      <p>3. Both resolution and announcement_date columns are removed from the dataframe.</p>
+      <p>4. Outliers in weight and price are removed, and known storage anomalies are corrected.</p>
+    </details>
 
-      <details>
-        <summary>df.describe() Output</summary>
-        <div>{{ dataframe_describe|safe }}</div>
-      </details>
+    <details>
+      <summary>df.info() Output</summary>
+      <pre>{{ dataframe_info }}</pre>
+    </details>
 
-      <details>
-        <summary>Brand Pie Chart</summary>
-        <div class="chart-container">
-          <img src="{{ url_for('static', filename='images/brand_pie.svg') }}" class="pie-chart" alt="Brand Distribution Pie Chart">
-        </div>
-      </details>
+    <details>
+      <summary>df.describe() Output</summary>
+      <div class="table-scroll">{{ dataframe_describe|safe }}</div>
+    </details>
 
-      <details>
-        <summary>OS Pie Chart</summary>
-        <div class="chart-container">
-          <img src="{{ url_for('static', filename='images/os_pie.svg') }}" class="pie-chart" alt="Operating System Distribution Pie Chart">
-        </div>
-      </details>
+    <details>
+      <summary>Market Trends by Year</summary>
+      <p>Release counts and average phone pricing over announcement years.</p>
+      <img src="{{ url_for('static', filename='images/yearly_trends.svg') }}" class="wide-chart" alt="Yearly market trends">
+    </details>
+  </section>
 
-      <details>
-        <summary>Battery Type Distribution</summary>
-        <p>Distribution of Li-Po vs Li-Ion battery types across all smartphones in the dataset:</p>
-        <div class="chart-container">
-          <img src="{{ url_for('static', filename='images/battery_type_pie.svg') }}" class="pie-chart" alt="Battery Type Distribution Pie Chart">
-        </div>
-      </details>
+  <section id="distribution" class="tab-panel">
+    <details open>
+      <summary>Brand Pie Chart</summary>
+      <div class="chart-container">
+        <img src="{{ url_for('static', filename='images/brand_pie.svg') }}" class="pie-chart" alt="Brand Distribution Pie Chart">
+      </div>
+    </details>
 
-      <details>
-        <summary>Video Format Support</summary>
-        <p>Count of smartphones supporting each video format (resolution and frame rate):</p>
-        <img src="{{ url_for('static', filename='images/video_formats.svg') }}" style="width: 100%; max-width: 1400px;">
-      </details>
+    <details>
+      <summary>OS Pie Chart</summary>
+      <div class="chart-container">
+        <img src="{{ url_for('static', filename='images/os_pie.svg') }}" class="pie-chart" alt="Operating System Distribution Pie Chart">
+      </div>
+    </details>
 
-      <details>
-        <summary>Average Price by Brand</summary>
-        <p>Comparison of average smartphone prices across different brands:</p>
-        <img src="{{ url_for('static', filename='images/avg_price_by_brand.svg') }}" style="width: 100%; max-width: 1200px;">
-      </details>
+    <details>
+      <summary>Battery Type Distribution</summary>
+      <p>Distribution of Li-Po vs Li-Ion battery types across the dataset.</p>
+      <div class="chart-container">
+        <img src="{{ url_for('static', filename='images/battery_type_pie.svg') }}" class="pie-chart" alt="Battery Type Distribution Pie Chart">
+      </div>
+    </details>
 
-      <details>
-        <summary>Battery Efficiency by Brand</summary>
-        <p>Battery efficiency measured as mAh per USD, showing value for money in terms of battery capacity:</p>
-        <img src="{{ url_for('static', filename='images/battery_efficiency_by_brand.svg') }}" style="width: 100%; max-width: 1200px;">
-      </details>
+    <details>
+      <summary>Data Distribution Histograms</summary>
+      <p>Distribution of key smartphone specifications across the dataset.</p>
+      <img src="{{ url_for('static', filename='images/histograms.svg') }}" class="wide-chart" alt="Data distribution histograms">
+    </details>
+  </section>
 
-      <details>
-        <summary>Specifications by Brand</summary>
-        <p>Average specifications (height, RAM, storage, weight) comparison across brands:</p>
-        <img src="{{ url_for('static', filename='images/specs_by_brand.svg') }}" style="width: 100%; max-width: 1200px;">
-      </details>
+  <section id="brand-value" class="tab-panel">
+    <details open>
+      <summary>Average Price by Brand</summary>
+      <p>Comparison of average smartphone prices across brands.</p>
+      <img src="{{ url_for('static', filename='images/avg_price_by_brand.svg') }}" class="wide-chart" alt="Average Price by Brand">
+    </details>
 
-      <details>
-        <summary>Data Distribution Histograms</summary>
-        <p>The following histograms show the distribution of key smartphone specifications across the dataset:</p>
-        <img src="{{ url_for('static', filename='images/histograms.svg') }}" style="width: 100%; max-width: 1200px;">
-      </details>
-    </section>
-    
+    <details>
+      <summary>Battery Efficiency by Brand</summary>
+      <p>Battery efficiency measured as mAh per USD for each brand.</p>
+      <img src="{{ url_for('static', filename='images/battery_efficiency_by_brand.svg') }}" class="wide-chart" alt="Battery Efficiency by Brand">
+    </details>
+
+    <details>
+      <summary>Specifications by Brand</summary>
+      <p>Average height, RAM, storage, and weight comparison by brand.</p>
+      <img src="{{ url_for('static', filename='images/specs_by_brand.svg') }}" class="wide-chart" alt="Specifications by Brand">
+    </details>
+
+    <details>
+      <summary>Price Distribution by Operating System</summary>
+      <p>Boxplot view of pricing spread for major operating systems.</p>
+      <img src="{{ url_for('static', filename='images/price_by_os_boxplot.svg') }}" class="wide-chart" alt="Price distribution by operating system">
+    </details>
+  </section>
+
+  <section id="advanced" class="tab-panel">
+    <details open>
+      <summary>Video Format Support</summary>
+      <p>Counts for smartphone support of major video resolutions and frame rates.</p>
+      <img src="{{ url_for('static', filename='images/video_formats.svg') }}" class="wide-chart" alt="Video format support">
+    </details>
+
+    <details>
+      <summary>Feature Correlation Heatmap</summary>
+      <p>Pairwise correlations between numeric device specifications and price.</p>
+      <img src="{{ url_for('static', filename='images/correlation_heatmap.svg') }}" class="wide-chart" alt="Feature correlation heatmap">
+    </details>
+  </section>
+
+  <script>
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabPanels = document.querySelectorAll('.tab-panel');
+
+    tabButtons.forEach((button) => {
+      button.addEventListener('click', () => {
+        const selectedTab = button.getAttribute('data-tab');
+
+        tabButtons.forEach((btn) => btn.classList.remove('active'));
+        tabPanels.forEach((panel) => panel.classList.remove('active'));
+
+        button.classList.add('active');
+        document.getElementById(selectedTab).classList.add('active');
+      });
+    });
+  </script>
 </body>
 </html>

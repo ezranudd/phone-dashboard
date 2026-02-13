@@ -10,7 +10,11 @@
       'video_30fps', 'video_60fps', 'video_120fps', 'video_240fps',
       'video_480fps', 'video_960fps'</b></p>
     <a href="https://www.kaggle.com/datasets/berkayeserr/phone-prices">Source (kaggle.com)</a><br>
-    <a href="/browse-full.html">Browse Full Data</a><br>
-    <div>{{ table_html|safe }}</div>
+    <a href="/browse-full.html">Browse Full Data</a><br><br>
+    <div class="table-page">
+      <div class="table-scroll">
+        {{ table_html|safe }}
+      </div>
+    </div>
 </body>
 </html>

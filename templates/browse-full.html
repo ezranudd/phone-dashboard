@@ -5,9 +5,14 @@
   <title>Browse Data (Full)</title>
 </head>
 <body>
-    <h1>Browse</h1>
+    <h1>Browse Full Data</h1>
+    <p>This table includes all columns after preprocessing. Scroll horizontally for wide columns.</p>
     <a href="https://www.kaggle.com/datasets/berkayeserr/phone-prices">Source (kaggle.com)</a><br>
-    <a href="/browse.html">Browse Partial Data</a><br>
-    <div>{{ table_html|safe }}</div>
+    <a href="/browse.html">Browse Partial Data</a><br><br>
+    <div class="table-page">
+      <div class="table-scroll">
+        {{ table_html|safe }}
+      </div>
+    </div>
 </body>
 </html>

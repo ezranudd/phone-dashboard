@@ -55,8 +55,8 @@ def home():
     info_output = buffer.getvalue()
     buffer.close()
     
-    # df.describe() output to html
-    descr_output = df.describe().to_html()
+    # df.describe() output to html with fixed precision
+    descr_output = df.describe().to_html(float_format=lambda x: f"{x:.2f}")
     
     return render_template('index.html', 
         dataframe_info=info_output,
@@ -378,7 +378,7 @@ def avg_price_by_brand():
 @app.route('/battery_efficiency_by_brand.svg')
 def battery_efficiency_by_brand():
     # Calculate battery efficiency (mAh per dollar)
-    df['battery_efficiency'] = df['battery'] / df['price(USD)']
+    df['battery_efficiency'] = (df['battery'] / df['price(USD)']).round(2)
     avg_efficiency = df.groupby('brand')['battery_efficiency'].mean().sort_values(ascending=False)
     
     # Create figure
@@ -461,6 +461,101 @@ def specs_by_brand():
     
     return send_file(buffer, mimetype='image/svg+xml')
 
+# Correlation heatmap for numeric features
+@app.route('/correlation_heatmap.svg')
+def correlation_heatmap():
+    numeric_cols = [
+        'inches', 'battery', 'ram(GB)', 'weight(g)', 'storage(GB)',
+        'price(USD)', 'width', 'height', 'announcement_year'
+    ]
+    corr = df[numeric_cols].corr()
+
+    fig, ax = plt.subplots(figsize=(12, 10))
+    im = ax.imshow(corr.values, cmap='coolwarm', vmin=-1, vmax=1)
+
+    ax.set_xticks(range(len(numeric_cols)))
+    ax.set_yticks(range(len(numeric_cols)))
+    ax.set_xticklabels(numeric_cols, rotation=45, ha='right')
+    ax.set_yticklabels(numeric_cols)
+    ax.set_title('Feature Correlation Heatmap', fontsize=16, pad=12)
+
+    for i in range(len(numeric_cols)):
+        for j in range(len(numeric_cols)):
+            ax.text(j, i, f"{corr.values[i, j]:.2f}", ha='center', va='center', fontsize=8)
+
+    cbar = fig.colorbar(im, ax=ax, shrink=0.8)
+    cbar.set_label('Correlation')
+    plt.tight_layout()
+
+    buffer = io.BytesIO()
+    plt.savefig(buffer, format='svg', bbox_inches='tight')
+    buffer.seek(0)
+    plt.close()
+
+    return send_file(buffer, mimetype='image/svg+xml')
+
+# Phone launches and average price over time
+@app.route('/yearly_trends.svg')
+def yearly_trends():
+    releases_by_year = df.groupby('announcement_year').size()
+    avg_price_by_year = df.groupby('announcement_year')['price(USD)'].mean()
+
+    fig, axes = plt.subplots(1, 2, figsize=(16, 6))
+    fig.suptitle('Yearly Market Trends', fontsize=18, y=1.02)
+
+    axes[0].bar(releases_by_year.index.astype(str), releases_by_year.values, color='steelblue')
+    axes[0].set_title('Phone Releases by Year')
+    axes[0].set_xlabel('Announcement Year')
+    axes[0].set_ylabel('Number of Phones')
+    axes[0].tick_params(axis='x', rotation=45)
+    axes[0].grid(True, axis='y', alpha=0.3)
+
+    axes[1].plot(avg_price_by_year.index.astype(str), avg_price_by_year.values, marker='o', color='darkorange')
+    axes[1].set_title('Average Price by Year')
+    axes[1].set_xlabel('Announcement Year')
+    axes[1].set_ylabel('Average Price (USD)')
+    axes[1].tick_params(axis='x', rotation=45)
+    axes[1].grid(True, alpha=0.3)
+
+    plt.tight_layout()
+
+    buffer = io.BytesIO()
+    plt.savefig(buffer, format='svg', bbox_inches='tight')
+    buffer.seek(0)
+    plt.close()
+
+    return send_file(buffer, mimetype='image/svg+xml')
+
+# Price distribution by operating system
+@app.route('/price_by_os_boxplot.svg')
+def price_by_os_boxplot():
+    os_counts = df['os'].value_counts()
+    major_os = os_counts[os_counts >= 40].index
+    filtered = df[df['os'].isin(major_os)]
+
+    grouped = [filtered[filtered['os'] == os]['price(USD)'] for os in major_os]
+
+    plt.figure(figsize=(12, 7))
+    bp = plt.boxplot(grouped, patch_artist=True, labels=major_os)
+    colors = plt.cm.Set3(np.linspace(0, 1, len(major_os)))
+
+    for patch, color in zip(bp['boxes'], colors):
+        patch.set_facecolor(color)
+
+    plt.title('Price Distribution by Operating System', fontsize=16)
+    plt.xlabel('Operating System', fontsize=12)
+    plt.ylabel('Price (USD)', fontsize=12)
+    plt.xticks(rotation=25, ha='right')
+    plt.grid(True, axis='y', alpha=0.3)
+    plt.tight_layout()
+
+    buffer = io.BytesIO()
+    plt.savefig(buffer, format='svg', bbox_inches='tight')
+    buffer.seek(0)
+    plt.close()
+
+    return send_file(buffer, mimetype='image/svg+xml')
+
 # Combined histograms route
 @app.route('/histograms.svg')
 def all_histograms():
@@ -541,6 +636,18 @@ if __name__ == '__main__':
             
         response = app.test_client().get('/specs_by_brand.svg')
         with open('static/images/specs_by_brand.svg', 'wb') as f:
+            f.write(response.data)
+
+        response = app.test_client().get('/correlation_heatmap.svg')
+        with open('static/images/correlation_heatmap.svg', 'wb') as f:
+            f.write(response.data)
+
+        response = app.test_client().get('/yearly_trends.svg')
+        with open('static/images/yearly_trends.svg', 'wb') as f:
+            f.write(response.data)
+
+        response = app.test_client().get('/price_by_os_boxplot.svg')
+        with open('static/images/price_by_os_boxplot.svg', 'wb') as f:
             f.write(response.data)
 
     app.run()
