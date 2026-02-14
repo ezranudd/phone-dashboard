@@ -1,7 +1,7 @@
 # Phone Dashboard
 
 This is a Flask application for analyzing a smartphone dataset with pandas and matplotlib.
-It provides an interactive web interface with tabbed analysis views, summary statistics, and full-table browsing.
+It provides an interactive web interface with tabbed analysis views, summary statistics, and DataTables-powered table browsing.
 
 Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 
@@ -11,6 +11,7 @@ Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 - Computes dataset diagnostics (`df.info()` and `df.describe()`)
 - Generates static SVG visualizations for fast dashboard rendering
 - Exposes browse views in HTML and JSON
+- Adds interactive browse tables (search, sort, pagination, horizontal scroll)
 - Organizes analysis into front-page tabs:
   - `Overview`
   - `Distributions`
@@ -24,14 +25,16 @@ Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 - pandas
 - numpy
 - matplotlib
+- jQuery (CDN, browse pages)
+- DataTables.net (CDN, browse pages)
 
 ## Project Structure
 
 - `main.py`: Flask app, preprocessing logic, route handlers, chart generation
 - `main.csv`: dataset input file
 - `templates/index.html`: dashboard landing page with tabbed analysis UI
-- `templates/browse.html`: partial-column data table view
-- `templates/browse-full.html`: full-column data table view
+- `templates/browse.html`: partial-column interactive data table view
+- `templates/browse-full.html`: full-column interactive data table view
 - `static/css/main.css`: global dashboard styling
 - `static/images/*.svg`: generated chart assets
 
@@ -91,8 +94,8 @@ The app runs at:
 ## Main Routes
 
 - `/`: dashboard home
-- `/browse.html`: partial table view
-- `/browse-full.html`: full table view
+- `/browse.html`: partial interactive table view (DataTables)
+- `/browse-full.html`: full interactive table view (DataTables)
 - `/browse.json`: dataset as JSON
 
 Chart endpoints (examples):
@@ -108,4 +111,5 @@ Chart endpoints (examples):
 
 - On startup, the app uses Flask's test client to regenerate chart SVGs into `static/images/`.
 - `df.describe()` values on the dashboard are formatted to 2 decimal places.
-- Wide tables are wrapped in horizontal-scroll containers to avoid page overflow.
+- Browse pages include direct links for `Home`, dataset source, and switching between partial/full table views.
+- Browse tables use DataTables with client-side search, sorting, pagination, and horizontal scrolling.

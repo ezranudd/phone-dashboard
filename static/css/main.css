@@ -48,6 +48,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.home-icon {
+  font-size: 1.15em;
+}
+
 .tabs {
   display: flex;
   flex-wrap: wrap;
@@ -164,11 +168,6 @@ table tr:nth-child(even) {
   padding: 10px;
 }
 
-.table-page .table-scroll {
-  max-width: 100%;
-  overflow-x: auto;
-}
-
 .table-page table {
   width: max-content;
   min-width: 100%;
@@ -182,10 +181,12 @@ table tr:nth-child(even) {
   padding: 6px 8px;
 }
 
-.table-page table th {
-  position: sticky;
-  top: 0;
-  z-index: 1;
+.table-page .dataTables_wrapper {
+  width: 100%;
+}
+
+.table-page table.dataTable {
+  width: 100% !important;
 }
 
 @media (max-width: 768px) {

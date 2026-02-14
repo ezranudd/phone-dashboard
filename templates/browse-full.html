@@ -2,17 +2,34 @@
 <html>
 <head>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <link rel="stylesheet" href="https://cdn.datatables.net/1.13.8/css/jquery.dataTables.min.css">
   <title>Browse Data (Full)</title>
 </head>
 <body>
     <h1>Browse Full Data</h1>
     <p>This table includes all columns after preprocessing. Scroll horizontally for wide columns.</p>
+    <a href="/"><span class="home-icon">&#8962;</span> Home</a><br>
     <a href="https://www.kaggle.com/datasets/berkayeserr/phone-prices">Source (kaggle.com)</a><br>
     <a href="/browse.html">Browse Partial Data</a><br><br>
     <div class="table-page">
-      <div class="table-scroll">
-        {{ table_html|safe }}
-      </div>
+      {{ table_html|safe }}
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.8/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(function () {
+        const table = $('.table-page table');
+        if (!table.length) return;
+
+        table.DataTable({
+          pageLength: 25,
+          lengthMenu: [[10, 25, 50, 100, -1], [10, 25, 50, 100, 'All']],
+          scrollX: true,
+          autoWidth: false,
+          deferRender: true,
+          order: []
+        });
+      });
+    </script>
 </body>
 </html>
