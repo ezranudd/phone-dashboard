@@ -1,0 +1,8 @@
+# Dev/test dependencies (not needed to run the app).
+-r requirements.txt
+
+pytest==9.1.0
+
+# Browser render gate (verify_charts.py). After install, also run:
+#   playwright install chromium
+playwright==1.60.0

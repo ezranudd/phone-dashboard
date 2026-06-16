@@ -55,6 +55,22 @@ hidden containers.
 - **Market tiers** — `KMeans` (k=3) on standardized specs + price, ordered by mean
   price into Budget / Mid-range / Flagship.
 
+### Design decisions (the "why")
+
+- **Client-side Plotly over server-rendered images.** Charts are interactive
+  (hover, zoom, dropdowns) and the backend stays a thin JSON layer with no
+  plotting dependency, which also keeps it static-host friendly.
+- **Lazy render to dodge a real gotcha.** Plotly draws at zero width inside a
+  hidden tab or collapsed `<details>`. The render manager (`charts.js`) draws a
+  chart only when its container first becomes visible and resizes it on later
+  reveals — solved once in shared code, so every chart inherits it.
+- **Train once, memoize.** `df` is static after startup, so both JSON payloads
+  are constant; `functools.cache` makes each endpoint a one-time computation
+  rather than per-request work.
+- **"Value" = model residual, not an arbitrary score.** Ranking phones by how far
+  their price sits below the model's spec-based prediction reuses the price model
+  and is defensible, rather than hand-weighting specs into a made-up index.
+
 ## Project Structure
 
 - `main.py`: Flask app, preprocessing logic, route handlers, chart-data aggregation
@@ -64,7 +80,9 @@ hidden containers.
 - `templates/browse-full.html`: full-column interactive data table view
 - `static/css/main.css`: global dashboard styling
 - `static/js/charts.js`: client-side Plotly chart builders + lazy-render manager
+- `tests/test_endpoints.py`: fast endpoint + data-contract tests (pytest)
 - `verify_charts.py`: Playwright check that all charts render (optional, dev-only)
+- `requirements.txt` / `requirements-dev.txt`: runtime and dev dependencies
 
 ## Data Preprocessing
 
@@ -109,11 +127,16 @@ source .venv/bin/activate
 ### 2. Install dependencies
 
 ```bash
-pip install flask pandas scikit-learn
+pip install -r requirements.txt
 ```
 
 Charts load Plotly.js from a CDN, so no plotting library is needed server-side.
-For the optional render check, also install `playwright` and run `playwright install chromium`.
+To run the tests as well, install the dev extras and the browser for the render gate:
+
+```bash
+pip install -r requirements-dev.txt
+playwright install chromium
+```
 
 ### 3. Start the app
 
@@ -124,6 +147,21 @@ python3 main.py
 The app runs at:
 
 - `http://127.0.0.1:5000/`
+
+## Tests
+
+Run from the repo root:
+
+```bash
+python -m pytest        # fast endpoint + data-contract checks (no browser)
+python verify_charts.py # browser render gate: all 16 charts paint (needs Chromium)
+```
+
+`tests/test_endpoints.py` checks the JSON the frontend depends on (status, keys,
+JSON-serializability, tier price-ordering, value-ranking order, sane model
+metrics). It's deterministic because the models fix `random_state=42`.
+`verify_charts.py` drives headless Chromium to confirm every chart actually
+renders across tabs and inside collapsed `<details>`.
 
 ## Main Routes
 
