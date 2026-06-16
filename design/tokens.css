@@ -14,19 +14,20 @@
   --text:      #2A2622;
   --text-muted:#6F665C;
 
-  /* Chart categorical colorway (7) */
-  --c1: #0D7C66;  /* teal       */
-  --c2: #C2410C;  /* terracotta */
-  --c3: #2563EB;  /* blue       */
-  --c4: #B45309;  /* ochre      */
-  --c5: #7C3AED;  /* violet     */
-  --c6: #BE185D;  /* magenta    */
-  --c7: #4D7C0F;  /* olive      */
+  /* Chart categorical colorway (7) — muted/dusty so fills sit calmly on the warm
+     paper. Intentionally softer than --accent, which stays deep for UI chrome. */
+  --c1: #5E9B8C;  /* dusty teal     */
+  --c2: #CE8E6D;  /* muted clay     */
+  --c3: #7B9CB8;  /* dusty blue     */
+  --c4: #D9B36E;  /* muted amber    */
+  --c5: #9E8BB0;  /* dusty lavender */
+  --c6: #C58CA1;  /* dusty rose     */
+  --c7: #95A86B;  /* muted sage     */
 
-  /* Sequential heatmap ramp (low -> high) */
-  --ramp-0: #F0FDF9;
-  --ramp-1: #0D7C66;
-  --ramp-2: #134E4A;
+  /* Diverging heatmap ramp (neg -> mid -> pos): muted clay -> paper -> dusty teal */
+  --ramp-0: #CE8E6D;
+  --ramp-1: #F2EBE0;
+  --ramp-2: #5E9B8C;
 
   /* Typography */
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
