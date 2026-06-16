@@ -18,11 +18,12 @@ Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 - Renders interactive charts client-side with Plotly (hover, zoom, legend toggle, dropdown selectors)
 - Exposes browse views in HTML and JSON
 - Adds interactive browse tables (search, sort, pagination, horizontal scroll)
-- Organizes analysis into front-page tabs:
-  - `Overview`
-  - `Distributions`
-  - `Brand & Value`
-  - `Advanced Analysis`
+- Leads with a hero + KPI strip (live numbers from the models) and organizes
+  analysis into a narrative arc of front-page tabs:
+  - `The Market` — how the dataset splits (tiers, brands, OS, trends)
+  - `Why Price?` — price-driver model, accuracy, correlations
+  - `Best Value` — value ranking, price spread, efficiency
+  - `Explore` — supporting distributions, feature detail, and methodology
 
 ## Tech Stack
 
@@ -78,8 +79,9 @@ hidden containers.
 - `templates/index.html`: dashboard landing page with tabbed analysis UI
 - `templates/browse.html`: partial-column interactive data table view
 - `templates/browse-full.html`: full-column interactive data table view
-- `static/css/main.css`: global dashboard styling
-- `static/js/charts.js`: client-side Plotly chart builders + lazy-render manager
+- `static/css/main.css`: global dashboard styling (Warm Editorial design tokens as CSS variables)
+- `static/js/charts.js`: client-side Plotly chart builders, shared theme, KPI wiring, lazy-render manager
+- `design/`: Claude Design component library — `tokens.css` (source of truth for the palette) and component previews, kept in sync with the claude.ai/design project
 - `tests/test_endpoints.py`: fast endpoint + data-contract tests (pytest)
 - `verify_charts.py`: Playwright check that all charts render (optional, dev-only)
 - `requirements.txt` / `requirements-dev.txt`: runtime and dev dependencies

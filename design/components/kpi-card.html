@@ -1,0 +1,30 @@
+<!-- @dsCard group="Components" name="KPI stat card" subtitle="Hero strip — the answers up front" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body { font-family: var(--font-sans); background: var(--page-bg); color: var(--text); margin: 0; padding: var(--sp-6); }
+  .kpi-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--sp-4); }
+  .kpi {
+    background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius);
+    box-shadow: var(--shadow-sm); padding: var(--sp-4); border-top: 3px solid var(--accent);
+  }
+  .kpi .label { font-size: var(--fs-small); text-transform: uppercase; letter-spacing: .04em; color: var(--text-muted); }
+  .kpi .value { font-size: 1.8rem; font-weight: 700; line-height: var(--lh-tight); margin: var(--sp-2) 0 var(--sp-1); font-variant-numeric: tabular-nums; }
+  .kpi .sub   { font-size: var(--fs-small); color: var(--text-muted); }
+  .kpi .value .unit { font-size: 1rem; font-weight: 600; color: var(--accent); }
+  @media (max-width: 720px) { .kpi-strip { grid-template-columns: repeat(2, 1fr); } }
+</style>
+</head>
+<body>
+  <div class="kpi-strip">
+    <div class="kpi"><div class="label">Phones analysed</div><div class="value">1,200</div><div class="sub">after cleaning &amp; outlier removal</div></div>
+    <div class="kpi"><div class="label">Top price driver</div><div class="value">RAM</div><div class="sub">largest random-forest importance</div></div>
+    <div class="kpi"><div class="label">Model accuracy</div><div class="value">R&sup2; 0.23</div><div class="sub">specs explain ~&frac14; of price</div></div>
+    <div class="kpi"><div class="label">Best value</div><div class="value" style="font-size:1.4rem">Reno3 Youth</div><div class="sub">priced furthest below prediction</div></div>
+  </div>
+</body>
+</html>

@@ -3,13 +3,13 @@ from playwright.sync_api import sync_playwright
 
 # Every chart div, grouped by the tab it lives in.
 CHARTS_BY_TAB = {
-    "overview": ["chart-yearly-trends"],
-    "distribution": ["chart-brand-pie", "chart-os-pie", "chart-battery-type-pie",
-                     "chart-histograms", "chart-tiers-scatter", "chart-tiers-summary"],
-    "brand-value": ["chart-value-ranking", "chart-avg-price-by-brand",
-                    "chart-battery-efficiency", "chart-specs-by-brand", "chart-price-by-os"],
-    "advanced": ["chart-price-drivers", "chart-pred-actual",
-                 "chart-video-formats", "chart-correlation"],
+    "market": ["chart-tiers-scatter", "chart-tiers-summary", "chart-brand-pie",
+               "chart-os-pie", "chart-yearly-trends"],
+    "why-price": ["chart-price-drivers", "chart-pred-actual", "chart-correlation"],
+    "best-value": ["chart-value-ranking", "chart-price-by-os",
+                   "chart-battery-efficiency", "chart-avg-price-by-brand"],
+    "explore": ["chart-histograms", "chart-video-formats", "chart-specs-by-brand",
+                "chart-battery-type-pie"],
 }
 TOTAL = sum(len(ids) for ids in CHARTS_BY_TAB.values())
 
@@ -71,7 +71,7 @@ try:
                     failures.append("%s never rendered: %s" % (cid, e))
 
         # Resize-gotcha regression: collapse + reopen brand pie's <details>.
-        page.click('button[data-tab="distribution"]')
+        page.click('button[data-tab="market"]')
         page.click("#chart-brand-pie >> xpath=ancestor::details/summary")
         page.click("#chart-brand-pie >> xpath=ancestor::details/summary")
         page.wait_for_timeout(300)

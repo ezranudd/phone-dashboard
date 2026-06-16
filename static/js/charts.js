@@ -15,13 +15,26 @@
   let chartData = null;
   const renderedIds = new Set();
 
+  // --- Warm Editorial theme (mirrors design/tokens.css) -----------------------
   const FONT = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
-  const ACCENT = '#3273dc';
+  const ACCENT = '#0D7C66';      // teal — primary series / "good"
+  const TEXT = '#2A2622';
+  const MUTED = '#6F665C';
+  const GRID = '#ECE6DC';        // warm hairline grid
+  const REFERENCE = '#C2410C';   // terracotta — reference lines / "not supported"
+  // Categorical colorway; pies and any trace without an explicit color cycle this.
+  const COLORWAY = ['#0D7C66', '#C2410C', '#2563EB', '#B45309', '#7C3AED', '#BE185D', '#4D7C0F'];
+  // Tier ramp, low -> high price (Budget / Mid-range / Flagship).
+  const TIER_COLORS = ['#4D7C0F', '#B45309', '#0D7C66'];
+  // Diverging scale for the correlation heatmap: terracotta (neg) -> paper -> teal (pos).
+  const DIVERGING = [[0, '#C2410C'], [0.5, '#F5F0E8'], [1, '#0D7C66']];
+  // ----------------------------------------------------------------------------
 
   function baseLayout(title) {
     return {
-      title: { text: title, font: { size: 16, color: '#1f2937' } },
-      font: { family: FONT, color: '#333' },
+      title: { text: title, font: { size: 16, color: TEXT } },
+      font: { family: FONT, color: TEXT },
+      colorway: COLORWAY,
       paper_bgcolor: 'rgba(0,0,0,0)',
       plot_bgcolor: 'rgba(0,0,0,0)',
       margin: { t: 50, r: 20, b: 80, l: 60 },
@@ -49,6 +62,13 @@
     'ram(GB)': 'Average RAM (GB)',
     'storage(GB)': 'Average Storage (GB)',
     'weight(g)': 'Average Weight (g)',
+  };
+
+  // Short labels for the hero KPI "top price driver" stat.
+  const DRIVER_LABELS = {
+    'ram(GB)': 'RAM', 'storage(GB)': 'Storage', 'battery': 'Battery',
+    'inches': 'Screen size', 'weight(g)': 'Weight', 'width': 'Resolution',
+    'height': 'Resolution', 'announcement_year': 'Release year',
   };
 
   function pie(title, counts) {
@@ -93,7 +113,7 @@
       layout: Object.assign(baseLayout(title), {
         height: 500,
         xaxis: { tickangle: -45, automargin: true },
-        yaxis: { title: { text: yLabel }, gridcolor: '#eee' },
+        yaxis: { title: { text: yLabel }, gridcolor: GRID },
       }),
     };
   }
@@ -131,7 +151,7 @@
     'chart-battery-efficiency': function (d) {
       const a = d.battery_efficiency_by_brand;
       return bar('Battery Efficiency by Brand (mAh per USD)', 'mAh / USD',
-        a.brands, a.values, '#9b59b6', '');
+        a.brands, a.values, '#7C3AED', '');
     },
 
     'chart-video-formats': function (d) {
@@ -141,14 +161,14 @@
       const notSupported = formats.map(function (f) { return d.video_formats[f].false; });
       return {
         data: [
-          { type: 'bar', name: 'Supported', x: labels, y: supported, marker: { color: '#2ecc71' } },
-          { type: 'bar', name: 'Not supported', x: labels, y: notSupported, marker: { color: '#e74c3c' } },
+          { type: 'bar', name: 'Supported', x: labels, y: supported, marker: { color: ACCENT } },
+          { type: 'bar', name: 'Not supported', x: labels, y: notSupported, marker: { color: REFERENCE } },
         ],
         layout: Object.assign(baseLayout('Video Format Support'), {
           height: 500,
           barmode: 'group',
           xaxis: { automargin: true },
-          yaxis: { title: { text: 'Count' }, gridcolor: '#eee' },
+          yaxis: { title: { text: 'Count' }, gridcolor: GRID },
           legend: { orientation: 'h', y: 1.08, x: 0 },
         }),
       };
@@ -169,7 +189,7 @@
         layout: Object.assign(baseLayout(SPEC_LABELS[specs[0]]), {
           height: 500,
           xaxis: { tickangle: -45, automargin: true },
-          yaxis: { gridcolor: '#eee' },
+          yaxis: { gridcolor: GRID },
           updatemenus: [{
             buttons: dropdownButtons(
               specs,
@@ -190,7 +210,7 @@
           x: d.correlation.labels,
           y: d.correlation.labels,
           zmin: -1, zmax: 1, zmid: 0,
-          colorscale: 'RdBu', reversescale: true,
+          colorscale: DIVERGING,
           texttemplate: '%{z:.2f}', textfont: { size: 9 },
           hovertemplate: '%{x} / %{y}<br>r = %{z}<extra></extra>',
           colorbar: { title: { text: 'Correlation' } },
@@ -210,13 +230,13 @@
           { type: 'bar', name: 'Releases', x: t.years, y: t.releases, marker: { color: ACCENT } },
           {
             type: 'scatter', mode: 'lines+markers', name: 'Avg Price (USD)',
-            x: t.years, y: t.avg_price, yaxis: 'y2', line: { color: '#e67e22' },
+            x: t.years, y: t.avg_price, yaxis: 'y2', line: { color: REFERENCE },
           },
         ],
         layout: Object.assign(baseLayout('Yearly Market Trends'), {
           height: 500,
           xaxis: { title: { text: 'Announcement Year' }, automargin: true },
-          yaxis: { title: { text: 'Number of Phones' }, gridcolor: '#eee' },
+          yaxis: { title: { text: 'Number of Phones' }, gridcolor: GRID },
           yaxis2: {
             title: { text: 'Average Price (USD)' }, overlaying: 'y', side: 'right',
             showgrid: false,
@@ -236,7 +256,7 @@
           height: 500,
           showlegend: false,
           xaxis: { tickangle: -25, automargin: true },
-          yaxis: { title: { text: 'Price (USD)' }, gridcolor: '#eee' },
+          yaxis: { title: { text: 'Price (USD)' }, gridcolor: GRID },
         }),
       };
     },
@@ -256,7 +276,7 @@
         layout: Object.assign(baseLayout(first + ' Distribution'), {
           height: 500,
           xaxis: { title: { text: first }, automargin: true },
-          yaxis: { title: { text: 'Frequency' }, gridcolor: '#eee' },
+          yaxis: { title: { text: 'Frequency' }, gridcolor: GRID },
           bargap: 0.05,
           updatemenus: [{
             buttons: dropdownButtons(
@@ -286,7 +306,7 @@
         layout: Object.assign(baseLayout('What Drives Price? — Random Forest feature importance'), {
           height: 460,
           margin: { t: 70, r: 20, b: 45, l: 120 },
-          xaxis: { title: { text: 'Importance' }, gridcolor: '#eee' },
+          xaxis: { title: { text: 'Importance' }, gridcolor: GRID },
           yaxis: { automargin: true },
           annotations: [{
             xref: 'paper', yref: 'paper', x: 0, y: 1.08, xanchor: 'left', showarrow: false,
@@ -311,13 +331,13 @@
           },
           {
             type: 'scatter', mode: 'lines', name: 'Perfect prediction',
-            x: [0, hi], y: [0, hi], line: { color: '#e74c3c', dash: 'dash' }, hoverinfo: 'skip',
+            x: [0, hi], y: [0, hi], line: { color: REFERENCE, dash: 'dash' }, hoverinfo: 'skip',
           },
         ],
         layout: Object.assign(baseLayout('Predicted vs Actual Price (test set)'), {
           height: 480,
-          xaxis: { title: { text: 'Actual Price (USD)' }, gridcolor: '#eee' },
-          yaxis: { title: { text: 'Predicted Price (USD)' }, gridcolor: '#eee' },
+          xaxis: { title: { text: 'Actual Price (USD)' }, gridcolor: GRID },
+          yaxis: { title: { text: 'Predicted Price (USD)' }, gridcolor: GRID },
           legend: { orientation: 'h', y: 1.1, x: 0 },
         }),
       };
@@ -330,7 +350,7 @@
           type: 'bar', orientation: 'h',
           x: best.map(function (p) { return p.residual; }),
           y: best.map(function (p) { return p.name + ' · ' + p.brand; }),
-          marker: { color: '#2ecc71' },
+          marker: { color: ACCENT },
           customdata: best.map(function (p) { return [p.actual, p.predicted]; }),
           hovertemplate: '<b>%{y}</b><br>actual $%{customdata[0]} · predicted $%{customdata[1]}' +
                          '<br>value gap $%{x}<extra></extra>',
@@ -338,7 +358,7 @@
         layout: Object.assign(baseLayout('Best Value Phones — priced below their spec-predicted price'), {
           height: 540,
           margin: { t: 60, r: 20, b: 50, l: 200 },
-          xaxis: { title: { text: 'Predicted − Actual Price (USD)' }, gridcolor: '#eee' },
+          xaxis: { title: { text: 'Predicted − Actual Price (USD)' }, gridcolor: GRID },
           yaxis: { automargin: true },
         }),
       };
@@ -346,7 +366,7 @@
 
     'chart-tiers-scatter': function (d) {
       const pts = d.tiers.points;
-      const colors = ['#3498db', '#9b59b6', '#e74c3c'];
+      const colors = TIER_COLORS;
       const traces = d.tiers.names.map(function (name, t) {
         const xs = [], ys = [];
         for (let i = 0; i < pts.tier.length; i++) {
@@ -362,8 +382,8 @@
         data: traces,
         layout: Object.assign(baseLayout('Market Tiers (k-means): Storage vs Price'), {
           height: 500,
-          xaxis: { title: { text: 'Storage (GB)' }, gridcolor: '#eee' },
-          yaxis: { title: { text: 'Price (USD)' }, gridcolor: '#eee' },
+          xaxis: { title: { text: 'Storage (GB)' }, gridcolor: GRID },
+          yaxis: { title: { text: 'Price (USD)' }, gridcolor: GRID },
           legend: { orientation: 'h', y: 1.1, x: 0 },
         }),
       };
@@ -376,8 +396,8 @@
           type: 'table',
           header: {
             values: ['Tier', 'Count', 'Mean price', 'Mean RAM (GB)', 'Mean battery', 'Mean storage (GB)'],
-            fill: { color: '#f3f4f6' }, align: 'left',
-            font: { color: '#1f2937', size: 12 },
+            fill: { color: '#E3F2EE' }, align: 'left',
+            font: { color: TEXT, size: 12 },
           },
           cells: {
             values: [
@@ -426,6 +446,29 @@
     });
   }
 
+  // Fill the hero KPI strip from whichever payload has arrived. Each stat is
+  // guarded so it populates as soon as its source data is present (charts.json
+  // carries the count; insights.json carries the model-derived stats).
+  function setText(id, value) {
+    const el = document.getElementById(id);
+    if (el && value != null) el.textContent = value;
+  }
+  function populateKPIs(d) {
+    if (d.brand_counts) {
+      const total = Object.keys(d.brand_counts).reduce(
+        function (a, k) { return a + d.brand_counts[k]; }, 0);
+      setText('kpi-count', total.toLocaleString());
+    }
+    if (d.price_model) {
+      const top = d.price_model.importance[0];
+      setText('kpi-driver', DRIVER_LABELS[top.feature] || top.feature);
+      setText('kpi-r2', 'R² ' + d.price_model.metrics.random_forest.r2);
+    }
+    if (d.value_ranking) {
+      setText('kpi-value', d.value_ranking.best[0].name);
+    }
+  }
+
   // Expose so the inline tab handler (or console) can trigger a pass if needed.
   window.renderVisibleCharts = renderVisibleCharts;
 
@@ -453,6 +496,7 @@
     // sink the descriptive charts. Each merges what it has and re-renders.
     function merge(data) {
       chartData = Object.assign({}, chartData, data);
+      populateKPIs(chartData);
       renderVisibleCharts();
     }
     getJSON('/data/charts.json')

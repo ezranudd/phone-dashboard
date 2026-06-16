@@ -1,41 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Phone Dashboard — what drives price &amp; which phones are best value</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
   <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
 </head>
 <body>
-  <h1>Phone Dashboard</h1>
-  <section class="project-intro">
-    <p>
-      This site hosts a Flask-based data exploration app for a smartphone pricing dataset from Kaggle.
-      It combines preprocessing, descriptive statistics, and visual analysis to compare brands,
-      operating systems, release trends, and value-for-money signals across the market based on the dataset.
+  <header class="hero">
+    <h1>What makes a phone expensive &mdash; and which ones are worth it?</h1>
+    <p class="tagline">
+      An interactive analysis of a Kaggle smartphone dataset. A price-prediction model,
+      a value ranking, and market-tier clustering turn raw specs into two answers:
+      <strong>what drives price</strong>, and <strong>which phones are the best value</strong>.
+      Built with Flask, pandas, and scikit-learn; charts rendered client-side with Plotly.
     </p>
-    <p>
-      The app loads a single CSV into pandas, applies cleaning and feature engineering, then serves charts generated
-      with matplotlib. Most visuals are pre-rendered as SVG files for fast page loads and consistent rendering.
-    </p>
-    <ul>
-      <li>Dataset coverage: device brand, OS, screen size, battery, RAM, storage, weight, video capabilities, and price.</li>
-      <li>Preprocessing: resolution split into width/height, announcement year extraction, outlier handling, and known data corrections.</li>
-      <li>Analysis modes: distribution views, brand-level comparisons, yearly trends, and feature-correlation exploration.</li>
-    </ul>
-  </section>
+
+    <div class="kpi-strip">
+      <div class="kpi">
+        <div class="label">Phones analysed</div>
+        <div class="value" id="kpi-count">&mdash;</div>
+        <div class="sub">after cleaning &amp; outlier removal</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Top price driver</div>
+        <div class="value is-text" id="kpi-driver">&mdash;</div>
+        <div class="sub">largest random-forest importance</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Model accuracy</div>
+        <div class="value" id="kpi-r2">&mdash;</div>
+        <div class="sub">specs explain only ~&frac14; of price</div>
+      </div>
+      <div class="kpi">
+        <div class="label">Best value</div>
+        <div class="value is-text" id="kpi-value">&mdash;</div>
+        <div class="sub">priced furthest below prediction</div>
+      </div>
+    </div>
+  </header>
+
   <div class="top-links">
     <a href="/browse.html">Browse Data</a>
     <a href="/browse.json">Download Data (JSON)</a>
   </div>
 
   <nav class="tabs" aria-label="Analysis sections">
-    <button class="tab-button active" data-tab="overview">Overview</button>
-    <button class="tab-button" data-tab="distribution">Distributions</button>
-    <button class="tab-button" data-tab="brand-value">Brand & Value</button>
-    <button class="tab-button" data-tab="advanced">Advanced Analysis</button>
+    <button class="tab-button active" data-tab="market">The Market</button>
+    <button class="tab-button" data-tab="why-price">Why Price?</button>
+    <button class="tab-button" data-tab="best-value">Best Value</button>
+    <button class="tab-button" data-tab="explore">Explore</button>
   </nav>
 
-  <section id="overview" class="tab-panel active">
-    <details open>
+  <!-- THE MARKET: what's in the data and how it splits -->
+  <section id="market" class="tab-panel active">
+    <div class="section-header">
+      <h2>The Market</h2>
+      <p>Who's in the dataset and how it splits &mdash; the market sorts into three price tiers, dominated by a handful of brands and operating systems.</p>
+    </div>
+
+    <details class="lead" open>
+      <summary>Market Tiers: Budget / Mid-range / Flagship</summary>
+      <p>k-means clusters phones into three tiers from their specs and price, ordered by mean price. The scatter shows storage vs price colored by tier; the table profiles each tier.</p>
+      <div id="chart-tiers-scatter" class="wide-chart plotly-chart"></div>
+      <div id="chart-tiers-summary" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Brand Distribution</summary>
+      <div class="chart-container">
+        <div id="chart-brand-pie" class="pie-chart plotly-chart"></div>
+      </div>
+    </details>
+
+    <details>
+      <summary>Operating Systems</summary>
+      <div class="chart-container">
+        <div id="chart-os-pie" class="pie-chart plotly-chart"></div>
+      </div>
+    </details>
+
+    <details>
+      <summary>Market Trends by Year</summary>
+      <p>Release counts and average phone pricing over announcement years.</p>
+      <div id="chart-yearly-trends" class="wide-chart plotly-chart"></div>
+    </details>
+  </section>
+
+  <!-- WHY PRICE: what drives the price -->
+  <section id="why-price" class="tab-panel">
+    <div class="section-header">
+      <h2>Why Price?</h2>
+      <p>Device specs explain only about a quarter of a phone's price &mdash; here's which specs matter most, how well the model predicts, and how features relate.</p>
+    </div>
+
+    <details class="lead" open>
+      <summary>What Drives Price? (Model)</summary>
+      <p>A random forest and a linear regression predict price from device specs. The bars show which specs the forest relies on most; the subtitle reports each model's accuracy on held-out data.</p>
+      <div id="chart-price-drivers" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Model Accuracy: Predicted vs Actual</summary>
+      <p>Held-out test-set predictions against true price. Points on the dashed line would be perfect predictions.</p>
+      <div id="chart-pred-actual" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Feature Correlation Heatmap</summary>
+      <p>Pairwise correlations between numeric device specifications and price.</p>
+      <div id="chart-correlation" class="wide-chart plotly-chart"></div>
+    </details>
+  </section>
+
+  <!-- BEST VALUE: which phones are worth it -->
+  <section id="best-value" class="tab-panel">
+    <div class="section-header">
+      <h2>Best Value</h2>
+      <p>If specs only explain part of price, the gap between a phone's predicted and actual price is a value signal &mdash; these phones sell for the most below what their specs predict.</p>
+    </div>
+
+    <details class="lead" open>
+      <summary>Best Value Phones</summary>
+      <p>Phones ranked by how far below their spec-predicted price they actually sell (out-of-fold random-forest residual). Bigger bars mean more phone per dollar.</p>
+      <div id="chart-value-ranking" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Price Distribution by Operating System</summary>
+      <p>Boxplot view of pricing spread for major operating systems.</p>
+      <div id="chart-price-by-os" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Battery Efficiency by Brand</summary>
+      <p>Battery efficiency measured as mAh per USD for each brand.</p>
+      <div id="chart-battery-efficiency" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Average Price by Brand</summary>
+      <p>Comparison of average smartphone prices across brands.</p>
+      <div id="chart-avg-price-by-brand" class="wide-chart plotly-chart"></div>
+    </details>
+  </section>
+
+  <!-- EXPLORE: supporting detail + methodology -->
+  <section id="explore" class="tab-panel">
+    <div class="section-header">
+      <h2>Explore</h2>
+      <p>Supporting distributions, feature detail, and the methodology behind the numbers above.</p>
+    </div>
+
+    <details class="lead" open>
+      <summary>Spec Distributions</summary>
+      <p>Distribution of key smartphone specifications across the dataset.</p>
+      <div id="chart-histograms" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Video Format Support</summary>
+      <p>Counts for smartphone support of major video resolutions and frame rates.</p>
+      <div id="chart-video-formats" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Specifications by Brand</summary>
+      <p>Average height, RAM, storage, and weight comparison by brand.</p>
+      <div id="chart-specs-by-brand" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Battery Type Distribution</summary>
+      <p>Distribution of Li-Po vs Li-Ion battery types across the dataset.</p>
+      <div class="chart-container">
+        <div id="chart-battery-type-pie" class="pie-chart plotly-chart"></div>
+      </div>
+    </details>
+
+    <h3>Methodology &amp; data</h3>
+
+    <details>
       <summary>Data Preprocessing</summary>
       <p>Before analysis, the following preprocessing is performed on the original data:</p>
       <p>1. The resolution column is split into separate width and height columns.</p>
@@ -52,107 +198,6 @@
     <details>
       <summary>df.describe() Output</summary>
       <div class="table-scroll">{{ dataframe_describe|safe }}</div>
-    </details>
-
-    <details>
-      <summary>Market Trends by Year</summary>
-      <p>Release counts and average phone pricing over announcement years.</p>
-      <div id="chart-yearly-trends" class="wide-chart plotly-chart"></div>
-    </details>
-  </section>
-
-  <section id="distribution" class="tab-panel">
-    <details open>
-      <summary>Brand Pie Chart</summary>
-      <div class="chart-container">
-        <div id="chart-brand-pie" class="pie-chart plotly-chart"></div>
-      </div>
-    </details>
-
-    <details>
-      <summary>OS Pie Chart</summary>
-      <div class="chart-container">
-        <div id="chart-os-pie" class="pie-chart plotly-chart"></div>
-      </div>
-    </details>
-
-    <details>
-      <summary>Battery Type Distribution</summary>
-      <p>Distribution of Li-Po vs Li-Ion battery types across the dataset.</p>
-      <div class="chart-container">
-        <div id="chart-battery-type-pie" class="pie-chart plotly-chart"></div>
-      </div>
-    </details>
-
-    <details>
-      <summary>Data Distribution Histograms</summary>
-      <p>Distribution of key smartphone specifications across the dataset.</p>
-      <div id="chart-histograms" class="wide-chart plotly-chart"></div>
-    </details>
-
-    <details>
-      <summary>Market Tiers (Budget / Mid-range / Flagship)</summary>
-      <p>k-means clusters phones into three tiers from their specs and price, ordered by mean price. The scatter shows storage vs price colored by tier; the table profiles each tier.</p>
-      <div id="chart-tiers-scatter" class="wide-chart plotly-chart"></div>
-      <div id="chart-tiers-summary" class="wide-chart plotly-chart"></div>
-    </details>
-  </section>
-
-  <section id="brand-value" class="tab-panel">
-    <details open>
-      <summary>Best Value Phones</summary>
-      <p>Phones ranked by how far below their spec-predicted price they actually sell (out-of-fold random-forest residual). Bigger bars mean more phone per dollar.</p>
-      <div id="chart-value-ranking" class="wide-chart plotly-chart"></div>
-    </details>
-
-    <details>
-      <summary>Average Price by Brand</summary>
-      <p>Comparison of average smartphone prices across brands.</p>
-      <div id="chart-avg-price-by-brand" class="wide-chart plotly-chart"></div>
-    </details>
-
-    <details>
-      <summary>Battery Efficiency by Brand</summary>
-      <p>Battery efficiency measured as mAh per USD for each brand.</p>
-      <div id="chart-battery-efficiency" class="wide-chart plotly-chart"></div>
-    </details>
-
-    <details>
-      <summary>Specifications by Brand</summary>
-      <p>Average height, RAM, storage, and weight comparison by brand.</p>
-      <div id="chart-specs-by-brand" class="wide-chart plotly-chart"></div>
-    </details>
-
-    <details>
-      <summary>Price Distribution by Operating System</summary>
-      <p>Boxplot view of pricing spread for major operating systems.</p>
-      <div id="chart-price-by-os" class="wide-chart plotly-chart"></div>
-    </details>
-  </section>
-
-  <section id="advanced" class="tab-panel">
-    <details open>
-      <summary>What Drives Price? (Model)</summary>
-      <p>A random forest and a linear regression predict price from device specs. The bars show which specs the forest relies on most; the subtitle reports each model's accuracy on held-out data.</p>
-      <div id="chart-price-drivers" class="wide-chart plotly-chart"></div>
-    </details>
-
-    <details>
-      <summary>Model Accuracy: Predicted vs Actual</summary>
-      <p>Held-out test-set predictions against true price. Points on the dashed line would be perfect predictions.</p>
-      <div id="chart-pred-actual" class="wide-chart plotly-chart"></div>
-    </details>
-
-    <details>
-      <summary>Video Format Support</summary>
-      <p>Counts for smartphone support of major video resolutions and frame rates.</p>
-      <div id="chart-video-formats" class="wide-chart plotly-chart"></div>
-    </details>
-
-    <details>
-      <summary>Feature Correlation Heatmap</summary>
-      <p>Pairwise correlations between numeric device specifications and price.</p>
-      <div id="chart-correlation" class="wide-chart plotly-chart"></div>
     </details>
   </section>
 

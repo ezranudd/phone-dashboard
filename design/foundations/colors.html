@@ -1,0 +1,51 @@
+<!-- @dsCard group="Foundations" name="Colors" subtitle="Accent, neutrals, chart colorway, heatmap ramp" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body { font-family: var(--font-sans); background: var(--page-bg); color: var(--text); margin: 0; padding: var(--sp-6); }
+  h2 { font-size: var(--fs-h2); margin: 0 0 var(--sp-2); }
+  h3 { font-size: var(--fs-small); text-transform: uppercase; letter-spacing: .05em; color: var(--text-muted); margin: var(--sp-6) 0 var(--sp-3); }
+  .row { display: flex; flex-wrap: wrap; gap: var(--sp-3); }
+  .swatch { width: 120px; }
+  .chip { height: 56px; border-radius: var(--radius-sm); border: 1px solid var(--border); box-shadow: var(--shadow-sm); }
+  .label { font-size: var(--fs-small); margin-top: var(--sp-1); }
+  .label b { display: block; }
+  .label span { color: var(--text-muted); font-variant-numeric: tabular-nums; }
+  .ramp { height: 56px; width: 100%; max-width: 520px; border-radius: var(--radius-sm); border: 1px solid var(--border);
+          background: linear-gradient(90deg, var(--ramp-0), var(--ramp-1), var(--ramp-2)); }
+</style>
+</head>
+<body>
+  <h2>Warm Editorial — Colors</h2>
+
+  <h3>Accent &amp; Neutrals</h3>
+  <div class="row">
+    <div class="swatch"><div class="chip" style="background:var(--accent)"></div><div class="label"><b>Accent</b><span>#0D7C66</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--accent-hover)"></div><div class="label"><b>Accent hover</b><span>#0A6353</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--accent-soft)"></div><div class="label"><b>Accent soft</b><span>#E3F2EE</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--page-bg)"></div><div class="label"><b>Page</b><span>#FBF8F4</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--card-bg)"></div><div class="label"><b>Card</b><span>#FFFFFF</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--border)"></div><div class="label"><b>Border</b><span>#E7E0D6</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--text)"></div><div class="label"><b>Text</b><span>#2A2622</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--text-muted)"></div><div class="label"><b>Muted</b><span>#6F665C</span></div></div>
+  </div>
+
+  <h3>Chart colorway</h3>
+  <div class="row">
+    <div class="swatch"><div class="chip" style="background:var(--c1)"></div><div class="label"><b>1 teal</b><span>#0D7C66</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--c2)"></div><div class="label"><b>2 terracotta</b><span>#C2410C</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--c3)"></div><div class="label"><b>3 blue</b><span>#2563EB</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--c4)"></div><div class="label"><b>4 ochre</b><span>#B45309</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--c5)"></div><div class="label"><b>5 violet</b><span>#7C3AED</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--c6)"></div><div class="label"><b>6 magenta</b><span>#BE185D</span></div></div>
+    <div class="swatch"><div class="chip" style="background:var(--c7)"></div><div class="label"><b>7 olive</b><span>#4D7C0F</span></div></div>
+  </div>
+
+  <h3>Heatmap ramp (low &rarr; high)</h3>
+  <div class="ramp"></div>
+</body>
+</html>
