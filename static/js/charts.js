@@ -412,7 +412,15 @@
         Plotly.Plots.resize(el);
         return;
       }
-      const fig = CHARTS[id](chartData);
+      // A builder may throw if its data hasn't arrived yet (charts.json and
+      // insights.json load independently). Skip without marking rendered so the
+      // chart is retried on the next merge/visibility pass.
+      let fig;
+      try {
+        fig = CHARTS[id](chartData);
+      } catch (err) {
+        return;
+      }
       Plotly.newPlot(el, fig.data, fig.layout, fig.config || BASE_CONFIG);
       renderedIds.add(id);
     });
@@ -440,14 +448,18 @@
       });
     }
 
-    // Descriptive charts come from charts.json, modeling insights from insights.json.
-    Promise.all([getJSON('/data/charts.json'), getJSON('/data/insights.json')])
-      .then(function (results) {
-        chartData = Object.assign({}, results[0], results[1]);
-        renderVisibleCharts();
-      })
-      .catch(function (err) {
-        console.error('Failed to load chart data:', err);
-      });
+    // Descriptive charts (charts.json) and modeling insights (insights.json) load
+    // independently: the modeling endpoint is heavier, so we don't let it block or
+    // sink the descriptive charts. Each merges what it has and re-renders.
+    function merge(data) {
+      chartData = Object.assign({}, chartData, data);
+      renderVisibleCharts();
+    }
+    getJSON('/data/charts.json')
+      .then(merge)
+      .catch(function (err) { console.error('Failed to load charts.json:', err); });
+    getJSON('/data/insights.json')
+      .then(merge)
+      .catch(function (err) { console.error('Failed to load insights.json:', err); });
   });
 })();

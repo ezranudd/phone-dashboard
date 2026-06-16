@@ -238,7 +238,10 @@ def _insights_payload():
     linear.fit(X_train, y_train)
     lin_pred = linear.predict(X_test)
 
-    rf = RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1)
+    # n_jobs=1: on shared hosts n_jobs=-1 forks one job per detected CPU, each
+    # copying the data, which OOMs small (e.g. 512 MB) instances. The dataset is
+    # small enough that single-threaded is fast and memory-safe.
+    rf = RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=1)
     rf.fit(X_train, y_train)
     rf_pred = rf.predict(X_test)
 
@@ -262,7 +265,7 @@ def _insights_payload():
     # --- 2. Best-value ranking: out-of-fold residual (predicted - actual). A phone
     #        priced below what its specs predict is good value (positive residual). ---
     oof_pred = cross_val_predict(
-        RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1), X, y, cv=5)
+        RandomForestRegressor(n_estimators=100, random_state=42, n_jobs=1), X, y, cv=5)
     ranked = model_df.assign(
         predicted=oof_pred, residual=oof_pred - y.values
     ).sort_values('residual', ascending=False)
