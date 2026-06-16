@@ -89,10 +89,23 @@
       <p>Distribution of key smartphone specifications across the dataset.</p>
       <div id="chart-histograms" class="wide-chart plotly-chart"></div>
     </details>
+
+    <details>
+      <summary>Market Tiers (Budget / Mid-range / Flagship)</summary>
+      <p>k-means clusters phones into three tiers from their specs and price, ordered by mean price. The scatter shows storage vs price colored by tier; the table profiles each tier.</p>
+      <div id="chart-tiers-scatter" class="wide-chart plotly-chart"></div>
+      <div id="chart-tiers-summary" class="wide-chart plotly-chart"></div>
+    </details>
   </section>
 
   <section id="brand-value" class="tab-panel">
     <details open>
+      <summary>Best Value Phones</summary>
+      <p>Phones ranked by how far below their spec-predicted price they actually sell (out-of-fold random-forest residual). Bigger bars mean more phone per dollar.</p>
+      <div id="chart-value-ranking" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
       <summary>Average Price by Brand</summary>
       <p>Comparison of average smartphone prices across brands.</p>
       <div id="chart-avg-price-by-brand" class="wide-chart plotly-chart"></div>
@@ -119,6 +132,18 @@
 
   <section id="advanced" class="tab-panel">
     <details open>
+      <summary>What Drives Price? (Model)</summary>
+      <p>A random forest and a linear regression predict price from device specs. The bars show which specs the forest relies on most; the subtitle reports each model's accuracy on held-out data.</p>
+      <div id="chart-price-drivers" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
+      <summary>Model Accuracy: Predicted vs Actual</summary>
+      <p>Held-out test-set predictions against true price. Points on the dashed line would be perfect predictions.</p>
+      <div id="chart-pred-actual" class="wide-chart plotly-chart"></div>
+    </details>
+
+    <details>
       <summary>Video Format Support</summary>
       <p>Counts for smartphone support of major video resolutions and frame rates.</p>
       <div id="chart-video-formats" class="wide-chart plotly-chart"></div>

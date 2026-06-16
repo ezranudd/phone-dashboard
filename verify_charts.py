@@ -4,11 +4,14 @@ from playwright.sync_api import sync_playwright
 # Every chart div, grouped by the tab it lives in.
 CHARTS_BY_TAB = {
     "overview": ["chart-yearly-trends"],
-    "distribution": ["chart-brand-pie", "chart-os-pie", "chart-battery-type-pie", "chart-histograms"],
-    "brand-value": ["chart-avg-price-by-brand", "chart-battery-efficiency",
-                    "chart-specs-by-brand", "chart-price-by-os"],
-    "advanced": ["chart-video-formats", "chart-correlation"],
+    "distribution": ["chart-brand-pie", "chart-os-pie", "chart-battery-type-pie",
+                     "chart-histograms", "chart-tiers-scatter", "chart-tiers-summary"],
+    "brand-value": ["chart-value-ranking", "chart-avg-price-by-brand",
+                    "chart-battery-efficiency", "chart-specs-by-brand", "chart-price-by-os"],
+    "advanced": ["chart-price-drivers", "chart-pred-actual",
+                 "chart-video-formats", "chart-correlation"],
 }
+TOTAL = sum(len(ids) for ids in CHARTS_BY_TAB.values())
 
 def _free_port():
     s = socket.socket()
@@ -55,9 +58,11 @@ try:
             page.evaluate("document.querySelectorAll('details').forEach(d => d.open = true)")
             page.wait_for_timeout(200)
             for cid in ids:
+                # .plot-container exists for every Plotly trace type (incl. table,
+                # which has no .main-svg); its width catches zero-width renders.
                 try:
-                    page.wait_for_selector("#%s .main-svg" % cid, timeout=5000)
-                    box = page.query_selector("#%s .main-svg" % cid).bounding_box()
+                    page.wait_for_selector("#%s .plot-container" % cid, timeout=5000)
+                    box = page.query_selector("#%s .plot-container" % cid).bounding_box()
                     if box and box["width"] > 100:
                         print("OK  %-26s width=%.0fpx" % (cid, box["width"]))
                     else:
@@ -70,7 +75,7 @@ try:
         page.click("#chart-brand-pie >> xpath=ancestor::details/summary")
         page.click("#chart-brand-pie >> xpath=ancestor::details/summary")
         page.wait_for_timeout(300)
-        box = page.query_selector("#chart-brand-pie .main-svg").bounding_box()
+        box = page.query_selector("#chart-brand-pie .plot-container").bounding_box()
         if box and box["width"] > 100:
             print("OK  %-26s width=%.0fpx (after details toggle)" % ("chart-brand-pie", box["width"]))
         else:
@@ -88,4 +93,4 @@ if failures:
     for f in failures:
         print(" -", f)
     sys.exit(1)
-print("\nPASS (11/11 charts rendered)")
+print("\nPASS (%d/%d charts rendered)" % (TOTAL, TOTAL))

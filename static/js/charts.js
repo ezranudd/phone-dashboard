@@ -271,6 +271,131 @@
         }),
       };
     },
+
+    'chart-price-drivers': function (d) {
+      const imp = d.price_model.importance.slice().reverse();
+      const m = d.price_model.metrics;
+      return {
+        data: [{
+          type: 'bar', orientation: 'h',
+          x: imp.map(function (f) { return f.importance; }),
+          y: imp.map(function (f) { return f.feature; }),
+          marker: { color: ACCENT },
+          hovertemplate: '%{y}: %{x:.3f}<extra></extra>',
+        }],
+        layout: Object.assign(baseLayout('What Drives Price? — Random Forest feature importance'), {
+          height: 460,
+          margin: { t: 70, r: 20, b: 45, l: 120 },
+          xaxis: { title: { text: 'Importance' }, gridcolor: '#eee' },
+          yaxis: { automargin: true },
+          annotations: [{
+            xref: 'paper', yref: 'paper', x: 0, y: 1.08, xanchor: 'left', showarrow: false,
+            text: 'Random Forest R² ' + m.random_forest.r2 + ', MAE $' + m.random_forest.mae +
+                  '  ·  Linear R² ' + m.linear.r2 + ', MAE $' + m.linear.mae,
+            font: { size: 11, color: '#666' },
+          }],
+        }),
+      };
+    },
+
+    'chart-pred-actual': function (d) {
+      const pa = d.price_model.pred_vs_actual;
+      const hi = Math.max(Math.max.apply(null, pa.actual), Math.max.apply(null, pa.predicted));
+      return {
+        data: [
+          {
+            type: 'scatter', mode: 'markers', name: 'Phones',
+            x: pa.actual, y: pa.predicted,
+            marker: { color: ACCENT, size: 6, opacity: 0.5 },
+            hovertemplate: 'actual $%{x}<br>predicted $%{y}<extra></extra>',
+          },
+          {
+            type: 'scatter', mode: 'lines', name: 'Perfect prediction',
+            x: [0, hi], y: [0, hi], line: { color: '#e74c3c', dash: 'dash' }, hoverinfo: 'skip',
+          },
+        ],
+        layout: Object.assign(baseLayout('Predicted vs Actual Price (test set)'), {
+          height: 480,
+          xaxis: { title: { text: 'Actual Price (USD)' }, gridcolor: '#eee' },
+          yaxis: { title: { text: 'Predicted Price (USD)' }, gridcolor: '#eee' },
+          legend: { orientation: 'h', y: 1.1, x: 0 },
+        }),
+      };
+    },
+
+    'chart-value-ranking': function (d) {
+      const best = d.value_ranking.best.slice().reverse();
+      return {
+        data: [{
+          type: 'bar', orientation: 'h',
+          x: best.map(function (p) { return p.residual; }),
+          y: best.map(function (p) { return p.name + ' · ' + p.brand; }),
+          marker: { color: '#2ecc71' },
+          customdata: best.map(function (p) { return [p.actual, p.predicted]; }),
+          hovertemplate: '<b>%{y}</b><br>actual $%{customdata[0]} · predicted $%{customdata[1]}' +
+                         '<br>value gap $%{x}<extra></extra>',
+        }],
+        layout: Object.assign(baseLayout('Best Value Phones — priced below their spec-predicted price'), {
+          height: 540,
+          margin: { t: 60, r: 20, b: 50, l: 200 },
+          xaxis: { title: { text: 'Predicted − Actual Price (USD)' }, gridcolor: '#eee' },
+          yaxis: { automargin: true },
+        }),
+      };
+    },
+
+    'chart-tiers-scatter': function (d) {
+      const pts = d.tiers.points;
+      const colors = ['#3498db', '#9b59b6', '#e74c3c'];
+      const traces = d.tiers.names.map(function (name, t) {
+        const xs = [], ys = [];
+        for (let i = 0; i < pts.tier.length; i++) {
+          if (pts.tier[i] === t) { xs.push(pts.storage[i]); ys.push(pts.price[i]); }
+        }
+        return {
+          type: 'scatter', mode: 'markers', name: name, x: xs, y: ys,
+          marker: { color: colors[t], size: 5, opacity: 0.55 },
+          hovertemplate: name + '<br>storage %{x} GB · $%{y}<extra></extra>',
+        };
+      });
+      return {
+        data: traces,
+        layout: Object.assign(baseLayout('Market Tiers (k-means): Storage vs Price'), {
+          height: 500,
+          xaxis: { title: { text: 'Storage (GB)' }, gridcolor: '#eee' },
+          yaxis: { title: { text: 'Price (USD)' }, gridcolor: '#eee' },
+          legend: { orientation: 'h', y: 1.1, x: 0 },
+        }),
+      };
+    },
+
+    'chart-tiers-summary': function (d) {
+      const s = d.tiers.summary;
+      return {
+        data: [{
+          type: 'table',
+          header: {
+            values: ['Tier', 'Count', 'Mean price', 'Mean RAM (GB)', 'Mean battery', 'Mean storage (GB)'],
+            fill: { color: '#f3f4f6' }, align: 'left',
+            font: { color: '#1f2937', size: 12 },
+          },
+          cells: {
+            values: [
+              s.map(function (r) { return r.tier; }),
+              s.map(function (r) { return r.count; }),
+              s.map(function (r) { return '$' + r.mean_price; }),
+              s.map(function (r) { return r.mean_ram; }),
+              s.map(function (r) { return r.mean_battery + ' mAh'; }),
+              s.map(function (r) { return r.mean_storage; }),
+            ],
+            align: 'left', font: { size: 12 }, height: 26,
+          },
+        }],
+        layout: Object.assign(baseLayout('Tier Profiles'), {
+          height: 230, margin: { t: 50, r: 10, b: 10, l: 10 },
+        }),
+      };
+    },
   };
 
   function isVisible(el) {
@@ -308,13 +433,17 @@
       det.addEventListener('toggle', schedule);
     });
 
-    fetch('/data/charts.json')
-      .then(function (r) {
-        if (!r.ok) throw new Error('HTTP ' + r.status);
+    function getJSON(url) {
+      return fetch(url).then(function (r) {
+        if (!r.ok) throw new Error(url + ' HTTP ' + r.status);
         return r.json();
-      })
-      .then(function (d) {
-        chartData = d;
+      });
+    }
+
+    // Descriptive charts come from charts.json, modeling insights from insights.json.
+    Promise.all([getJSON('/data/charts.json'), getJSON('/data/insights.json')])
+      .then(function (results) {
+        chartData = Object.assign({}, results[0], results[1]);
         renderVisibleCharts();
       })
       .catch(function (err) {
