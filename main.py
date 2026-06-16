@@ -211,5 +211,123 @@ def charts_data():
     return jsonify(_charts_payload())
 
 
+# Modeling-driven insights: what drives price, which phones are best value, and
+# how the market segments into tiers. Trained once (df is static) and memoized.
+@functools.cache
+def _insights_payload():
+    import numpy as np
+    from sklearn.model_selection import train_test_split, cross_val_predict
+    from sklearn.linear_model import LinearRegression
+    from sklearn.ensemble import RandomForestRegressor
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.pipeline import make_pipeline
+    from sklearn.cluster import KMeans
+    from sklearn.metrics import r2_score, mean_absolute_error
+
+    feature_cols = ['inches', 'battery', 'ram(GB)', 'weight(g)', 'storage(GB)',
+                    'width', 'height', 'announcement_year']
+    model_df = df.dropna(subset=feature_cols + ['price(USD)']).reset_index(drop=True)
+    X = model_df[feature_cols]
+    y = model_df['price(USD)']
+
+    # --- 1. Price-driver model: compare linear vs random forest, report importance ---
+    X_train, X_test, y_train, y_test = train_test_split(
+        X, y, test_size=0.2, random_state=42)
+
+    linear = make_pipeline(StandardScaler(), LinearRegression())
+    linear.fit(X_train, y_train)
+    lin_pred = linear.predict(X_test)
+
+    rf = RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1)
+    rf.fit(X_train, y_train)
+    rf_pred = rf.predict(X_test)
+
+    metrics = {
+        'linear': {'r2': round(float(r2_score(y_test, lin_pred)), 3),
+                   'mae': round(float(mean_absolute_error(y_test, lin_pred)), 1)},
+        'random_forest': {'r2': round(float(r2_score(y_test, rf_pred)), 3),
+                          'mae': round(float(mean_absolute_error(y_test, rf_pred)), 1)},
+    }
+
+    importance = sorted(
+        ({'feature': f, 'importance': round(float(i), 4)}
+         for f, i in zip(feature_cols, rf.feature_importances_)),
+        key=lambda d: d['importance'], reverse=True)
+
+    pred_vs_actual = {
+        'actual': [round(float(v), 2) for v in y_test],
+        'predicted': [round(float(v), 2) for v in rf_pred],
+    }
+
+    # --- 2. Best-value ranking: out-of-fold residual (predicted - actual). A phone
+    #        priced below what its specs predict is good value (positive residual). ---
+    oof_pred = cross_val_predict(
+        RandomForestRegressor(n_estimators=200, random_state=42, n_jobs=-1), X, y, cv=5)
+    ranked = model_df.assign(
+        predicted=oof_pred, residual=oof_pred - y.values
+    ).sort_values('residual', ascending=False)
+
+    def value_row(r):
+        return {
+            'name': str(r['phone_name']),
+            'brand': str(r['brand']),
+            'actual': round(float(r['price(USD)']), 0),
+            'predicted': round(float(r['predicted']), 0),
+            'residual': round(float(r['residual']), 0),
+        }
+
+    value_ranking = {
+        'best': [value_row(r) for _, r in ranked.head(15).iterrows()],
+        'worst': [value_row(r) for _, r in ranked.tail(15).iloc[::-1].iterrows()],
+    }
+
+    # --- 3. Market tiers via k-means, ordered by mean price -> budget/mid/flagship ---
+    cluster_cols = ['price(USD)', 'battery', 'ram(GB)', 'storage(GB)', 'inches', 'weight(g)']
+    cluster_df = df.dropna(subset=cluster_cols).reset_index(drop=True)
+    scaled = StandardScaler().fit_transform(cluster_df[cluster_cols])
+    raw_labels = KMeans(n_clusters=3, random_state=42, n_init=10).fit_predict(scaled)
+
+    # Map raw cluster ids -> tier rank (0=cheapest) by ascending mean price
+    order = (cluster_df.assign(c=raw_labels)
+             .groupby('c')['price(USD)'].mean().sort_values().index.tolist())
+    rank_of = {c: i for i, c in enumerate(order)}
+    tier_idx = [rank_of[c] for c in raw_labels]
+    tier_names = ['Budget', 'Mid-range', 'Flagship']
+
+    summary = []
+    for i, c in enumerate(order):
+        grp = cluster_df[raw_labels == c]
+        summary.append({
+            'tier': tier_names[i],
+            'count': int(len(grp)),
+            'mean_price': round(float(grp['price(USD)'].mean()), 0),
+            'mean_ram': round(float(grp['ram(GB)'].mean()), 1),
+            'mean_battery': round(float(grp['battery'].mean()), 0),
+            'mean_storage': round(float(grp['storage(GB)'].mean()), 0),
+        })
+
+    tiers = {
+        'names': tier_names,
+        'summary': summary,
+        'points': {
+            'storage': [round(float(v), 0) for v in cluster_df['storage(GB)']],
+            'price': [round(float(v), 2) for v in cluster_df['price(USD)']],
+            'tier': tier_idx,
+        },
+    }
+
+    return {
+        'price_model': {'metrics': metrics, 'importance': importance,
+                        'pred_vs_actual': pred_vs_actual},
+        'value_ranking': value_ranking,
+        'tiers': tiers,
+    }
+
+
+@app.route('/data/insights.json')
+def insights_data():
+    return jsonify(_insights_payload())
+
+
 if __name__ == '__main__':
     app.run(port=int(os.environ.get('PORT', '5000')))

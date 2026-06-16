@@ -1,8 +1,10 @@
 # Phone Dashboard
 
-This is a Flask application for analyzing a smartphone dataset with pandas.
-It provides an interactive web interface with tabbed analysis views, summary statistics,
-interactive Plotly charts, and DataTables-powered table browsing.
+This is a Flask application for analyzing a smartphone dataset with pandas and scikit-learn.
+Beyond describing the data, it answers two questions — **what drives phone price** and
+**which phones are the best value** — through a price-prediction model, a value ranking,
+and market-tier clustering. It provides an interactive web interface with tabbed analysis
+views, summary statistics, interactive Plotly charts, and DataTables-powered table browsing.
 
 Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 
@@ -11,6 +13,8 @@ Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 - Loads and preprocesses smartphone data from `main.csv`
 - Computes dataset diagnostics (`df.info()` and `df.describe()`)
 - Computes chart aggregates in pandas and serves them as JSON (`/data/charts.json`)
+- Trains models (scikit-learn) for price drivers, best-value ranking, and tier
+  clustering, served as JSON (`/data/insights.json`)
 - Renders interactive charts client-side with Plotly (hover, zoom, legend toggle, dropdown selectors)
 - Exposes browse views in HTML and JSON
 - Adds interactive browse tables (search, sort, pagination, horizontal scroll)
@@ -25,17 +29,31 @@ Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 - Python 3
 - Flask
 - pandas
+- scikit-learn (price model, value ranking, k-means tiers)
 - Plotly.js (CDN, dashboard charts)
 - jQuery (CDN, browse pages)
 - DataTables.net (CDN, browse pages)
 
 ## Architecture
 
-The Flask backend is a thin data layer: it computes chart aggregates in pandas and
-exposes them as JSON at `/data/charts.json`. The browser fetches that payload once and
-builds every chart with Plotly (`static/js/charts.js`). Charts render lazily the first
-time their tab/`<details>` container becomes visible, which avoids Plotly's zero-width
-render problem inside hidden containers.
+The Flask backend is a thin data layer. It computes chart aggregates in pandas
+(`/data/charts.json`) and trains the models once at startup, serving their results
+as JSON (`/data/insights.json`); both payloads are memoized since `df` is static.
+The browser fetches both, merges them, and builds every chart with Plotly
+(`static/js/charts.js`). Charts render lazily the first time their tab/`<details>`
+container becomes visible, which avoids Plotly's zero-width render problem inside
+hidden containers.
+
+### Modeling (`/data/insights.json`)
+
+- **Price drivers** — a `RandomForestRegressor` and a standardized `LinearRegression`
+  predict `price(USD)` from numeric specs; reported with held-out R²/MAE and the
+  forest's feature importances. (Specs alone explain only part of price — brand and
+  positioning, analysed elsewhere, account for much of the rest.)
+- **Best value** — each phone's out-of-fold residual (`predicted − actual`, via
+  `cross_val_predict`) ranks phones by how far below their spec-predicted price they sell.
+- **Market tiers** — `KMeans` (k=3) on standardized specs + price, ordered by mean
+  price into Budget / Mid-range / Flagship.
 
 ## Project Structure
 
@@ -75,6 +93,9 @@ Current visuals:
 - Yearly release/price trend charts
 - Price distribution by OS (boxplot)
 - Numeric feature correlation heatmap
+- Price-driver model: feature importance + predicted-vs-actual (Advanced Analysis)
+- Best-value phone ranking (Brand & Value)
+- Market-tier clustering: storage-vs-price scatter + tier profile table (Distributions)
 
 ## Run Locally
 
@@ -88,7 +109,7 @@ source .venv/bin/activate
 ### 2. Install dependencies
 
 ```bash
-pip install flask pandas
+pip install flask pandas scikit-learn
 ```
 
 Charts load Plotly.js from a CDN, so no plotting library is needed server-side.
@@ -107,7 +128,8 @@ The app runs at:
 ## Main Routes
 
 - `/`: dashboard home
-- `/data/charts.json`: aggregated + raw data powering every dashboard chart
+- `/data/charts.json`: aggregated + raw data powering the descriptive charts
+- `/data/insights.json`: model outputs (price drivers, value ranking, tiers)
 - `/browse.html`: partial interactive table view (DataTables)
 - `/browse-full.html`: full interactive table view (DataTables)
 - `/browse.json`: dataset as JSON
