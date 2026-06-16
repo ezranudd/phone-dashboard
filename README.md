@@ -148,6 +148,25 @@ The app runs at:
 
 - `http://127.0.0.1:5000/`
 
+## Deploy
+
+The app is a Python/Flask server (it trains the models and serves the JSON the
+charts fetch), so it needs a Python runtime — a static host alone won't work.
+A `Procfile` and `gunicorn` (in `requirements.txt`) make it deployable to any
+Procfile-aware PaaS:
+
+```
+web: gunicorn main:app --bind 0.0.0.0:${PORT:-5000}
+```
+
+On **Render** (free tier): create a Web Service from this repo with build command
+`pip install -r requirements.txt` and start command `gunicorn main:app --bind 0.0.0.0:$PORT`.
+The platform injects `$PORT`; `main.py`'s built-in `app.run()` is for local use only.
+
+The models train lazily on first request and are memoized (`functools.cache`),
+so the first hit after a cold start does the modeling work once, then every
+later request is served from cache.
+
 ## Tests
 
 Run from the repo root:
