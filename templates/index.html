@@ -2,6 +2,7 @@
 <html>
 <head>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+  <script src="https://cdn.plot.ly/plotly-2.35.2.min.js" charset="utf-8"></script>
 </head>
 <body>
   <h1>Phone Dashboard</h1>
@@ -56,7 +57,7 @@
     <details>
       <summary>Market Trends by Year</summary>
       <p>Release counts and average phone pricing over announcement years.</p>
-      <img src="{{ url_for('static', filename='images/yearly_trends.svg') }}" class="wide-chart" alt="Yearly market trends">
+      <div id="chart-yearly-trends" class="wide-chart plotly-chart"></div>
     </details>
   </section>
 
@@ -64,14 +65,14 @@
     <details open>
       <summary>Brand Pie Chart</summary>
       <div class="chart-container">
-        <img src="{{ url_for('static', filename='images/brand_pie.svg') }}" class="pie-chart" alt="Brand Distribution Pie Chart">
+        <div id="chart-brand-pie" class="pie-chart plotly-chart"></div>
       </div>
     </details>
 
     <details>
       <summary>OS Pie Chart</summary>
       <div class="chart-container">
-        <img src="{{ url_for('static', filename='images/os_pie.svg') }}" class="pie-chart" alt="Operating System Distribution Pie Chart">
+        <div id="chart-os-pie" class="pie-chart plotly-chart"></div>
       </div>
     </details>
 
@@ -79,14 +80,14 @@
       <summary>Battery Type Distribution</summary>
       <p>Distribution of Li-Po vs Li-Ion battery types across the dataset.</p>
       <div class="chart-container">
-        <img src="{{ url_for('static', filename='images/battery_type_pie.svg') }}" class="pie-chart" alt="Battery Type Distribution Pie Chart">
+        <div id="chart-battery-type-pie" class="pie-chart plotly-chart"></div>
       </div>
     </details>
 
     <details>
       <summary>Data Distribution Histograms</summary>
       <p>Distribution of key smartphone specifications across the dataset.</p>
-      <img src="{{ url_for('static', filename='images/histograms.svg') }}" class="wide-chart" alt="Data distribution histograms">
+      <div id="chart-histograms" class="wide-chart plotly-chart"></div>
     </details>
   </section>
 
@@ -94,25 +95,25 @@
     <details open>
       <summary>Average Price by Brand</summary>
       <p>Comparison of average smartphone prices across brands.</p>
-      <img src="{{ url_for('static', filename='images/avg_price_by_brand.svg') }}" class="wide-chart" alt="Average Price by Brand">
+      <div id="chart-avg-price-by-brand" class="wide-chart plotly-chart"></div>
     </details>
 
     <details>
       <summary>Battery Efficiency by Brand</summary>
       <p>Battery efficiency measured as mAh per USD for each brand.</p>
-      <img src="{{ url_for('static', filename='images/battery_efficiency_by_brand.svg') }}" class="wide-chart" alt="Battery Efficiency by Brand">
+      <div id="chart-battery-efficiency" class="wide-chart plotly-chart"></div>
     </details>
 
     <details>
       <summary>Specifications by Brand</summary>
       <p>Average height, RAM, storage, and weight comparison by brand.</p>
-      <img src="{{ url_for('static', filename='images/specs_by_brand.svg') }}" class="wide-chart" alt="Specifications by Brand">
+      <div id="chart-specs-by-brand" class="wide-chart plotly-chart"></div>
     </details>
 
     <details>
       <summary>Price Distribution by Operating System</summary>
       <p>Boxplot view of pricing spread for major operating systems.</p>
-      <img src="{{ url_for('static', filename='images/price_by_os_boxplot.svg') }}" class="wide-chart" alt="Price distribution by operating system">
+      <div id="chart-price-by-os" class="wide-chart plotly-chart"></div>
     </details>
   </section>
 
@@ -120,13 +121,13 @@
     <details open>
       <summary>Video Format Support</summary>
       <p>Counts for smartphone support of major video resolutions and frame rates.</p>
-      <img src="{{ url_for('static', filename='images/video_formats.svg') }}" class="wide-chart" alt="Video format support">
+      <div id="chart-video-formats" class="wide-chart plotly-chart"></div>
     </details>
 
     <details>
       <summary>Feature Correlation Heatmap</summary>
       <p>Pairwise correlations between numeric device specifications and price.</p>
-      <img src="{{ url_for('static', filename='images/correlation_heatmap.svg') }}" class="wide-chart" alt="Feature correlation heatmap">
+      <div id="chart-correlation" class="wide-chart plotly-chart"></div>
     </details>
   </section>
 
@@ -146,5 +147,6 @@
       });
     });
   </script>
+  <script src="{{ url_for('static', filename='js/charts.js') }}"></script>
 </body>
 </html>
