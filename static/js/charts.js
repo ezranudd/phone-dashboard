@@ -16,18 +16,20 @@
   const renderedIds = new Set();
 
   // --- Warm Editorial theme (mirrors design/tokens.css) -----------------------
+  // Chart fills use a muted/dusty palette so they sit calmly on the warm paper.
+  // (The UI chrome — tabs, KPI borders — keeps the deeper --accent in main.css.)
   const FONT = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
-  const ACCENT = '#0D7C66';      // teal — primary series / "good"
+  const ACCENT = '#5E9B8C';      // dusty teal — primary series / "good"
   const TEXT = '#2A2622';
   const MUTED = '#6F665C';
   const GRID = '#ECE6DC';        // warm hairline grid
-  const REFERENCE = '#C2410C';   // terracotta — reference lines / "not supported"
+  const REFERENCE = '#CE8E6D';   // muted clay — reference lines / "not supported"
   // Categorical colorway; pies and any trace without an explicit color cycle this.
-  const COLORWAY = ['#0D7C66', '#C2410C', '#2563EB', '#B45309', '#7C3AED', '#BE185D', '#4D7C0F'];
+  const COLORWAY = ['#5E9B8C', '#CE8E6D', '#7B9CB8', '#D9B36E', '#9E8BB0', '#C58CA1', '#95A86B'];
   // Tier ramp, low -> high price (Budget / Mid-range / Flagship).
-  const TIER_COLORS = ['#4D7C0F', '#B45309', '#0D7C66'];
-  // Diverging scale for the correlation heatmap: terracotta (neg) -> paper -> teal (pos).
-  const DIVERGING = [[0, '#C2410C'], [0.5, '#F5F0E8'], [1, '#0D7C66']];
+  const TIER_COLORS = ['#95A86B', '#D9B36E', '#5E9B8C'];
+  // Diverging scale for the correlation heatmap: muted clay (neg) -> paper -> dusty teal (pos).
+  const DIVERGING = [[0, '#CE8E6D'], [0.5, '#F2EBE0'], [1, '#5E9B8C']];
   // ----------------------------------------------------------------------------
 
   function baseLayout(title) {
@@ -151,7 +153,7 @@
     'chart-battery-efficiency': function (d) {
       const a = d.battery_efficiency_by_brand;
       return bar('Battery Efficiency by Brand (mAh per USD)', 'mAh / USD',
-        a.brands, a.values, '#7C3AED', '');
+        a.brands, a.values, '#9E8BB0', '');
     },
 
     'chart-video-formats': function (d) {
