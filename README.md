@@ -1,7 +1,8 @@
 # Phone Dashboard
 
-This is a Flask application for analyzing a smartphone dataset with pandas and matplotlib.
-It provides an interactive web interface with tabbed analysis views, summary statistics, and DataTables-powered table browsing.
+This is a Flask application for analyzing a smartphone dataset with pandas.
+It provides an interactive web interface with tabbed analysis views, summary statistics,
+interactive Plotly charts, and DataTables-powered table browsing.
 
 Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 
@@ -9,7 +10,8 @@ Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 
 - Loads and preprocesses smartphone data from `main.csv`
 - Computes dataset diagnostics (`df.info()` and `df.describe()`)
-- Generates static SVG visualizations for fast dashboard rendering
+- Computes chart aggregates in pandas and serves them as JSON (`/data/charts.json`)
+- Renders interactive charts client-side with Plotly (hover, zoom, legend toggle, dropdown selectors)
 - Exposes browse views in HTML and JSON
 - Adds interactive browse tables (search, sort, pagination, horizontal scroll)
 - Organizes analysis into front-page tabs:
@@ -23,20 +25,28 @@ Dataset source: https://www.kaggle.com/datasets/berkayeserr/phone-prices
 - Python 3
 - Flask
 - pandas
-- numpy
-- matplotlib
+- Plotly.js (CDN, dashboard charts)
 - jQuery (CDN, browse pages)
 - DataTables.net (CDN, browse pages)
 
+## Architecture
+
+The Flask backend is a thin data layer: it computes chart aggregates in pandas and
+exposes them as JSON at `/data/charts.json`. The browser fetches that payload once and
+builds every chart with Plotly (`static/js/charts.js`). Charts render lazily the first
+time their tab/`<details>` container becomes visible, which avoids Plotly's zero-width
+render problem inside hidden containers.
+
 ## Project Structure
 
-- `main.py`: Flask app, preprocessing logic, route handlers, chart generation
+- `main.py`: Flask app, preprocessing logic, route handlers, chart-data aggregation
 - `main.csv`: dataset input file
 - `templates/index.html`: dashboard landing page with tabbed analysis UI
 - `templates/browse.html`: partial-column interactive data table view
 - `templates/browse-full.html`: full-column interactive data table view
 - `static/css/main.css`: global dashboard styling
-- `static/images/*.svg`: generated chart assets
+- `static/js/charts.js`: client-side Plotly chart builders + lazy-render manager
+- `verify_charts.py`: Playwright check that all charts render (optional, dev-only)
 
 ## Data Preprocessing
 
@@ -78,8 +88,11 @@ source .venv/bin/activate
 ### 2. Install dependencies
 
 ```bash
-pip install flask pandas numpy matplotlib
+pip install flask pandas
 ```
+
+Charts load Plotly.js from a CDN, so no plotting library is needed server-side.
+For the optional render check, also install `playwright` and run `playwright install chromium`.
 
 ### 3. Start the app
 
@@ -94,22 +107,14 @@ The app runs at:
 ## Main Routes
 
 - `/`: dashboard home
+- `/data/charts.json`: aggregated + raw data powering every dashboard chart
 - `/browse.html`: partial interactive table view (DataTables)
 - `/browse-full.html`: full interactive table view (DataTables)
 - `/browse.json`: dataset as JSON
 
-Chart endpoints (examples):
-
-- `/brand_pie.svg`
-- `/os_pie.svg`
-- `/histograms.svg`
-- `/correlation_heatmap.svg`
-- `/yearly_trends.svg`
-- `/price_by_os_boxplot.svg`
-
 ## Notes
 
-- On startup, the app uses Flask's test client to regenerate chart SVGs into `static/images/`.
+- All dashboard charts are rendered client-side by Plotly from `/data/charts.json`.
 - `df.describe()` values on the dashboard are formatted to 2 decimal places.
 - Browse pages include direct links for `Home`, dataset source, and switching between partial/full table views.
 - Browse tables use DataTables with client-side search, sorting, pagination, and horizontal scrolling.
