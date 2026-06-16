@@ -1,4 +1,4 @@
-import subprocess, sys, time, urllib.request
+import os, socket, subprocess, sys, time, urllib.request
 from playwright.sync_api import sync_playwright
 
 # Every chart div, grouped by the tab it lives in.
@@ -10,25 +10,44 @@ CHARTS_BY_TAB = {
     "advanced": ["chart-video-formats", "chart-correlation"],
 }
 
-proc = subprocess.Popen([sys.executable, "main.py"])
+def _free_port():
+    s = socket.socket()
+    s.bind(("127.0.0.1", 0))
+    port = s.getsockname()[1]
+    s.close()
+    return port
+
+# Run on a dedicated ephemeral port so we never accidentally test a stale server
+# that may already be running on :5000.
+PORT = _free_port()
+BASE = "http://127.0.0.1:%d" % PORT
+
+proc = subprocess.Popen([sys.executable, "main.py"], env={**os.environ, "PORT": str(PORT)})
 failures = []
 try:
+    ready = False
     for _ in range(30):
+        if proc.poll() is not None:
+            sys.exit("FAIL: main.py exited before serving (exit code %s)" % proc.returncode)
         try:
-            urllib.request.urlopen("http://127.0.0.1:5000/"); break
+            urllib.request.urlopen(BASE + "/"); ready = True; break
         except Exception:
             time.sleep(0.5)
+    if not ready:
+        sys.exit("FAIL: server did not become ready at %s" % BASE)
 
     with sync_playwright() as p:
         browser = p.chromium.launch()
         page = browser.new_page()
 
-        # Fail loudly on any uncaught JS error or console error (e.g. a bad Plotly spec).
+        # Fail loudly on any uncaught JS error or Plotly console error. Ignore
+        # unrelated resource-load errors (e.g. the browser's automatic favicon 404).
         js_errors = []
         page.on("pageerror", lambda e: js_errors.append(str(e)))
-        page.on("console", lambda m: js_errors.append(m.text) if m.type == "error" else None)
+        page.on("console", lambda m: js_errors.append(m.text)
+                if m.type == "error" and "Failed to load resource" not in m.text else None)
 
-        page.goto("http://127.0.0.1:5000/")
+        page.goto(BASE + "/")
 
         for tab, ids in CHARTS_BY_TAB.items():
             page.click('button[data-tab="%s"]' % tab)

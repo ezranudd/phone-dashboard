@@ -54,13 +54,21 @@
   function pie(title, counts) {
     const labels = Object.keys(counts);
     const values = labels.map(function (k) { return counts[k]; });
+    const total = values.reduce(function (a, b) { return a + b; }, 0);
+    // Match the prior matplotlib pies: suppress the percent label on slices < 3.5%
+    // so the long tail of minor categories doesn't clutter the chart.
+    const sliceText = values.map(function (v) {
+      const pct = total ? (v / total) * 100 : 0;
+      return pct >= 3.5 ? pct.toFixed(1) + '%' : '';
+    });
     return {
       data: [{
         type: 'pie',
         labels: labels,
         values: values,
         textposition: 'inside',
-        textinfo: 'percent',
+        textinfo: 'text',
+        text: sliceText,
         hovertemplate: '<b>%{label}</b><br>%{value} phones<br>%{percent}<extra></extra>',
         sort: true,
         direction: 'clockwise',
@@ -90,14 +98,15 @@
     };
   }
 
-  // Build a dropdown (updatemenus) that toggles one visible trace at a time and
-  // rewrites the title / y-axis label to match the selection.
-  function dropdownButtons(keys, labelFor, axisField) {
+  // Build a dropdown (updatemenus) that shows one trace at a time and rewrites the
+  // title (and optionally an axis label) to match the selection. `label`/`title`/
+  // `axisText` are functions of the trace key so callers control the wording.
+  function dropdownButtons(keys, label, title, axisField, axisText) {
     return keys.map(function (key, i) {
       const visible = keys.map(function (_, j) { return j === i; });
-      const layoutPatch = { 'title.text': labelFor[key] };
-      if (axisField) layoutPatch[axisField] = labelFor[key];
-      return { method: 'update', label: labelFor[key], args: [{ visible: visible }, layoutPatch] };
+      const layoutPatch = { 'title.text': title(key) };
+      if (axisField) layoutPatch[axisField] = axisText(key);
+      return { method: 'update', label: label(key), args: [{ visible: visible }, layoutPatch] };
     });
   }
 
@@ -162,7 +171,11 @@
           xaxis: { tickangle: -45, automargin: true },
           yaxis: { gridcolor: '#eee' },
           updatemenus: [{
-            buttons: dropdownButtons(specs, SPEC_LABELS, null),
+            buttons: dropdownButtons(
+              specs,
+              function (k) { return SPEC_LABELS[k]; },
+              function (k) { return SPEC_LABELS[k]; }
+            ),
             x: 1, xanchor: 'right', y: 1.18, yanchor: 'top', showactive: true,
           }],
         }),
@@ -178,7 +191,7 @@
           y: d.correlation.labels,
           zmin: -1, zmax: 1, zmid: 0,
           colorscale: 'RdBu', reversescale: true,
-          texttemplate: '%{z}', textfont: { size: 9 },
+          texttemplate: '%{z:.2f}', textfont: { size: 9 },
           hovertemplate: '%{x} / %{y}<br>r = %{z}<extra></extra>',
           colorbar: { title: { text: 'Correlation' } },
         }],
@@ -246,14 +259,13 @@
           yaxis: { title: { text: 'Frequency' }, gridcolor: '#eee' },
           bargap: 0.05,
           updatemenus: [{
-            buttons: cols.map(function (col, i) {
-              const label = COLUMN_LABELS[col] || col;
-              const visible = cols.map(function (_, j) { return j === i; });
-              return {
-                method: 'update', label: label,
-                args: [{ visible: visible }, { 'title.text': label + ' Distribution', 'xaxis.title.text': label }],
-              };
-            }),
+            buttons: dropdownButtons(
+              cols,
+              function (k) { return COLUMN_LABELS[k] || k; },
+              function (k) { return (COLUMN_LABELS[k] || k) + ' Distribution'; },
+              'xaxis.title.text',
+              function (k) { return COLUMN_LABELS[k] || k; }
+            ),
             x: 1, xanchor: 'right', y: 1.18, yanchor: 'top', showactive: true,
           }],
         }),

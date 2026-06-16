@@ -1,3 +1,5 @@
+import functools
+import os
 import pandas as pd
 from flask import Flask, jsonify, render_template
 import io
@@ -102,9 +104,10 @@ def browse_json():
     # JSONify
     return jsonify(data)
 
-# Aggregated + raw data for client-side Plotly charts
-@app.route('/data/charts.json')
-def charts_data():
+# Aggregated + raw data for client-side Plotly charts.
+# df is static after startup, so the payload is constant: build it once and memoize.
+@functools.cache
+def _charts_payload():
     # --- Aggregates (computed in pandas; awkward to do in JS) ---
 
     # Brand distribution
@@ -162,8 +165,9 @@ def charts_data():
 
     # --- Raw arrays (Plotly bins / builds distributions client-side) ---
 
-    # Price by OS for boxplot (major operating systems only)
-    major_os = os_counts[os_counts >= os_threshold].index
+    # Price by OS for boxplot — reuse the same "major OS" set as the pie's grouping
+    # so the two charts can't disagree about which operating systems are major.
+    major_os = os_main.index
     box_data = {
         str(os_name): [round(float(p), 2)
                        for p in df[df['os'] == os_name]['price(USD)'].dropna()]
@@ -174,7 +178,7 @@ def charts_data():
     hist_cols = numeric_cols
     hist_data = {col: [round(float(v), 4) for v in df[col].dropna()] for col in hist_cols}
 
-    return jsonify({
+    return {
         'brand_counts': {str(k): int(v) for k, v in brand_counts.items()},
         'os_counts': os_data,
         'battery_type_counts': {str(k): int(v) for k, v in battery_counts.items()},
@@ -199,8 +203,13 @@ def charts_data():
         },
         'price_by_os': box_data,
         'histograms': hist_data,
-    })
+    }
+
+
+@app.route('/data/charts.json')
+def charts_data():
+    return jsonify(_charts_payload())
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=int(os.environ.get('PORT', '5000')))
