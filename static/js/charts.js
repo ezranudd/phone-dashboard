@@ -16,20 +16,23 @@
   const renderedIds = new Set();
 
   // --- Warm Editorial theme (mirrors design/tokens.css) -----------------------
-  // Chart fills use a muted/dusty palette so they sit calmly on the warm paper.
+  // Chart fills use a soft pastel palette so they sit calmly on the warm paper.
   // (The UI chrome — tabs, KPI borders — keeps the deeper --accent in main.css.)
   const FONT = "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif";
-  const ACCENT = '#5E9B8C';      // dusty teal — primary series / "good"
+  const ACCENT = '#8FC6B6';      // pastel teal — primary series / "good"
   const TEXT = '#2A2622';
   const MUTED = '#6F665C';
   const GRID = '#ECE6DC';        // warm hairline grid
-  const REFERENCE = '#CE8E6D';   // muted clay — reference lines / "not supported"
+  // Reference lines / "not supported" — a slightly deeper soft clay so thin
+  // dashed lines stay visible against pastel fills.
+  const REFERENCE = '#D99873';
   // Categorical colorway; pies and any trace without an explicit color cycle this.
-  const COLORWAY = ['#5E9B8C', '#CE8E6D', '#7B9CB8', '#D9B36E', '#9E8BB0', '#C58CA1', '#95A86B'];
-  // Tier ramp, low -> high price (Budget / Mid-range / Flagship).
-  const TIER_COLORS = ['#95A86B', '#D9B36E', '#5E9B8C'];
-  // Diverging scale for the correlation heatmap: muted clay (neg) -> paper -> dusty teal (pos).
-  const DIVERGING = [[0, '#CE8E6D'], [0.5, '#F2EBE0'], [1, '#5E9B8C']];
+  const COLORWAY = ['#8FC6B6', '#EAB79C', '#A9C4DE', '#ECD5A6', '#C8BBDA', '#E4BAC9', '#C6D4A6'];
+  // Tiers, low -> high price (Budget / Mid-range / Flagship). Three maximally
+  // distinct pastels (lavender / amber / teal) so the clusters separate cleanly.
+  const TIER_COLORS = ['#C8BBDA', '#ECD5A6', '#8FC6B6'];
+  // Diverging scale for the correlation heatmap: soft clay (neg) -> paper -> pastel teal (pos).
+  const DIVERGING = [[0, '#D99873'], [0.5, '#F4EEE4'], [1, '#8FC6B6']];
   // ----------------------------------------------------------------------------
 
   function baseLayout(title) {
@@ -153,7 +156,7 @@
     'chart-battery-efficiency': function (d) {
       const a = d.battery_efficiency_by_brand;
       return bar('Battery Efficiency by Brand (mAh per USD)', 'mAh / USD',
-        a.brands, a.values, '#9E8BB0', '');
+        a.brands, a.values, '#C8BBDA', '');
     },
 
     'chart-video-formats': function (d) {
@@ -328,7 +331,7 @@
           {
             type: 'scatter', mode: 'markers', name: 'Phones',
             x: pa.actual, y: pa.predicted,
-            marker: { color: ACCENT, size: 6, opacity: 0.5 },
+            marker: { color: ACCENT, size: 6, opacity: 0.65 },
             hovertemplate: 'actual $%{x}<br>predicted $%{y}<extra></extra>',
           },
           {
@@ -376,7 +379,7 @@
         }
         return {
           type: 'scatter', mode: 'markers', name: name, x: xs, y: ys,
-          marker: { color: colors[t], size: 5, opacity: 0.55 },
+          marker: { color: colors[t], size: 6, opacity: 0.75 },
           hovertemplate: name + '<br>storage %{x} GB · $%{y}<extra></extra>',
         };
       });
