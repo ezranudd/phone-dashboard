@@ -1,0 +1,40 @@
+<!-- @dsCard group="Components" name="Chart card" subtitle="Framed container for each chart, with takeaway callout" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body { font-family: var(--font-sans); background: var(--page-bg); color: var(--text); margin: 0; padding: var(--sp-6); }
+  .chart-card { background: var(--card-bg); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow-sm); overflow: hidden; max-width: 720px; }
+  .chart-card__head { padding: var(--sp-4) var(--sp-4) 0; }
+  .chart-card__title { font-size: var(--fs-h3); font-weight: 600; margin: 0; }
+  .chart-card__intro { font-size: var(--fs-small); color: var(--text-muted); margin: var(--sp-1) 0 0; }
+  .chart-card__body { padding: var(--sp-4); }
+  /* stand-in for the Plotly canvas */
+  .plot-stub { height: 220px; border-radius: var(--radius-sm); background:
+      repeating-linear-gradient(90deg, var(--accent-soft) 0 28px, #EEF6F3 28px 56px);
+      display: flex; align-items: flex-end; gap: var(--sp-2); padding: var(--sp-3); box-sizing: border-box; }
+  .bar { flex: 1; background: var(--accent); border-radius: 3px 3px 0 0; }
+  .callout { display: inline-block; margin-top: var(--sp-3); background: var(--accent-soft); color: var(--accent-hover);
+             font-size: var(--fs-small); font-weight: 600; padding: var(--sp-1) var(--sp-2); border-radius: var(--radius-sm); }
+</style>
+</head>
+<body>
+  <div class="chart-card">
+    <div class="chart-card__head">
+      <h3 class="chart-card__title">What drives price?</h3>
+      <p class="chart-card__intro">Random-forest feature importances across device specs.</p>
+    </div>
+    <div class="chart-card__body">
+      <div class="plot-stub">
+        <div class="bar" style="height:90%"></div><div class="bar" style="height:62%"></div>
+        <div class="bar" style="height:48%"></div><div class="bar" style="height:33%"></div>
+        <div class="bar" style="height:21%"></div><div class="bar" style="height:14%"></div>
+      </div>
+      <span class="callout">RAM is the #1 driver &mdash; but specs explain only ~&frac14; of price</span>
+    </div>
+  </div>
+</body>
+</html>

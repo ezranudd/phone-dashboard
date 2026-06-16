@@ -1,0 +1,27 @@
+<!-- @dsCard group="Components" name="Tab bar" subtitle="Narrative arc: Market - Why Price - Best Value - Explore" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../tokens.css">
+<style>
+  body { font-family: var(--font-sans); background: var(--page-bg); color: var(--text); margin: 0; padding: var(--sp-6); }
+  .tabs { display: flex; flex-wrap: wrap; gap: var(--sp-2); border-bottom: 1px solid var(--border); padding-bottom: var(--sp-3); }
+  .tab-button {
+    border: 1px solid var(--border); background: var(--card-bg); color: var(--text);
+    padding: var(--sp-2) var(--sp-4); border-radius: var(--radius-sm); cursor: pointer; font-weight: 500; font-family: inherit; font-size: var(--fs-body);
+  }
+  .tab-button:hover { background: var(--accent-soft); }
+  .tab-button.active { background: var(--accent); border-color: var(--accent); color: #fff; box-shadow: var(--shadow-sm); }
+</style>
+</head>
+<body>
+  <nav class="tabs" aria-label="Analysis sections">
+    <button class="tab-button active">The Market</button>
+    <button class="tab-button">Why Price?</button>
+    <button class="tab-button">Best Value</button>
+    <button class="tab-button">Explore</button>
+  </nav>
+</body>
+</html>

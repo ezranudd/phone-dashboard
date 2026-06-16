@@ -1,0 +1,50 @@
+/* Warm Editorial — design tokens for the Phone Dashboard.
+   Single source of truth: the app's main.css mirrors these as CSS variables,
+   and charts.js maps the colorway/ramp into a shared Plotly theme. */
+:root {
+  /* Brand / accent */
+  --accent:        #0D7C66;   /* deep teal */
+  --accent-hover:  #0A6353;
+  --accent-soft:   #E3F2EE;   /* tint: badges, active states, callouts */
+
+  /* Neutrals */
+  --page-bg:   #FBF8F4;       /* warm paper */
+  --card-bg:   #FFFFFF;
+  --border:    #E7E0D6;
+  --text:      #2A2622;
+  --text-muted:#6F665C;
+
+  /* Chart categorical colorway (7) */
+  --c1: #0D7C66;  /* teal       */
+  --c2: #C2410C;  /* terracotta */
+  --c3: #2563EB;  /* blue       */
+  --c4: #B45309;  /* ochre      */
+  --c5: #7C3AED;  /* violet     */
+  --c6: #BE185D;  /* magenta    */
+  --c7: #4D7C0F;  /* olive      */
+
+  /* Sequential heatmap ramp (low -> high) */
+  --ramp-0: #F0FDF9;
+  --ramp-1: #0D7C66;
+  --ramp-2: #134E4A;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --fs-hero:  2rem;
+  --fs-h2:    1.4rem;
+  --fs-h3:    1.1rem;
+  --fs-body:  1rem;
+  --fs-small: 0.85rem;
+  --lh-tight: 1.2;
+  --lh-body:  1.5;
+
+  /* Spacing scale */
+  --sp-1: 4px;  --sp-2: 8px;  --sp-3: 12px;
+  --sp-4: 16px; --sp-6: 24px; --sp-8: 32px;
+
+  /* Radius + elevation */
+  --radius:    10px;
+  --radius-sm: 6px;
+  --shadow-sm: 0 1px 2px rgba(42, 38, 34, 0.06);
+  --shadow-md: 0 4px 12px rgba(42, 38, 34, 0.08);
+}
